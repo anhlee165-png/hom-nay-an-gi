@@ -98,13 +98,23 @@ h3{margin:0 0 8px;font-size:16px}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:25}
 .partner{display:block;text-decoration:none;color:#fff;background:linear-gradient(135deg,#ee4d2d,#ff7a45);border-radius:14px;padding:12px 14px;margin-top:12px;box-shadow:0 4px 0 #b8341b;text-align:center}.partner small{display:block;font-size:11px;opacity:.9;font-weight:600}.partner b{display:block;font-size:17px;margin:2px 0}.partner span{font-size:13px;font-weight:700;background:rgba(255,255,255,.2);border-radius:999px;padding:3px 10px;display:inline-block;margin-top:4px}.disc{font-size:11px;color:var(--mute);text-align:center;margin:8px 0 0}
 .foot{font-size:11px;color:var(--mute);text-align:center;margin:14px 0}
-.site-foot{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;font-size:12px;color:var(--mute);margin:6px 0 18px}.site-foot a{color:var(--mute);text-decoration:none}.site-foot img{height:40px;width:auto;display:block}
+.topbar{background:#14100c;border-bottom:1px solid rgba(201,164,92,.35)}
+.tb-in{max-width:520px;margin:0 auto;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.brand h1{font-family:Georgia,"Times New Roman",serif;text-transform:uppercase;letter-spacing:1.5px;font-size:17px;font-weight:600;color:#e8d8b0;margin:0}
+.brand small{display:block;font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:#a89a80;margin-top:2px}
+.ibtn{width:36px;height:36px;border-radius:10px;border:1px solid rgba(201,164,92,.45);background:#1f1812;color:#c9a45c;display:grid;place-items:center;padding:0;cursor:pointer}
+.site-foot{background:#14100c;color:#a89a80;margin-top:18px;border-top:1px solid rgba(201,164,92,.3)}
+.sf-in{max-width:960px;margin:0 auto;padding:18px 16px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.sf-l{display:flex;align-items:center;gap:10px;font-size:12px}.sf-l b{color:#e8d8b0;font-size:15px}.sf-l img{height:40px;width:auto;display:block}
+.sf-mail{display:inline-flex;align-items:center;gap:7px;color:#e8d8b0;text-decoration:none;font-size:13px}.sf-mail svg{color:#c9a45c}
+@media(max-width:600px){.sf-in{flex-direction:column;justify-content:center;text-align:center}.sf-l{flex-direction:column;gap:6px}}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="tb-in"><div class="brand"><h1>Hôm Nay Ăn Gì</h1><small>Sáng · Trưa · Tối · Khuya</small></div><div class="tb-acts"><button class="ibtn" id="tbHist" title="Lịch sử" aria-label="Lịch sử"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg></button></div></div></div>
 <div class="wrap">
 <header>
-  <div><h1>Hôm nay ăn <span>gì?</span></h1><p class="sub" id="greet">Đừng nghĩ nữa, để trời quyết.</p></div>
+  <div><p class="sub" id="greet">Đừng nghĩ nữa, để trời quyết.</p></div>
   <select class="city" id="city" aria-label="Thành phố"></select>
 </header>
 <div class="tabs" id="tabs"></div>
@@ -171,9 +181,10 @@ h3{margin:0 0 8px;font-size:16px}
 <!-- ===== AD SLOT (ẩn mặc định, bật bằng CONFIG.ADS_ENABLED) ===== -->
 <div class="ad-slot" id="adSlot"><!-- AD_SLOT: dán mã quảng cáo vào đây --><span>Quảng cáo</span></div>
 <p class="foot">Kết quả mang tính tâm linh, bụng no là thật. © Hôm nay ăn gì</p>
-<footer class="site-foot"><a href="mailto:Anhlee165@gmail.com">✉️ Anhlee165@gmail.com</a><img src="/al-group-logo.svg" alt="AL Group" height="40"><span>© AL Group</span></footer>
+
 </div>
 
+<footer class="site-foot"><div class="sf-in"><div class="sf-l"><b>Hôm Nay Ăn Gì</b><img src="/al-group-logo.svg" alt="AL Group" height="40"><span>© AL Group</span></div><a class="sf-mail" href="mailto:Anhlee165@gmail.com"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Anhlee165@gmail.com</a></div></footer>
 <nav id="nav">
  <button data-v="que" class="on"><b>🎋</b>Xóc quẻ</button>
  <button data-v="dice"><b>🎲</b>Xúc xắc</button>
@@ -415,7 +426,7 @@ function payWin(n){const line=joke("pay",{n});const log=LS.get("paylog",[]);log.
   $("#r-pay").innerHTML=`<div class="winner"><div class="meta">🎉 Chúc mừng, hôm nay nhà tài trợ là</div><div class="name">${esc(n)}</div><p class="verdict">“${esc(line)}”</p></div>${actions("🎡 Quay lại (kháng cáo)",`🎡 Bánh xe đã chọn ${n} trả tiền hôm nay! “${line}”`)}`;
   $("#r-pay").classList.add("on");ding();confetti();setTimeout(()=>$("#r-pay").scrollIntoView({behavior:"smooth",block:"center"}),100)}
 function renderLog(){const l=LS.get("paylog",[]);$("#payLog").innerHTML=l.length?l.slice(0,10).map(x=>`<li><b>${esc(x.n)}</b> bao · ${new Date(x.t).toLocaleString("vi-VN",{timeZone:CONFIG.TZ,day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</li>`).join(""):"<li>Chưa ai bao. Sổ sạch như ví cuối tháng.</li>"}
-$("#spinBtn").onclick=spin;againFns["r-pay"]=spin;
+$("#spinBtn").onclick=spin;$("#tbHist").onclick=()=>show("hist");againFns["r-pay"]=spin;
 function split(){const b=+$("#bill").value,p=+$("#ppl").value||members.length;if(!b||!p){$("#splitOut").textContent="Nhập bill để tính. Không ai thiệt, chỉ có ví thiệt.";return}const each=Math.ceil(b*1000/p/1000)*1000;$("#splitOut").innerHTML=`Mỗi người <b>${each.toLocaleString("vi-VN")}đ</b> (${p} người). Chuyển khoản trong 5 phút, không thì bị nhắc tên trong group.`}
 $("#bill").oninput=split;$("#ppl").oninput=split;
 
