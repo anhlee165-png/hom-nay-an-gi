@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-14T09:49:14.113Z",
+ "updated": "2026-10-14T17:20:10.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -120,6 +120,42 @@
     "name": "Croissant + cà phê",
     "price": 75,
     "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Cháo sườn sụn",
+    "price": 35,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cháo gà ủ muối",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Súp gà nấm",
+    "price": 35,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cháo lòng Cầu Dậu",
+    "price": 35,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Xôi cô Phương",
+    "price": 25,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cháo trai",
+    "price": 30,
+    "cat": "nuoc",
     "hidden": false
    }
   ],
@@ -335,6 +371,36 @@
     "price": 40,
     "cat": "banh",
     "hidden": false
+   },
+   {
+    "name": "Cháo sườn sụn Đồng Xuân",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Lòng trần cháo lòng",
+    "price": 70,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Gà ủ muối",
+    "price": 120,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu thái chua cay",
+    "price": 250,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cháo lòng tiết canh",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
    }
   ],
   "khuya": [
@@ -391,6 +457,48 @@
     "price": 70,
     "cat": "vat",
     "hidden": false
+   },
+   {
+    "name": "Lẩu đêm thập cẩm",
+    "price": 220,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Đồ nhậu đêm",
+    "price": 150,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cháo sườn sụn đêm",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cháo lòng đêm",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nem chua rán đêm",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Gà rán đêm",
+    "price": 45,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Mì trộn Indomie xúc xích",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
    }
   ],
   "vat": [
@@ -441,6 +549,84 @@
     "price": 35,
     "cat": "quocte",
     "hidden": false
+   },
+   {
+    "name": "Chè thập cẩm",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Chè khúc bạch",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Kem xôi",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Tàu hũ trân châu",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Chè sầu",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nem chua rán",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nem chua rán + khoai tây chiên",
+    "price": 50,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Xiên chiên thập cẩm",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Gà rán giòn",
+    "price": 45,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh gà chiên",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Mì trộn Indomie trứng",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Sữa chua trân châu dẻo",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Hoa quả cắt sẵn dầm",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
    }
   ],
   "uong": [
@@ -465,6 +651,126 @@
    {
     "name": "Trà trái cây",
     "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nước ép cam",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nước ép dưa hấu",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nước ép cần tây táo",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Hoa quả cắt sẵn",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Sinh tố bơ",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Sinh tố xoài",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Sữa chua trân châu",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Sữa chua trân châu Hạ Long",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà chanh giã tay",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà chanh nha đam",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa nướng",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà bí đao",
+    "price": 15,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa Tocotoco",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa kem trứng nướng",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Matcha latte",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà hoa quả nhiệt đới",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Kem ốc quế Mixue",
+    "price": 10,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà chanh Mixue",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà trái cây nhiệt đới",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa Bingxue",
+    "price": 30,
     "cat": "vat",
     "hidden": false
    }
@@ -509,6 +815,42 @@
    {
     "name": "Trứng non sốt Thái",
     "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu thái hải sản",
+    "price": 250,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu riêu cua bắp bò",
+    "price": 280,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu gà lá é",
+    "price": 260,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Đồ nhậu thập cẩm",
+    "price": 180,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nem chua rán nhậu",
+    "price": 45,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lòng trần",
+    "price": 90,
     "cat": "vat",
     "hidden": false
    }
@@ -841,6 +1183,465 @@
     "nem nướng",
     "bánh cuốn",
     "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p22",
+   "name": "Nước Ép, Hoa Quả Cắt Sẵn & Trà - Lạc Long Quân",
+   "area": "Lạc Long Quân",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5VW6ItgSTm"
+   ],
+   "tags": [
+    "nước ép",
+    "hoa quả cắt sẵn",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p23",
+   "name": "Nước Ép Sinh Tố Tâm Phúc - Minh Khai",
+   "area": "Minh Khai",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/gQqY4xF6l"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p24",
+   "name": "Hải Yến - Trà Sữa, Sinh Tố & Nước Ép",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/qkGkPE0fc"
+   ],
+   "tags": [
+    "trà sữa",
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p25",
+   "name": "Alive Juicery - Nước Ép Nguyên Chất 100% - Chợ Khâm Thiên",
+   "area": "Chợ Khâm Thiên",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/3Vl1vJttjd"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p26",
+   "name": "Chè Mộc Phố - Chè Ngon, Kem Xôi & Tàu Hũ - Khương Trung",
+   "area": "Khương Trung",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/905yTSPLvF"
+   ],
+   "tags": [
+    "chè",
+    "kem xôi",
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p27",
+   "name": "Chè Bốn Mùa - Chè Sầu - Phố Mễ Trì Thượng",
+   "area": "Mễ Trì Thượng",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5LCg6jThBO"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p28",
+   "name": "Chè Ngon 73 - Khâm Thiên",
+   "area": "Khâm Thiên",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/113gwmX4RL"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p29",
+   "name": "Micha - Chè Khúc Bạch - Ocean Park",
+   "area": "Ocean Park",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/70Ku5owcqt"
+   ],
+   "tags": [
+    "chè khúc bạch",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p30",
+   "name": "Sữa Chua Trân Châu Hạ Long Healthy - Giải Phóng",
+   "area": "Giải Phóng",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/qkGkVgS71"
+   ],
+   "tags": [
+    "sữa chua trân châu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p31",
+   "name": "Vua Hoa Quả Cắt Sẵn - Sinh Tố, Trà Sữa & Sữa Chua - Định Công Hạ",
+   "area": "Định Công Hạ",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/Lo09bHpRs"
+   ],
+   "tags": [
+    "hoa quả cắt sẵn",
+    "sinh tố",
+    "trà sữa",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p32",
+   "name": "Sữa Chua Trân Châu Hạ Long - Ngô Gia Tự",
+   "area": "Ngô Gia Tự",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/4qGPVsqKFj"
+   ],
+   "tags": [
+    "sữa chua trân châu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p33",
+   "name": "Quán Xiên An An - Nem Chua Rán & Đồ Ăn Vặt - Đại Cồ Việt",
+   "area": "Đại Cồ Việt",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5AtFuVOsC7"
+   ],
+   "tags": [
+    "xiên",
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p34",
+   "name": "Family Chicken - Gà Rán, Bánh Gà & Đồ Ăn Vặt - Chùa Quỳnh",
+   "area": "Chùa Quỳnh",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/1qcnwO9SE2"
+   ],
+   "tags": [
+    "gà rán",
+    "bánh gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p35",
+   "name": "Nem Chua Rán Phố Cổ Quốc Bảo",
+   "area": "Khúc Thừa Dụ",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/60SMu3pc5V"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p36",
+   "name": "Nem Chua Rán - Văn Béo",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/6Aln6NW9RV"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p37",
+   "name": "Trà Chanh Bụi Phố - 31 Láng",
+   "area": "31 Láng",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2gBuvzSWMb"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p38",
+   "name": "Trà Sữa Nướng - Trà Bí Đao & Trà Chanh",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2VsUjhB9WZ"
+   ],
+   "tags": [
+    "trà sữa nướng",
+    "trà bí đao",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p39",
+   "name": "Trà Chanh & Trà Trái Cây - Ngõ 68 Cầu Giấy",
+   "area": "Ngõ 68 Cầu Giấy",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/8fT852m6Ui"
+   ],
+   "tags": [
+    "trà chanh",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p40",
+   "name": "Mì Trộn Indomie 158 - Nguyễn Chánh",
+   "area": "Nguyễn Chánh",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/AKbM47jp7w"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p41",
+   "name": "Trà Sữa Tocotoco - Tây Sơn",
+   "area": "Tây Sơn",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2BFeL9E6bk"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p42",
+   "name": "Trà Sữa Tocotoco - 686 Quang Trung",
+   "area": "686 Quang Trung",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7faatGSQyI"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p43",
+   "name": "TRÀ SỮA BINGXUE - HÀNG CHĨNH",
+   "area": "Hàng Chĩnh",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/9APOg1r6rN"
+   ],
+   "tags": [
+    "trà sữa",
+    "kem",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p44",
+   "name": "Trà sữa Winggo - Trà Sữa Kem Trứng Nướng, Trà Hoa Quả & Matcha - 96 Tân Mai",
+   "area": "96 Tân Mai",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7pu15aV6m5"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà hoa quả",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p45",
+   "name": "Trà sữa Mixue - Hào Nam",
+   "area": "Hào Nam",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/gQqYQaoSo"
+   ],
+   "tags": [
+    "trà sữa",
+    "kem",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p46",
+   "name": "Quán Trăng - Lẩu Nhậu Đêm - Bùi Quốc Khái",
+   "area": "Bùi Quốc Khái",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/AAHvrxBPD0"
+   ],
+   "tags": [
+    "lẩu",
+    "nhậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p47",
+   "name": "Quán Trăng - Lẩu & Nhậu Đêm - Triều Khúc",
+   "area": "Triều Khúc",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5AtFumYzBt"
+   ],
+   "tags": [
+    "lẩu",
+    "nhậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p48",
+   "name": "Lẩu - Đồ Nhậu Susu Quán",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/50ZpiUaNwU"
+   ],
+   "tags": [
+    "lẩu",
+    "nhậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p49",
+   "name": "Cháo Sườn Sụn Huyền Anh Chợ Đêm Đồng Xuân - Đồng Xuân",
+   "area": "Chợ Đêm Đồng Xuân",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/8pmYHZFU5x"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p50",
+   "name": "iChi Food - Cháo, Súp, Mỳ & Gà ủ muối - Bùi Ngọc Dương",
+   "area": "Bùi Ngọc Dương",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7pu15jnKim"
+   ],
+   "tags": [
+    "cháo",
+    "súp",
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p51",
+   "name": "Cô Phương - Cháo, Mỳ & Xôi - Cổ Nhuế",
+   "area": "Cổ Nhuế",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/50ZpiY2s5Y"
+   ],
+   "tags": [
+    "cháo",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p52",
+   "name": "Cháo Lòng Cầu Dậu - Cháo Lòng - Kim Giang",
+   "area": "Kim Giang",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2VsUjy8PWw"
+   ],
+   "tags": [
+    "cháo lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p53",
+   "name": "Lòng Ngon Bách Khoa - Lòng Trần & Cháo Lòng - Lê Thanh Nghị",
+   "area": "Lê Thanh Nghị",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/qkGkv8VX6"
+   ],
+   "tags": [
+    "lòng",
+    "cháo lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p54",
+   "name": "Cô Phóong - Cháo, Mỳ & Xôi - Cầu Diễn",
+   "area": "Cầu Diễn",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2LZ4XglPfi"
+   ],
+   "tags": [
+    "cháo",
+    "xôi"
    ],
    "hidden": false
   }
