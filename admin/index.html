@@ -47,14 +47,9 @@ ol{padding-left:20px}ol li{margin:6px 0}
 <h1>Quản trị <span>Hôm nay ăn gì</span></h1>
 
 <section id="login" class="card hide">
- <p>Dán mã truy cập GitHub (fine-grained token, chỉ quyền <b>Contents: Read and write</b> cho repo <code>hom-nay-an-gi</code>). Mã chỉ lưu trên máy này.</p>
- <label>Mã truy cập</label><input id="tok" type="password" autocomplete="off" placeholder="github_pat_...">
+ <input id="tok" type="password" autocomplete="off">
  <p class="msg" id="loginMsg"></p>
  <button class="btn full" id="loginBtn">Đăng nhập</button>
- <details style="margin-top:12px"><summary>Cách tạo mã</summary><ol>
-  <li>Mở <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
-  <li>Repository access: <b>Only select repositories</b> → hom-nay-an-gi. Permissions → Repository → <b>Contents: Read and write</b>.</li>
-  <li>Bấm Generate token, copy mã và dán vào ô trên.</li></ol></details>
 </section>
 
 <section id="app" class="hide">
