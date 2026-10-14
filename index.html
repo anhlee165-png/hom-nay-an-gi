@@ -65,7 +65,7 @@ nav button.on{color:var(--pri)}
 .qno{font-size:12px;color:#b08900;font-weight:700;letter-spacing:1px}
 .order{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
 .order a{display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;font-weight:700;font-size:14px;border-radius:12px;padding:11px 8px;color:#fff}
-.o-sp{background:#ee4d2d}.o-gr{background:#00b14f}.o-mp{background:#fff;color:var(--ink)!important;box-shadow:0 0 0 1.5px var(--line) inset;grid-column:1/-1}
+.o-sp{background:#ee4d2d;grid-column:1/-1;font-size:16px!important;padding:14px 8px!important}.o-gr{background:#00b14f}.o-mp{background:#fff;color:var(--ink)!important;box-shadow:0 0 0 1.5px var(--line) inset;grid-column:1/-1}
 .acts{display:flex;gap:8px;margin-top:10px}.acts .btn{font-size:14px;padding:11px}
 /* dice */
 .dicebox{display:flex;justify-content:center;gap:22px;height:150px;align-items:center;perspective:600px}
@@ -313,7 +313,7 @@ function orderLinks(name){
   const city=$("#city").value, q=name.replace(/\(.*?\)/g,"").trim();
   const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
   const ps=partnersFor(name);let top="",buy="";if(ps.length){const p=pickArr(ps);buy=partnerLink(p);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${buy}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
-  return top+`<div class="order">${buy?`<a class="o-sp" style="flex:2" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
+  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
 }
 let lastShare="";
 function actions(again,shareText){lastShare=shareText;return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
