@@ -156,6 +156,15 @@ nav{position:sticky;bottom:0;left:auto;right:auto;flex-shrink:0;box-sizing:borde
 .site-foot .sf-mail{white-space:nowrap;display:inline-flex!important;align-items:center;gap:4px}
 @media(max-width:480px){.site-foot .sf-in{padding:10px 10px!important}.site-foot .sf-l b{font-size:12px}.site-foot .sf-l img{height:26px!important;width:auto}.site-foot .sf-l span,.site-foot .sf-mail{font-size:11px!important}}
 @media(max-width:360px){.site-foot .sf-l b{display:none}}
+
+.tabs{scrollbar-width:thin!important;scrollbar-color:#ff5a36 #fde3d8;padding-bottom:10px!important;scroll-behavior:smooth}
+.tabs::-webkit-scrollbar{display:block!important;height:6px}
+.tabs::-webkit-scrollbar-track{background:#fde3d8;border-radius:6px}
+.tabs::-webkit-scrollbar-thumb{background:#ff5a36;border-radius:6px}
+.tabwrap{position:relative;display:flex;align-items:flex-start;gap:4px}
+.tabwrap .tabs{flex:1;min-width:0}
+.tarr{flex:0 0 32px;height:44px;margin-top:12px;border:0;border-radius:50%;background:#fff;color:#ff5a36;font-size:22px;font-weight:800;box-shadow:0 1px 4px rgba(0,0,0,.15);cursor:pointer}
+.tarr[disabled]{opacity:.3;cursor:default}
 </style>
 </head>
 <body>
@@ -541,6 +550,12 @@ const h=bkkHour();$("#greet").textContent=h<5?"Giờ này còn thức, chắc đ
 renderTabs();renderDice();renderMembers();renderGroups();renderLog();renderHist();
 const qv=new URLSearchParams(location.search).get("view");show(["que","dice","pay","hist"].includes(qv)?qv:LS.get("view","que"));
 });
+</script>
+<script>
+(function(){const t=document.getElementById('tabs');if(!t)return;const w=document.createElement('div');w.className='tabwrap';t.parentNode.insertBefore(w,t);
+const l=document.createElement('button'),r=document.createElement('button');l.className=r.className='tarr';l.textContent='‹';r.textContent='›';l.setAttribute('aria-label','Tab trước');r.setAttribute('aria-label','Tab sau');
+w.append(l,t,r);const st=()=>t.clientWidth*0.7;l.onclick=()=>t.scrollBy({left:-st()});r.onclick=()=>t.scrollBy({left:st()});
+const u=()=>{l.disabled=t.scrollLeft<4;r.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4};t.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);setTimeout(u,300);u();})();
 </script>
 </body>
 </html>
