@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hôm nay ăn gì? — Để trời quyết</title>
+<meta name="description" content="Xóc quẻ, ném xúc xắc chọn món cả ngày, quay xem ai trả tiền. Hết đắn đo, chỉ còn đói.">
+<meta name="theme-color" content="#ff5a36">
+<style>
+:root{--bg:#fff8f1;--card:#fff;--ink:#1e1b18;--mute:#7a6f66;--pri:#ff5a36;--pri2:#ffb703;--ok:#2a9d8f;--bad:#7b2cbf;--line:#f0e3d6;--r:18px;--sh:0 8px 28px rgba(120,60,20,.12)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:84px}
+.wrap{max-width:520px;margin:0 auto;padding:14px 14px 0}
+header{display:flex;align-items:center;justify-content:space-between;gap:8px}
+h1{font-size:22px;margin:0;letter-spacing:-.5px}h1 span{color:var(--pri)}
+.sub{color:var(--mute);font-size:13px;margin:2px 0 0}
+select,input,button{font:inherit}
+select,input[type=text],input[type=number]{border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:9px 10px;min-width:0}
+.city{font-size:13px;padding:6px 8px}
+.tabs{display:flex;gap:6px;margin:12px 0 8px;overflow-x:auto;scrollbar-width:none}
+.tab{flex:1;white-space:nowrap;border:0;background:#fff;border-radius:999px;padding:9px 10px;font-weight:600;font-size:14px;box-shadow:0 1px 0 var(--line);color:var(--mute)}
+.tab.on{background:var(--ink);color:#fff}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.filters select{width:100%;font-size:14px}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:16px;margin:12px 0}
+.quip{font-size:13px;color:var(--mute);text-align:center;margin:10px 4px 0;min-height:18px}
+.btn{border:0;border-radius:14px;padding:13px 16px;font-weight:700;font-size:15px;background:var(--pri);color:#fff;width:100%;box-shadow:0 4px 0 #c63d1f;transition:transform .08s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 #c63d1f}
+.btn.ghost{background:#fff;color:var(--ink);box-shadow:0 0 0 1.5px var(--line) inset}
+.btn.sm{padding:8px 12px;font-size:13px;width:auto;box-shadow:none}
+.row{display:flex;gap:8px;align-items:center}.row>*{flex:1}
+.center{text-align:center}
+/* bottom nav */
+nav{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:20}
+nav button{border:0;background:none;display:flex;flex-direction:column;align-items:center;font-size:11px;color:var(--mute);gap:2px;padding:4px 8px;font-weight:600}
+nav button b{font-size:22px}
+nav button.on{color:var(--pri)}
+.view{display:none}.view.on{display:block;animation:fade .25s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}}
+/* que */
+.stage{height:250px;display:flex;align-items:flex-end;justify-content:center;position:relative;user-select:none;-webkit-user-select:none;touch-action:none}
+.tube{width:96px;height:170px;position:relative;transform-origin:50% 100%}
+.tube .body{position:absolute;bottom:0;left:0;right:0;height:130px;background:linear-gradient(90deg,#8c1c13,#d62828 40%,#9d0208);border-radius:10px 10px 16px 16px;box-shadow:inset 0 -10px 0 rgba(0,0,0,.2)}
+.tube .body:after{content:"籤";position:absolute;top:38px;left:0;right:0;text-align:center;color:#ffd166;font-size:34px;font-weight:800}
+.tube .band{position:absolute;left:-3px;right:-3px;height:9px;background:#ffd166;border-radius:4px}
+.sticks{position:absolute;bottom:110px;left:12px;right:12px;height:60px}
+.sticks i{position:absolute;bottom:0;width:7px;height:62px;background:#e9c46a;border-radius:3px 3px 0 0;border-top:6px solid #d62828}
+.shaking .tube{animation:shake .14s infinite}
+@keyframes shake{0%{transform:rotate(-14deg)}50%{transform:rotate(14deg) translateY(-6px)}100%{transform:rotate(-14deg)}}
+.fallstick{position:absolute;width:12px;height:110px;background:#e9c46a;border-top:10px solid #d62828;border-radius:4px;left:50%;bottom:150px;opacity:0}
+.fallstick.go{animation:fall .9s cubic-bezier(.3,1.4,.6,1) forwards}
+@keyframes fall{0%{opacity:1;transform:translate(-50%,0) rotate(0)}100%{opacity:1;transform:translate(40px,150px) rotate(78deg)}}
+.hint{font-size:13px;color:var(--mute);text-align:center;margin-top:8px}
+.holdbar{height:6px;border-radius:9px;background:var(--line);overflow:hidden;margin:10px 0}
+.holdbar div{height:100%;width:0;background:linear-gradient(90deg,var(--pri2),var(--pri))}
+/* result */
+.result{display:none}.result.on{display:block;animation:pop .35s cubic-bezier(.3,1.5,.6,1)}
+@keyframes pop{from{transform:scale(.85);opacity:0}}
+.slip{border:2px dashed #e9c46a;background:#fffbea;border-radius:16px;padding:14px;text-align:center}
+.tier{display:inline-block;padding:4px 12px;border-radius:999px;font-weight:800;font-size:13px;color:#fff}
+.t-dai{background:linear-gradient(90deg,#f77f00,#ffba08)}.t-trung{background:var(--ok)}.t-hung{background:var(--bad)}.t-sp{background:linear-gradient(90deg,#ff006e,#8338ec)}
+.dish{font-size:28px;font-weight:800;margin:8px 0 2px;letter-spacing:-.5px}
+.meta{color:var(--mute);font-size:13px}
+.verdict{font-size:15px;line-height:1.45;margin:10px 0 0;font-style:italic}
+.qno{font-size:12px;color:#b08900;font-weight:700;letter-spacing:1px}
+.order{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.order a{display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;font-weight:700;font-size:14px;border-radius:12px;padding:11px 8px;color:#fff}
+.o-sp{background:#ee4d2d}.o-gr{background:#00b14f}.o-mp{background:#fff;color:var(--ink)!important;box-shadow:0 0 0 1.5px var(--line) inset;grid-column:1/-1}
+.acts{display:flex;gap:8px;margin-top:10px}.acts .btn{font-size:14px;padding:11px}
+/* dice */
+.dicebox{display:flex;justify-content:center;gap:22px;height:150px;align-items:center;perspective:600px}
+.die{width:64px;height:64px;position:relative;transform-style:preserve-3d;transition:transform 1.3s cubic-bezier(.2,.9,.3,1.05)}
+.face{position:absolute;inset:0;background:#fff;border-radius:12px;border:2px solid #ffd7c7;display:flex;align-items:center;justify-content:center;font-size:30px;box-shadow:inset 0 0 12px rgba(255,90,54,.15);backface-visibility:hidden}
+.face small{position:absolute;bottom:2px;right:5px;font-size:10px;color:var(--pri);font-weight:800}
+.f1{transform:rotateY(0) translateZ(32px)}.f2{transform:rotateY(90deg) translateZ(32px)}.f3{transform:rotateY(180deg) translateZ(32px)}
+.f4{transform:rotateY(-90deg) translateZ(32px)}.f5{transform:rotateX(90deg) translateZ(32px)}.f6{transform:rotateX(-90deg) translateZ(32px)}
+.legend{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;font-size:12px;color:var(--mute);margin-top:6px}
+.legend span{background:var(--bg);border-radius:10px;padding:6px;text-align:center}
+.seg{display:flex;background:var(--bg);border-radius:12px;padding:3px;margin-bottom:10px}
+.seg button{flex:1;border:0;background:none;padding:8px;border-radius:10px;font-weight:700;color:var(--mute)}
+.seg button.on{background:#fff;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.08)}
+/* wheel */
+.wheelwrap{position:relative;width:min(300px,82vw);aspect-ratio:1;margin:6px auto}
+canvas{width:100%;height:100%;display:block}
+.pointer{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:0;height:0;border-left:14px solid transparent;border-right:14px solid transparent;border-top:26px solid var(--ink);z-index:2;filter:drop-shadow(0 2px 2px rgba(0,0,0,.3))}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chip{background:var(--bg);border-radius:999px;padding:6px 10px;font-size:13px;display:flex;gap:6px;align-items:center}
+.chip button{border:0;background:none;color:var(--mute);padding:0;font-size:14px}
+label.ck{display:flex;gap:8px;align-items:center;font-size:14px;margin:6px 0}
+.winner{text-align:center;padding:10px 0}
+.winner .name{font-size:34px;font-weight:900;color:var(--pri);margin:4px 0}
+.list{font-size:13px;color:var(--mute);margin:0;padding-left:18px}
+.list li{margin:3px 0}
+h3{margin:0 0 8px;font-size:16px}
+.ad-slot{display:none;border:1.5px dashed var(--line);border-radius:12px;padding:10px;text-align:center;color:var(--mute);font-size:12px;margin:12px 0}
+.toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:10px 16px;border-radius:999px;font-size:14px;opacity:0;transition:.25s;pointer-events:none;z-index:30;max-width:90vw;text-align:center}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.confetti{position:fixed;inset:0;pointer-events:none;z-index:25}
+.partner{display:block;text-decoration:none;color:#fff;background:linear-gradient(135deg,#ee4d2d,#ff7a45);border-radius:14px;padding:12px 14px;margin-top:12px;box-shadow:0 4px 0 #b8341b;text-align:center}.partner small{display:block;font-size:11px;opacity:.9;font-weight:600}.partner b{display:block;font-size:17px;margin:2px 0}.partner span{font-size:13px;font-weight:700;background:rgba(255,255,255,.2);border-radius:999px;padding:3px 10px;display:inline-block;margin-top:4px}.disc{font-size:11px;color:var(--mute);text-align:center;margin:8px 0 0}
+.foot{font-size:11px;color:var(--mute);text-align:center;margin:14px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div><h1>Hôm nay ăn <span>gì?</span></h1><p class="sub" id="greet">Đừng nghĩ nữa, để trời quyết.</p></div>
+  <select class="city" id="city" aria-label="Thành phố"></select>
+</header>
+<div class="tabs" id="tabs"></div>
+<div class="filters">
+  <select id="budget" aria-label="Ngân sách"><option value="all">💸 Mọi ngân sách</option><option value="lo">Dưới 50k (cuối tháng)</option><option value="mid">50k–100k (vừa ví)</option><option value="hi">Trên 100k (mới lãnh lương)</option></select>
+  <select id="cat" aria-label="Thể loại"></select>
+</div>
+<p class="quip" id="mealQuip"></p>
+
+<!-- ===== XÓC QUẺ ===== -->
+<section class="view on" id="v-que">
+ <div class="card">
+  <div class="stage" id="stage">
+   <div class="tube"><div class="sticks" id="sticks"></div><div class="body"></div><div class="band" style="bottom:118px"></div><div class="band" style="bottom:14px"></div></div>
+   <div class="fallstick" id="fallstick"></div>
+  </div>
+  <div class="holdbar"><div id="holdbar"></div></div>
+  <button class="btn" id="holdBtn">🙏 Bấm giữ để xóc quẻ</button>
+  <p class="hint" id="shakeHint">Hoặc <a href="#" id="enableShake">bật lắc điện thoại</a> rồi lắc thật thành tâm.</p>
+ </div>
+ <div class="card result" id="r-que"></div>
+</section>
+
+<!-- ===== XÚC XẮC ===== -->
+<section class="view" id="v-dice">
+ <div class="card">
+  <div class="seg" id="diceN"><button data-n="2" class="on">2 viên</button><button data-n="3">3 viên</button></div>
+  <div class="dicebox" id="dicebox"></div>
+  <button class="btn" id="rollBtn">🎲 Ném xúc xắc</button>
+  <div class="legend" id="legend"></div>
+  <p class="hint">Mặt nhiều nhất quyết định nhóm món. Ra bộ ba = món đặc biệt 🌟</p>
+ </div>
+ <div class="card result" id="r-dice"></div>
+</section>
+
+<!-- ===== AI TRẢ TIỀN ===== -->
+<section class="view" id="v-pay">
+ <div class="card">
+  <h3>👥 Hội ăn chung</h3>
+  <div class="row"><input type="text" id="nameIn" placeholder="Nhập tên rồi Enter" maxlength="20"><button class="btn sm" id="addName" style="flex:0">Thêm</button></div>
+  <div class="chips" id="chips"></div>
+  <div class="row"><select id="groupSel"><option value="">— Nhóm đã lưu —</option></select><button class="btn sm ghost" id="saveGroup" style="flex:0">Lưu nhóm</button></div>
+  <label class="ck"><input type="checkbox" id="exempt" checked> Miễn cho người vừa trả lần trước</label>
+ </div>
+ <div class="card">
+  <div class="wheelwrap"><div class="pointer"></div><canvas id="wheel" width="600" height="600"></canvas></div>
+  <button class="btn" id="spinBtn">🎡 Quay xem ai bao</button>
+ </div>
+ <div class="card result" id="r-pay"></div>
+ <div class="card">
+  <h3>🧮 Chia đều cho công bằng</h3>
+  <div class="row"><input type="number" id="bill" placeholder="Tổng bill (nghìn đồng)" inputmode="numeric"><input type="number" id="ppl" placeholder="Số người" inputmode="numeric"></div>
+  <p class="meta" id="splitOut" style="margin:8px 0 0">Nhập bill để tính. Không ai thiệt, chỉ có ví thiệt.</p>
+ </div>
+ <div class="card"><h3>📒 Sổ nợ ân tình</h3><ul class="list" id="payLog"></ul></div>
+</section>
+
+<!-- ===== LỊCH SỬ ===== -->
+<section class="view" id="v-hist">
+ <div class="card"><h3>🍽️ Lịch sử món đã chốt</h3><p class="meta">Món ăn trong 3 ngày gần đây sẽ được né, cho bao tử đổi gió.</p><ul class="list" id="histList"></ul>
+ <div class="acts"><button class="btn ghost" id="clearHist">Xóa lịch sử</button></div></div>
+</section>
+
+<!-- ===== AD SLOT (ẩn mặc định, bật bằng CONFIG.ADS_ENABLED) ===== -->
+<div class="ad-slot" id="adSlot"><!-- AD_SLOT: dán mã quảng cáo vào đây --><span>Quảng cáo</span></div>
+<p class="foot">Kết quả mang tính tâm linh, bụng no là thật. © Hôm nay ăn gì</p>
+</div>
+
+<nav id="nav">
+ <button data-v="que" class="on"><b>🎋</b>Xóc quẻ</button>
+ <button data-v="dice"><b>🎲</b>Xúc xắc</button>
+ <button data-v="pay"><b>🎡</b>Ai trả tiền</button>
+ <button data-v="hist"><b>📜</b>Lịch sử</button>
+</nav>
+<div class="toast" id="toast"></div>
+<canvas class="confetti" id="confetti"></canvas>
+
+<script>
+/* ================== CONFIG (sửa ở đây) ================== */
+const CONFIG = {
+  SHOPEEFOOD_AFFILIATE_ID: "",   // vd "an_redir_xxx" — để trống thì không gắn
+  SHOPEEFOOD_AFFILIATE_PARAM: "aff_id",
+  GRABFOOD_AFFILIATE_ID: "",
+  GRABFOOD_AFFILIATE_PARAM: "aff_id",
+  UTM_SOURCE: "homnayangi",
+  UTM_MEDIUM: "result_button",
+  ADS_ENABLED: false,            // true để hiện ô quảng cáo #adSlot
+  AVOID_DAYS: 3,
+  TZ: "Asia/Bangkok"
+};
+/* ======================================================== */
+
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const LS={get(k,d){try{return JSON.parse(localStorage.getItem("hnag_"+k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem("hnag_"+k,JSON.stringify(v))}catch(e){}}};
+const rnd=n=>Math.floor(Math.random()*n), pickArr=a=>a[rnd(a.length)];
+
+const CITIES=["Hà Nội","TP. Hồ Chí Minh","Đà Nẵng","Hải Phòng","Cần Thơ","Huế","Nha Trang","Đà Lạt","Vũng Tàu","Biên Hòa"];
+const CITY_SLUG={"Hà Nội":"ha-noi","TP. Hồ Chí Minh":"ho-chi-minh","Đà Nẵng":"da-nang","Hải Phòng":"hai-phong","Cần Thơ":"can-tho","Huế":"hue","Nha Trang":"khanh-hoa","Đà Lạt":"lam-dong","Vũng Tàu":"vung-tau","Biên Hòa":"dong-nai"};
+const CATS={nuoc:"🍜 Món nước",com:"🍚 Cơm",banh:"🥖 Bánh & cuốn",quocte:"🌏 Quốc tế",vat:"🍢 Ăn vặt",healthy:"🥗 Healthy"};
+const FACES=["nuoc","com","banh","quocte","vat","healthy"];
+const FACE_EMO={nuoc:"🍜",com:"🍚",banh:"🥖",quocte:"🍣",vat:"🍢",healthy:"🥗"};
+const MEALS={sang:"🌅 Sáng",trua:"☀️ Trưa",toi:"🌙 Tối",khuya:"🦉 Vặt/Khuya"};
+
+/* [tên, giá(k), nhóm] */
+const D={
+sang:[["Xôi thịt nóng",35,"com"],["Bánh cuốn trứng",35,"banh"],["Sủi cảo Đài Loan",50,"quocte"],["Mỳ trứng Đài Loan",50,"quocte"],["Cà phê sữa đá + bánh mì",40,"vat"],["Bạc xỉu Coffee",35,"vat"],["Phở bò tái",55,"nuoc"],["Phở gà",50,"nuoc"],["Bún bò Huế",50,"nuoc"],["Bún riêu cua",40,"nuoc"],["Hủ tiếu Nam Vang",45,"nuoc"],["Bánh canh cua",45,"nuoc"],["Cháo lòng",35,"nuoc"],["Bún mọc",40,"nuoc"],["Mì Quảng",45,"nuoc"],["Cơm tấm sườn bì chả",45,"com"],["Xôi xéo",25,"com"],["Xôi gà",35,"com"],["Cơm nắm muối vừng",20,"com"],["Bánh mì pate trứng",25,"banh"],["Bánh mì chả cá",25,"banh"],["Bánh cuốn Thanh Trì",35,"banh"],["Bánh giò",20,"banh"],["Bánh bao trứng muối",20,"banh"],["Bánh ướt chả lụa",35,"banh"],["Bánh mì chảo",55,"banh"],["Dimsum xửng hấp",90,"quocte"],["Pancake & mật ong",85,"quocte"],["Croissant + cà phê",75,"quocte"],["English breakfast",150,"quocte"],["Udon bò Nhật",110,"quocte"],["Yến mạch sữa chua trái cây",55,"healthy"],["Sandwich ức gà",60,"healthy"],["Granola bowl",70,"healthy"],["Bánh tráng trộn (sáng sớm hơi liều)",20,"vat"],["Sữa đậu nành + quẩy",15,"vat"],["Tàu hũ nước đường",15,"vat"]],
+trua:[["Bún bò Nam Bộ",50,"nuoc"],["Bún cá cay",45,"nuoc"],["Bánh canh cua Bình Định",50,"nuoc"],["Cơm sườn nướng",45,"com"],["Cơm bò xào",50,"com"],["Mỳ xào bò",50,"nuoc"],["Nem nướng Nha Trang",65,"banh"],["Bánh xèo tôm nhảy",60,"banh"],["Mì gà tần",55,"nuoc"],["Doner Kebab",35,"quocte"],["Cơm gà xối mỡ",50,"com"],["Cơm tấm sườn trứng",45,"com"],["Cơm văn phòng 3 món",40,"com"],["Cơm rang dưa bò",50,"com"],["Cơm niêu cá kho",85,"com"],["Cơm chiên hải sản",60,"com"],["Bún chả Hà Nội",45,"nuoc"],["Bún đậu mắm tôm",55,"nuoc"],["Bún thịt nướng",40,"nuoc"],["Phở cuốn",60,"banh"],["Bún cá rô đồng",40,"nuoc"],["Miến lươn",50,"nuoc"],["Mì vằn thắn",45,"nuoc"],["Bánh xèo",60,"banh"],["Bánh mì thịt nướng",30,"banh"],["Gỏi cuốn tôm thịt",40,"banh"],["Pizza cá nhân",120,"quocte"],["Sushi set trưa",160,"quocte"],["Ramen tonkotsu",140,"quocte"],["Cơm Hàn bibimbap",95,"quocte"],["Pad Thái",90,"quocte"],["Burger bò phô mai",110,"quocte"],["Mì Ý sốt bò bằm",95,"quocte"],["Poke bowl cá hồi",130,"healthy"],["Salad ức gà",75,"healthy"],["Cơm gạo lứt gà luộc",60,"healthy"],["Bánh tráng cuốn bơ",35,"vat"],["Xôi mặn thập cẩm",35,"com"],["Lẩu Thái mini 1 người",115,"nuoc"]],
+toi:[["Lòng nướng",90,"vat"],["Lòng lợn luộc chấm mắm",70,"vat"],["Cơm rang thập cẩm",50,"com"],["Phở bò tái lăn",55,"nuoc"],["Mì cay hải sản",70,"quocte"],["Bún đậu mắm tôm mẹt",65,"nuoc"],["Lẩu Thái hải sản",250,"nuoc"],["Lẩu bò nhúng giấm",220,"nuoc"],["Lẩu gà lá é",200,"nuoc"],["Nướng BBQ Hàn",250,"quocte"],["Buffet nướng",299,"quocte"],["Gà rán + khoai",120,"quocte"],["Steak bò Úc",280,"quocte"],["Lẩu Tứ Xuyên Haidilao-style",350,"quocte"],["Pizza chia nhóm",200,"quocte"],["Ốc xào me + ốc hương",150,"vat"],["Bò lá lốt",80,"banh"],["Bánh tráng nướng",25,"vat"],["Cơm nhà làm (gọi mẹ)",30,"com"],["Cơm gà Hải Nam",65,"com"],["Cơm tấm đêm",50,"com"],["Cơm cháy kho quẹt",70,"com"],["Bún bò Huế đặc biệt",65,"nuoc"],["Hủ tiếu gõ",30,"nuoc"],["Cháo sườn",35,"nuoc"],["Phở xào bò",60,"nuoc"],["Bánh canh ghẹ",80,"nuoc"],["Nem nướng Nha Trang",65,"banh"],["Bánh cuốn nóng",40,"banh"],["Gỏi gà bắp cải",90,"healthy"],["Cá hồi áp chảo + rau",160,"healthy"],["Súp rau củ + bánh mì đen",70,"healthy"],["Dê nướng ngói",220,"vat"],["Lẩu cá kèo",180,"nuoc"],["Sushi băng chuyền",230,"quocte"]],
+khuya:[["Chân gà sốt Thái",70,"vat"],["Trứng non sốt Thái",60,"vat"],["Mì trộn Indomie",35,"quocte"],["Trà trái cây",40,"vat"],["Doner Kebab đêm",35,"quocte"],["Bánh tráng cuốn",30,"vat"],["Mì tôm trứng (chân ái)",15,"nuoc"],["Cháo vịt đêm",45,"nuoc"],["Phở khuya",50,"nuoc"],["Hủ tiếu gõ đêm",30,"nuoc"],["Mì cay 7 cấp",65,"quocte"],["Tokbokki phô mai",60,"quocte"],["Takoyaki",50,"quocte"],["Gà rán chiên giòn",110,"quocte"],["Pizza đêm muộn",150,"quocte"],["Bánh tráng trộn",20,"vat"],["Bánh tráng nướng",25,"vat"],["Xiên que chiên",40,"vat"],["Chè thập cẩm",25,"vat"],["Trà sữa trân châu",45,"vat"],["Ốc luộc sả",80,"vat"],["Bắp xào bơ",20,"vat"],["Cá viên chiên",25,"vat"],["Khoai lang nướng",20,"vat"],["Bột chiên trứng",35,"vat"],["Sữa chua nếp cẩm",20,"healthy"],["Trái cây dĩa",35,"healthy"],["Sữa hạt + hạt dinh dưỡng",40,"healthy"],["Bánh mì nướng muối ớt",25,"banh"],["Bánh mì que",15,"banh"],["Bánh flan",15,"vat"],["Cơm chiên khuya",45,"com"],["Xôi chiên phồng",30,"com"],["Lẩu nướng vỉa hè",180,"vat"],["Chân gà sả tắc",70,"vat"]]
+};
+const SPECIAL={sang:["Phở bò Kobe đặc biệt",250],trua:["Set omakase trưa",450],toi:["Lẩu cua Cà Mau nguyên con",600],khuya:["Hải sản nướng tới sáng",400]};
+
+
+/* ============ ĐỐI TÁC (link affiliate ShopeeFood — dùng NGUYÊN VĂN, không sửa) ============ */
+const PARTNERS=[
+ {name:"Thu Food - Bún",area:"Thụy Khuê",links:["https://spf.shopee.vn/3g4RG6qtK7","https://spf.shopee.vn/4fwySKZKjc","https://spf.shopee.vn/2VsTsPKaOw"],tags:["bún riêu","bún mọc","bún thịt","bún cá rô"]},
+ {name:"Mỳ Trứng Sủi Cảo & Điểm Tâm Đài Loan",area:"Hà Nội",links:["https://spf.shopee.vn/8fT7DMJBA8"],tags:["sủi cảo","mì trứng","dimsum","mì vằn thắn"]},
+ {name:"Nhím Xù - Bún Bò Nam Bộ",area:"47B Mai Hắc Đế",links:["https://spf.shopee.vn/AKbLChF2dE"],tags:["bún bò nam bộ"]},
+ {name:"Hanicorn - Thiên Đường Bánh Tráng",area:"Xã Đàn",links:["https://spf.shopee.vn/2LZ3g1zsKo"],tags:["bánh tráng"]},
+ {name:"Hoa Nguyễn - Trùm Doner Kebab",area:"Hà Nội",links:["https://spf.shopee.vn/9fLePcjI9p"],tags:["kebab","xiên que"]},
+ {name:"Xôi Bà Hiền - Xôi Thịt Nóng",area:"Minh Khai",links:["https://spf.shopee.vn/7pu0EJItYK"],tags:["xôi"]},
+ {name:"Coffee Ben",area:"Hà Nội",links:["https://spf.shopee.vn/5LCfFjWkgU"],tags:["cà phê","bạc xỉu"]},
+ {name:"Chân Gà Sốt Thái & Trứng Non - AHuynhFood",area:"Cổ Nhuế",links:["https://spf.shopee.vn/20wDIdBxSq"],tags:["chân gà","trứng non"]},
+ {name:"Nhất Lòng",area:"Dương Nội",links:["https://spf.shopee.vn/7AeJS8Vt1U"],tags:["lòng"]},
+ {name:"Bánh Canh Cua Gia Hân - Đặc Sản Bình Định",area:"198 Văn Phú",links:["https://spf.shopee.vn/W7PVtlJ3l"],tags:["bánh canh"]},
+ {name:"Cơm, Cháo & Bánh Mì - FastFood",area:"Hà Nội",links:["https://spf.shopee.vn/60SM4142DS"],tags:["cháo sườn","cháo vịt","bánh mì pate","bánh mì thịt"]},
+ {name:"Woa Tea - Trà Sữa & Mì Trộn Indomie",area:"13 Khuất Duy Tiến",links:["https://spf.shopee.vn/BUZ7JPpzk"],tags:["trà sữa","indomie","bánh flan"]},
+ {name:"Phở Bát Đàn",area:"Vũ Đức Thận",links:["https://spf.shopee.vn/5VW5T80FVw"],tags:["phở","cơm rang","mì xào"]},
+ {name:"Cơm Tấm Abeo",area:"Mễ Trì Hạ",links:["https://spf.shopee.vn/5VW5T8rWjl"],tags:["cơm tấm"]},
+ {name:"Bún Chả Cô Hương",area:"22 Ngõ 218 Lĩnh Nam",links:["https://spf.shopee.vn/7KxjeWxLJv"],tags:["bún chả","bún cá","bún đậu"]},
+ {name:"Nem Nướng Nha Trang Thanh Tùng - CS2",area:"Hà Nội",links:["https://spf.shopee.vn/1B8v4KwEV"],tags:["nem nướng"]},
+ {name:"Mỳ Cay 7 Cấp Độ - Nem Nướng Nha Trang",area:"Trung Kính",links:["https://spf.shopee.vn/2qVKII8r0D"],tags:["mì cay","nem nướng"]},
+ {name:"Tiệm Cơm Gà Tôm",area:"Triều Khúc",links:["https://spf.shopee.vn/1qcn6TGaVm"],tags:["cơm gà","cơm sườn","cơm bò"]},
+ {name:"Tama Tea - Tiệm Trà Pha Máy",area:"Đại Mỗ",links:["https://spf.shopee.vn/5fpVfY1Fu1"],tags:["trà sữa","trà trái cây"]},
+ {name:"Bánh Xèo Tôm Nhảy - Bếp Xì Khói",area:"15 Trương Công Giai",links:["https://spf.shopee.vn/gQpiNJTQq"],tags:["bánh xèo"]},
+ {name:"Nem Nướng, Bánh Cuốn & Mỳ Gà Tần",area:"103 Chính Kinh",links:["https://spf.shopee.vn/2BFdVARScw"],tags:["nem nướng","bánh cuốn","mì gà tần"]}
+].map(p=>({...p,city:"Hà Nội"}));
+// Link chưa rõ tên quán — giữ lại, KHÔNG hiển thị
+const UNNAMED_PARTNER_LINKS=["https://spf.shopee.vn/9V2ECoW3Bk","https://spf.shopee.vn/50ZoqayLO4","https://spf.shopee.vn/W7PUMoU30","https://spf.shopee.vn/1LgWTugVWs","https://spf.shopee.vn/6q1T22QOFy","https://spf.shopee.vn/8fT7DQmDx3","https://spf.shopee.vn/60SM2Y1g48","https://spf.shopee.vn/7AeJQheGr8","https://spf.shopee.vn/50ZoqkqWX3","https://spf.shopee.vn/9V2ED3PANt","https://spf.shopee.vn/9fLePNUFKG","https://spf.shopee.vn/6L5CRGRtCj"];
+const norm=t=>t.toLowerCase().normalize("NFC").replace(/mỳ/g,"mì");
+function partnersFor(dish){if($("#city").value!=="Hà Nội")return[];const n=norm(dish);return PARTNERS.filter(p=>p.city===$("#city").value&&p.tags.some(t=>n.includes(norm(t))))}
+function partnerLink(p){if(p.links.length===1)return p.links[0];const k="rot_"+p.name,i=LS.get(k,0);LS.set(k,(i+1)%p.links.length);return p.links[i%p.links.length]}
+
+/* ============ KHO CÂU HÀI (tự trộn để đủ lớn, không lặp) ============ */
+function mix(a,b){const o=[];a.forEach(x=>b.forEach(y=>o.push(x+" "+y)));return o}
+const J={
+dai:mix(["Quẻ Đại cát: {d}.","Trời phán {d}, khỏi cãi.","Thiên thời địa lợi nhân hòa, chỉ thiếu {d}.","Tổ tiên gật đầu với {d}.","Vũ trụ gửi tín hiệu: {d}.","Sao Thái Bạch nhường chỗ cho {d}.","Ăn {d} hôm nay là chuẩn bài.","Quẻ đẹp như crush rep tin nhắn: {d}."],
+["Ăn xong năng lượng full pin, deadline cũng phải sợ.","Chiều nay sếp khen, đồng nghiệp ghen.","Tài lộc vào như nước, mỡ bụng ra như mưa.","Mood lên 100 điểm, không có nhưng.","Ăn xong ắt được thần tài ghé thăm.","Hôm nay bạn là main character.","Lương chưa về nhưng vía đã về.","Đỉnh nóc kịch trần bay phấp phới."]),
+trung:mix(["Quẻ Trung cát: {d}.","Trời bảo {d}, ổn áp.","Quẻ bình an: {d}.","Không quá đỉnh, không quá tệ: {d}.","Thầy phán nhẹ nhàng: {d}.","Năng lượng vừa đủ dùng: {d}.","Quẻ an toàn như áo phao: {d}.","Trời cho {d}, nhận đi đừng ngại."],
+["No là được rồi, đừng đòi hỏi vũ trụ nhiều.","Chiều không buồn ngủ là thắng.","Ăn xong vẫn còn tiền mua trà sữa.","Không viral nhưng chill.","Cuộc đời như món này: ổn định là vui.","Bao tử gật đầu, ví mỉm cười.","Không có drama, chỉ có no.","7 điểm, không cần thêm."]),
+hung:mix(["Quẻ Hung: {d}.","Trời hơi khó ở: {d}.","Quẻ xấu như wifi công ty: {d}.","Sao quả tạ chiếu {d}.","Thầy lắc đầu nhìn {d}.","Hệ mặt trời lệch quỹ đạo: {d}.","Ăn {d} hôm nay là thử thách tâm linh.","Quẻ này mà share thì mất follow: {d}."],
+["Trời bảo giảm cân, nhưng tâm bảo thôi.","Nên giải hạn ngay kẻo chiều họp dài.","Ăn xong có thể bị giao thêm task.","Khuyên thật: xóc lại đi bạn ơi.","Vía hôm nay hơi mỏng, cẩn thận.","Có thể gặp người yêu cũ ở quán.","Ví sẽ nhẹ hơn dự kiến.","Thần tài không phù hộ món này."]),
+dice:mix(["Xúc xắc nói {d}.","Lăn một phát ra {d}.","Hội đồng xúc xắc đã biểu quyết: {d}.","Số trời định: {d}.","Toán học đã chứng minh: {d}.","6 mặt, 1 chân lý: {d}.","Xác suất thống kê gọi tên {d}.","Đổ xúc xắc xong, bụng réo {d}."],
+["Nó không nói dối, nó chỉ lăn thôi.","Ai cãi là đói.","Kháng cáo bị bác bỏ.","Không nhận khiếu nại sau 18 giây.","Xúc xắc không có tình cảm, chỉ có kết quả.","Chấp nhận đi, đời là may rủi.","Lăn chuẩn hơn dự báo thời tiết.","Đó là luật, không phải gợi ý."]),
+triple:mix(["Ra bộ ba!","JACKPOT bộ ba!","Bộ ba hiếm như lương tăng!","Ba viên đồng lòng!","Trời ơi bộ ba!","Bộ ba thần thánh!","Hiện tượng thiên văn: bộ ba!","Bộ ba xuất hiện!"],
+["Vũ trụ đã lên tiếng, ai cãi là đói.","Hôm nay ăn sang, mai tính tiếp.","Món đặc biệt mở khóa, ví thì khóa.","Chụp lại khoe cả nhóm đi.","Đây là dấu hiệu bạn xứng đáng.","Đi ăn liền kẻo vía chạy mất.","Xác suất thấp, tinh thần cao.","Lịch sử sẽ ghi nhớ bữa này."]),
+pay:mix(["Chúc mừng {n}!","{n} ơi,","Xin vinh danh {n}:","Breaking news: {n} trả tiền!","Định mệnh gọi tên {n}.","{n} trúng giải độc đắc ngược!","Cả nhóm xin cảm ơn {n}.","Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm."],
+["Hôm nay bạn chính thức là mạnh thường quân của nhóm.","Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.","Không phải xui đâu, là định mệnh đó bạn ơi.","Tấm lòng vàng, ví thì hơi bạc.","Cảm ơn nhà tài trợ kim cương của bữa hôm nay.","Một người trả, cả nhóm no, xã hội tốt đẹp.","Bạn mất tiền nhưng được nghiệp tốt.","Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm."]),
+respin:mix(["Hôm qua ăn rồi,","Món này người yêu cũ thích,","Sếp cũng ăn món này,","Bao tử bỏ phiếu chống,","Đang trong giai đoạn healing,","Horoscope bảo tránh,","Ví chưa sẵn sàng,","Vừa thấy review 1 sao,"],
+["cho tui cơ hội làm lại cuộc đời.","né.","quay lại cho đẹp.","xin phép vũ trụ lần nữa.","trời ơi cho con đổi.","lần này là thật lòng.","đổi gió chút.","lần cuối, hứa."]),
+sang:mix(["Bữa sáng là bữa quan trọng nhất,","Sáng nay mà nhịn,","Dậy sớm đã khổ,","Cà phê chưa đủ,","Chuông báo thức kêu 5 lần,","Bụng réo trước cả sếp,","Ăn sáng đi rồi tính,","Mặt trời chưa lên,"],
+["đừng để bao tử dỗi.","9h là tụt mood.","đừng khổ thêm vì đói.","phải có gì đó lót dạ.","giờ ít nhất phải ăn ngon.","chọn nhanh còn chấm công.","deadline để sau.","nhưng cơn đói thì lên rồi."]),
+trua:mix(["Đến giờ cơm trưa rồi,","12h trưa mà còn phân vân,","Văn phòng im lặng,","Cả team nhìn nhau,","Trưa nay không ăn ngon,","Group chat đang hỏi ăn gì,","Lương chưa về,","Họp xong rồi,"],
+["để trời quyết cho nhanh.","là chiều buồn ngủ gấp đôi.","chỉ có bụng là đang nói.","không ai dám chọn món.","thì chiều code bug.","bạn trả lời giùm đi.","nhưng bữa trưa vẫn phải về.","giờ tới tiết mục quan trọng nhất."]),
+toi:mix(["Tối rồi,","Sau một ngày cày cuốc,","Tan làm rồi,","Tối nay là của bạn,","Cả ngày đã cố gắng,","Netflix đã sẵn sàng,","Kẹt xe về tới nhà,","Ngày mai tính sau,"],
+["thưởng cho bản thân bữa ra trò.","bạn xứng đáng được ăn ngon.","đừng để bụng đói đi ngủ.","đi ăn với hội hay ăn một mình đều vui.","giờ là lúc bao tử lên tiếng.","chỉ thiếu món ăn kèm.","tâm hồn cần được vỗ về.","tối nay ăn cho đã."]),
+khuya:mix(["Đã khuya rồi,","Nửa đêm mà bụng réo,","Đêm nay không ngủ,","Cú đêm thức giấc,","Deadline chưa xong,","Lướt TikTok tới giờ này,","Tủ lạnh trống trơn,","Ăn khuya là tội,"],
+["nhưng tội này đáng.","thì thôi chiều nó.","thì phải có gì nhâm nhi.","đi kiếm đồ ăn thôi.","nạp năng lượng làm tiếp.","bao tử cũng muốn được giải trí.","shipper là người hùng.","ngày mai giảm cân sau."])
+};
+function joke(cat,vars={}){
+  const pool=J[cat], key="used_"+cat; let used=LS.get(key,[]);
+  if(used.length>=pool.length) used=[];
+  let i; do{i=rnd(pool.length)}while(used.includes(i));
+  used.push(i); LS.set(key,used);
+  return pool[i].replace(/\{d\}/g,vars.d||"").replace(/\{n\}/g,vars.n||"");
+}
+
+/* ============ STATE ============ */
+function bkkHour(){return +new Intl.DateTimeFormat("en-GB",{hour:"numeric",hourCycle:"h23",timeZone:CONFIG.TZ}).format(new Date())}
+function autoMeal(){const h=bkkHour();return h>=5&&h<10?"sang":h>=10&&h<15?"trua":h>=15&&h<21?"toi":"khuya"}
+let meal=autoMeal();
+const urlMeal=new URLSearchParams(location.search).get("meal"); if(MEALS[urlMeal]) meal=urlMeal;
+
+function renderTabs(){$("#tabs").innerHTML=Object.entries(MEALS).map(([k,v])=>`<button class="tab ${k===meal?"on":""}" data-m="${k}">${v}</button>`).join("");$("#mealQuip").textContent=joke(meal)}
+$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;meal=b.dataset.m;renderTabs()};
+$("#cat").innerHTML=`<option value="all">🍽️ Mọi thể loại</option>`+Object.entries(CATS).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+$("#city").innerHTML=CITIES.map(c=>`<option>${c}</option>`).join(""); $("#city").value=LS.get("city","Hà Nội"); $("#city").onchange=()=>LS.set("city",$("#city").value);
+["budget","cat"].forEach(id=>{$("#"+id).value=LS.get(id,"all");$("#"+id).onchange=()=>LS.set(id,$("#"+id).value)});
+
+function inBudget(p){const b=$("#budget").value;return b==="all"||(b==="lo"&&p<50)||(b==="mid"&&p>=50&&p<=100)||(b==="hi"&&p>100)}
+function recentNames(){const t=Date.now()-CONFIG.AVOID_DAYS*864e5;return LS.get("hist",[]).filter(h=>h.t>t).map(h=>h.d)}
+function pickDish(group){
+  const c=$("#cat").value, rec=recentNames();
+  let L=D[meal].filter(x=>inBudget(x[1])&&(c==="all"||x[2]===c)&&(!group||x[2]===group));
+  if(!L.length) L=D[meal].filter(x=>(!group||x[2]===group)&&inBudget(x[1]));
+  if(!L.length) L=D[meal].filter(x=>!group||x[2]===group);
+  if(!L.length) L=D[meal];
+  let fresh=L.filter(x=>!rec.includes(x[0]));if(!fresh.length)fresh=L;
+  if($("#city").value==="Hà Nội"&&Math.random()<.25){const pf=fresh.filter(x=>partnersFor(x[0]).length);if(pf.length)return pickArr(pf)}
+  return pickArr(fresh);
+}
+function addHist(d,mode){const h=LS.get("hist",[]);h.unshift({d:d[0],p:d[1],m:meal,mode,t:Date.now()});LS.set("hist",h.slice(0,60));renderHist()}
+function renderHist(){const h=LS.get("hist",[]);$("#histList").innerHTML=h.length?h.map(x=>`<li><b>${x.d}</b> · ~${x.p}k · ${MEALS[x.m]} · ${x.mode} · ${new Date(x.t).toLocaleString("vi-VN",{timeZone:CONFIG.TZ,hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit"})}</li>`).join(""):"<li>Chưa chốt món nào. Bụng đang chờ.</li>"}
+$("#clearHist").onclick=()=>{LS.set("hist",[]);renderHist();toast("Đã xóa, coi như chưa từng ăn gì 😇")};
+
+/* ============ LINK ĐẶT MÓN ============ */
+function withParams(url,affParam,affId){const u=new URL(url);u.searchParams.set("utm_source",CONFIG.UTM_SOURCE);u.searchParams.set("utm_medium",CONFIG.UTM_MEDIUM);u.searchParams.set("utm_campaign","hom_nay_an_gi");if(affId)u.searchParams.set(affParam,affId);return u.toString()}
+function orderLinks(name){
+  const city=$("#city").value, q=name.replace(/\(.*?\)/g,"").trim();
+  const sp=withParams(`https://shopeefood.vn/${CITY_SLUG[city]}/danh-sach-dia-diem-giao-tan-noi?q=${encodeURIComponent(q)}`,CONFIG.SHOPEEFOOD_AFFILIATE_PARAM,CONFIG.SHOPEEFOOD_AFFILIATE_ID);
+  const gr=withParams(`https://food.grab.com/vn/vi/restaurants?search=${encodeURIComponent(q)}`,CONFIG.GRABFOOD_AFFILIATE_PARAM,CONFIG.GRABFOOD_AFFILIATE_ID);
+  const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
+  const ps=partnersFor(name);let top="";if(ps.length){const p=pickArr(ps);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${partnerLink(p)}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
+  return top+`<div class="order"><a class="o-sp" target="_blank" rel="noopener sponsored" href="${sp}">🧡 Đặt trên ShopeeFood</a><a class="o-gr" target="_blank" rel="noopener sponsored" href="${gr}">💚 Đặt trên GrabFood</a><a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
+}
+let lastShare="";
+function actions(again,shareText){lastShare=shareText;return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
+async function share(){const text=lastShare+"\n👉 "+location.href.split("?")[0];try{if(navigator.share){await navigator.share({title:"Hôm nay ăn gì?",text});return}}catch(e){if(e.name==="AbortError")return}try{await navigator.clipboard.writeText(text);toast("Đã copy, dán vào group chat đi 😎")}catch(e){prompt("Copy nè:",text)}}
+document.addEventListener("click",e=>{const a=e.target.closest("[data-act]");if(!a)return;if(a.dataset.act==="share")share();if(a.dataset.act==="again"){toast(joke("respin"));a.closest(".result").dataset.again?.length;againFns[a.closest(".result").id]?.()}});
+const againFns={};
+
+/* ============ ÂM THANH (WebAudio tổng hợp) ============ */
+let AC;function ac(){AC=AC||new (window.AudioContext||window.webkitAudioContext)();return AC}
+function clack(vol=.35){try{const c=ac(),t=c.currentTime,len=.04,buf=c.createBuffer(1,c.sampleRate*len,c.sampleRate),d=buf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,3);const s=c.createBufferSource();s.buffer=buf;const f=c.createBiquadFilter();f.type="bandpass";f.frequency.value=1800+Math.random()*1800;f.Q.value=4;const g=c.createGain();g.gain.value=vol;s.connect(f).connect(g).connect(c.destination);s.start(t)}catch(e){}}
+function tone(fr,dur=.15,type="triangle",vol=.2,delay=0){try{const c=ac(),t=c.currentTime+delay,o=c.createOscillator(),g=c.createGain();o.type=type;o.frequency.value=fr;g.gain.setValueAtTime(vol,t);g.gain.exponentialRampToValueAtTime(.001,t+dur);o.connect(g).connect(c.destination);o.start(t);o.stop(t+dur)}catch(e){}}
+const ding=()=>[660,880,1320].forEach((f,i)=>tone(f,.25,"sine",.18,i*.09));
+const boo=()=>[300,220].forEach((f,i)=>tone(f,.3,"sawtooth",.08,i*.18));
+
+/* ============ XÓC QUẺ ============ */
+$("#sticks").innerHTML=Array.from({length:9},(_,i)=>`<i style="left:${i*8}px;height:${50+rnd(18)}px"></i>`).join("");
+let holdT=0,holdTimer=null,rattle=null,qDone=false;
+const HOLD_MS=1400;
+function startShake(){if(holdTimer)return;qDone=false;$("#stage").classList.add("shaking");$("#fallstick").classList.remove("go");$("#r-que").classList.remove("on");const t0=Date.now();rattle=setInterval(()=>{clack();if(Math.random()<.6)setTimeout(clack,40)},90);holdTimer=setInterval(()=>{const p=Math.min(1,(Date.now()-t0)/HOLD_MS);$("#holdbar").style.width=p*100+"%";holdT=p},30);navigator.vibrate?.([30,40,30,40,30])}
+function stopShake(force){if(!holdTimer)return;clearInterval(holdTimer);clearInterval(rattle);holdTimer=null;$("#stage").classList.remove("shaking");if(holdT>=1||force){dropStick()}else{toast("Thành tâm hơn chút, giữ lâu thêm nha 🙏")}$("#holdbar").style.width="0"}
+function dropStick(){if(qDone)return;qDone=true;$("#fallstick").classList.add("go");clack(.6);setTimeout(()=>clack(.5),300);setTimeout(showQue,900)}
+function showQue(){
+  const r=Math.random(), tier=r<.3?"dai":r<.8?"trung":"hung";
+  const d=pickDish(), no=1+rnd(100);
+  const tn={dai:["Đại cát","t-dai"],trung:["Trung cát","t-trung"],hung:["Hung","t-hung"]}[tier];
+  const v=joke(tier,{d:d[0]});
+  const el=$("#r-que");
+  el.innerHTML=`<div class="slip"><div class="qno">QUẺ SỐ ${no} · ${MEALS[meal]}</div><div style="margin-top:6px"><span class="tier ${tn[1]}">${tn[0]}</span></div><div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${CATS[d[2]]}</div><p class="verdict">“${v}”</p></div>
+  ${tier==="hung"?`<button class="btn" style="margin-top:12px;background:var(--bad);box-shadow:0 4px 0 #4a148c" data-act="again">🧧 Giải hạn (xóc lại)</button>`:""}
+  ${orderLinks(d[0])}${actions("🔁 Xóc quẻ khác",`🎋 Quẻ số ${no} – ${tn[0]}: ${d[0]}. “${v}”`)}`;
+  el.classList.add("on");addHist(d,"Xóc quẻ");tier==="hung"?boo():(ding(),tier==="dai"&&confetti());
+  setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}),100);
+}
+againFns["r-que"]=()=>{window.scrollTo({top:0,behavior:"smooth"});startShake();setTimeout(()=>{holdT=1;stopShake(true)},HOLD_MS)};
+const hb=$("#holdBtn");
+hb.addEventListener("pointerdown",e=>{e.preventDefault();ac();startShake()});
+["pointerup","pointerleave","pointercancel"].forEach(ev=>hb.addEventListener(ev,()=>stopShake()));
+hb.addEventListener("contextmenu",e=>e.preventDefault());
+// lắc điện thoại
+let shakeOn=false,lastShakeT=0,shakeCount=0;
+function onMotion(e){const a=e.accelerationIncludingGravity||e.acceleration;if(!a)return;const m=Math.abs(a.x||0)+Math.abs(a.y||0)+Math.abs(a.z||0);const now=Date.now();if(m>32){if(now-lastShakeT<600)shakeCount++;else shakeCount=1;lastShakeT=now;if(!holdTimer)startShake();clack();if(shakeCount>=6){shakeCount=0;holdT=1;stopShake(true)}}else if(holdTimer&&now-lastShakeT>700&&shakeOn){holdT>=1?stopShake(true):stopShake()}}
+$("#enableShake").onclick=async e=>{e.preventDefault();ac();try{if(typeof DeviceMotionEvent!=="undefined"&&DeviceMotionEvent.requestPermission){const p=await DeviceMotionEvent.requestPermission();if(p!=="granted"){toast("Không có quyền lắc, bấm giữ cũng linh như nhau 🙏");return}}if(!("DeviceMotionEvent" in window)){toast("Máy này không lắc được, bấm giữ nha");return}window.addEventListener("devicemotion",onMotion);shakeOn=true;$("#shakeHint").textContent="Đã bật lắc 📳 Lắc mạnh tay một lúc để quẻ rơi.";toast("Lắc đi, trời đang nghe 📳")}catch(err){toast("Không bật được cảm biến, bấm giữ nha")}};
+
+/* ============ XÚC XẮC ============ */
+let nDice=LS.get("ndice",2);
+const ROT={1:[0,0],2:[0,-90],3:[0,180],4:[0,90],5:[-90,0],6:[90,0]};
+function renderDice(){$("#dicebox").innerHTML=Array.from({length:nDice},()=>`<div class="die">${FACES.map((f,i)=>`<div class="face f${i+1}">${FACE_EMO[f]}<small>${i+1}</small></div>`).join("")}</div>`).join("");$$("#diceN button").forEach(b=>b.classList.toggle("on",+b.dataset.n===nDice));$$(".die").forEach(d=>d.style.transform="rotateX(-20deg) rotateY(25deg)")}
+$("#legend").innerHTML=FACES.map((f,i)=>`<span>${i+1} ${FACE_EMO[f]} ${CATS[f].split(" ").slice(1).join(" ")}</span>`).join("");
+$("#diceN").onclick=e=>{const b=e.target.closest("button");if(!b)return;nDice=+b.dataset.n;LS.set("ndice",nDice);renderDice()};
+let rolling=false,spins=0;
+function roll(){if(rolling)return;rolling=true;ac();$("#r-dice").classList.remove("on");spins++;
+  const vals=Array.from({length:nDice},()=>1+rnd(6));
+  $$(".die").forEach((d,i)=>{const [x,y]=ROT[vals[i]];d.style.transform=`rotateX(${x+360*(2+spins%3+i)}deg) rotateY(${y+360*(3+i)}deg)`});
+  let k=0;const iv=setInterval(()=>{clack(.5);if(++k>11)clearInterval(iv)},90);
+  setTimeout(()=>{rolling=false;showDice(vals)},1350)}
+function showDice(vals){
+  const cnt={};vals.forEach(v=>cnt[v]=(cnt[v]||0)+1);
+  const triple=nDice===3&&Object.keys(cnt).length===1;
+  let d,line,badge;
+  if(triple){const s=SPECIAL[meal];d=[s[0],s[1],"quocte"];line=joke("triple");badge=`<span class="tier t-sp">🌟 BỘ BA ${vals[0]}-${vals[0]}-${vals[0]}</span>`;confetti();ding()}
+  else{const top=Object.entries(cnt).sort((a,b)=>b[1]-a[1]||b[0]-a[0])[0][0];const g=FACES[top-1];d=pickDish(g);line=joke("dice",{d:d[0]});badge=`<span class="tier t-trung">${vals.join(" · ")} → ${CATS[g]}</span>`;tone(880,.2,"sine",.15)}
+  const el=$("#r-dice");
+  el.innerHTML=`<div class="center">${badge}<div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${MEALS[meal]}</div><p class="verdict">“${line}”</p></div>${orderLinks(d[0])}${actions("🎲 Ném lại",`🎲 Xúc xắc ra ${vals.join("-")}: ${d[0]}. “${line}”`)}`;
+  el.classList.add("on");addHist(d,"Xúc xắc");setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}),100)}
+$("#rollBtn").onclick=roll;againFns["r-dice"]=()=>{window.scrollTo({top:0,behavior:"smooth"});roll()};
+
+/* ============ AI TRẢ TIỀN ============ */
+let members=LS.get("members",["Tuấn","Linh","Minh","Hà"]);
+const COLORS=["#ff5a36","#ffb703","#2a9d8f","#8338ec","#ff006e","#3a86ff","#fb8500","#06d6a0","#ef476f","#118ab2"];
+let rot=0,spinning=false;
+function eligible(){const log=LS.get("paylog",[]);const last=log[0]?.n;if($("#exempt").checked&&last&&members.length>2)return members.filter(m=>m!==last);return members.slice()}
+function drawWheel(){const c=$("#wheel"),x=c.getContext("2d"),W=c.width,R=W/2-8,L=eligible();x.clearRect(0,0,W,W);
+  if(!L.length){x.fillStyle="#f0e3d6";x.beginPath();x.arc(W/2,W/2,R,0,7);x.fill();x.fillStyle="#7a6f66";x.font="600 30px system-ui";x.textAlign="center";x.fillText("Thêm tên đi nè",W/2,W/2+10);return}
+  const a=2*Math.PI/L.length;
+  L.forEach((n,i)=>{x.beginPath();x.moveTo(W/2,W/2);x.arc(W/2,W/2,R,rot+i*a,rot+(i+1)*a);x.closePath();x.fillStyle=COLORS[i%COLORS.length];x.fill();x.strokeStyle="#fff";x.lineWidth=4;x.stroke();
+    x.save();x.translate(W/2,W/2);const ang=rot+i*a+a/2,flip=Math.cos(ang)<0;x.rotate(flip?ang+Math.PI:ang);x.fillStyle="#fff";x.font=`800 ${L.length>8?24:32}px system-ui`;x.textAlign=flip?"left":"right";x.textBaseline="middle";x.fillText(n.length>10?n.slice(0,9)+"…":n,flip?-(R-20):R-20,0);x.restore()});
+  x.beginPath();x.arc(W/2,W/2,46,0,7);x.fillStyle="#fff";x.fill();x.font="40px system-ui";x.textAlign="center";x.textBaseline="middle";x.fillText("💸",W/2,W/2+2)}
+function renderMembers(){LS.set("members",members);$("#chips").innerHTML=members.map((m,i)=>`<span class="chip">${esc(m)}<button data-i="${i}" aria-label="Xóa">✕</button></span>`).join("")||`<span class="meta">Chưa có ai. Đi ăn một mình thì tự bao nha 🥲</span>`;if(!$("#ppl").value)$("#ppl").placeholder=`Số người (${members.length})`;drawWheel();split()}
+const esc=s=>s.replace(/[&<>"']/g,c=>({"&":"&","<":"<",">":">",'"':""","'":"&#39;"}[c]));
+function addName(){const v=$("#nameIn").value.trim();if(!v)return;if(members.includes(v)){toast("Tên này có rồi, đừng nhân bản 😅");return}if(members.length>=16){toast("Tối đa 16 người, quán hết ghế");return}members.push(v);$("#nameIn").value="";renderMembers()}
+$("#addName").onclick=addName;$("#nameIn").onkeydown=e=>{if(e.key==="Enter")addName()};
+$("#chips").onclick=e=>{const b=e.target.closest("button");if(!b)return;members.splice(+b.dataset.i,1);renderMembers()};
+$("#exempt").onchange=drawWheel;$("#spinBtn").addEventListener("pointerdown",()=>{if(!spinning)drawWheel()});
+function renderGroups(){const g=LS.get("groups",{});$("#groupSel").innerHTML=`<option value="">— Nhóm đã lưu (${Object.keys(g).length}) —</option>`+Object.keys(g).map(k=>`<option>${esc(k)}</option>`).join("")}
+$("#saveGroup").onclick=()=>{if(members.length<2){toast("Cần ít nhất 2 người mới thành hội");return}const n=prompt("Tên nhóm (vd: Team Marketing):");if(!n)return;const g=LS.get("groups",{});g[n.trim()]=members.slice();LS.set("groups",g);renderGroups();toast("Đã lưu nhóm "+n)};
+$("#groupSel").onchange=e=>{const g=LS.get("groups",{});if(g[e.target.value]){members=g[e.target.value].slice();renderMembers();toast("Đã tải nhóm "+e.target.value)}};
+function spin(){const L=eligible();if(spinning)return;if(L.length<2){toast("Cần ít nhất 2 người để có drama");return}spinning=true;ac();$("#r-pay").classList.remove("on");
+  const a=2*Math.PI/L.length,win=rnd(L.length);
+  // pointer ở trên (−π/2): cần rot + (win+0.5)a = −π/2 (mod 2π)
+  const jitter=(Math.random()-.5)*a*.7;
+  let target=-Math.PI/2-(win+.5)*a+jitter;const base=rot%(2*Math.PI);target=rot-base+target;while(target<rot+2*Math.PI*6)target+=2*Math.PI;
+  const start=rot,dur=5200+rnd(1200),t0=performance.now();let lastSeg=-1;
+  (function f(now){const p=Math.min(1,(now-t0)/dur),e=1-Math.pow(1-p,4);rot=start+(target-start)*e;drawWheel();
+    const seg=Math.floor(((-Math.PI/2-rot)%(2*Math.PI)+4*Math.PI)%(2*Math.PI)/a);if(seg!==lastSeg){lastSeg=seg;clack(.3);navigator.vibrate?.(5)}
+    if(p<1)requestAnimationFrame(f);else{spinning=false;payWin(L[win])}})(t0)}
+function payWin(n){const line=joke("pay",{n});const log=LS.get("paylog",[]);log.unshift({n,t:Date.now()});LS.set("paylog",log.slice(0,30));renderLog();
+  $("#r-pay").innerHTML=`<div class="winner"><div class="meta">🎉 Chúc mừng, hôm nay nhà tài trợ là</div><div class="name">${esc(n)}</div><p class="verdict">“${esc(line)}”</p></div>${actions("🎡 Quay lại (kháng cáo)",`🎡 Bánh xe đã chọn ${n} trả tiền hôm nay! “${line}”`)}`;
+  $("#r-pay").classList.add("on");ding();confetti();setTimeout(()=>$("#r-pay").scrollIntoView({behavior:"smooth",block:"center"}),100)}
+function renderLog(){const l=LS.get("paylog",[]);$("#payLog").innerHTML=l.length?l.slice(0,10).map(x=>`<li><b>${esc(x.n)}</b> bao · ${new Date(x.t).toLocaleString("vi-VN",{timeZone:CONFIG.TZ,day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</li>`).join(""):"<li>Chưa ai bao. Sổ sạch như ví cuối tháng.</li>"}
+$("#spinBtn").onclick=spin;againFns["r-pay"]=spin;
+function split(){const b=+$("#bill").value,p=+$("#ppl").value||members.length;if(!b||!p){$("#splitOut").textContent="Nhập bill để tính. Không ai thiệt, chỉ có ví thiệt.";return}const each=Math.ceil(b*1000/p/1000)*1000;$("#splitOut").innerHTML=`Mỗi người <b>${each.toLocaleString("vi-VN")}đ</b> (${p} người). Chuyển khoản trong 5 phút, không thì bị nhắc tên trong group.`}
+$("#bill").oninput=split;$("#ppl").oninput=split;
+
+/* ============ NAV, TOAST, CONFETTI ============ */
+function show(v){$$(".view").forEach(x=>x.classList.toggle("on",x.id==="v-"+v));$$("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===v));LS.set("view",v);if(v==="pay")drawWheel();window.scrollTo(0,0)}
+$("#nav").onclick=e=>{const b=e.target.closest("button");if(b)show(b.dataset.v)};
+let tt;function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2200)}
+function confetti(){const c=$("#confetti"),x=c.getContext("2d");c.width=innerWidth;c.height=innerHeight;const P=Array.from({length:90},()=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*.4,vx:(Math.random()-.5)*3,vy:2+Math.random()*3,r:Math.random()*6.3,c:pickArr(COLORS),s:5+Math.random()*6}));let f=0;(function d(){x.clearRect(0,0,c.width,c.height);P.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.r+=.1;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);x.restore()});if(++f<150)requestAnimationFrame(d);else x.clearRect(0,0,c.width,c.height)})()}
+
+/* ============ INIT ============ */
+if(CONFIG.ADS_ENABLED)$("#adSlot").style.display="block";
+const h=bkkHour();$("#greet").textContent=h<5?"Giờ này còn thức, chắc đói thật rồi.":h<10?"Chào buổi sáng, bụng đã sẵn sàng chưa?":h<14?"Trưa rồi, để trời quyết cho nhanh.":h<18?"Chiều chiều, kiếm gì bỏ bụng nhỉ?":"Tối rồi, thưởng cho bản thân đi.";
+renderTabs();renderDice();renderMembers();renderGroups();renderLog();renderHist();
+const qv=new URLSearchParams(location.search).get("view");show(["que","dice","pay","hist"].includes(qv)?qv:LS.get("view","que"));
+</script>
+</body>
+</html>
