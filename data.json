@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-10-14T09:49:14.113Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
@@ -41,12 +41,6 @@
    {
     "name": "Cà phê sữa đá + bánh mì",
     "price": 40,
-    "cat": "vat",
-    "hidden": false
-   },
-   {
-    "name": "Bạc xỉu Coffee",
-    "price": 35,
     "cat": "vat",
     "hidden": false
    },
@@ -126,12 +120,6 @@
     "name": "Croissant + cà phê",
     "price": 75,
     "cat": "quocte",
-    "hidden": false
-   },
-   {
-    "name": "Bánh tráng trộn (sáng sớm hơi liều)",
-    "price": 20,
-    "cat": "vat",
     "hidden": false
    }
   ],
@@ -263,12 +251,6 @@
     "hidden": false
    },
    {
-    "name": "Bánh tráng cuốn bơ",
-    "price": 35,
-    "cat": "vat",
-    "hidden": false
-   },
-   {
     "name": "Xôi mặn thập cẩm",
     "price": 35,
     "cat": "com",
@@ -310,12 +292,6 @@
     "name": "Bún đậu mắm tôm mẹt",
     "price": 65,
     "cat": "nuoc",
-    "hidden": false
-   },
-   {
-    "name": "Bánh tráng nướng",
-    "price": 25,
-    "cat": "vat",
     "hidden": false
    },
    {
@@ -381,21 +357,9 @@
     "hidden": false
    },
    {
-    "name": "Trà trái cây",
-    "price": 40,
-    "cat": "vat",
-    "hidden": false
-   },
-   {
     "name": "Doner Kebab đêm",
     "price": 35,
     "cat": "quocte",
-    "hidden": false
-   },
-   {
-    "name": "Bánh tráng cuốn",
-    "price": 30,
-    "cat": "vat",
     "hidden": false
    },
    {
@@ -417,8 +381,34 @@
     "hidden": false
    },
    {
+    "name": "Xôi chiên phồng",
+    "price": 30,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Chân gà sả tắc",
+    "price": 70,
+    "cat": "vat",
+    "hidden": false
+   }
+  ],
+  "vat": [
+   {
     "name": "Bánh tráng trộn",
     "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng cuốn",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng cuốn bơ",
+    "price": 35,
     "cat": "vat",
     "hidden": false
    },
@@ -435,26 +425,90 @@
     "hidden": false
    },
    {
-    "name": "Trà sữa trân châu",
-    "price": 45,
-    "cat": "vat",
-    "hidden": false
-   },
-   {
     "name": "Bánh flan",
     "price": 15,
     "cat": "vat",
     "hidden": false
    },
    {
-    "name": "Xôi chiên phồng",
+    "name": "Trứng non sốt Thái",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Mì trộn Indomie",
+    "price": 35,
+    "cat": "quocte",
+    "hidden": false
+   }
+  ],
+  "uong": [
+   {
+    "name": "Cà phê sữa đá",
     "price": 30,
-    "cat": "com",
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bạc xỉu Coffee",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa trân châu",
+    "price": 45,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà trái cây",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   }
+  ],
+  "nhau": [
+   {
+    "name": "Lòng nướng",
+    "price": 90,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lòng lợn luộc chấm mắm",
+    "price": 70,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Chân gà sốt Thái",
+    "price": 70,
+    "cat": "vat",
     "hidden": false
    },
    {
     "name": "Chân gà sả tắc",
     "price": 70,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Nem nướng Nha Trang",
+    "price": 65,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Doner Kebab",
+    "price": 35,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Trứng non sốt Thái",
+    "price": 60,
     "cat": "vat",
     "hidden": false
    }
@@ -476,6 +530,18 @@
   "khuya": {
    "name": "Chân gà sốt Thái size đại gia",
    "price": 150
+  },
+  "vat": {
+   "name": "Bánh tráng trộn full topping siêu to",
+   "price": 60
+  },
+  "uong": {
+   "name": "Trà sữa trân châu size đại gia",
+   "price": 70
+  },
+  "nhau": {
+   "name": "Lòng nướng mẹt full combo",
+   "price": 200
   }
  },
  "partners": [
@@ -4321,6 +4387,9 @@
     "text": "Ăn khuya là tội, ngày mai giảm cân sau.",
     "hidden": false
    }
-  ]
+  ],
+  "vat": [],
+  "uong": [],
+  "nhau": []
  }
 }

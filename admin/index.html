@@ -67,9 +67,9 @@ ol{padding-left:20px}ol li{margin:6px 0}
 
 <script>
 const OWNER="anhlee165-png",REPO="hom-nay-an-gi",BRANCH="main",PATH="data.json",API=`https://api.github.com/repos/${OWNER}/${REPO}`;
-const MEALS={sang:"🌅 Sáng",trua:"☀️ Trưa",toi:"🌙 Tối",khuya:"🦉 Vặt/Khuya"};
+const MEALS={sang:"🌅 Ăn sáng",trua:"☀️ Ăn trưa",toi:"🌙 Ăn tối",khuya:"🦉 Ăn khuya",vat:"🍢 Ăn vặt",uong:"🧋 Đồ uống",nhau:"🍻 Món nhậu"};
 const CATS={nuoc:"🍜 Món nước",com:"🍚 Cơm",banh:"🥖 Bánh & cuốn",quocte:"🌏 Quốc tế",vat:"🍢 Ăn vặt",healthy:"🥗 Healthy"};
-const JCATS={dai:"Quẻ Đại cát",trung:"Quẻ Trung cát",hung:"Quẻ Hung",dice:"Xúc xắc",triple:"Bộ ba",pay:"Ai trả tiền ({n})",respin:"Quay lại",sang:"Câu bữa sáng",trua:"Câu bữa trưa",toi:"Câu bữa tối",khuya:"Câu ăn khuya"};
+const JCATS={dai:"Quẻ Đại cát",trung:"Quẻ Trung cát",hung:"Quẻ Hung",dice:"Xúc xắc",triple:"Bộ ba",pay:"Ai trả tiền ({n})",respin:"Quay lại",sang:"Câu bữa sáng",trua:"Câu bữa trưa",toi:"Câu bữa tối",khuya:"Câu ăn khuya",vat:"Câu ăn vặt",uong:"Câu đồ uống",nhau:"Câu món nhậu"};
 const LINK_RE=/^https:\/\/spf\.shopee\.vn\/[A-Za-z0-9]+$/;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>"&#"+c.charCodeAt(0)+";");
@@ -124,7 +124,7 @@ const actBtns=(k,hidden)=>`<div class="acts"><button class="btn g s" data-a="edi
 
 /* ---- Món ăn ---- */
 function rDish(){
- $("#tools").innerHTML=`<input id="q" placeholder="🔎 Tìm món…" value="${esc(F.q)}"><div class="row" style="margin-top:8px"><select id="fmeal">${opts(MEALS,F.meal,"Mọi bữa")}</select><select id="fcat">${opts(CATS,F.cat,"Mọi loại")}</select></div><button class="btn full" style="margin-top:8px" id="addD">➕ Thêm món</button>`;
+ $("#tools").innerHTML=`<input id="q" placeholder="🔎 Tìm món…" value="${esc(F.q)}"><div class="row" style="margin-top:8px"><select id="fmeal">${opts(MEALS,F.meal,"Mọi mục")}</select><select id="fcat">${opts(CATS,F.cat,"Mọi loại")}</select></div><button class="btn full" style="margin-top:8px" id="addD">➕ Thêm món</button>`;
  bindSearch();$("#addD").onclick=()=>dishForm(null);
  renderList=()=>{const q=norm(F.q);let h="",n=0;Object.keys(MEALS).forEach(m=>{if(F.meal!=="all"&&F.meal!==m)return;DATA.dishes[m].forEach((d,i)=>{if(F.cat!=="all"&&d.cat!==F.cat)return;if(q&&!norm(d.name).includes(q))return;n++;
    const ps=partnersFor(d.name);h+=`<div class="item${d.hidden?" hid":""}"><b>${esc(d.name)}${d.hidden?" (đang ẩn)":""}</b><small>${MEALS[m]} · ${d.price}k · ${CATS[d.cat]||d.cat} · ${ps.length?"⭐ "+esc(ps.map(p=>p.name).join(", ")):"⚠️ chưa có quán khớp"}</small>${actBtns(m+":"+i,d.hidden)}</div>`})});
@@ -137,7 +137,7 @@ function rDish(){
 }
 function partnersFor(name){const n=norm(name);return DATA.partners.filter(p=>!p.hidden&&(p.tags||[]).some(t=>n.includes(norm(t))))}
 function dishForm(ref){const d=ref?DATA.dishes[ref.m][ref.i]:{name:"",price:40,cat:"nuoc",hidden:false};
- modal(`<h3>${ref?"Sửa món":"Thêm món"}</h3><label>Tên món</label><input id="fn" value="${esc(d.name)}"><label>Bữa</label><select id="fm">${opts(MEALS,ref?ref.m:(F.meal!=="all"?F.meal:"trua"))}</select><label>Giá (nghìn đồng)</label><input id="fp" type="number" inputmode="numeric" value="${d.price}"><label>Loại</label><select id="fc">${opts(CATS,d.cat)}</select><label><input type="checkbox" id="fh" style="width:auto"${d.hidden?" checked":""}> Ẩn món này</label>`,()=>{
+ modal(`<h3>${ref?"Sửa món":"Thêm món"}</h3><label>Tên món</label><input id="fn" value="${esc(d.name)}"><label>Mục (tab)</label><select id="fm">${opts(MEALS,ref?ref.m:(F.meal!=="all"?F.meal:"trua"))}</select><label>Giá (nghìn đồng)</label><input id="fp" type="number" inputmode="numeric" value="${d.price}"><label>Loại</label><select id="fc">${opts(CATS,d.cat)}</select><label><input type="checkbox" id="fh" style="width:auto"${d.hidden?" checked":""}> Ẩn món này</label>`,()=>{
   const o={name:$("#fn").value.trim(),price:+$("#fp").value||0,cat:$("#fc").value,hidden:$("#fh").checked},m=$("#fm").value;if(!o.name)return "Nhập tên món";
   if(ref){DATA.dishes[ref.m].splice(ref.i,1);if(ref.m===m)DATA.dishes[m].splice(ref.i,0,o);else DATA.dishes[m].push(o)}else DATA.dishes[m].push(o);touch()})}
 
