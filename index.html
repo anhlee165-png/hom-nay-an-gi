@@ -396,7 +396,7 @@ function drawWheel(){const c=$("#wheel"),x=c.getContext("2d"),W=c.width,R=W/2-8,
     x.save();x.translate(W/2,W/2);const ang=rot+i*a+a/2,flip=Math.cos(ang)<0;x.rotate(flip?ang+Math.PI:ang);x.fillStyle="#fff";x.font=`800 ${L.length>8?24:32}px system-ui`;x.textAlign=flip?"left":"right";x.textBaseline="middle";x.fillText(n.length>10?n.slice(0,9)+"…":n,flip?-(R-20):R-20,0);x.restore()});
   x.beginPath();x.arc(W/2,W/2,46,0,7);x.fillStyle="#fff";x.fill();x.font="40px system-ui";x.textAlign="center";x.textBaseline="middle";x.fillText("💸",W/2,W/2+2)}
 function renderMembers(){LS.set("members",members);$("#chips").innerHTML=members.map((m,i)=>`<span class="chip">${esc(m)}<button data-i="${i}" aria-label="Xóa">✕</button></span>`).join("")||`<span class="meta">Chưa có ai. Đi ăn một mình thì tự bao nha 🥲</span>`;if(!$("#ppl").value)$("#ppl").placeholder=`Số người (${members.length})`;drawWheel();split()}
-const esc=s=>s.replace(/[&<>"']/g,c=>({"&":"&","<":"<",">":">",'"':""","'":"&#39;"}[c]));
+const esc=s=>s.replace(/[&<>"']/g,c=>"&#"+c.charCodeAt(0)+";");
 function addName(){const v=$("#nameIn").value.trim();if(!v)return;if(members.includes(v)){toast("Tên này có rồi, đừng nhân bản 😅");return}if(members.length>=16){toast("Tối đa 16 người, quán hết ghế");return}members.push(v);$("#nameIn").value="";renderMembers()}
 $("#addName").onclick=addName;$("#nameIn").onkeydown=e=>{if(e.key==="Enter")addName()};
 $("#chips").onclick=e=>{const b=e.target.closest("button");if(!b)return;members.splice(+b.dataset.i,1);renderMembers()};
