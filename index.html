@@ -84,8 +84,8 @@ nav button.on{color:var(--pri)}
 .dc{position:relative;background:#fff;border:2px solid #ffe1d6;border-radius:14px;padding:10px 10px 10px 50px;min-height:92px;transition:transform .3s,box-shadow .3s,opacity .3s}
 .dc .no{position:absolute;left:8px;top:10px;width:34px;height:34px;border-radius:10px;background:var(--pri);color:#fff;font-weight:900;font-size:20px;display:flex;align-items:center;justify-content:center}
 .dc .nm{font-weight:800;font-size:14px;line-height:1.25}.dc .pr{font-size:12px;color:var(--mute);margin-top:3px}
-.pips{position:absolute;left:10px;top:48px;width:30px;height:30px;display:grid;grid-template:repeat(3,1fr)/repeat(3,1fr)}
-.pips i{width:6px;height:6px}
+.pips{position:absolute;right:8px;bottom:8px;width:22px;height:22px;opacity:.75;display:grid;grid-template:repeat(3,1fr)/repeat(3,1fr)}
+.pips i{width:5px;height:5px}.dc .pr{padding-right:24px}.dnote{display:none;text-align:center;font-size:12px;color:var(--mute);margin:-4px 0 6px}
 .dcards.done .dc{opacity:.45}
 .dcards.done .dc.win{opacity:1;border-color:var(--pri);box-shadow:0 6px 18px rgba(255,90,54,.35);animation:pop .5s ease;transform:scale(1.04)}
 @keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.15)}100%{transform:scale(1.04)}}
@@ -192,7 +192,7 @@ nav{position:sticky;bottom:0;left:auto;right:auto;flex-shrink:0;box-sizing:borde
  <div class="card">
   <p class="dexp">Ném xúc xắc ra số mấy, ăn món số đó 🎲</p>
   <div class="dicebox"><div class="die" id="die"></div></div>
-  <div class="dcards" id="dcards"></div>
+  <p class="dnote" id="dnote"></p><div class="dcards" id="dcards"></div>
   <div class="drow"><button class="btn" id="rollBtn">🎲 Ném!</button><button class="btn ghost" id="redrawBtn">🔄 Đổi 6 món khác</button></div>
  </div>
  <div class="card result" id="r-dice"></div>
@@ -363,7 +363,7 @@ function renderTabs(){$("#tabs").innerHTML=Object.entries(MEALS).map(([k,v])=>`<
 $("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;if(b.dataset.m!==meal){$("#r-que").classList.remove("on");$("#r-dice").classList.remove("on")}meal=b.dataset.m;renderTabs()};
 $("#cat").innerHTML=`<option value="all">🍽️ Mọi thể loại</option>`+Object.entries(CATS).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
 $("#city").innerHTML=`<option>Hà Nội</option>`; $("#city").value="Hà Nội"; $("#city").disabled=true; $("#city").style.display="none";
-["budget","cat"].forEach(id=>{$("#"+id).value=LS.get(id,"all");$("#"+id).onchange=()=>LS.set(id,$("#"+id).value)});
+["budget","cat"].forEach(id=>{$("#"+id).value=LS.get(id,"all");$("#"+id).onchange=()=>{LS.set(id,$("#"+id).value);if(typeof drawCards==="function"&&$("#die")&&$("#die").children.length&&!rolling)drawCards()}});
 
 function inBudget(p){const b=$("#budget").value;return b==="all"||(b==="lo"&&p<50)||(b==="mid"&&p>=50&&p<=100)||(b==="hi"&&p>100)}
 function recentNames(){const t=Date.now()-CONFIG.AVOID_DAYS*864e5;return LS.get("hist",[]).filter(h=>h.t>t).map(h=>h.d)}
@@ -436,13 +436,29 @@ const PIPS={1:[5],2:[1,9],3:[1,5,9],4:[1,3,7,9],5:[1,3,5,7,9],6:[1,3,4,6,7,9]};
 const pipHTML=n=>Array.from({length:9},(_,k)=>PIPS[n].includes(k+1)?'<i></i>':'<span></span>').join("");
 const ROT={1:[0,0],2:[0,-90],3:[0,180],4:[0,90],5:[-90,0],6:[90,0]};
 let dcards=[],rolling=false,spins=0,dRx=-20,dRy=25;
-function drawPool(){const c=$("#cat").value,rec=recentNames();const src=D[meal]||[];
-  let L=src.filter(x=>inBudget(x[1])&&(c==="all"||x[2]===c));if(!L.length)L=src.filter(x=>inBudget(x[1]));if(!L.length)L=src.slice();
-  let fresh=L.filter(x=>!rec.includes(x[0]));if(fresh.length>=Math.min(6,L.length))L=fresh;return L}
-function drawCards(){const L=drawPool().slice();for(let i=L.length-1;i>0;i--){const j=rnd(i+1);[L[i],L[j]]=[L[j],L[i]]}
-  dcards=[];for(let i=0;i<6&&L.length;i++)dcards.push(L[i%L.length]);renderCards(0);$("#r-dice").classList.remove("on")}
+const RELATED={sang:["vat","trua"],trua:["toi","sang"],toi:["trua","nhau"],khuya:["vat","nhau","toi"],vat:["khuya","sang"],uong:[],nhau:["toi","khuya"]};
+let dSeen={},dNote="";
+function uniq(L){const m=new Map();L.forEach(x=>{if(x&&!m.has(x[0]))m.set(x[0],x)});return [...m.values()]}
+function shuf(L){L=L.slice();for(let i=L.length-1;i>0;i--){const j=rnd(i+1);[L[i],L[j]]=[L[j],L[i]]}return L}
+function drawPool(){const c=$("#cat").value,rec=recentNames(),src=uniq(D[meal]||[]);dNote="";
+  const fc=x=>c==="all"||x[2]===c;
+  let L=src.filter(x=>inBudget(x[1])&&fc(x)&&!rec.includes(x[0]));if(L.length>=6)return L;
+  const steps=[()=>src.filter(x=>inBudget(x[1])&&fc(x)),()=>src.filter(x=>inBudget(x[1])),()=>src];
+  for(const f of steps){const M=uniq(L.concat(f()));L=M;if(L.length>=6){dNote="Lọc chặt quá, em nới ra cho đủ 6 món nha 🤏";return L}}
+  for(const r of RELATED[meal]||[]){L=uniq(L.concat(D[r]||[]));if(L.length>=6){dNote="Lọc chặt quá, em nới ra cho đủ 6 món nha 🤏";return L}}
+  return L}
+function drawCards(){const L=drawPool(),key=meal,prev=new Set(dcards.map(d=>d[0]));
+  const seen=dSeen[key]||(dSeen[key]={});
+  const unseen=shuf(L.filter(x=>!prev.has(x[0])));
+  // ưu tiên món chưa từng hiện (trong phiên), rồi món lâu chưa hiện nhất
+  unseen.sort((a,b)=>(seen[a[0]]||0)-(seen[b[0]]||0));
+  let pick=unseen.slice(0,6);
+  if(pick.length<6){const rest=shuf(L.filter(x=>prev.has(x[0]))).sort((a,b)=>(seen[a[0]]||0)-(seen[b[0]]||0));pick=pick.concat(rest.slice(0,6-pick.length))}
+  const t=Date.now()+Math.random();pick.forEach(x=>seen[x[0]]=t);
+  dcards=shuf(pick);renderCards(0);$("#r-dice").classList.remove("on");
+  const n=$("#dnote");if(n){n.textContent=dNote;n.style.display=dNote?"block":"none"}}
 function renderCards(win){const el=$("#dcards");el.classList.toggle("done",!!win);
-  el.innerHTML=dcards.length?dcards.map((d,i)=>`<div class="dc${win===i+1?" win":""}"><div class="no">${i+1}</div><div class="pips">${pipHTML(i+1)}</div><div class="nm">${d[0]}</div><div class="pr">~${d[1]}k</div></div>`).join(""):`<p class="hint" style="grid-column:1/-1;text-align:center">Sắp có món, quán đang lên đồ 🍳</p>`}
+  el.innerHTML=dcards.length?dcards.map((d,i)=>`<div class="dc${win===i+1?" win":""}"><div class="no">${i+1}</div><div class="nm">${d[0]}</div><div class="pr">~${d[1]}k</div><div class="pips">${pipHTML(i+1)}</div></div>`).join(""):`<p class="hint" style="grid-column:1/-1;text-align:center">Sắp có món, quán đang lên đồ 🍳</p>`}
 function renderDice(){$("#die").innerHTML=[1,2,3,4,5,6].map(n=>`<div class="face f${n}">${pipHTML(n)}</div>`).join("");drawCards()}
 function roll(){if(rolling)return;if(mealEmpty(meal)||!dcards.length){toast("Mục này chưa có món, chọn tab khác nha 🍳");return}
   rolling=true;ac();$("#r-dice").classList.remove("on");renderCards(0);spins++;
