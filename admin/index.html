@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#ff5a36">
+<title>Quản trị · Hôm nay ăn gì</title>
+<style>
+:root{--bg:#fff8f1;--card:#fff;--ink:#1e1b18;--mute:#7a6f66;--pri:#ff5a36;--line:#f0e3d6;--ok:#2a9d8f;--bad:#d62828}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:96px}
+.wrap{max-width:640px;margin:0 auto;padding:12px}
+h1{font-size:20px;margin:4px 0 10px}h1 span{color:var(--pri)}
+input,select,textarea,button{font:inherit;font-size:16px}
+input,select,textarea{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:11px;background:#fff}
+textarea{min-height:110px}
+label{display:block;font-size:13px;color:var(--mute);margin:10px 0 4px}
+.btn{border:0;border-radius:14px;padding:13px 14px;font-weight:700;background:var(--pri);color:#fff;min-height:48px;cursor:pointer}
+.btn.g{background:#fff;color:var(--ink);box-shadow:0 0 0 1.5px var(--line) inset}
+.btn.d{background:var(--bad)}.btn.k{background:var(--ok)}
+.btn.s{padding:9px 10px;min-height:40px;font-size:14px}
+.full{width:100%}
+.card{background:#fff;border-radius:16px;box-shadow:0 6px 22px rgba(120,60,20,.1);padding:14px;margin:10px 0}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:8px 0}
+.tab{flex:1;white-space:nowrap;border:0;border-radius:999px;padding:11px 12px;font-weight:700;background:#fff;color:var(--mute)}
+.tab.on{background:var(--ink);color:#fff}
+.row{display:flex;gap:8px;align-items:center}.row>*{flex:1}
+.item{padding:10px 0;border-top:1px solid var(--line)}
+.item.hid{opacity:.45}
+.item b{display:block;word-break:break-word}
+.item small{color:var(--mute);word-break:break-all}
+.acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.acts .btn{flex:1}
+.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;box-shadow:0 -4px 18px rgba(0,0,0,.08);padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:flex;gap:8px;justify-content:center}
+.bar .btn{flex:1;max-width:310px}
+.msg{font-size:14px;margin:8px 0;color:var(--mute)}.msg.err{color:var(--bad)}.msg.ok{color:var(--ok)}
+.pill{display:inline-block;font-size:12px;background:var(--bg);border-radius:999px;padding:2px 8px;margin:2px 2px 0 0}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.4);display:none;align-items:flex-end;justify-content:center;z-index:9}
+.modal.on{display:flex}.modal .card{width:100%;max-width:640px;max-height:92vh;overflow:auto;border-radius:18px 18px 0 0;margin:0}
+.dirty{color:var(--pri);font-weight:700}
+.hide{display:none!important}
+ol{padding-left:20px}ol li{margin:6px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Quản trị <span>Hôm nay ăn gì</span></h1>
+
+<section id="login" class="card hide">
+ <p>Dán mã truy cập GitHub (fine-grained token, chỉ quyền <b>Contents: Read and write</b> cho repo <code>hom-nay-an-gi</code>). Mã chỉ lưu trên máy này.</p>
+ <label>Mã truy cập</label><input id="tok" type="password" autocomplete="off" placeholder="github_pat_...">
+ <p class="msg" id="loginMsg"></p>
+ <button class="btn full" id="loginBtn">Đăng nhập</button>
+ <details style="margin-top:12px"><summary>Cách tạo mã</summary><ol>
+  <li>Mở <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+  <li>Repository access: <b>Only select repositories</b> → hom-nay-an-gi. Permissions → Repository → <b>Contents: Read and write</b>.</li>
+  <li>Bấm Generate token, copy mã và dán vào ô trên.</li></ol></details>
+</section>
+
+<section id="app" class="hide">
+ <div class="row"><p class="msg" id="status" style="flex:3"></p><button class="btn g s" id="logout" style="flex:0 0 auto">Đăng xuất</button></div>
+ <div class="tabs" id="tabs">
+  <button class="tab on" data-t="dish">🍜 Món ăn</button><button class="tab" data-t="partner">⭐ Quán & link</button><button class="tab" data-t="joke">😂 Câu đùa</button><button class="tab" data-t="set">⚙️ Cài đặt</button>
+ </div>
+ <div class="card" id="tools"></div>
+ <div class="card" id="list"></div>
+</section>
+</div>
+
+<div class="bar hide" id="bar"><button class="btn g" id="reloadBtn">↻ Tải lại</button><button class="btn" id="saveBtn">💾 Lưu lên web</button></div>
+<div class="modal" id="modal"><div class="card" id="mbody"></div></div>
+
+<script>
+const OWNER="anhlee165-png",REPO="hom-nay-an-gi",BRANCH="main",PATH="data.json",API=`https://api.github.com/repos/${OWNER}/${REPO}`;
+const MEALS={sang:"🌅 Sáng",trua:"☀️ Trưa",toi:"🌙 Tối",khuya:"🦉 Vặt/Khuya"};
+const CATS={nuoc:"🍜 Món nước",com:"🍚 Cơm",banh:"🥖 Bánh & cuốn",quocte:"🌏 Quốc tế",vat:"🍢 Ăn vặt",healthy:"🥗 Healthy"};
+const JCATS={dai:"Quẻ Đại cát",trung:"Quẻ Trung cát",hung:"Quẻ Hung",dice:"Xúc xắc",triple:"Bộ ba",pay:"Ai trả tiền ({n})",respin:"Quay lại",sang:"Câu bữa sáng",trua:"Câu bữa trưa",toi:"Câu bữa tối",khuya:"Câu ăn khuya"};
+const LINK_RE=/^https:\/\/spf\.shopee\.vn\/[A-Za-z0-9]+$/;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>"&#"+c.charCodeAt(0)+";");
+const norm=t=>String(t).toLowerCase().normalize("NFC").replace(/mỳ/g,"mì").trim();
+let TOKEN=localStorage.getItem("hnag_admin_token")||"",DATA=null,DIRTY=false,TAB="dish",F={q:"",meal:"all",cat:"all",jc:"all"};
+
+/* ---- base64 UTF-8 ---- */
+function b64enc(str){const b=new TextEncoder().encode(str);let s="";for(let i=0;i<b.length;i+=0x8000)s+=String.fromCharCode.apply(null,b.subarray(i,i+0x8000));return btoa(s)}
+function b64dec(b64){const s=atob(b64.replace(/\s/g,""));const b=new Uint8Array(s.length);for(let i=0;i<s.length;i++)b[i]=s.charCodeAt(i);return new TextDecoder().decode(b)}
+
+/* ---- GitHub ---- */
+async function gh(path,opt={}){const r=await fetch(API+path,{...opt,cache:"no-store",headers:{Authorization:"Bearer "+TOKEN,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.body?{"Content-Type":"application/json"}:{})}});let j=null;try{j=await r.json()}catch(e){}return {status:r.status,ok:r.ok,j}}
+async function getFile(){const r=await gh(`/contents/${PATH}?ref=${BRANCH}&t=${Date.now()}`);if(!r.ok)throw new Error("Không đọc được data.json ("+r.status+")");
+ let txt;if(r.j.content&&r.j.encoding==="base64")txt=b64dec(r.j.content);else{const b=await gh(`/git/blobs/${r.j.sha}`);txt=b64dec(b.j.content)}return {sha:r.j.sha,data:JSON.parse(txt)}}
+async function save(){
+ if(!DATA)return;const err=validate();if(err){msg(err,"err");return}
+ const btn=$("#saveBtn");btn.disabled=true;msg("Đang lưu…");
+ DATA.updated=new Date().toISOString();const content=b64enc(JSON.stringify(DATA,null,1)+"\n");
+ try{for(let attempt=0;attempt<3;attempt++){
+   const {sha}=await getFile();
+   const r=await gh(`/contents/${PATH}`,{method:"PUT",body:JSON.stringify({message:"admin: cập nhật dữ liệu",content,sha,branch:BRANCH})});
+   if(r.ok){DIRTY=false;msg("✅ Đã lưu! Web cập nhật sau 1–2 phút.","ok");break}
+   if(r.status===409||r.status===422){if(attempt<2)continue}
+   if(r.status===401||r.status===403)throw new Error("Mã không có quyền ghi (cần Contents: Read and write)");
+   throw new Error("Lưu lỗi ("+r.status+"): "+(r.j&&r.j.message||""))}
+ }catch(e){msg("❌ "+e.message,"err")}finally{btn.disabled=false}
+}
+function validate(){for(const p of DATA.partners)for(const l of p.links)if(!LINK_RE.test(l))return "Link sai định dạng ở quán "+p.name+": "+l;return ""}
+
+/* ---- login ---- */
+async function login(t){TOKEN=t.trim();$("#loginMsg").textContent="Đang kiểm tra…";
+ const r=await gh("");if(!r.ok){$("#loginMsg").textContent=r.status===401?"Mã sai hoặc hết hạn.":"Mã không đọc được repo "+REPO+" ("+r.status+").";$("#loginMsg").className="msg err";TOKEN="";return false}
+ localStorage.setItem("hnag_admin_token",TOKEN);await load();return true}
+async function load(){try{const f=await getFile();DATA=normalize(f.data);DIRTY=false;$("#login").classList.add("hide");$("#app").classList.remove("hide");$("#bar").classList.remove("hide");msg("Đã tải dữ liệu mới nhất.","ok");render()}catch(e){$("#login").classList.remove("hide");$("#loginMsg").textContent=e.message;$("#loginMsg").className="msg err"}}
+function normalize(d){d.config=d.config||{};d.dishes=d.dishes||{};Object.keys(MEALS).forEach(m=>d.dishes[m]=d.dishes[m]||[]);d.special=d.special||{};d.partners=d.partners||[];d.jokes=d.jokes||{};Object.keys(JCATS).forEach(c=>d.jokes[c]=d.jokes[c]||[]);return d}
+$("#loginBtn").onclick=()=>login($("#tok").value);
+$("#logout").onclick=()=>{if(DIRTY&&!confirm("Còn thay đổi chưa lưu. Vẫn đăng xuất?"))return;localStorage.removeItem("hnag_admin_token");TOKEN="";DATA=null;location.reload()};
+$("#saveBtn").onclick=save;
+$("#reloadBtn").onclick=()=>{if(DIRTY&&!confirm("Bỏ các thay đổi chưa lưu và tải lại?"))return;load()};
+window.onbeforeunload=e=>{if(DIRTY){e.preventDefault();e.returnValue=""}};
+function msg(t,c=""){const s=$("#status");s.textContent=t+(DIRTY?" · Có thay đổi chưa lưu":"");s.className="msg "+c}
+function touch(){DIRTY=true;msg("Có thay đổi chưa lưu — nhớ bấm “Lưu lên web”.","dirty");render()}
+const uid=p=>p+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+
+/* ---- tabs ---- */
+$("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;TAB=b.dataset.t;F.q="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on",x===b));render()};
+const opts=(o,sel,all)=>(all?`<option value="all">${all}</option>`:"")+Object.entries(o).map(([k,v])=>`<option value="${k}"${k===sel?" selected":""}>${esc(v)}</option>`).join("");
+function render(){if(!DATA)return;({dish:rDish,partner:rPartner,joke:rJoke,set:rSet})[TAB]()}
+function bindSearch(){const q=$("#q");if(q){q.oninput=()=>{F.q=q.value;renderList()};}["fmeal","fcat","fjc"].forEach(id=>{const s=$("#"+id);if(s)s.onchange=()=>{F[{fmeal:"meal",fcat:"cat",fjc:"jc"}[id]]=s.value;renderList()}})}
+let renderList=()=>{};
+const actBtns=(k,hidden)=>`<div class="acts"><button class="btn g s" data-a="edit" data-k="${k}">✏️ Sửa</button><button class="btn g s" data-a="tog" data-k="${k}">${hidden?"👁 Hiện":"🙈 Ẩn"}</button><button class="btn g s" data-a="dup" data-k="${k}">📄 Nhân bản</button><button class="btn d s" data-a="del" data-k="${k}">🗑 Xóa</button></div>`;
+
+/* ---- Món ăn ---- */
+function rDish(){
+ $("#tools").innerHTML=`<input id="q" placeholder="🔎 Tìm món…" value="${esc(F.q)}"><div class="row" style="margin-top:8px"><select id="fmeal">${opts(MEALS,F.meal,"Mọi bữa")}</select><select id="fcat">${opts(CATS,F.cat,"Mọi loại")}</select></div><button class="btn full" style="margin-top:8px" id="addD">➕ Thêm món</button>`;
+ bindSearch();$("#addD").onclick=()=>dishForm(null);
+ renderList=()=>{const q=norm(F.q);let h="",n=0;Object.keys(MEALS).forEach(m=>{if(F.meal!=="all"&&F.meal!==m)return;DATA.dishes[m].forEach((d,i)=>{if(F.cat!=="all"&&d.cat!==F.cat)return;if(q&&!norm(d.name).includes(q))return;n++;
+   const ps=partnersFor(d.name);h+=`<div class="item${d.hidden?" hid":""}"><b>${esc(d.name)}${d.hidden?" (đang ẩn)":""}</b><small>${MEALS[m]} · ${d.price}k · ${CATS[d.cat]||d.cat} · ${ps.length?"⭐ "+esc(ps.map(p=>p.name).join(", ")):"⚠️ chưa có quán khớp"}</small>${actBtns(m+":"+i,d.hidden)}</div>`})});
+  $("#list").innerHTML=`<p class="msg">${n} món</p>`+h;
+  $("#list").onclick=e=>{const b=e.target.closest("[data-a]");if(!b)return;const [m,i]=b.dataset.k.split(":"),L=DATA.dishes[m],d=L[+i];
+   if(b.dataset.a==="edit")dishForm({m,i:+i});if(b.dataset.a==="tog"){d.hidden=!d.hidden;touch()}if(b.dataset.a==="dup"){L.splice(+i+1,0,{...d,name:d.name+" (bản sao)"});touch()}if(b.dataset.a==="del"&&confirm("Xóa món “"+d.name+"”?")){L.splice(+i,1);touch()}}};
+ renderList();
+ const sp=DATA.special;$("#list").insertAdjacentHTML("beforeend",`<h3 style="margin-top:18px">🌟 Món đặc biệt khi ra bộ ba xúc xắc</h3>`+Object.keys(MEALS).map(m=>`<label>${MEALS[m]}</label><div class="row"><input data-sp="${m}" data-f="name" value="${esc(sp[m]?.name)}"><input data-sp="${m}" data-f="price" type="number" inputmode="numeric" value="${esc(sp[m]?.price)}" style="flex:0 0 90px"></div>`).join(""));
+ document.querySelectorAll("[data-sp]").forEach(el=>el.onchange=()=>{const m=el.dataset.sp;DATA.special[m]=DATA.special[m]||{name:"",price:0};DATA.special[m][el.dataset.f]=el.dataset.f==="price"?+el.value||0:el.value.trim();touch()});
+}
+function partnersFor(name){const n=norm(name);return DATA.partners.filter(p=>!p.hidden&&(p.tags||[]).some(t=>n.includes(norm(t))))}
+function dishForm(ref){const d=ref?DATA.dishes[ref.m][ref.i]:{name:"",price:40,cat:"nuoc",hidden:false};
+ modal(`<h3>${ref?"Sửa món":"Thêm món"}</h3><label>Tên món</label><input id="fn" value="${esc(d.name)}"><label>Bữa</label><select id="fm">${opts(MEALS,ref?ref.m:(F.meal!=="all"?F.meal:"trua"))}</select><label>Giá (nghìn đồng)</label><input id="fp" type="number" inputmode="numeric" value="${d.price}"><label>Loại</label><select id="fc">${opts(CATS,d.cat)}</select><label><input type="checkbox" id="fh" style="width:auto"${d.hidden?" checked":""}> Ẩn món này</label>`,()=>{
+  const o={name:$("#fn").value.trim(),price:+$("#fp").value||0,cat:$("#fc").value,hidden:$("#fh").checked},m=$("#fm").value;if(!o.name)return "Nhập tên món";
+  if(ref){DATA.dishes[ref.m].splice(ref.i,1);if(ref.m===m)DATA.dishes[m].splice(ref.i,0,o);else DATA.dishes[m].push(o)}else DATA.dishes[m].push(o);touch()})}
+
+/* ---- Quán ---- */
+function parseLinks(txt){const found=String(txt).split(/[\s,;]+/).filter(Boolean),ok=[],bad=[];found.forEach(l=>{l=l.replace(/\/+$/,"");if(!/^https?:\/\//.test(l)&&/^spf\.shopee\.vn\//.test(l))l="https://"+l;if(LINK_RE.test(l)){if(!ok.includes(l))ok.push(l)}else bad.push(l)});return {ok,bad}}
+const allLinks=skip=>new Set(DATA.partners.filter(p=>p!==skip).flatMap(p=>p.links));
+function rPartner(){
+ $("#tools").innerHTML=`<input id="q" placeholder="🔎 Tìm quán, khu vực, món, link…" value="${esc(F.q)}"><button class="btn full" style="margin-top:8px" id="addP">➕ Thêm quán</button><button class="btn g full" style="margin-top:8px" id="bulkP">📋 Dán nhiều link một lần</button>`;
+ bindSearch();$("#addP").onclick=()=>partnerForm(null);$("#bulkP").onclick=bulkLinks;
+ renderList=()=>{const q=norm(F.q);const L=DATA.partners.map((p,i)=>[p,i]).filter(([p])=>!q||norm([p.name,p.area,p.city,...p.links,...(p.tags||[])].join(" ")).includes(q));
+  $("#list").innerHTML=`<p class="msg">${L.length}/${DATA.partners.length} quán</p>`+L.map(([p,i])=>`<div class="item${p.hidden?" hid":""}"><b>${esc(p.name)}${p.hidden?" (đang ẩn)":""}</b><small>${esc(p.area)} · ${esc(p.city||"")}</small><div>${(p.tags||[]).map(t=>`<span class="pill">${esc(t)}</span>`).join("")||'<span class="pill">⚠️ chưa gắn món</span>'}</div><small>${p.links.map(l=>`<a href="${esc(l)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("<br>")}</small>${actBtns(i,p.hidden)}</div>`).join("");
+  $("#list").onclick=e=>{const b=e.target.closest("[data-a]");if(!b)return;const i=+b.dataset.k,p=DATA.partners[i];
+   if(b.dataset.a==="edit")partnerForm(i);if(b.dataset.a==="tog"){p.hidden=!p.hidden;touch()}if(b.dataset.a==="dup"){DATA.partners.splice(i+1,0,{...p,id:uid("p"),name:p.name+" (bản sao)",links:p.links.slice(),tags:(p.tags||[]).slice()});touch()}if(b.dataset.a==="del"&&confirm("Xóa quán “"+p.name+"” và các link của quán?")){DATA.partners.splice(i,1);touch()}}};
+ renderList()}
+function partnerForm(i){const p=i==null?{id:uid("p"),name:"",area:"",city:"Hà Nội",links:[],tags:[],hidden:false}:DATA.partners[i];
+ modal(`<h3>${i==null?"Thêm quán":"Sửa quán"}</h3><label>Tên quán</label><input id="pn" value="${esc(p.name)}"><label>Khu vực / địa chỉ</label><input id="pa" value="${esc(p.area)}"><label>Thành phố</label><input id="pc" value="${esc(p.city||"Hà Nội")}"><label>Link ShopeeFood (mỗi dòng 1 link, giữ nguyên văn)</label><textarea id="pl">${esc(p.links.join("\n"))}</textarea><label>Món khớp (từ khóa, cách nhau dấu phẩy — vd: phở, bún chả)</label><textarea id="pt" style="min-height:70px">${esc((p.tags||[]).join(", "))}</textarea><label><input type="checkbox" id="ph" style="width:auto"${p.hidden?" checked":""}> Ẩn quán này</label>`,()=>{
+  const {ok,bad}=parseLinks($("#pl").value);if(bad.length)return "Link sai định dạng: "+bad.join(", ");if(!ok.length)return "Cần ít nhất 1 link spf.shopee.vn";
+  const used=allLinks(i==null?null:p),dup=ok.filter(l=>used.has(l));if(dup.length)return "Link đã thuộc quán khác: "+dup.join(", ");
+  const name=$("#pn").value.trim();if(!name)return "Nhập tên quán";
+  const o={...p,name,area:$("#pa").value.trim(),city:$("#pc").value.trim()||"Hà Nội",links:ok,tags:[...new Set($("#pt").value.split(/[,\n]/).map(s=>s.trim()).filter(Boolean))],hidden:$("#ph").checked};
+  if(i==null)DATA.partners.push(o);else DATA.partners[i]=o;touch()})}
+function bulkLinks(){modal(`<h3>Dán nhiều link</h3><p class="msg">Mỗi link tạo một quán mới (đang ẩn). Sau đó Anh sửa tên quán, gắn món rồi bấm Hiện. Link trùng hoặc sai định dạng sẽ bị bỏ qua.</p><textarea id="bl" placeholder="https://spf.shopee.vn/..."></textarea>`,()=>{
+  const {ok,bad}=parseLinks($("#bl").value),used=allLinks(null),nw=ok.filter(l=>!used.has(l)),dup=ok.length-nw.length;
+  nw.forEach((l,k)=>DATA.partners.push({id:uid("p"),name:"Quán mới "+(k+1)+" (chưa đặt tên)",area:"",city:"Hà Nội",links:[l],tags:[],hidden:true}));
+  touch();alert(`Đã thêm ${nw.length} quán (đang ẩn).`+(dup?`\nBỏ ${dup} link trùng.`:"")+(bad.length?`\nBỏ ${bad.length} link sai:\n`+bad.join("\n"):""))})}
+
+/* ---- Câu đùa ---- */
+function rJoke(){
+ $("#tools").innerHTML=`<input id="q" placeholder="🔎 Tìm câu đùa…" value="${esc(F.q)}"><select id="fjc" style="margin-top:8px">${opts(JCATS,F.jc,"Mọi nhóm")}</select><button class="btn full" style="margin-top:8px" id="addJ">➕ Thêm câu</button><button class="btn g full" style="margin-top:8px" id="bulkJ">📋 Dán nhiều câu</button><p class="msg">Dùng {d} để chèn tên món, {n} để chèn tên người trả tiền.</p>`;
+ bindSearch();$("#addJ").onclick=()=>jokeForm(null);$("#bulkJ").onclick=bulkJokes;
+ renderList=()=>{const q=norm(F.q);let rows=[];Object.keys(JCATS).forEach(c=>{if(F.jc!=="all"&&F.jc!==c)return;DATA.jokes[c].forEach((j,i)=>{if(!q||norm(j.text).includes(q))rows.push([c,i,j])})});
+  const cnt={};Object.values(DATA.jokes).flat().forEach(j=>{const k=norm(j.text);cnt[k]=(cnt[k]||0)+1});
+  const shown=rows.slice(0,200);
+  $("#list").innerHTML=`<p class="msg">${rows.length} câu${rows.length>200?" (hiện 200 câu đầu, gõ tìm để lọc)":""}</p>`+shown.map(([c,i,j])=>`<div class="item${j.hidden?" hid":""}"><b>${esc(j.text)}</b><small>${JCATS[c]}${j.hidden?" · đang ẩn":""}${cnt[norm(j.text)]>1?' · <span style="color:var(--bad)">⚠️ trùng</span>':""}</small>${actBtns(c+":"+i,j.hidden)}</div>`).join("");
+  $("#list").onclick=e=>{const b=e.target.closest("[data-a]");if(!b)return;const [c,i]=b.dataset.k.split(":"),L=DATA.jokes[c],j=L[+i];
+   if(b.dataset.a==="edit")jokeForm({c,i:+i});if(b.dataset.a==="tog"){j.hidden=!j.hidden;touch()}if(b.dataset.a==="dup"){L.splice(+i+1,0,{id:uid(c+"_"),text:j.text,hidden:j.hidden});touch()}if(b.dataset.a==="del"&&confirm("Xóa câu này?\n"+j.text)){L.splice(+i,1);touch()}}};
+ renderList()}
+function jokeForm(ref){const j=ref?DATA.jokes[ref.c][ref.i]:{text:"",hidden:false};
+ modal(`<h3>${ref?"Sửa câu":"Thêm câu"}</h3><label>Nhóm</label><select id="jc">${opts(JCATS,ref?ref.c:(F.jc!=="all"?F.jc:"dai"))}</select><label>Nội dung</label><textarea id="jt">${esc(j.text)}</textarea><label><input type="checkbox" id="jh" style="width:auto"${j.hidden?" checked":""}> Ẩn câu này</label>`,()=>{
+  const text=$("#jt").value.trim(),c=$("#jc").value;if(!text)return "Nhập nội dung";
+  const exists=Object.values(DATA.jokes).flat().some(x=>x!==j&&norm(x.text)===norm(text));if(exists&&!confirm("Câu này đã có rồi. Vẫn lưu?"))return "";
+  const o={id:j.id||uid(c+"_"),text,hidden:$("#jh").checked};
+  if(ref){DATA.jokes[ref.c].splice(ref.i,1);if(ref.c===c)DATA.jokes[c].splice(ref.i,0,o);else DATA.jokes[c].push(o)}else DATA.jokes[c].push(o);touch()})}
+function bulkJokes(){modal(`<h3>Dán nhiều câu</h3><label>Nhóm</label><select id="bc">${opts(JCATS,F.jc!=="all"?F.jc:"dai")}</select><label>Mỗi dòng một câu</label><textarea id="bt" style="min-height:200px"></textarea>`,()=>{
+  const c=$("#bc").value,have=new Set(Object.values(DATA.jokes).flat().map(j=>norm(j.text)));let add=0,dup=[];
+  $("#bt").value.split("\n").map(s=>s.trim()).filter(Boolean).forEach(t=>{if(have.has(norm(t))){dup.push(t);return}have.add(norm(t));DATA.jokes[c].push({id:uid(c+"_"),text:t,hidden:false});add++});
+  touch();alert(`Đã thêm ${add} câu vào “${JCATS[c]}”.`+(dup.length?`\nBỏ ${dup.length} câu trùng:\n`+dup.slice(0,20).join("\n"):""))})}
+
+/* ---- Cài đặt ---- */
+function rSet(){const c=DATA.config;
+ $("#tools").innerHTML=`<h3>⚙️ Cài đặt</h3><label><input type="checkbox" id="cAds" style="width:auto"${c.ADS_ENABLED?" checked":""}> Bật ô quảng cáo</label><label>Số ngày né món đã ăn</label><input id="cAvoid" type="number" inputmode="numeric" value="${esc(c.AVOID_DAYS??3)}"><label>utm_source</label><input id="cUtm" value="${esc(c.UTM_SOURCE??"")}"><label>utm_medium</label><input id="cMed" value="${esc(c.UTM_MEDIUM??"")}"><label>ShopeeFood affiliate ID (để trống nếu dùng link spf)</label><input id="cAff" value="${esc(c.SHOPEEFOOD_AFFILIATE_ID??"")}">`;
+ [["cAds","ADS_ENABLED",e=>e.checked],["cAvoid","AVOID_DAYS",e=>Math.max(0,+e.value||0)],["cUtm","UTM_SOURCE",e=>e.value.trim()],["cMed","UTM_MEDIUM",e=>e.value.trim()],["cAff","SHOPEEFOOD_AFFILIATE_ID",e=>e.value.trim()]].forEach(([id,k,f])=>$("#"+id).onchange=e=>{c[k]=f(e.target);DIRTY=true;msg("Có thay đổi chưa lưu.","dirty")});
+ const n=Object.values(DATA.dishes).flat().length,j=Object.values(DATA.jokes).flat().length;
+ $("#list").innerHTML=`<h3>💾 Sao lưu</h3><p class="msg">${n} món · ${DATA.partners.length} quán · ${j} câu đùa</p><button class="btn g full" id="exp">⬇️ Tải bản sao lưu data.json</button><label>Nhập lại từ file</label><input type="file" id="imp" accept=".json,application/json"><p class="msg">Nhập file chỉ đổi dữ liệu trên máy; bấm “Lưu lên web” để áp dụng.</p>`;
+ $("#exp").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(DATA,null,1)],{type:"application/json"}));a.download="data-"+new Date().toISOString().slice(0,10)+".json";a.click()};
+ $("#imp").onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const d=JSON.parse(await f.text());if(!d.dishes||!d.partners||!d.jokes)throw 0;if(!confirm("Thay toàn bộ dữ liệu bằng file này?"))return;DATA=normalize(d);touch()}catch(_){alert("File không hợp lệ")}}}
+
+/* ---- modal ---- */
+function modal(html,onOk){$("#mbody").innerHTML=html+`<p class="msg err" id="merr"></p><div class="acts"><button class="btn g" id="mx">Hủy</button><button class="btn k" id="mok">Xong</button></div>`;$("#modal").classList.add("on");
+ $("#mx").onclick=()=>$("#modal").classList.remove("on");$("#mok").onclick=()=>{const r=onOk();if(r){$("#merr").textContent=r;return}if(r==="")return;$("#modal").classList.remove("on")}}
+
+/* ---- start ---- */
+if(TOKEN)load();else $("#login").classList.remove("hide");
+</script>
+</body>
+</html>

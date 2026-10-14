@@ -98,6 +98,7 @@ h3{margin:0 0 8px;font-size:16px}
 .confetti{position:fixed;inset:0;pointer-events:none;z-index:25}
 .partner{display:block;text-decoration:none;color:#fff;background:linear-gradient(135deg,#ee4d2d,#ff7a45);border-radius:14px;padding:12px 14px;margin-top:12px;box-shadow:0 4px 0 #b8341b;text-align:center}.partner small{display:block;font-size:11px;opacity:.9;font-weight:600}.partner b{display:block;font-size:17px;margin:2px 0}.partner span{font-size:13px;font-weight:700;background:rgba(255,255,255,.2);border-radius:999px;padding:3px 10px;display:inline-block;margin-top:4px}.disc{font-size:11px;color:var(--mute);text-align:center;margin:8px 0 0}
 .foot{font-size:11px;color:var(--mute);text-align:center;margin:14px 0}
+.site-foot{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;font-size:12px;color:var(--mute);margin:6px 0 18px}.site-foot a{color:var(--mute);text-decoration:none}.site-foot img{height:40px;width:auto;display:block}
 </style>
 </head>
 <body>
@@ -170,6 +171,7 @@ h3{margin:0 0 8px;font-size:16px}
 <!-- ===== AD SLOT (ẩn mặc định, bật bằng CONFIG.ADS_ENABLED) ===== -->
 <div class="ad-slot" id="adSlot"><!-- AD_SLOT: dán mã quảng cáo vào đây --><span>Quảng cáo</span></div>
 <p class="foot">Kết quả mang tính tâm linh, bụng no là thật. © Hôm nay ăn gì</p>
+<footer class="site-foot"><a href="mailto:Anhlee165@gmail.com">Liên hệ quảng cáo: Anhlee165@gmail.com</a><img src="/al-group-logo.svg" alt="AL Group" height="40"><span>© AL Group</span></footer>
 </div>
 
 <nav id="nav">
@@ -313,7 +315,7 @@ function orderLinks(name){
   const city=$("#city").value, q=name.replace(/\(.*?\)/g,"").trim();
   const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
   const ps=partnersFor(name);let top="",buy="";if(ps.length){const p=pickArr(ps);buy=partnerLink(p);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${buy}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
-  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
+  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div>`;
 }
 let lastShare="";
 function actions(again,shareText){lastShare=shareText;return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
@@ -423,11 +425,28 @@ $("#nav").onclick=e=>{const b=e.target.closest("button");if(b)show(b.dataset.v)}
 let tt;function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2200)}
 function confetti(){const c=$("#confetti"),x=c.getContext("2d");c.width=innerWidth;c.height=innerHeight;const P=Array.from({length:90},()=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*.4,vx:(Math.random()-.5)*3,vy:2+Math.random()*3,r:Math.random()*6.3,c:pickArr(COLORS),s:5+Math.random()*6}));let f=0;(function d(){x.clearRect(0,0,c.width,c.height);P.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.r+=.1;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);x.restore()});if(++f<150)requestAnimationFrame(d);else x.clearRect(0,0,c.width,c.height)})()}
 
+/* ============ DATA (data.json do trang quản trị sửa; lỗi thì dùng dữ liệu có sẵn ở trên) ============ */
+function applyData(x){
+  if(!x||typeof x!=="object")return;
+  const vis=a=>Array.isArray(a)?a.filter(o=>o&&!o.hidden):[];
+  if(x.config&&typeof x.config==="object")Object.assign(CONFIG,x.config);
+  if(x.dishes)Object.keys(MEALS).forEach(m=>{const L=vis(x.dishes[m]).map(o=>[String(o.name),+o.price||0,o.cat]);if(L.length)D[m]=L});
+  if(x.special)Object.keys(MEALS).forEach(m=>{const o=x.special[m];if(o&&o.name&&!o.hidden)SPECIAL[m]=[String(o.name),+o.price||0]});
+  if(Array.isArray(x.partners)){const P=vis(x.partners).filter(p=>Array.isArray(p.links)&&p.links.length).map(p=>({name:String(p.name),area:String(p.area||""),links:p.links.slice(),tags:(p.tags||[]).map(String).filter(Boolean),city:p.city||"Hà Nội"}));PARTNERS.splice(0,PARTNERS.length,...P)}
+  if(x.jokes)Object.keys(J).forEach(c=>{const L=vis(x.jokes[c]).map(o=>String(o.text));if(L.length)J[c]=L});
+}
+async function loadData(){
+  try{const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),5000);
+    const r=await fetch("/data.json?v="+Date.now(),{cache:"no-store",signal:ctl.signal});clearTimeout(t);
+    if(r.ok)applyData(await r.json())}catch(e){}
+}
 /* ============ INIT ============ */
+loadData().then(()=>{
 if(CONFIG.ADS_ENABLED)$("#adSlot").style.display="block";
 const h=bkkHour();$("#greet").textContent=h<5?"Giờ này còn thức, chắc đói thật rồi.":h<10?"Chào buổi sáng, bụng đã sẵn sàng chưa?":h<14?"Trưa rồi, để trời quyết cho nhanh.":h<18?"Chiều chiều, kiếm gì bỏ bụng nhỉ?":"Tối rồi, thưởng cho bản thân đi.";
 renderTabs();renderDice();renderMembers();renderGroups();renderLog();renderHist();
 const qv=new URLSearchParams(location.search).get("view");show(["que","dice","pay","hist"].includes(qv)?qv:LS.get("view","que"));
+});
 </script>
 </body>
 </html>

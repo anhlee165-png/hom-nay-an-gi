@@ -1,0 +1,4326 @@
+{
+ "version": 1,
+ "updated": "2026-10-14T09:27:01.081Z",
+ "config": {
+  "SHOPEEFOOD_AFFILIATE_ID": "",
+  "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
+  "GRABFOOD_AFFILIATE_ID": "",
+  "GRABFOOD_AFFILIATE_PARAM": "aff_id",
+  "UTM_SOURCE": "homnayangi",
+  "UTM_MEDIUM": "result_button",
+  "ADS_ENABLED": false,
+  "AVOID_DAYS": 3,
+  "TZ": "Asia/Bangkok"
+ },
+ "dishes": {
+  "sang": [
+   {
+    "name": "Xôi thịt nóng",
+    "price": 35,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bánh cuốn trứng",
+    "price": 35,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Sủi cảo Đài Loan",
+    "price": 50,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Mỳ trứng Đài Loan",
+    "price": 50,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Cà phê sữa đá + bánh mì",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bạc xỉu Coffee",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Phở bò tái",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Phở gà",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bún riêu cua",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh canh cua",
+    "price": 45,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cháo lòng",
+    "price": 35,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bún mọc",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cơm tấm sườn bì chả",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Xôi xéo",
+    "price": 25,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Xôi gà",
+    "price": 35,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bánh mì pate trứng",
+    "price": 25,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bánh cuốn Thanh Trì",
+    "price": 35,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Dimsum xửng hấp",
+    "price": 90,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Croissant + cà phê",
+    "price": 75,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng trộn (sáng sớm hơi liều)",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   }
+  ],
+  "trua": [
+   {
+    "name": "Bún bò Nam Bộ",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bún cá cay",
+    "price": 45,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh canh cua Bình Định",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cơm sườn nướng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cơm bò xào",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Mỳ xào bò",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Nem nướng Nha Trang",
+    "price": 65,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bánh xèo tôm nhảy",
+    "price": 60,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Mì gà tần",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Doner Kebab",
+    "price": 35,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Cơm gà xối mỡ",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cơm tấm sườn trứng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cơm rang dưa bò",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bún chả Hà Nội",
+    "price": 45,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bún đậu mắm tôm",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bún thịt nướng",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Phở cuốn",
+    "price": 60,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bún cá rô đồng",
+    "price": 40,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Mì vằn thắn",
+    "price": 45,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh xèo",
+    "price": 60,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bánh mì thịt nướng",
+    "price": 30,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng cuốn bơ",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Xôi mặn thập cẩm",
+    "price": 35,
+    "cat": "com",
+    "hidden": false
+   }
+  ],
+  "toi": [
+   {
+    "name": "Lòng nướng",
+    "price": 90,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lòng lợn luộc chấm mắm",
+    "price": 70,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cơm rang thập cẩm",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Phở bò tái lăn",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Mì cay hải sản",
+    "price": 70,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Bún đậu mắm tôm mẹt",
+    "price": 65,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng nướng",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cơm gà Hải Nam",
+    "price": 65,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cơm tấm đêm",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cháo sườn",
+    "price": 35,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Phở xào bò",
+    "price": 60,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh canh ghẹ",
+    "price": 80,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Nem nướng Nha Trang",
+    "price": 65,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Bánh cuốn nóng",
+    "price": 40,
+    "cat": "banh",
+    "hidden": false
+   }
+  ],
+  "khuya": [
+   {
+    "name": "Chân gà sốt Thái",
+    "price": 70,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trứng non sốt Thái",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Mì trộn Indomie",
+    "price": 35,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Trà trái cây",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Doner Kebab đêm",
+    "price": 35,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng cuốn",
+    "price": 30,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cháo vịt đêm",
+    "price": 45,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Phở khuya",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Mì cay 7 cấp",
+    "price": 65,
+    "cat": "quocte",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng trộn",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh tráng nướng",
+    "price": 25,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Xiên que chiên",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Trà sữa trân châu",
+    "price": 45,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh flan",
+    "price": 15,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Xôi chiên phồng",
+    "price": 30,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Chân gà sả tắc",
+    "price": 70,
+    "cat": "vat",
+    "hidden": false
+   }
+  ]
+ },
+ "special": {
+  "sang": {
+   "name": "Phở bò tái đặc biệt full topping",
+   "price": 120
+  },
+  "trua": {
+   "name": "Bánh xèo tôm nhảy siêu to khổng lồ",
+   "price": 150
+  },
+  "toi": {
+   "name": "Lòng nướng mẹt full combo",
+   "price": 200
+  },
+  "khuya": {
+   "name": "Chân gà sốt Thái size đại gia",
+   "price": 150
+  }
+ },
+ "partners": [
+  {
+   "id": "p1",
+   "name": "Thu Food - Bún",
+   "area": "Thụy Khuê",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/3g4RG6qtK7",
+    "https://spf.shopee.vn/4fwySKZKjc",
+    "https://spf.shopee.vn/2VsTsPKaOw"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún mọc",
+    "bún thịt",
+    "bún cá rô"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p2",
+   "name": "Mỳ Trứng Sủi Cảo & Điểm Tâm Đài Loan",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/8fT7DMJBA8"
+   ],
+   "tags": [
+    "sủi cảo",
+    "mì trứng",
+    "dimsum",
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p3",
+   "name": "Nhím Xù - Bún Bò Nam Bộ",
+   "area": "47B Mai Hắc Đế",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/AKbLChF2dE"
+   ],
+   "tags": [
+    "bún bò nam bộ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p4",
+   "name": "Hanicorn - Thiên Đường Bánh Tráng",
+   "area": "Xã Đàn",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2LZ3g1zsKo"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p5",
+   "name": "Hoa Nguyễn - Trùm Doner Kebab",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/9fLePcjI9p"
+   ],
+   "tags": [
+    "kebab",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p6",
+   "name": "Xôi Bà Hiền - Xôi Thịt Nóng",
+   "area": "Minh Khai",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7pu0EJItYK"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p7",
+   "name": "Coffee Ben",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5LCfFjWkgU"
+   ],
+   "tags": [
+    "cà phê",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p8",
+   "name": "Chân Gà Sốt Thái & Trứng Non - AHuynhFood",
+   "area": "Cổ Nhuế",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/20wDIdBxSq"
+   ],
+   "tags": [
+    "chân gà",
+    "trứng non"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p9",
+   "name": "Nhất Lòng",
+   "area": "Dương Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7AeJS8Vt1U"
+   ],
+   "tags": [
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p10",
+   "name": "Bánh Canh Cua Gia Hân - Đặc Sản Bình Định",
+   "area": "198 Văn Phú",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/W7PVtlJ3l"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p11",
+   "name": "Cơm, Cháo & Bánh Mì - FastFood",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/60SM4142DS"
+   ],
+   "tags": [
+    "cháo sườn",
+    "cháo vịt",
+    "bánh mì pate",
+    "bánh mì thịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p12",
+   "name": "Woa Tea - Trà Sữa & Mì Trộn Indomie",
+   "area": "13 Khuất Duy Tiến",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/BUZ7JPpzk"
+   ],
+   "tags": [
+    "trà sữa",
+    "indomie",
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p13",
+   "name": "Phở Bát Đàn",
+   "area": "Vũ Đức Thận",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5VW5T80FVw"
+   ],
+   "tags": [
+    "phở",
+    "cơm rang",
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p14",
+   "name": "Cơm Tấm Abeo",
+   "area": "Mễ Trì Hạ",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5VW5T8rWjl"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p15",
+   "name": "Bún Chả Cô Hương",
+   "area": "22 Ngõ 218 Lĩnh Nam",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/7KxjeWxLJv"
+   ],
+   "tags": [
+    "bún chả",
+    "bún cá",
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p16",
+   "name": "Nem Nướng Nha Trang Thanh Tùng - CS2",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/1B8v4KwEV"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p17",
+   "name": "Mỳ Cay 7 Cấp Độ - Nem Nướng Nha Trang",
+   "area": "Trung Kính",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2qVKII8r0D"
+   ],
+   "tags": [
+    "mì cay",
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p18",
+   "name": "Tiệm Cơm Gà Tôm",
+   "area": "Triều Khúc",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/1qcn6TGaVm"
+   ],
+   "tags": [
+    "cơm gà",
+    "cơm sườn",
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p19",
+   "name": "Tama Tea - Tiệm Trà Pha Máy",
+   "area": "Đại Mỗ",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/5fpVfY1Fu1"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p20",
+   "name": "Bánh Xèo Tôm Nhảy - Bếp Xì Khói",
+   "area": "15 Trương Công Giai",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/gQpiNJTQq"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p21",
+   "name": "Nem Nướng, Bánh Cuốn & Mỳ Gà Tần",
+   "area": "103 Chính Kinh",
+   "city": "Hà Nội",
+   "links": [
+    "https://spf.shopee.vn/2BFdVARScw"
+   ],
+   "tags": [
+    "nem nướng",
+    "bánh cuốn",
+    "mì gà tần"
+   ],
+   "hidden": false
+  }
+ ],
+ "jokes": {
+  "dai": [
+   {
+    "id": "dai_1",
+    "text": "Quẻ Đại cát: {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_2",
+    "text": "Quẻ Đại cát: {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_3",
+    "text": "Quẻ Đại cát: {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_4",
+    "text": "Quẻ Đại cát: {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_5",
+    "text": "Quẻ Đại cát: {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_6",
+    "text": "Quẻ Đại cát: {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_7",
+    "text": "Quẻ Đại cát: {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_8",
+    "text": "Quẻ Đại cát: {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_9",
+    "text": "Trời phán {d}, khỏi cãi. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_10",
+    "text": "Trời phán {d}, khỏi cãi. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_11",
+    "text": "Trời phán {d}, khỏi cãi. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_12",
+    "text": "Trời phán {d}, khỏi cãi. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_13",
+    "text": "Trời phán {d}, khỏi cãi. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_14",
+    "text": "Trời phán {d}, khỏi cãi. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_15",
+    "text": "Trời phán {d}, khỏi cãi. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_16",
+    "text": "Trời phán {d}, khỏi cãi. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_17",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_18",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_19",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_20",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_21",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_22",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_23",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_24",
+    "text": "Thiên thời địa lợi nhân hòa, chỉ thiếu {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_25",
+    "text": "Tổ tiên gật đầu với {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_26",
+    "text": "Tổ tiên gật đầu với {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_27",
+    "text": "Tổ tiên gật đầu với {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_28",
+    "text": "Tổ tiên gật đầu với {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_29",
+    "text": "Tổ tiên gật đầu với {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_30",
+    "text": "Tổ tiên gật đầu với {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_31",
+    "text": "Tổ tiên gật đầu với {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_32",
+    "text": "Tổ tiên gật đầu với {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_33",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_34",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_35",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_36",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_37",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_38",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_39",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_40",
+    "text": "Vũ trụ gửi tín hiệu: {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_41",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_42",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_43",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_44",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_45",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_46",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_47",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_48",
+    "text": "Sao Thái Bạch nhường chỗ cho {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_49",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_50",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_51",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_52",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_53",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_54",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_55",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_56",
+    "text": "Ăn {d} hôm nay là chuẩn bài. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   },
+   {
+    "id": "dai_57",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Ăn xong năng lượng full pin, deadline cũng phải sợ.",
+    "hidden": false
+   },
+   {
+    "id": "dai_58",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Chiều nay sếp khen, đồng nghiệp ghen.",
+    "hidden": false
+   },
+   {
+    "id": "dai_59",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Tài lộc vào như nước, mỡ bụng ra như mưa.",
+    "hidden": false
+   },
+   {
+    "id": "dai_60",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Mood lên 100 điểm, không có nhưng.",
+    "hidden": false
+   },
+   {
+    "id": "dai_61",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Ăn xong ắt được thần tài ghé thăm.",
+    "hidden": false
+   },
+   {
+    "id": "dai_62",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Hôm nay bạn là main character.",
+    "hidden": false
+   },
+   {
+    "id": "dai_63",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Lương chưa về nhưng vía đã về.",
+    "hidden": false
+   },
+   {
+    "id": "dai_64",
+    "text": "Quẻ đẹp như crush rep tin nhắn: {d}. Đỉnh nóc kịch trần bay phấp phới.",
+    "hidden": false
+   }
+  ],
+  "trung": [
+   {
+    "id": "trung_1",
+    "text": "Quẻ Trung cát: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_2",
+    "text": "Quẻ Trung cát: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_3",
+    "text": "Quẻ Trung cát: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_4",
+    "text": "Quẻ Trung cát: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_5",
+    "text": "Quẻ Trung cát: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_6",
+    "text": "Quẻ Trung cát: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_7",
+    "text": "Quẻ Trung cát: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_8",
+    "text": "Quẻ Trung cát: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_9",
+    "text": "Trời bảo {d}, ổn áp. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_10",
+    "text": "Trời bảo {d}, ổn áp. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_11",
+    "text": "Trời bảo {d}, ổn áp. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_12",
+    "text": "Trời bảo {d}, ổn áp. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_13",
+    "text": "Trời bảo {d}, ổn áp. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_14",
+    "text": "Trời bảo {d}, ổn áp. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_15",
+    "text": "Trời bảo {d}, ổn áp. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_16",
+    "text": "Trời bảo {d}, ổn áp. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_17",
+    "text": "Quẻ bình an: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_18",
+    "text": "Quẻ bình an: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_19",
+    "text": "Quẻ bình an: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_20",
+    "text": "Quẻ bình an: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_21",
+    "text": "Quẻ bình an: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_22",
+    "text": "Quẻ bình an: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_23",
+    "text": "Quẻ bình an: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_24",
+    "text": "Quẻ bình an: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_25",
+    "text": "Không quá đỉnh, không quá tệ: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_26",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_27",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_28",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_29",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_30",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_31",
+    "text": "Không quá đỉnh, không quá tệ: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_32",
+    "text": "Không quá đỉnh, không quá tệ: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_33",
+    "text": "Thầy phán nhẹ nhàng: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_34",
+    "text": "Thầy phán nhẹ nhàng: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_35",
+    "text": "Thầy phán nhẹ nhàng: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_36",
+    "text": "Thầy phán nhẹ nhàng: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_37",
+    "text": "Thầy phán nhẹ nhàng: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_38",
+    "text": "Thầy phán nhẹ nhàng: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_39",
+    "text": "Thầy phán nhẹ nhàng: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_40",
+    "text": "Thầy phán nhẹ nhàng: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_41",
+    "text": "Năng lượng vừa đủ dùng: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_42",
+    "text": "Năng lượng vừa đủ dùng: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_43",
+    "text": "Năng lượng vừa đủ dùng: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_44",
+    "text": "Năng lượng vừa đủ dùng: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_45",
+    "text": "Năng lượng vừa đủ dùng: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_46",
+    "text": "Năng lượng vừa đủ dùng: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_47",
+    "text": "Năng lượng vừa đủ dùng: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_48",
+    "text": "Năng lượng vừa đủ dùng: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_49",
+    "text": "Quẻ an toàn như áo phao: {d}. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_50",
+    "text": "Quẻ an toàn như áo phao: {d}. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_51",
+    "text": "Quẻ an toàn như áo phao: {d}. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_52",
+    "text": "Quẻ an toàn như áo phao: {d}. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_53",
+    "text": "Quẻ an toàn như áo phao: {d}. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_54",
+    "text": "Quẻ an toàn như áo phao: {d}. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_55",
+    "text": "Quẻ an toàn như áo phao: {d}. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_56",
+    "text": "Quẻ an toàn như áo phao: {d}. 7 điểm, không cần thêm.",
+    "hidden": false
+   },
+   {
+    "id": "trung_57",
+    "text": "Trời cho {d}, nhận đi đừng ngại. No là được rồi, đừng đòi hỏi vũ trụ nhiều.",
+    "hidden": false
+   },
+   {
+    "id": "trung_58",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Chiều không buồn ngủ là thắng.",
+    "hidden": false
+   },
+   {
+    "id": "trung_59",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Ăn xong vẫn còn tiền mua trà sữa.",
+    "hidden": false
+   },
+   {
+    "id": "trung_60",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Không viral nhưng chill.",
+    "hidden": false
+   },
+   {
+    "id": "trung_61",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Cuộc đời như món này: ổn định là vui.",
+    "hidden": false
+   },
+   {
+    "id": "trung_62",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Bao tử gật đầu, ví mỉm cười.",
+    "hidden": false
+   },
+   {
+    "id": "trung_63",
+    "text": "Trời cho {d}, nhận đi đừng ngại. Không có drama, chỉ có no.",
+    "hidden": false
+   },
+   {
+    "id": "trung_64",
+    "text": "Trời cho {d}, nhận đi đừng ngại. 7 điểm, không cần thêm.",
+    "hidden": false
+   }
+  ],
+  "hung": [
+   {
+    "id": "hung_1",
+    "text": "Quẻ Hung: {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_2",
+    "text": "Quẻ Hung: {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_3",
+    "text": "Quẻ Hung: {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_4",
+    "text": "Quẻ Hung: {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_5",
+    "text": "Quẻ Hung: {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_6",
+    "text": "Quẻ Hung: {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_7",
+    "text": "Quẻ Hung: {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_8",
+    "text": "Quẻ Hung: {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_9",
+    "text": "Trời hơi khó ở: {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_10",
+    "text": "Trời hơi khó ở: {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_11",
+    "text": "Trời hơi khó ở: {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_12",
+    "text": "Trời hơi khó ở: {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_13",
+    "text": "Trời hơi khó ở: {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_14",
+    "text": "Trời hơi khó ở: {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_15",
+    "text": "Trời hơi khó ở: {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_16",
+    "text": "Trời hơi khó ở: {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_17",
+    "text": "Quẻ xấu như wifi công ty: {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_18",
+    "text": "Quẻ xấu như wifi công ty: {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_19",
+    "text": "Quẻ xấu như wifi công ty: {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_20",
+    "text": "Quẻ xấu như wifi công ty: {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_21",
+    "text": "Quẻ xấu như wifi công ty: {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_22",
+    "text": "Quẻ xấu như wifi công ty: {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_23",
+    "text": "Quẻ xấu như wifi công ty: {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_24",
+    "text": "Quẻ xấu như wifi công ty: {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_25",
+    "text": "Sao quả tạ chiếu {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_26",
+    "text": "Sao quả tạ chiếu {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_27",
+    "text": "Sao quả tạ chiếu {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_28",
+    "text": "Sao quả tạ chiếu {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_29",
+    "text": "Sao quả tạ chiếu {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_30",
+    "text": "Sao quả tạ chiếu {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_31",
+    "text": "Sao quả tạ chiếu {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_32",
+    "text": "Sao quả tạ chiếu {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_33",
+    "text": "Thầy lắc đầu nhìn {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_34",
+    "text": "Thầy lắc đầu nhìn {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_35",
+    "text": "Thầy lắc đầu nhìn {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_36",
+    "text": "Thầy lắc đầu nhìn {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_37",
+    "text": "Thầy lắc đầu nhìn {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_38",
+    "text": "Thầy lắc đầu nhìn {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_39",
+    "text": "Thầy lắc đầu nhìn {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_40",
+    "text": "Thầy lắc đầu nhìn {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_41",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_42",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_43",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_44",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_45",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_46",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_47",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_48",
+    "text": "Hệ mặt trời lệch quỹ đạo: {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_49",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_50",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_51",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_52",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_53",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_54",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_55",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_56",
+    "text": "Ăn {d} hôm nay là thử thách tâm linh. Thần tài không phù hộ món này.",
+    "hidden": false
+   },
+   {
+    "id": "hung_57",
+    "text": "Quẻ này mà share thì mất follow: {d}. Trời bảo giảm cân, nhưng tâm bảo thôi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_58",
+    "text": "Quẻ này mà share thì mất follow: {d}. Nên giải hạn ngay kẻo chiều họp dài.",
+    "hidden": false
+   },
+   {
+    "id": "hung_59",
+    "text": "Quẻ này mà share thì mất follow: {d}. Ăn xong có thể bị giao thêm task.",
+    "hidden": false
+   },
+   {
+    "id": "hung_60",
+    "text": "Quẻ này mà share thì mất follow: {d}. Khuyên thật: xóc lại đi bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "hung_61",
+    "text": "Quẻ này mà share thì mất follow: {d}. Vía hôm nay hơi mỏng, cẩn thận.",
+    "hidden": false
+   },
+   {
+    "id": "hung_62",
+    "text": "Quẻ này mà share thì mất follow: {d}. Có thể gặp người yêu cũ ở quán.",
+    "hidden": false
+   },
+   {
+    "id": "hung_63",
+    "text": "Quẻ này mà share thì mất follow: {d}. Ví sẽ nhẹ hơn dự kiến.",
+    "hidden": false
+   },
+   {
+    "id": "hung_64",
+    "text": "Quẻ này mà share thì mất follow: {d}. Thần tài không phù hộ món này.",
+    "hidden": false
+   }
+  ],
+  "dice": [
+   {
+    "id": "dice_1",
+    "text": "Xúc xắc nói {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_2",
+    "text": "Xúc xắc nói {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_3",
+    "text": "Xúc xắc nói {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_4",
+    "text": "Xúc xắc nói {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_5",
+    "text": "Xúc xắc nói {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_6",
+    "text": "Xúc xắc nói {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_7",
+    "text": "Xúc xắc nói {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_8",
+    "text": "Xúc xắc nói {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_9",
+    "text": "Lăn một phát ra {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_10",
+    "text": "Lăn một phát ra {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_11",
+    "text": "Lăn một phát ra {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_12",
+    "text": "Lăn một phát ra {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_13",
+    "text": "Lăn một phát ra {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_14",
+    "text": "Lăn một phát ra {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_15",
+    "text": "Lăn một phát ra {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_16",
+    "text": "Lăn một phát ra {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_17",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_18",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_19",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_20",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_21",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_22",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_23",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_24",
+    "text": "Hội đồng xúc xắc đã biểu quyết: {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_25",
+    "text": "Số trời định: {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_26",
+    "text": "Số trời định: {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_27",
+    "text": "Số trời định: {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_28",
+    "text": "Số trời định: {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_29",
+    "text": "Số trời định: {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_30",
+    "text": "Số trời định: {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_31",
+    "text": "Số trời định: {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_32",
+    "text": "Số trời định: {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_33",
+    "text": "Toán học đã chứng minh: {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_34",
+    "text": "Toán học đã chứng minh: {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_35",
+    "text": "Toán học đã chứng minh: {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_36",
+    "text": "Toán học đã chứng minh: {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_37",
+    "text": "Toán học đã chứng minh: {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_38",
+    "text": "Toán học đã chứng minh: {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_39",
+    "text": "Toán học đã chứng minh: {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_40",
+    "text": "Toán học đã chứng minh: {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_41",
+    "text": "6 mặt, 1 chân lý: {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_42",
+    "text": "6 mặt, 1 chân lý: {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_43",
+    "text": "6 mặt, 1 chân lý: {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_44",
+    "text": "6 mặt, 1 chân lý: {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_45",
+    "text": "6 mặt, 1 chân lý: {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_46",
+    "text": "6 mặt, 1 chân lý: {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_47",
+    "text": "6 mặt, 1 chân lý: {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_48",
+    "text": "6 mặt, 1 chân lý: {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_49",
+    "text": "Xác suất thống kê gọi tên {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_50",
+    "text": "Xác suất thống kê gọi tên {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_51",
+    "text": "Xác suất thống kê gọi tên {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_52",
+    "text": "Xác suất thống kê gọi tên {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_53",
+    "text": "Xác suất thống kê gọi tên {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_54",
+    "text": "Xác suất thống kê gọi tên {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_55",
+    "text": "Xác suất thống kê gọi tên {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_56",
+    "text": "Xác suất thống kê gọi tên {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   },
+   {
+    "id": "dice_57",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Nó không nói dối, nó chỉ lăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_58",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "dice_59",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Kháng cáo bị bác bỏ.",
+    "hidden": false
+   },
+   {
+    "id": "dice_60",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Không nhận khiếu nại sau 18 giây.",
+    "hidden": false
+   },
+   {
+    "id": "dice_61",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Xúc xắc không có tình cảm, chỉ có kết quả.",
+    "hidden": false
+   },
+   {
+    "id": "dice_62",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Chấp nhận đi, đời là may rủi.",
+    "hidden": false
+   },
+   {
+    "id": "dice_63",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Lăn chuẩn hơn dự báo thời tiết.",
+    "hidden": false
+   },
+   {
+    "id": "dice_64",
+    "text": "Đổ xúc xắc xong, bụng réo {d}. Đó là luật, không phải gợi ý.",
+    "hidden": false
+   }
+  ],
+  "triple": [
+   {
+    "id": "triple_1",
+    "text": "Ra bộ ba! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_2",
+    "text": "Ra bộ ba! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_3",
+    "text": "Ra bộ ba! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_4",
+    "text": "Ra bộ ba! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_5",
+    "text": "Ra bộ ba! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_6",
+    "text": "Ra bộ ba! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_7",
+    "text": "Ra bộ ba! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_8",
+    "text": "Ra bộ ba! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_9",
+    "text": "JACKPOT bộ ba! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_10",
+    "text": "JACKPOT bộ ba! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_11",
+    "text": "JACKPOT bộ ba! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_12",
+    "text": "JACKPOT bộ ba! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_13",
+    "text": "JACKPOT bộ ba! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_14",
+    "text": "JACKPOT bộ ba! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_15",
+    "text": "JACKPOT bộ ba! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_16",
+    "text": "JACKPOT bộ ba! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_17",
+    "text": "Bộ ba hiếm như lương tăng! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_18",
+    "text": "Bộ ba hiếm như lương tăng! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_19",
+    "text": "Bộ ba hiếm như lương tăng! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_20",
+    "text": "Bộ ba hiếm như lương tăng! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_21",
+    "text": "Bộ ba hiếm như lương tăng! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_22",
+    "text": "Bộ ba hiếm như lương tăng! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_23",
+    "text": "Bộ ba hiếm như lương tăng! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_24",
+    "text": "Bộ ba hiếm như lương tăng! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_25",
+    "text": "Ba viên đồng lòng! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_26",
+    "text": "Ba viên đồng lòng! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_27",
+    "text": "Ba viên đồng lòng! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_28",
+    "text": "Ba viên đồng lòng! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_29",
+    "text": "Ba viên đồng lòng! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_30",
+    "text": "Ba viên đồng lòng! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_31",
+    "text": "Ba viên đồng lòng! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_32",
+    "text": "Ba viên đồng lòng! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_33",
+    "text": "Trời ơi bộ ba! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_34",
+    "text": "Trời ơi bộ ba! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_35",
+    "text": "Trời ơi bộ ba! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_36",
+    "text": "Trời ơi bộ ba! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_37",
+    "text": "Trời ơi bộ ba! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_38",
+    "text": "Trời ơi bộ ba! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_39",
+    "text": "Trời ơi bộ ba! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_40",
+    "text": "Trời ơi bộ ba! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_41",
+    "text": "Bộ ba thần thánh! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_42",
+    "text": "Bộ ba thần thánh! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_43",
+    "text": "Bộ ba thần thánh! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_44",
+    "text": "Bộ ba thần thánh! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_45",
+    "text": "Bộ ba thần thánh! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_46",
+    "text": "Bộ ba thần thánh! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_47",
+    "text": "Bộ ba thần thánh! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_48",
+    "text": "Bộ ba thần thánh! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_49",
+    "text": "Hiện tượng thiên văn: bộ ba! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_50",
+    "text": "Hiện tượng thiên văn: bộ ba! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_51",
+    "text": "Hiện tượng thiên văn: bộ ba! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_52",
+    "text": "Hiện tượng thiên văn: bộ ba! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_53",
+    "text": "Hiện tượng thiên văn: bộ ba! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_54",
+    "text": "Hiện tượng thiên văn: bộ ba! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_55",
+    "text": "Hiện tượng thiên văn: bộ ba! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_56",
+    "text": "Hiện tượng thiên văn: bộ ba! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   },
+   {
+    "id": "triple_57",
+    "text": "Bộ ba xuất hiện! Vũ trụ đã lên tiếng, ai cãi là đói.",
+    "hidden": false
+   },
+   {
+    "id": "triple_58",
+    "text": "Bộ ba xuất hiện! Hôm nay ăn sang, mai tính tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "triple_59",
+    "text": "Bộ ba xuất hiện! Món đặc biệt mở khóa, ví thì khóa.",
+    "hidden": false
+   },
+   {
+    "id": "triple_60",
+    "text": "Bộ ba xuất hiện! Chụp lại khoe cả nhóm đi.",
+    "hidden": false
+   },
+   {
+    "id": "triple_61",
+    "text": "Bộ ba xuất hiện! Đây là dấu hiệu bạn xứng đáng.",
+    "hidden": false
+   },
+   {
+    "id": "triple_62",
+    "text": "Bộ ba xuất hiện! Đi ăn liền kẻo vía chạy mất.",
+    "hidden": false
+   },
+   {
+    "id": "triple_63",
+    "text": "Bộ ba xuất hiện! Xác suất thấp, tinh thần cao.",
+    "hidden": false
+   },
+   {
+    "id": "triple_64",
+    "text": "Bộ ba xuất hiện! Lịch sử sẽ ghi nhớ bữa này.",
+    "hidden": false
+   }
+  ],
+  "pay": [
+   {
+    "id": "pay_1",
+    "text": "Chúc mừng {n}! Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_2",
+    "text": "Chúc mừng {n}! Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_3",
+    "text": "Chúc mừng {n}! Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_4",
+    "text": "Chúc mừng {n}! Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_5",
+    "text": "Chúc mừng {n}! Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_6",
+    "text": "Chúc mừng {n}! Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_7",
+    "text": "Chúc mừng {n}! Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_8",
+    "text": "Chúc mừng {n}! Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_9",
+    "text": "{n} ơi, Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_10",
+    "text": "{n} ơi, Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_11",
+    "text": "{n} ơi, Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_12",
+    "text": "{n} ơi, Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_13",
+    "text": "{n} ơi, Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_14",
+    "text": "{n} ơi, Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_15",
+    "text": "{n} ơi, Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_16",
+    "text": "{n} ơi, Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_17",
+    "text": "Xin vinh danh {n}: Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_18",
+    "text": "Xin vinh danh {n}: Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_19",
+    "text": "Xin vinh danh {n}: Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_20",
+    "text": "Xin vinh danh {n}: Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_21",
+    "text": "Xin vinh danh {n}: Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_22",
+    "text": "Xin vinh danh {n}: Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_23",
+    "text": "Xin vinh danh {n}: Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_24",
+    "text": "Xin vinh danh {n}: Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_25",
+    "text": "Breaking news: {n} trả tiền! Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_26",
+    "text": "Breaking news: {n} trả tiền! Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_27",
+    "text": "Breaking news: {n} trả tiền! Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_28",
+    "text": "Breaking news: {n} trả tiền! Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_29",
+    "text": "Breaking news: {n} trả tiền! Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_30",
+    "text": "Breaking news: {n} trả tiền! Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_31",
+    "text": "Breaking news: {n} trả tiền! Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_32",
+    "text": "Breaking news: {n} trả tiền! Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_33",
+    "text": "Định mệnh gọi tên {n}. Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_34",
+    "text": "Định mệnh gọi tên {n}. Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_35",
+    "text": "Định mệnh gọi tên {n}. Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_36",
+    "text": "Định mệnh gọi tên {n}. Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_37",
+    "text": "Định mệnh gọi tên {n}. Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_38",
+    "text": "Định mệnh gọi tên {n}. Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_39",
+    "text": "Định mệnh gọi tên {n}. Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_40",
+    "text": "Định mệnh gọi tên {n}. Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_41",
+    "text": "{n} trúng giải độc đắc ngược! Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_42",
+    "text": "{n} trúng giải độc đắc ngược! Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_43",
+    "text": "{n} trúng giải độc đắc ngược! Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_44",
+    "text": "{n} trúng giải độc đắc ngược! Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_45",
+    "text": "{n} trúng giải độc đắc ngược! Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_46",
+    "text": "{n} trúng giải độc đắc ngược! Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_47",
+    "text": "{n} trúng giải độc đắc ngược! Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_48",
+    "text": "{n} trúng giải độc đắc ngược! Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_49",
+    "text": "Cả nhóm xin cảm ơn {n}. Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_50",
+    "text": "Cả nhóm xin cảm ơn {n}. Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_51",
+    "text": "Cả nhóm xin cảm ơn {n}. Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_52",
+    "text": "Cả nhóm xin cảm ơn {n}. Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_53",
+    "text": "Cả nhóm xin cảm ơn {n}. Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_54",
+    "text": "Cả nhóm xin cảm ơn {n}. Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_55",
+    "text": "Cả nhóm xin cảm ơn {n}. Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_56",
+    "text": "Cả nhóm xin cảm ơn {n}. Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_57",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Hôm nay bạn chính thức là mạnh thường quân của nhóm.",
+    "hidden": false
+   },
+   {
+    "id": "pay_58",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Ví bạn đang khóc, nhưng bụng cả nhóm đang cười.",
+    "hidden": false
+   },
+   {
+    "id": "pay_59",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Không phải xui đâu, là định mệnh đó bạn ơi.",
+    "hidden": false
+   },
+   {
+    "id": "pay_60",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Tấm lòng vàng, ví thì hơi bạc.",
+    "hidden": false
+   },
+   {
+    "id": "pay_61",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Cảm ơn nhà tài trợ kim cương của bữa hôm nay.",
+    "hidden": false
+   },
+   {
+    "id": "pay_62",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Một người trả, cả nhóm no, xã hội tốt đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "pay_63",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Bạn mất tiền nhưng được nghiệp tốt.",
+    "hidden": false
+   },
+   {
+    "id": "pay_64",
+    "text": "Bánh xe dừng ở {n}, cảm xúc dừng ở cả nhóm. Bạn đã được thêm vào danh sách người đẹp trai/xinh gái nhất nhóm.",
+    "hidden": false
+   }
+  ],
+  "respin": [
+   {
+    "id": "respin_1",
+    "text": "Hôm qua ăn rồi, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_2",
+    "text": "Hôm qua ăn rồi, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_3",
+    "text": "Hôm qua ăn rồi, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_4",
+    "text": "Hôm qua ăn rồi, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_5",
+    "text": "Hôm qua ăn rồi, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_6",
+    "text": "Hôm qua ăn rồi, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_7",
+    "text": "Hôm qua ăn rồi, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_8",
+    "text": "Hôm qua ăn rồi, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_9",
+    "text": "Món này người yêu cũ thích, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_10",
+    "text": "Món này người yêu cũ thích, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_11",
+    "text": "Món này người yêu cũ thích, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_12",
+    "text": "Món này người yêu cũ thích, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_13",
+    "text": "Món này người yêu cũ thích, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_14",
+    "text": "Món này người yêu cũ thích, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_15",
+    "text": "Món này người yêu cũ thích, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_16",
+    "text": "Món này người yêu cũ thích, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_17",
+    "text": "Sếp cũng ăn món này, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_18",
+    "text": "Sếp cũng ăn món này, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_19",
+    "text": "Sếp cũng ăn món này, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_20",
+    "text": "Sếp cũng ăn món này, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_21",
+    "text": "Sếp cũng ăn món này, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_22",
+    "text": "Sếp cũng ăn món này, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_23",
+    "text": "Sếp cũng ăn món này, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_24",
+    "text": "Sếp cũng ăn món này, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_25",
+    "text": "Bao tử bỏ phiếu chống, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_26",
+    "text": "Bao tử bỏ phiếu chống, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_27",
+    "text": "Bao tử bỏ phiếu chống, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_28",
+    "text": "Bao tử bỏ phiếu chống, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_29",
+    "text": "Bao tử bỏ phiếu chống, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_30",
+    "text": "Bao tử bỏ phiếu chống, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_31",
+    "text": "Bao tử bỏ phiếu chống, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_32",
+    "text": "Bao tử bỏ phiếu chống, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_33",
+    "text": "Đang trong giai đoạn healing, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_34",
+    "text": "Đang trong giai đoạn healing, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_35",
+    "text": "Đang trong giai đoạn healing, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_36",
+    "text": "Đang trong giai đoạn healing, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_37",
+    "text": "Đang trong giai đoạn healing, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_38",
+    "text": "Đang trong giai đoạn healing, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_39",
+    "text": "Đang trong giai đoạn healing, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_40",
+    "text": "Đang trong giai đoạn healing, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_41",
+    "text": "Horoscope bảo tránh, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_42",
+    "text": "Horoscope bảo tránh, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_43",
+    "text": "Horoscope bảo tránh, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_44",
+    "text": "Horoscope bảo tránh, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_45",
+    "text": "Horoscope bảo tránh, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_46",
+    "text": "Horoscope bảo tránh, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_47",
+    "text": "Horoscope bảo tránh, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_48",
+    "text": "Horoscope bảo tránh, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_49",
+    "text": "Ví chưa sẵn sàng, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_50",
+    "text": "Ví chưa sẵn sàng, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_51",
+    "text": "Ví chưa sẵn sàng, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_52",
+    "text": "Ví chưa sẵn sàng, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_53",
+    "text": "Ví chưa sẵn sàng, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_54",
+    "text": "Ví chưa sẵn sàng, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_55",
+    "text": "Ví chưa sẵn sàng, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_56",
+    "text": "Ví chưa sẵn sàng, lần cuối, hứa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_57",
+    "text": "Vừa thấy review 1 sao, cho tui cơ hội làm lại cuộc đời.",
+    "hidden": false
+   },
+   {
+    "id": "respin_58",
+    "text": "Vừa thấy review 1 sao, né.",
+    "hidden": false
+   },
+   {
+    "id": "respin_59",
+    "text": "Vừa thấy review 1 sao, quay lại cho đẹp.",
+    "hidden": false
+   },
+   {
+    "id": "respin_60",
+    "text": "Vừa thấy review 1 sao, xin phép vũ trụ lần nữa.",
+    "hidden": false
+   },
+   {
+    "id": "respin_61",
+    "text": "Vừa thấy review 1 sao, trời ơi cho con đổi.",
+    "hidden": false
+   },
+   {
+    "id": "respin_62",
+    "text": "Vừa thấy review 1 sao, lần này là thật lòng.",
+    "hidden": false
+   },
+   {
+    "id": "respin_63",
+    "text": "Vừa thấy review 1 sao, đổi gió chút.",
+    "hidden": false
+   },
+   {
+    "id": "respin_64",
+    "text": "Vừa thấy review 1 sao, lần cuối, hứa.",
+    "hidden": false
+   }
+  ],
+  "sang": [
+   {
+    "id": "sang_1",
+    "text": "Bữa sáng là bữa quan trọng nhất, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_2",
+    "text": "Bữa sáng là bữa quan trọng nhất, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_3",
+    "text": "Bữa sáng là bữa quan trọng nhất, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_4",
+    "text": "Bữa sáng là bữa quan trọng nhất, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_5",
+    "text": "Bữa sáng là bữa quan trọng nhất, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_6",
+    "text": "Bữa sáng là bữa quan trọng nhất, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_7",
+    "text": "Bữa sáng là bữa quan trọng nhất, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_8",
+    "text": "Bữa sáng là bữa quan trọng nhất, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_9",
+    "text": "Sáng nay mà nhịn, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_10",
+    "text": "Sáng nay mà nhịn, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_11",
+    "text": "Sáng nay mà nhịn, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_12",
+    "text": "Sáng nay mà nhịn, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_13",
+    "text": "Sáng nay mà nhịn, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_14",
+    "text": "Sáng nay mà nhịn, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_15",
+    "text": "Sáng nay mà nhịn, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_16",
+    "text": "Sáng nay mà nhịn, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_17",
+    "text": "Dậy sớm đã khổ, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_18",
+    "text": "Dậy sớm đã khổ, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_19",
+    "text": "Dậy sớm đã khổ, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_20",
+    "text": "Dậy sớm đã khổ, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_21",
+    "text": "Dậy sớm đã khổ, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_22",
+    "text": "Dậy sớm đã khổ, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_23",
+    "text": "Dậy sớm đã khổ, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_24",
+    "text": "Dậy sớm đã khổ, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_25",
+    "text": "Cà phê chưa đủ, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_26",
+    "text": "Cà phê chưa đủ, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_27",
+    "text": "Cà phê chưa đủ, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_28",
+    "text": "Cà phê chưa đủ, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_29",
+    "text": "Cà phê chưa đủ, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_30",
+    "text": "Cà phê chưa đủ, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_31",
+    "text": "Cà phê chưa đủ, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_32",
+    "text": "Cà phê chưa đủ, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_33",
+    "text": "Chuông báo thức kêu 5 lần, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_34",
+    "text": "Chuông báo thức kêu 5 lần, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_35",
+    "text": "Chuông báo thức kêu 5 lần, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_36",
+    "text": "Chuông báo thức kêu 5 lần, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_37",
+    "text": "Chuông báo thức kêu 5 lần, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_38",
+    "text": "Chuông báo thức kêu 5 lần, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_39",
+    "text": "Chuông báo thức kêu 5 lần, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_40",
+    "text": "Chuông báo thức kêu 5 lần, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_41",
+    "text": "Bụng réo trước cả sếp, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_42",
+    "text": "Bụng réo trước cả sếp, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_43",
+    "text": "Bụng réo trước cả sếp, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_44",
+    "text": "Bụng réo trước cả sếp, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_45",
+    "text": "Bụng réo trước cả sếp, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_46",
+    "text": "Bụng réo trước cả sếp, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_47",
+    "text": "Bụng réo trước cả sếp, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_48",
+    "text": "Bụng réo trước cả sếp, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_49",
+    "text": "Ăn sáng đi rồi tính, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_50",
+    "text": "Ăn sáng đi rồi tính, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_51",
+    "text": "Ăn sáng đi rồi tính, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_52",
+    "text": "Ăn sáng đi rồi tính, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_53",
+    "text": "Ăn sáng đi rồi tính, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_54",
+    "text": "Ăn sáng đi rồi tính, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_55",
+    "text": "Ăn sáng đi rồi tính, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_56",
+    "text": "Ăn sáng đi rồi tính, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_57",
+    "text": "Mặt trời chưa lên, đừng để bao tử dỗi.",
+    "hidden": false
+   },
+   {
+    "id": "sang_58",
+    "text": "Mặt trời chưa lên, 9h là tụt mood.",
+    "hidden": false
+   },
+   {
+    "id": "sang_59",
+    "text": "Mặt trời chưa lên, đừng khổ thêm vì đói.",
+    "hidden": false
+   },
+   {
+    "id": "sang_60",
+    "text": "Mặt trời chưa lên, phải có gì đó lót dạ.",
+    "hidden": false
+   },
+   {
+    "id": "sang_61",
+    "text": "Mặt trời chưa lên, giờ ít nhất phải ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "sang_62",
+    "text": "Mặt trời chưa lên, chọn nhanh còn chấm công.",
+    "hidden": false
+   },
+   {
+    "id": "sang_63",
+    "text": "Mặt trời chưa lên, deadline để sau.",
+    "hidden": false
+   },
+   {
+    "id": "sang_64",
+    "text": "Mặt trời chưa lên, nhưng cơn đói thì lên rồi.",
+    "hidden": false
+   }
+  ],
+  "trua": [
+   {
+    "id": "trua_1",
+    "text": "Đến giờ cơm trưa rồi, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_2",
+    "text": "Đến giờ cơm trưa rồi, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_3",
+    "text": "Đến giờ cơm trưa rồi, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_4",
+    "text": "Đến giờ cơm trưa rồi, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_5",
+    "text": "Đến giờ cơm trưa rồi, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_6",
+    "text": "Đến giờ cơm trưa rồi, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_7",
+    "text": "Đến giờ cơm trưa rồi, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_8",
+    "text": "Đến giờ cơm trưa rồi, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_9",
+    "text": "12h trưa mà còn phân vân, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_10",
+    "text": "12h trưa mà còn phân vân, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_11",
+    "text": "12h trưa mà còn phân vân, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_12",
+    "text": "12h trưa mà còn phân vân, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_13",
+    "text": "12h trưa mà còn phân vân, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_14",
+    "text": "12h trưa mà còn phân vân, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_15",
+    "text": "12h trưa mà còn phân vân, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_16",
+    "text": "12h trưa mà còn phân vân, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_17",
+    "text": "Văn phòng im lặng, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_18",
+    "text": "Văn phòng im lặng, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_19",
+    "text": "Văn phòng im lặng, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_20",
+    "text": "Văn phòng im lặng, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_21",
+    "text": "Văn phòng im lặng, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_22",
+    "text": "Văn phòng im lặng, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_23",
+    "text": "Văn phòng im lặng, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_24",
+    "text": "Văn phòng im lặng, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_25",
+    "text": "Cả team nhìn nhau, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_26",
+    "text": "Cả team nhìn nhau, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_27",
+    "text": "Cả team nhìn nhau, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_28",
+    "text": "Cả team nhìn nhau, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_29",
+    "text": "Cả team nhìn nhau, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_30",
+    "text": "Cả team nhìn nhau, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_31",
+    "text": "Cả team nhìn nhau, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_32",
+    "text": "Cả team nhìn nhau, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_33",
+    "text": "Trưa nay không ăn ngon, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_34",
+    "text": "Trưa nay không ăn ngon, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_35",
+    "text": "Trưa nay không ăn ngon, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_36",
+    "text": "Trưa nay không ăn ngon, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_37",
+    "text": "Trưa nay không ăn ngon, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_38",
+    "text": "Trưa nay không ăn ngon, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_39",
+    "text": "Trưa nay không ăn ngon, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_40",
+    "text": "Trưa nay không ăn ngon, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_41",
+    "text": "Group chat đang hỏi ăn gì, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_42",
+    "text": "Group chat đang hỏi ăn gì, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_43",
+    "text": "Group chat đang hỏi ăn gì, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_44",
+    "text": "Group chat đang hỏi ăn gì, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_45",
+    "text": "Group chat đang hỏi ăn gì, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_46",
+    "text": "Group chat đang hỏi ăn gì, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_47",
+    "text": "Group chat đang hỏi ăn gì, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_48",
+    "text": "Group chat đang hỏi ăn gì, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_49",
+    "text": "Lương chưa về, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_50",
+    "text": "Lương chưa về, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_51",
+    "text": "Lương chưa về, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_52",
+    "text": "Lương chưa về, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_53",
+    "text": "Lương chưa về, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_54",
+    "text": "Lương chưa về, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_55",
+    "text": "Lương chưa về, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_56",
+    "text": "Lương chưa về, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   },
+   {
+    "id": "trua_57",
+    "text": "Họp xong rồi, để trời quyết cho nhanh.",
+    "hidden": false
+   },
+   {
+    "id": "trua_58",
+    "text": "Họp xong rồi, là chiều buồn ngủ gấp đôi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_59",
+    "text": "Họp xong rồi, chỉ có bụng là đang nói.",
+    "hidden": false
+   },
+   {
+    "id": "trua_60",
+    "text": "Họp xong rồi, không ai dám chọn món.",
+    "hidden": false
+   },
+   {
+    "id": "trua_61",
+    "text": "Họp xong rồi, thì chiều code bug.",
+    "hidden": false
+   },
+   {
+    "id": "trua_62",
+    "text": "Họp xong rồi, bạn trả lời giùm đi.",
+    "hidden": false
+   },
+   {
+    "id": "trua_63",
+    "text": "Họp xong rồi, nhưng bữa trưa vẫn phải về.",
+    "hidden": false
+   },
+   {
+    "id": "trua_64",
+    "text": "Họp xong rồi, giờ tới tiết mục quan trọng nhất.",
+    "hidden": false
+   }
+  ],
+  "toi": [
+   {
+    "id": "toi_1",
+    "text": "Tối rồi, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_2",
+    "text": "Tối rồi, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_3",
+    "text": "Tối rồi, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_4",
+    "text": "Tối rồi, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_5",
+    "text": "Tối rồi, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_6",
+    "text": "Tối rồi, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_7",
+    "text": "Tối rồi, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_8",
+    "text": "Tối rồi, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_9",
+    "text": "Sau một ngày cày cuốc, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_10",
+    "text": "Sau một ngày cày cuốc, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_11",
+    "text": "Sau một ngày cày cuốc, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_12",
+    "text": "Sau một ngày cày cuốc, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_13",
+    "text": "Sau một ngày cày cuốc, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_14",
+    "text": "Sau một ngày cày cuốc, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_15",
+    "text": "Sau một ngày cày cuốc, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_16",
+    "text": "Sau một ngày cày cuốc, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_17",
+    "text": "Tan làm rồi, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_18",
+    "text": "Tan làm rồi, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_19",
+    "text": "Tan làm rồi, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_20",
+    "text": "Tan làm rồi, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_21",
+    "text": "Tan làm rồi, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_22",
+    "text": "Tan làm rồi, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_23",
+    "text": "Tan làm rồi, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_24",
+    "text": "Tan làm rồi, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_25",
+    "text": "Tối nay là của bạn, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_26",
+    "text": "Tối nay là của bạn, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_27",
+    "text": "Tối nay là của bạn, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_28",
+    "text": "Tối nay là của bạn, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_29",
+    "text": "Tối nay là của bạn, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_30",
+    "text": "Tối nay là của bạn, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_31",
+    "text": "Tối nay là của bạn, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_32",
+    "text": "Tối nay là của bạn, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_33",
+    "text": "Cả ngày đã cố gắng, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_34",
+    "text": "Cả ngày đã cố gắng, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_35",
+    "text": "Cả ngày đã cố gắng, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_36",
+    "text": "Cả ngày đã cố gắng, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_37",
+    "text": "Cả ngày đã cố gắng, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_38",
+    "text": "Cả ngày đã cố gắng, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_39",
+    "text": "Cả ngày đã cố gắng, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_40",
+    "text": "Cả ngày đã cố gắng, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_41",
+    "text": "Netflix đã sẵn sàng, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_42",
+    "text": "Netflix đã sẵn sàng, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_43",
+    "text": "Netflix đã sẵn sàng, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_44",
+    "text": "Netflix đã sẵn sàng, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_45",
+    "text": "Netflix đã sẵn sàng, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_46",
+    "text": "Netflix đã sẵn sàng, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_47",
+    "text": "Netflix đã sẵn sàng, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_48",
+    "text": "Netflix đã sẵn sàng, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_49",
+    "text": "Kẹt xe về tới nhà, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_50",
+    "text": "Kẹt xe về tới nhà, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_51",
+    "text": "Kẹt xe về tới nhà, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_52",
+    "text": "Kẹt xe về tới nhà, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_53",
+    "text": "Kẹt xe về tới nhà, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_54",
+    "text": "Kẹt xe về tới nhà, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_55",
+    "text": "Kẹt xe về tới nhà, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_56",
+    "text": "Kẹt xe về tới nhà, tối nay ăn cho đã.",
+    "hidden": false
+   },
+   {
+    "id": "toi_57",
+    "text": "Ngày mai tính sau, thưởng cho bản thân bữa ra trò.",
+    "hidden": false
+   },
+   {
+    "id": "toi_58",
+    "text": "Ngày mai tính sau, bạn xứng đáng được ăn ngon.",
+    "hidden": false
+   },
+   {
+    "id": "toi_59",
+    "text": "Ngày mai tính sau, đừng để bụng đói đi ngủ.",
+    "hidden": false
+   },
+   {
+    "id": "toi_60",
+    "text": "Ngày mai tính sau, đi ăn với hội hay ăn một mình đều vui.",
+    "hidden": false
+   },
+   {
+    "id": "toi_61",
+    "text": "Ngày mai tính sau, giờ là lúc bao tử lên tiếng.",
+    "hidden": false
+   },
+   {
+    "id": "toi_62",
+    "text": "Ngày mai tính sau, chỉ thiếu món ăn kèm.",
+    "hidden": false
+   },
+   {
+    "id": "toi_63",
+    "text": "Ngày mai tính sau, tâm hồn cần được vỗ về.",
+    "hidden": false
+   },
+   {
+    "id": "toi_64",
+    "text": "Ngày mai tính sau, tối nay ăn cho đã.",
+    "hidden": false
+   }
+  ],
+  "khuya": [
+   {
+    "id": "khuya_1",
+    "text": "Đã khuya rồi, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_2",
+    "text": "Đã khuya rồi, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_3",
+    "text": "Đã khuya rồi, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_4",
+    "text": "Đã khuya rồi, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_5",
+    "text": "Đã khuya rồi, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_6",
+    "text": "Đã khuya rồi, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_7",
+    "text": "Đã khuya rồi, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_8",
+    "text": "Đã khuya rồi, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_9",
+    "text": "Nửa đêm mà bụng réo, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_10",
+    "text": "Nửa đêm mà bụng réo, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_11",
+    "text": "Nửa đêm mà bụng réo, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_12",
+    "text": "Nửa đêm mà bụng réo, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_13",
+    "text": "Nửa đêm mà bụng réo, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_14",
+    "text": "Nửa đêm mà bụng réo, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_15",
+    "text": "Nửa đêm mà bụng réo, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_16",
+    "text": "Nửa đêm mà bụng réo, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_17",
+    "text": "Đêm nay không ngủ, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_18",
+    "text": "Đêm nay không ngủ, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_19",
+    "text": "Đêm nay không ngủ, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_20",
+    "text": "Đêm nay không ngủ, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_21",
+    "text": "Đêm nay không ngủ, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_22",
+    "text": "Đêm nay không ngủ, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_23",
+    "text": "Đêm nay không ngủ, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_24",
+    "text": "Đêm nay không ngủ, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_25",
+    "text": "Cú đêm thức giấc, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_26",
+    "text": "Cú đêm thức giấc, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_27",
+    "text": "Cú đêm thức giấc, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_28",
+    "text": "Cú đêm thức giấc, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_29",
+    "text": "Cú đêm thức giấc, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_30",
+    "text": "Cú đêm thức giấc, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_31",
+    "text": "Cú đêm thức giấc, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_32",
+    "text": "Cú đêm thức giấc, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_33",
+    "text": "Deadline chưa xong, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_34",
+    "text": "Deadline chưa xong, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_35",
+    "text": "Deadline chưa xong, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_36",
+    "text": "Deadline chưa xong, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_37",
+    "text": "Deadline chưa xong, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_38",
+    "text": "Deadline chưa xong, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_39",
+    "text": "Deadline chưa xong, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_40",
+    "text": "Deadline chưa xong, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_41",
+    "text": "Lướt TikTok tới giờ này, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_42",
+    "text": "Lướt TikTok tới giờ này, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_43",
+    "text": "Lướt TikTok tới giờ này, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_44",
+    "text": "Lướt TikTok tới giờ này, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_45",
+    "text": "Lướt TikTok tới giờ này, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_46",
+    "text": "Lướt TikTok tới giờ này, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_47",
+    "text": "Lướt TikTok tới giờ này, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_48",
+    "text": "Lướt TikTok tới giờ này, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_49",
+    "text": "Tủ lạnh trống trơn, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_50",
+    "text": "Tủ lạnh trống trơn, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_51",
+    "text": "Tủ lạnh trống trơn, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_52",
+    "text": "Tủ lạnh trống trơn, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_53",
+    "text": "Tủ lạnh trống trơn, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_54",
+    "text": "Tủ lạnh trống trơn, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_55",
+    "text": "Tủ lạnh trống trơn, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_56",
+    "text": "Tủ lạnh trống trơn, ngày mai giảm cân sau.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_57",
+    "text": "Ăn khuya là tội, nhưng tội này đáng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_58",
+    "text": "Ăn khuya là tội, thì thôi chiều nó.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_59",
+    "text": "Ăn khuya là tội, thì phải có gì nhâm nhi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_60",
+    "text": "Ăn khuya là tội, đi kiếm đồ ăn thôi.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_61",
+    "text": "Ăn khuya là tội, nạp năng lượng làm tiếp.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_62",
+    "text": "Ăn khuya là tội, bao tử cũng muốn được giải trí.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_63",
+    "text": "Ăn khuya là tội, shipper là người hùng.",
+    "hidden": false
+   },
+   {
+    "id": "khuya_64",
+    "text": "Ăn khuya là tội, ngày mai giảm cân sau.",
+    "hidden": false
+   }
+  ]
+ }
+}
