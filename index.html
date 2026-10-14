@@ -314,10 +314,9 @@ function withParams(url,affParam,affId){const u=new URL(url);u.searchParams.set(
 function orderLinks(name){
   const city=$("#city").value, q=name.replace(/\(.*?\)/g,"").trim();
   const sp=withParams(`https://shopeefood.vn/${CITY_SLUG[city]}/danh-sach-dia-diem-giao-tan-noi?q=${encodeURIComponent(q)}`,CONFIG.SHOPEEFOOD_AFFILIATE_PARAM,CONFIG.SHOPEEFOOD_AFFILIATE_ID);
-  const gr=withParams(`https://food.grab.com/vn/vi/restaurants?search=${encodeURIComponent(q)}`,CONFIG.GRABFOOD_AFFILIATE_PARAM,CONFIG.GRABFOOD_AFFILIATE_ID);
   const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
-  const ps=partnersFor(name);let top="";if(ps.length){const p=pickArr(ps);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${partnerLink(p)}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
-  return top+`<div class="order"><a class="o-sp" target="_blank" rel="noopener sponsored" href="${sp}">🧡 Đặt trên ShopeeFood</a><a class="o-gr" target="_blank" rel="noopener sponsored" href="${gr}">💚 Đặt trên GrabFood</a><a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
+  const ps=partnersFor(name);let top="",buy=sp;if(ps.length){const p=pickArr(ps);buy=partnerLink(p);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${partnerLink(p)}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
+  return top+`<div class="order"><a class="o-sp" style="flex:2" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a><a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div><p class="disc">Link có thể là link tiếp thị liên kết.</p>`;
 }
 let lastShare="";
 function actions(again,shareText){lastShare=shareText;return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
