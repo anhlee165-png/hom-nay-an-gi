@@ -112,6 +112,27 @@ h3{margin:0 0 8px;font-size:16px}
 .sf-l{display:flex;align-items:center;gap:10px;font-size:12px}.sf-l b{color:#e8d8b0;font-size:15px}.sf-l img{height:40px;width:auto;display:block}
 .sf-mail{display:inline-flex;align-items:center;gap:7px;color:#e8d8b0;text-decoration:none;font-size:13px}.sf-mail svg{color:#c9a45c}
 @media(max-width:600px){.sf-in{flex-direction:column;justify-content:center;text-align:center}.sf-l{flex-direction:column;gap:6px}}
+
+/* light theme + layout v2 */
+html,body{min-height:100%}
+body{display:flex;flex-direction:column;min-height:100vh;min-height:100dvh;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+body>.wrap{flex:1 0 auto;width:100%}
+.topbar{background:#fff;border-bottom:1px solid var(--line);box-shadow:0 1px 6px rgba(120,60,20,.05)}
+.brand h1{font-family:inherit;text-transform:none;letter-spacing:-.4px;font-size:20px;font-weight:800;color:var(--ink)}
+.brand small{color:var(--mute);letter-spacing:.3px;text-transform:none;font-size:12px}
+.ibtn{background:#fff8f1;border:1px solid var(--line);color:var(--pri)}
+.site-foot{background:#fffdf9;color:var(--mute);border-top:1px solid var(--line);flex-shrink:0;margin-top:18px}
+.sf-l b{color:var(--ink)}
+.sf-l img{filter:drop-shadow(0 0 1px rgba(30,27,24,.55)) drop-shadow(0 1px 2px rgba(30,27,24,.25))}
+.sf-mail{color:var(--pri);font-weight:600}.sf-mail svg{color:var(--pri)}
+nav{height:calc(68px + env(safe-area-inset-bottom));padding:6px 8px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px rgba(120,60,20,.12);justify-content:center;gap:4px}
+nav button{flex:1;max-width:130px;justify-content:center;font-size:13.5px;font-weight:700;color:#5c524a;border-radius:16px;padding:4px 4px;gap:3px;cursor:pointer}
+nav button b{font-size:28px;line-height:1}
+nav button.on{color:var(--pri);background:#ffe9e1}
+.tab{min-height:44px;padding:10px 14px;font-size:15px;font-weight:700;color:#5c524a;border:1.5px solid var(--line);box-shadow:none;cursor:pointer}
+.tab.on{background:var(--pri);color:#fff;border-color:var(--pri);box-shadow:0 3px 10px rgba(255,90,54,.35)}
+.tabs{padding:2px 2px 6px}
+.toast{bottom:calc(86px + env(safe-area-inset-bottom))}
 </style>
 </head>
 <body>
