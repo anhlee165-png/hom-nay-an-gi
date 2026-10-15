@@ -85,7 +85,7 @@ nav button.on{color:var(--pri)}
 /* dice */
 .dexp{text-align:center;font-weight:800;font-size:17px;margin:0 0 10px}
 .dicebox{display:flex;justify-content:center;height:150px;align-items:center;perspective:700px}
-.die{width:96px;height:96px;position:relative;transform-style:preserve-3d;transition:transform 1.4s cubic-bezier(.2,.9,.3,1.05);transform:rotateX(-20deg) rotateY(25deg)}
+.die{width:96px;height:96px;position:relative;transform-style:preserve-3d;transition:transform 3.4s cubic-bezier(.15,.7,.25,1);transform:rotateX(-20deg) rotateY(25deg)}
 .face{position:absolute;inset:0;background:#fff;border-radius:16px;border:3px solid var(--pri);display:grid;grid-template:repeat(3,1fr)/repeat(3,1fr);padding:12px;box-shadow:inset 0 0 14px rgba(255,90,54,.18);backface-visibility:hidden}
 .face i,.pips i{width:16px;height:16px;border-radius:50%;background:var(--pri);place-self:center}
 .f1{transform:rotateY(0) translateZ(48px)}.f2{transform:rotateY(90deg) translateZ(48px)}.f3{transform:rotateY(180deg) translateZ(48px)}
@@ -176,7 +176,7 @@ nav{position:sticky;bottom:0;left:auto;right:auto;flex-shrink:0;box-sizing:borde
 .tabwrap .tabs{flex:1;min-width:0}
 .tarr{flex:0 0 32px;height:44px;margin-top:12px;border:0;border-radius:50%;background:#fff;color:#ff5a36;font-size:22px;font-weight:800;box-shadow:0 1px 4px rgba(0,0,0,.15);cursor:pointer}
 .tarr[disabled]{opacity:.3;cursor:default}
-.site-foot .sf-in{display:grid!important;grid-template-columns:1fr auto 1fr!important}.site-foot .sf-c{justify-content:center;gap:6px}.site-foot .sf-mail{justify-self:end}</style>
+.site-foot .sf-in{display:grid!important;grid-template-columns:1fr auto 1fr!important}.site-foot .sf-c{justify-content:center;gap:6px}.site-foot .sf-mail{justify-self:end}.dc.hot{opacity:1;border-color:var(--pri);transform:scale(1.03)}</style>
 </head>
 <body>
 <div class="topbar"><div class="tb-in"><div class="brand"><h1>Hôm Nay Ăn Gì</h1></div><div class="tb-acts"><button class="ibtn" id="tbHist" title="Lịch sử" aria-label="Lịch sử"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg></button></div></div></div>
@@ -516,10 +516,12 @@ function renderDice(){$("#die").innerHTML=[1,2,3,4,5,6].map(n=>`<div class="face
 function roll(){if(rolling)return;if(mealEmpty(meal)||!dcards.length){toast("Mục này chưa có món, chọn tab khác nha 🍳");return}
   rolling=true;ac();$("#r-dice").classList.remove("on");renderCards(0);spins++;
   const n=1+rnd(dcards.length),[x,y]=ROT[n];
-  dRx=(Math.floor(dRx/360)+2)*360+x;dRy=(Math.floor(dRy/360)+3)*360+y;
+  dRx=(Math.floor(dRx/360)+5)*360+x;dRy=(Math.floor(dRy/360)+7)*360+y;
   $("#die").style.transform=`rotateX(${dRx}deg) rotateY(${dRy}deg)`;
   try{tone(300,.08,"square",.05)}catch(e){}
-  setTimeout(()=>{rolling=false;showDice(n)},1450)}
+  const cs=[...document.querySelectorAll("#dcards .dc")],N=cs.length;let t=0,i=rnd(N),d=70;
+  while(t<2900){const k=i%N,at=t;setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));cs[k]&&cs[k].classList.add("hot");try{tone(500+k*60,.04,"square",.03)}catch(e){}},at);t+=d;d=Math.min(d*1.13,420);i++}
+  setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));rolling=false;showDice(n)},3450)}
 function showDice(n){const d=dcards[n-1];renderCards(n);tone(880,.2,"sine",.15);
   const line=joke("dice",{d:d[0]});const el=$("#r-dice");
   el.innerHTML=`<div class="center"><span class="tier t-trung">🎲 Ra số ${n}</span><div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${MEALS[meal]}</div><p class="verdict">“${line}”</p></div>${orderLinks(d[0])}${actions("🎲 Ném lại",`🎲 Xúc xắc ra số ${n}: ${d[0]}. “${line}”`)}`;
