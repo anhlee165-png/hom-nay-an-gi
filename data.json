@@ -12,6 +12,50 @@
   "AVOID_DAYS": 3,
   "TZ": "Asia/Bangkok"
  },
+ "cities": [
+  {
+   "id": "ha-noi",
+   "name": "Hà Nội",
+   "lat": 21.0285,
+   "lng": 105.8542,
+   "sf": "ha-noi"
+  },
+  {
+   "id": "tp-hcm",
+   "name": "TP.HCM",
+   "lat": 10.7769,
+   "lng": 106.7009,
+   "sf": "ho-chi-minh"
+  },
+  {
+   "id": "da-nang",
+   "name": "Đà Nẵng",
+   "lat": 16.0544,
+   "lng": 108.2022,
+   "sf": "da-nang"
+  },
+  {
+   "id": "hai-phong",
+   "name": "Hải Phòng",
+   "lat": 20.8449,
+   "lng": 106.6881,
+   "sf": "hai-phong"
+  },
+  {
+   "id": "can-tho",
+   "name": "Cần Thơ",
+   "lat": 10.0452,
+   "lng": 105.7469,
+   "sf": "can-tho"
+  },
+  {
+   "id": "hue",
+   "name": "Huế",
+   "lat": 16.4637,
+   "lng": 107.5909,
+   "sf": "hue"
+  }
+ ],
  "dishes": {
   "sang": [
    {
@@ -892,6 +936,7 @@
    "name": "Thu Food - Bún",
    "area": "Thụy Khuê",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/3g4RG6qtK7",
     "https://spf.shopee.vn/4fwySKZKjc",
@@ -910,6 +955,7 @@
    "name": "Mỳ Trứng Sủi Cảo & Điểm Tâm Đài Loan",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/8fT7DMJBA8"
    ],
@@ -926,6 +972,7 @@
    "name": "Nhím Xù - Bún Bò Nam Bộ",
    "area": "47B Mai Hắc Đế",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/AKbLChF2dE"
    ],
@@ -939,6 +986,7 @@
    "name": "Hanicorn - Thiên Đường Bánh Tráng",
    "area": "Xã Đàn",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2LZ3g1zsKo"
    ],
@@ -952,6 +1000,7 @@
    "name": "Hoa Nguyễn - Trùm Doner Kebab",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/9fLePcjI9p"
    ],
@@ -966,6 +1015,7 @@
    "name": "Xôi Bà Hiền - Xôi Thịt Nóng",
    "area": "Minh Khai",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7pu0EJItYK"
    ],
@@ -979,6 +1029,7 @@
    "name": "Coffee Ben",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5LCfFjWkgU"
    ],
@@ -993,6 +1044,7 @@
    "name": "Chân Gà Sốt Thái & Trứng Non - AHuynhFood",
    "area": "Cổ Nhuế",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/20wDIdBxSq"
    ],
@@ -1007,6 +1059,7 @@
    "name": "Nhất Lòng",
    "area": "Dương Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7AeJS8Vt1U"
    ],
@@ -1020,6 +1073,7 @@
    "name": "Bánh Canh Cua Gia Hân - Đặc Sản Bình Định",
    "area": "198 Văn Phú",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/W7PVtlJ3l"
    ],
@@ -1033,6 +1087,7 @@
    "name": "Cơm, Cháo & Bánh Mì - FastFood",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/60SM4142DS"
    ],
@@ -1049,6 +1104,7 @@
    "name": "Woa Tea - Trà Sữa & Mì Trộn Indomie",
    "area": "13 Khuất Duy Tiến",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/BUZ7JPpzk"
    ],
@@ -1064,6 +1120,7 @@
    "name": "Phở Bát Đàn",
    "area": "Vũ Đức Thận",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5VW5T80FVw"
    ],
@@ -1079,6 +1136,7 @@
    "name": "Cơm Tấm Abeo",
    "area": "Mễ Trì Hạ",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5VW5T8rWjl"
    ],
@@ -1092,6 +1150,7 @@
    "name": "Bún Chả Cô Hương",
    "area": "22 Ngõ 218 Lĩnh Nam",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7KxjeWxLJv"
    ],
@@ -1107,6 +1166,7 @@
    "name": "Nem Nướng Nha Trang Thanh Tùng - CS2",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/1B8v4KwEV"
    ],
@@ -1120,6 +1180,7 @@
    "name": "Mỳ Cay 7 Cấp Độ - Nem Nướng Nha Trang",
    "area": "Trung Kính",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2qVKII8r0D"
    ],
@@ -1134,6 +1195,7 @@
    "name": "Tiệm Cơm Gà Tôm",
    "area": "Triều Khúc",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/1qcn6TGaVm"
    ],
@@ -1149,6 +1211,7 @@
    "name": "Tama Tea - Tiệm Trà Pha Máy",
    "area": "Đại Mỗ",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5fpVfY1Fu1"
    ],
@@ -1163,6 +1226,7 @@
    "name": "Bánh Xèo Tôm Nhảy - Bếp Xì Khói",
    "area": "15 Trương Công Giai",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/gQpiNJTQq"
    ],
@@ -1176,6 +1240,7 @@
    "name": "Nem Nướng, Bánh Cuốn & Mỳ Gà Tần",
    "area": "103 Chính Kinh",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2BFdVARScw"
    ],
@@ -1191,6 +1256,7 @@
    "name": "Nước Ép, Hoa Quả Cắt Sẵn & Trà - Lạc Long Quân",
    "area": "Lạc Long Quân",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5VW6ItgSTm"
    ],
@@ -1206,6 +1272,7 @@
    "name": "Nước Ép Sinh Tố Tâm Phúc - Minh Khai",
    "area": "Minh Khai",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/gQqY4xF6l"
    ],
@@ -1220,6 +1287,7 @@
    "name": "Hải Yến - Trà Sữa, Sinh Tố & Nước Ép",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/qkGkPE0fc"
    ],
@@ -1235,6 +1303,7 @@
    "name": "Alive Juicery - Nước Ép Nguyên Chất 100% - Chợ Khâm Thiên",
    "area": "Chợ Khâm Thiên",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/3Vl1vJttjd"
    ],
@@ -1248,6 +1317,7 @@
    "name": "Chè Mộc Phố - Chè Ngon, Kem Xôi & Tàu Hũ - Khương Trung",
    "area": "Khương Trung",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/905yTSPLvF"
    ],
@@ -1263,6 +1333,7 @@
    "name": "Chè Bốn Mùa - Chè Sầu - Phố Mễ Trì Thượng",
    "area": "Mễ Trì Thượng",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5LCg6jThBO"
    ],
@@ -1276,6 +1347,7 @@
    "name": "Chè Ngon 73 - Khâm Thiên",
    "area": "Khâm Thiên",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/113gwmX4RL"
    ],
@@ -1289,6 +1361,7 @@
    "name": "Micha - Chè Khúc Bạch - Ocean Park",
    "area": "Ocean Park",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/70Ku5owcqt"
    ],
@@ -1303,6 +1376,7 @@
    "name": "Sữa Chua Trân Châu Hạ Long Healthy - Giải Phóng",
    "area": "Giải Phóng",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/qkGkVgS71"
    ],
@@ -1316,6 +1390,7 @@
    "name": "Vua Hoa Quả Cắt Sẵn - Sinh Tố, Trà Sữa & Sữa Chua - Định Công Hạ",
    "area": "Định Công Hạ",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/Lo09bHpRs"
    ],
@@ -1332,6 +1407,7 @@
    "name": "Sữa Chua Trân Châu Hạ Long - Ngô Gia Tự",
    "area": "Ngô Gia Tự",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/4qGPVsqKFj"
    ],
@@ -1345,6 +1421,7 @@
    "name": "Quán Xiên An An - Nem Chua Rán & Đồ Ăn Vặt - Đại Cồ Việt",
    "area": "Đại Cồ Việt",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5AtFuVOsC7"
    ],
@@ -1359,6 +1436,7 @@
    "name": "Family Chicken - Gà Rán, Bánh Gà & Đồ Ăn Vặt - Chùa Quỳnh",
    "area": "Chùa Quỳnh",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/1qcnwO9SE2"
    ],
@@ -1373,6 +1451,7 @@
    "name": "Nem Chua Rán Phố Cổ Quốc Bảo",
    "area": "Khúc Thừa Dụ",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/60SMu3pc5V"
    ],
@@ -1386,6 +1465,7 @@
    "name": "Nem Chua Rán - Văn Béo",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/6Aln6NW9RV"
    ],
@@ -1399,6 +1479,7 @@
    "name": "Trà Chanh Bụi Phố - 31 Láng",
    "area": "31 Láng",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2gBuvzSWMb"
    ],
@@ -1412,6 +1493,7 @@
    "name": "Trà Sữa Nướng - Trà Bí Đao & Trà Chanh",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2VsUjhB9WZ"
    ],
@@ -1427,6 +1509,7 @@
    "name": "Trà Chanh & Trà Trái Cây - Ngõ 68 Cầu Giấy",
    "area": "Ngõ 68 Cầu Giấy",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/8fT852m6Ui"
    ],
@@ -1441,6 +1524,7 @@
    "name": "Mì Trộn Indomie 158 - Nguyễn Chánh",
    "area": "Nguyễn Chánh",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/AKbM47jp7w"
    ],
@@ -1454,6 +1538,7 @@
    "name": "Trà Sữa Tocotoco - Tây Sơn",
    "area": "Tây Sơn",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2BFeL9E6bk"
    ],
@@ -1467,6 +1552,7 @@
    "name": "Trà Sữa Tocotoco - 686 Quang Trung",
    "area": "686 Quang Trung",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7faatGSQyI"
    ],
@@ -1480,6 +1566,7 @@
    "name": "TRÀ SỮA BINGXUE - HÀNG CHĨNH",
    "area": "Hàng Chĩnh",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/9APOg1r6rN"
    ],
@@ -1495,6 +1582,7 @@
    "name": "Trà sữa Winggo - Trà Sữa Kem Trứng Nướng, Trà Hoa Quả & Matcha - 96 Tân Mai",
    "area": "96 Tân Mai",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7pu15aV6m5"
    ],
@@ -1510,6 +1598,7 @@
    "name": "Trà sữa Mixue - Hào Nam",
    "area": "Hào Nam",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/gQqYQaoSo"
    ],
@@ -1525,6 +1614,7 @@
    "name": "Quán Trăng - Lẩu Nhậu Đêm - Bùi Quốc Khái",
    "area": "Bùi Quốc Khái",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/AAHvrxBPD0"
    ],
@@ -1539,6 +1629,7 @@
    "name": "Quán Trăng - Lẩu & Nhậu Đêm - Triều Khúc",
    "area": "Triều Khúc",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/5AtFumYzBt"
    ],
@@ -1553,6 +1644,7 @@
    "name": "Lẩu - Đồ Nhậu Susu Quán",
    "area": "Hà Nội",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/50ZpiUaNwU"
    ],
@@ -1567,6 +1659,7 @@
    "name": "Cháo Sườn Sụn Huyền Anh Chợ Đêm Đồng Xuân - Đồng Xuân",
    "area": "Chợ Đêm Đồng Xuân",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/8pmYHZFU5x"
    ],
@@ -1580,6 +1673,7 @@
    "name": "iChi Food - Cháo, Súp, Mỳ & Gà ủ muối - Bùi Ngọc Dương",
    "area": "Bùi Ngọc Dương",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/7pu15jnKim"
    ],
@@ -1595,6 +1689,7 @@
    "name": "Cô Phương - Cháo, Mỳ & Xôi - Cổ Nhuế",
    "area": "Cổ Nhuế",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/50ZpiY2s5Y"
    ],
@@ -1609,6 +1704,7 @@
    "name": "Cháo Lòng Cầu Dậu - Cháo Lòng - Kim Giang",
    "area": "Kim Giang",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2VsUjy8PWw"
    ],
@@ -1622,6 +1718,7 @@
    "name": "Lòng Ngon Bách Khoa - Lòng Trần & Cháo Lòng - Lê Thanh Nghị",
    "area": "Lê Thanh Nghị",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/qkGkv8VX6"
    ],
@@ -1636,6 +1733,7 @@
    "name": "Cô Phóong - Cháo, Mỳ & Xôi - Cầu Diễn",
    "area": "Cầu Diễn",
    "city": "Hà Nội",
+   "cityId": "ha-noi",
    "links": [
     "https://spf.shopee.vn/2LZ4XglPfi"
    ],

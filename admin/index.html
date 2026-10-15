@@ -152,16 +152,16 @@ function rPartner(){
   $("#list").onclick=e=>{const b=e.target.closest("[data-a]");if(!b)return;const i=+b.dataset.k,p=DATA.partners[i];
    if(b.dataset.a==="edit")partnerForm(i);if(b.dataset.a==="tog"){p.hidden=!p.hidden;touch()}if(b.dataset.a==="dup"){DATA.partners.splice(i+1,0,{...p,id:uid("p"),name:p.name+" (bản sao)",links:p.links.slice(),tags:(p.tags||[]).slice()});touch()}if(b.dataset.a==="del"&&confirm("Xóa quán “"+p.name+"” và các link của quán?")){DATA.partners.splice(i,1);touch()}}};
  renderList()}
-function partnerForm(i){const p=i==null?{id:uid("p"),name:"",area:"",city:"Hà Nội",links:[],tags:[],hidden:false}:DATA.partners[i];
- modal(`<h3>${i==null?"Thêm quán":"Sửa quán"}</h3><label>Tên quán</label><input id="pn" value="${esc(p.name)}"><label>Khu vực / địa chỉ</label><input id="pa" value="${esc(p.area)}"><label>Thành phố</label><input id="pc" value="${esc(p.city||"Hà Nội")}"><label>Link ShopeeFood (mỗi dòng 1 link, giữ nguyên văn)</label><textarea id="pl">${esc(p.links.join("\n"))}</textarea><label>Món khớp (từ khóa, cách nhau dấu phẩy — vd: phở, bún chả)</label><textarea id="pt" style="min-height:70px">${esc((p.tags||[]).join(", "))}</textarea><label><input type="checkbox" id="ph" style="width:auto"${p.hidden?" checked":""}> Ẩn quán này</label>`,()=>{
+function partnerForm(i){const p=i==null?{id:uid("p"),name:"",area:"",city:"Hà Nội",cityId:"ha-noi",links:[],tags:[],hidden:false}:DATA.partners[i];
+ modal(`<h3>${i==null?"Thêm quán":"Sửa quán"}</h3><label>Tên quán</label><input id="pn" value="${esc(p.name)}"><label>Khu vực / địa chỉ</label><input id="pa" value="${esc(p.area)}"><label>Thành phố</label><select id="pc">${(DATA.cities&&DATA.cities.length?DATA.cities:[{id:"ha-noi",name:"Hà Nội"}]).map(c=>`<option value="${esc(c.id)}"${(p.cityId||"ha-noi")===c.id?" selected":""}>${esc(c.name)}</option>`).join("")}</select><label>Link ShopeeFood (mỗi dòng 1 link, giữ nguyên văn)</label><textarea id="pl">${esc(p.links.join("\n"))}</textarea><label>Món khớp (từ khóa, cách nhau dấu phẩy — vd: phở, bún chả)</label><textarea id="pt" style="min-height:70px">${esc((p.tags||[]).join(", "))}</textarea><label><input type="checkbox" id="ph" style="width:auto"${p.hidden?" checked":""}> Ẩn quán này</label>`,()=>{
   const {ok,bad}=parseLinks($("#pl").value);if(bad.length)return "Link sai định dạng: "+bad.join(", ");if(!ok.length)return "Cần ít nhất 1 link spf.shopee.vn";
   const used=allLinks(i==null?null:p),dup=ok.filter(l=>used.has(l));if(dup.length)return "Link đã thuộc quán khác: "+dup.join(", ");
   const name=$("#pn").value.trim();if(!name)return "Nhập tên quán";
-  const o={...p,name,area:$("#pa").value.trim(),city:$("#pc").value.trim()||"Hà Nội",links:ok,tags:[...new Set($("#pt").value.split(/[,\n]/).map(s=>s.trim()).filter(Boolean))],hidden:$("#ph").checked};
+  const o={...p,name,area:$("#pa").value.trim(),cityId:$("#pc").value||"ha-noi",city:((DATA.cities||[]).find(c=>c.id===$("#pc").value)||{name:"Hà Nội"}).name,links:ok,tags:[...new Set($("#pt").value.split(/[,\n]/).map(s=>s.trim()).filter(Boolean))],hidden:$("#ph").checked};
   if(i==null)DATA.partners.push(o);else DATA.partners[i]=o;touch()})}
 function bulkLinks(){modal(`<h3>Dán nhiều link</h3><p class="msg">Mỗi link tạo một quán mới (đang ẩn). Sau đó Anh sửa tên quán, gắn món rồi bấm Hiện. Link trùng hoặc sai định dạng sẽ bị bỏ qua.</p><textarea id="bl" placeholder="https://spf.shopee.vn/..."></textarea>`,()=>{
   const {ok,bad}=parseLinks($("#bl").value),used=allLinks(null),nw=ok.filter(l=>!used.has(l)),dup=ok.length-nw.length;
-  nw.forEach((l,k)=>DATA.partners.push({id:uid("p"),name:"Quán mới "+(k+1)+" (chưa đặt tên)",area:"",city:"Hà Nội",links:[l],tags:[],hidden:true}));
+  nw.forEach((l,k)=>DATA.partners.push({id:uid("p"),name:"Quán mới "+(k+1)+" (chưa đặt tên)",area:"",city:"Hà Nội",cityId:"ha-noi",links:[l],tags:[],hidden:true}));
   touch();alert(`Đã thêm ${nw.length} quán (đang ẩn).`+(dup?`\nBỏ ${dup} link trùng.`:"")+(bad.length?`\nBỏ ${bad.length} link sai:\n`+bad.join("\n"):""))})}
 
 /* ---- Câu đùa ---- */

@@ -176,14 +176,15 @@ nav{position:sticky;bottom:0;left:auto;right:auto;flex-shrink:0;box-sizing:borde
 .tabwrap .tabs{flex:1;min-width:0}
 .tarr{flex:0 0 32px;height:44px;margin-top:12px;border:0;border-radius:50%;background:#fff;color:#ff5a36;font-size:22px;font-weight:800;box-shadow:0 1px 4px rgba(0,0,0,.15);cursor:pointer}
 .tarr[disabled]{opacity:.3;cursor:default}
-.site-foot .sf-in{display:grid!important;grid-template-columns:1fr auto 1fr!important}.site-foot .sf-c{justify-content:center;gap:6px}.site-foot .sf-mail{justify-self:end}.dc.hot{opacity:1;border-color:var(--pri);transform:scale(1.03)}.grps{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}.gchip{display:inline-flex;align-items:center;gap:4px;background:#fff4ec;border:1.5px solid #ffd2bd;border-radius:999px;padding:5px 6px 5px 12px;font-weight:600;cursor:pointer;font-size:14px}.gchip.on{background:var(--pri);color:#fff;border-color:var(--pri)}.gchip small{opacity:.7;font-weight:400}.gchip button{border:0;background:none;cursor:pointer;color:inherit;opacity:.6;font-size:12px}.chip .cn{cursor:pointer}.chip.off{opacity:.45;text-decoration:line-through}</style>
+.site-foot .sf-in{display:grid!important;grid-template-columns:1fr auto 1fr!important}.site-foot .sf-c{justify-content:center;gap:6px}.site-foot .sf-mail{justify-self:end}.dc.hot{opacity:1;border-color:var(--pri);transform:scale(1.03)}.grps{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}.gchip{display:inline-flex;align-items:center;gap:4px;background:#fff4ec;border:1.5px solid #ffd2bd;border-radius:999px;padding:5px 6px 5px 12px;font-weight:600;cursor:pointer;font-size:14px}.gchip.on{background:var(--pri);color:#fff;border-color:var(--pri)}.gchip small{opacity:.7;font-weight:400}.gchip button{border:0;background:none;cursor:pointer;color:inherit;opacity:.6;font-size:12px}.chip .cn{cursor:pointer}.chip.off{opacity:.45;text-decoration:line-through}.cpill{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font-weight:700;font-size:14px;color:var(--ink);cursor:pointer;white-space:nowrap;font-family:inherit}.csheet{position:fixed;inset:0;background:rgba(30,27,24,.35);display:none;align-items:flex-end;justify-content:center;z-index:40}.csheet.on{display:flex}.csheet .cbox{background:#fff;width:100%;max-width:440px;border-radius:20px 20px 0 0;padding:16px 16px 22px;box-shadow:var(--sh)}@media(min-width:700px){.csheet{align-items:center}.csheet .cbox{border-radius:20px}}.cbox h3{margin:0 0 10px;font-size:17px}.cbox button{display:flex;justify-content:space-between;width:100%;border:0;background:none;padding:12px 10px;font-size:16px;border-radius:12px;cursor:pointer;font-family:inherit;color:var(--ink);text-align:left}.cbox button:hover{background:#fff4ec}.cbox button.on{color:var(--pri);font-weight:700}.cbox .cgeo{color:var(--pri);font-weight:700;border-top:1px solid var(--line);border-radius:0;margin-top:6px}.soon{text-align:center;color:var(--mute);font-size:14px;margin:10px 0 0}.shared-tag{font-size:13px;color:var(--mute)}</style>
 </head>
 <body>
 <div class="topbar"><div class="tb-in"><div class="brand"><h1>Hôm Nay Ăn Gì</h1></div><div class="tb-acts"><button class="ibtn" id="tbHist" title="Lịch sử" aria-label="Lịch sử"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg></button></div></div></div>
+<div class="csheet" id="csheet"><div class="cbox"><h3>Hôm nay ăn ở đâu?</h3><div id="clist"></div></div></div>
 <div class="wrap">
 <header>
   <div><p class="sub" id="greet">Đừng nghĩ nữa, để trời quyết.</p></div>
-  <select class="city" id="city" aria-label="Thành phố"></select>
+  <button class="cpill" id="cityBtn" aria-label="Chọn thành phố">📍 Hà Nội ▾</button>
 </header>
 <div class="tabs" id="tabs"></div>
 <div class="filters">
@@ -282,7 +283,6 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const LS={get(k,d){try{return JSON.parse(localStorage.getItem("hnag_"+k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem("hnag_"+k,JSON.stringify(v))}catch(e){}}};
 const rnd=n=>Math.floor(Math.random()*n), pickArr=a=>a[rnd(a.length)];
 
-const CITIES=["Hà Nội","TP. Hồ Chí Minh","Đà Nẵng","Hải Phòng","Cần Thơ","Huế","Nha Trang","Đà Lạt","Vũng Tàu","Biên Hòa"];
 const CITY_SLUG={"Hà Nội":"ha-noi","TP. Hồ Chí Minh":"ho-chi-minh","Đà Nẵng":"da-nang","Hải Phòng":"hai-phong","Cần Thơ":"can-tho","Huế":"hue","Nha Trang":"khanh-hoa","Đà Lạt":"lam-dong","Vũng Tàu":"vung-tau","Biên Hòa":"dong-nai"};
 const CATS={nuoc:"🍜 Món nước",com:"🍚 Cơm",banh:"🥖 Bánh & cuốn",quocte:"🌏 Quốc tế",vat:"🍢 Ăn vặt",healthy:"🥗 Healthy"};
 const FACES=["nuoc","com","banh","quocte","vat","healthy"];
@@ -356,9 +356,9 @@ const PARTNERS=[
  {name:"Cháo Lòng Cầu Dậu - Cháo Lòng - Kim Giang",area:"Kim Giang",links:["https://spf.shopee.vn/2VsUjy8PWw"],tags:["cháo lòng"]},
  {name:"Lòng Ngon Bách Khoa - Lòng Trần & Cháo Lòng - Lê Thanh Nghị",area:"Lê Thanh Nghị",links:["https://spf.shopee.vn/qkGkv8VX6"],tags:["lòng", "cháo lòng"]},
  {name:"Cô Phóong - Cháo, Mỳ & Xôi - Cầu Diễn",area:"Cầu Diễn",links:["https://spf.shopee.vn/2LZ4XglPfi"],tags:["cháo", "xôi"]}
-].map(p=>({...p,city:"Hà Nội"}));
+].map(p=>({...p,city:"Hà Nội",cityId:"ha-noi"}));
 const norm=t=>t.toLowerCase().normalize("NFC").replace(/mỳ/g,"mì");
-function partnersFor(dish){const n=norm(dish);return PARTNERS.filter(p=>p.tags.some(t=>n.includes(norm(t))))}
+function partnersFor(dish){const n=norm(dish);return PARTNERS.filter(p=>(p.cityId||"ha-noi")===CITY&&p.tags.some(t=>n.includes(norm(t))))}
 function partnerLink(p){if(p.links.length===1)return p.links[0];const k="rot_"+p.name,i=LS.get(k,0);LS.set(k,(i+1)%p.links.length);return p.links[i%p.links.length]}
 
 /* ============ KHO CÂU HÀI (tự trộn để đủ lớn, không lặp) ============ */
@@ -415,7 +415,6 @@ function renderTabs(){$("#tabs").innerHTML=Object.entries(MEALS).map(([k,v])=>`<
   if(e){$("#r-que").classList.remove("on");$("#r-dice").classList.remove("on")}}
 $("#tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;if(b.dataset.m!==meal){$("#r-que").classList.remove("on");$("#r-dice").classList.remove("on")}meal=b.dataset.m;renderTabs()};
 $("#cat").innerHTML=`<option value="all">🍽️ Mọi thể loại</option>`+Object.entries(CATS).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
-$("#city").innerHTML=`<option>Hà Nội</option>`; $("#city").value="Hà Nội"; $("#city").disabled=true; $("#city").style.display="none";
 ["budget","cat"].forEach(id=>{$("#"+id).value=LS.get(id,"all");$("#"+id).onchange=()=>{LS.set(id,$("#"+id).value);if(typeof drawCards==="function"&&$("#die")&&$("#die").children.length&&!rolling)drawCards()}});
 
 function inBudget(p){const b=$("#budget").value;return b==="all"||(b==="lo"&&p<50)||(b==="mid"&&p>=50&&p<=100)||(b==="hi"&&p>100)}
@@ -434,17 +433,66 @@ function addHist(d,mode){const h=LS.get("hist",[]);h.unshift({d:d[0],p:d[1],m:me
 function renderHist(){const h=LS.get("hist",[]);$("#histList").innerHTML=h.length?h.map(x=>`<li><b>${x.d}</b> · ~${x.p}k · ${MEALS[x.m]} · ${x.mode} · ${new Date(x.t).toLocaleString("vi-VN",{timeZone:CONFIG.TZ,hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit"})}</li>`).join(""):"<li>Chưa chốt món nào. Bụng đang chờ.</li>"}
 $("#clearHist").onclick=()=>{LS.set("hist",[]);renderHist();toast("Đã xóa, coi như chưa từng ăn gì 😇")};
 
+/* ============ THÀNH PHỐ ============ */
+let CITIES=[{id:"ha-noi",name:"Hà Nội",lat:21.0285,lng:105.8542,sf:"ha-noi"},{id:"tp-hcm",name:"TP.HCM",lat:10.7769,lng:106.7009,sf:"ho-chi-minh"},{id:"da-nang",name:"Đà Nẵng",lat:16.0544,lng:108.2022,sf:"da-nang"},{id:"hai-phong",name:"Hải Phòng",lat:20.8449,lng:106.6881,sf:"hai-phong"},{id:"can-tho",name:"Cần Thơ",lat:10.0452,lng:105.7469,sf:"can-tho"},{id:"hue",name:"Huế",lat:16.4637,lng:107.5909,sf:"hue"}];
+let CITY="ha-noi";
+const cityObj=()=>CITIES.find(c=>c.id===CITY)||CITIES[0];
+const cityName=()=>cityObj().name;
+const cityIdOf=n=>{if(!n)return "";const k=norm(String(n)).replace(/\s+/g,"");const c=CITIES.find(c=>c.id===n||norm(c.name).replace(/\s+/g,"")===k);return c?c.id:/hồchíminh|hcm|sàigòn/.test(k)?"tp-hcm":""};
+function sfSearch(q){return `https://shopeefood.vn/${cityObj().sf||CITY}/food/danh-sach-dia-diem-giao-tan-noi?q=${encodeURIComponent(q)}`}
+function shopSub(d){const ps=partnersFor(d[0]);return (d[1]?`~${d[1]}k`:"")+(ps.length===1?" · "+ps[0].name.split(" - ")[0]:"")}
+function dishEmoji(d){const n=norm(d[0]);const M=[["trà sữa","🧋"],["cà phê","☕"],["trà","🍹"],["kem","🍨"],["lẩu","🍲"],["nhậu","🍻"],["bia","🍺"],["phở","🍜"],["bún","🍜"],["mì","🍜"],["cháo","🥣"],["xôi","🍙"],["cơm","🍚"],["bánh mì","🥖"],["gà","🍗"],["pizza","🍕"],["sushi","🍣"],["nướng","🍢"],["bánh","🥟"]];for(const[k,e]of M)if(n.includes(k))return e;return "🍽️"}
+function setCity(id,save=true){if(!CITIES.some(c=>c.id===id))id="ha-noi";const ch=id!==CITY;CITY=id;if(save)LS.set("city",id);$("#cityBtn").textContent="📍 "+cityName()+" ▾";if(ch){$("#r-que").classList.remove("on");$("#r-dice").classList.remove("on")}}
+function haversine(a,b,c,d){const R=6371,r=Math.PI/180,x=Math.sin((c-a)*r/2)**2+Math.cos(a*r)*Math.cos(c*r)*Math.sin((d-b)*r/2)**2;return 2*R*Math.asin(Math.sqrt(x))}
+function nearest(lat,lng){return CITIES.filter(c=>c.lat!=null).reduce((b,c)=>haversine(lat,lng,c.lat,c.lng)<haversine(lat,lng,b.lat,b.lng)?c:b).id}
+function geoCity(loud){if(!navigator.geolocation){if(loud)toast("Máy này không cho lấy vị trí 😅");return}
+  navigator.geolocation.getCurrentPosition(p=>{setCity(nearest(p.coords.latitude,p.coords.longitude));if(loud)toast("Đã chọn "+cityName()+" 📍")},()=>{if(loud)toast("Không lấy được vị trí, chọn tay giúp em nha")},{timeout:8000,maximumAge:6e5})}
+function openCities(){$("#clist").innerHTML=CITIES.map(c=>`<button data-c="${c.id}" class="${c.id===CITY?"on":""}"><span>${esc(c.name)}</span><span>${c.id===CITY?"✓":""}</span></button>`).join("")+`<button class="cgeo" data-c="geo">📍 Dùng vị trí của tôi</button>`;$("#csheet").classList.add("on")}
+$("#cityBtn").onclick=openCities;
+$("#csheet").onclick=e=>{const b=e.target.closest("[data-c]");if(e.target.id==="csheet"||b)$("#csheet").classList.remove("on");if(!b)return;b.dataset.c==="geo"?geoCity(true):setCity(b.dataset.c)};
+function initCity(){const q=new URLSearchParams(location.search).get("city"),saved=LS.get("city","");
+  if(q&&CITIES.some(c=>c.id===q)){setCity(q,!saved);return}
+  if(saved){setCity(saved,false);return}
+  setCity("ha-noi",false);geoCity(false)}
+function showShared(){const P=new URLSearchParams(location.search),mon=(P.get("mon")||"").trim().slice(0,80);if(!mon)return;const v=P.get("view")==="dice"?"dice":"que";
+  let d=null,m=meal;const k=norm(mon);for(const mm of [meal,...Object.keys(MEALS)]){const f=(D[mm]||[]).find(x=>norm(x[0])===k);if(f){d=f;m=mm;break}}
+  if(d&&m!==meal){meal=m;renderTabs()}if(!d)d=[mon,0,""];
+  show(v);const el=$(v==="dice"?"#r-dice":"#r-que"),line=d[1]?joke("dice",{d:d[0]}):"Món này chưa có trong thực đơn, nhưng bụng đã quyết rồi thì chiều nó 😋";
+  el.innerHTML=`<div class="center"><span class="shared-tag">👀 Có người chốt món này cho bạn</span><div class="dish">${esc(d[0])}</div><div class="meta">${d[1]?`~${d[1]}k · `:""}${MEALS[meal]} · ${esc(cityName())}</div><p class="verdict">“${esc(line)}”</p></div>${orderLinks(d[0])}${actions(v==="dice"?"🎲 Tự ném xúc xắc":"🔁 Tự xóc quẻ",`🍽️ Hôm nay ăn: ${d[0]}. “${line}”`,{view:v,mon:d[0],meal,title:d[0],sub:shopSub(d),verdict:line,kicker:"🍽️ Hôm nay ăn",emoji:dishEmoji(d)})}`;
+  el.classList.add("on");setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}),300)}
+
 /* ============ LINK ĐẶT MÓN ============ */
 function withParams(url,affParam,affId){const u=new URL(url);u.searchParams.set("utm_source",CONFIG.UTM_SOURCE);u.searchParams.set("utm_medium",CONFIG.UTM_MEDIUM);u.searchParams.set("utm_campaign","hom_nay_an_gi");if(affId)u.searchParams.set(affParam,affId);return u.toString()}
 function orderLinks(name){
-  const city=$("#city").value, q=name.replace(/\(.*?\)/g,"").trim();
+  const city=cityName(), q=name.replace(/\(.*?\)/g,"").trim();
   const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
   const ps=partnersFor(name);let top="",buy="";if(ps.length){const p=pickArr(ps);buy=partnerLink(p);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${buy}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
-  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div>`;
+  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}${buy?"":`<a class="o-sp" target="_blank" rel="noopener" href="${sfSearch(q)}">🔎 Tìm món này trên ShopeeFood</a>`}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div>${buy?"":`<p class="soon">Quán ruột ở ${esc(city)} sắp có mặt 😋</p>`}`;
 }
 let lastShare="";
-function actions(again,shareText){lastShare=shareText;return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
-async function share(){const text=lastShare+"\n👉 "+location.href.split("?")[0];try{if(navigator.share){await navigator.share({title:"Hôm nay ăn gì?",text});return}}catch(e){if(e.name==="AbortError")return}try{await navigator.clipboard.writeText(text);toast("Đã copy, dán vào group chat đi 😎")}catch(e){prompt("Copy nè:",text)}}
+let lastInfo={};
+function actions(again,shareText,info){lastShare=shareText;lastInfo=info||{};return `<div class="acts"><button class="btn ghost" data-act="again">${again}</button><button class="btn ghost" data-act="share">📤 Chia sẻ</button></div>`}
+function shareURL(){const u=new URL(location.origin+location.pathname);const i=lastInfo;if(i.mon)u.searchParams.set("mon",i.mon);if(i.meal)u.searchParams.set("meal",i.meal);u.searchParams.set("city",CITY);if(i.view)u.searchParams.set("view",i.view);return u.toString()}
+function wrapLines(x,t,maxW){const w=t.split(" "),L=[];let cur="";w.forEach(k=>{const tr=cur?cur+" "+k:k;if(x.measureText(tr).width>maxW&&cur){L.push(cur);cur=k}else cur=tr});if(cur)L.push(cur);return L}
+function sharePNG(i){const S=1080,c=document.createElement("canvas");c.width=c.height=S;const x=c.getContext("2d"),F='"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif';
+  const g=x.createLinearGradient(0,0,0,S);g.addColorStop(0,"#fff8f1");g.addColorStop(1,"#ffe9d6");x.fillStyle=g;x.fillRect(0,0,S,S);
+  x.fillStyle="#ff5a36";x.fillRect(0,0,S,18);x.fillStyle="rgba(255,183,3,.18)";x.beginPath();x.arc(S-90,150,230,0,7);x.fill();x.fillStyle="rgba(255,90,54,.10)";x.beginPath();x.arc(80,S-200,200,0,7);x.fill();
+  x.textAlign="center";x.textBaseline="alphabetic";x.fillStyle="#ff5a36";x.font=`800 44px ${F}`;x.fillText("HÔM NAY ĂN GÌ?",S/2,110);
+  x.fillStyle="#7a6f66";x.font=`600 34px ${F}`;x.fillText(i.kicker||"",S/2,170);
+  x.font=`170px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif`;x.fillText(i.emoji||"🍜",S/2,390);
+  x.fillStyle="#1e1b18";let fs=96,L;do{x.font=`800 ${fs}px ${F}`;L=wrapLines(x,i.title||"",S-140);fs-=6}while((L.length>2||L.some(l=>x.measureText(l).width>S-140))&&fs>48);
+  let y=520;L.slice(0,3).forEach(l=>{x.fillText(l,S/2,y);y+=fs+14});
+  if(i.sub){x.fillStyle="#ff5a36";x.font=`700 40px ${F}`;x.fillText(i.sub,S/2,y+10);y+=60}
+  if(i.verdict){x.fillStyle="#4a423c";x.font=`italic 500 36px ${F}`;wrapLines(x,"“"+i.verdict+"”",S-180).slice(0,3).forEach(l=>{x.fillText(l,S/2,y+50);y+=50})}
+  x.fillStyle="#fff";x.strokeStyle="#ffd2bd";x.lineWidth=3;const pw=360,py=S-200;x.beginPath();x.roundRect?x.roundRect(S/2-pw/2,py,pw,64,32):x.rect(S/2-pw/2,py,pw,64);x.fill();x.stroke();
+  x.fillStyle="#1e1b18";x.font=`700 32px ${F}`;x.fillText("📍 "+cityName(),S/2,py+44);
+  x.fillStyle="#ff5a36";x.fillRect(0,S-90,S,90);x.fillStyle="#fff";x.font=`800 42px ${F}`;x.fillText("homnayangi.xyz",S/2,S-32);
+  return new Promise(r=>c.toBlob(r,"image/png"))}
+async function share(){const url=shareURL(),text=lastShare;let file=null;
+  try{const b=await sharePNG(lastInfo);if(b)file=new File([b],"hom-nay-an-gi.png",{type:"image/png"})}catch(e){}
+  try{if(file&&navigator.canShare&&navigator.canShare({files:[file]})){await navigator.share({files:[file],title:"Hôm nay ăn gì?",text:text+"\n👉 "+url,url});return}}catch(e){if(e.name==="AbortError")return}
+  if(file){const a=document.createElement("a");a.href=URL.createObjectURL(file);a.download=file.name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
+  const t=text+"\n👉 "+url;try{await navigator.clipboard.writeText(t);toast(file?"Đã tải ảnh + copy link, dán vào group chat đi 😎":"Đã copy, dán vào group chat đi 😎")}catch(e){if(navigator.share){try{await navigator.share({title:"Hôm nay ăn gì?",text,url})}catch(_){}}else prompt("Copy nè:",t)}}
 document.addEventListener("click",e=>{const a=e.target.closest("[data-act]");if(!a)return;if(a.dataset.act==="share")share();if(a.dataset.act==="again"){toast(joke("respin"));a.closest(".result").dataset.again?.length;againFns[a.closest(".result").id]?.()}});
 const againFns={};
 
@@ -470,7 +518,7 @@ function showQue(){
   const el=$("#r-que");
   el.innerHTML=`<div class="slip"><div class="qno">QUẺ SỐ ${no} · ${MEALS[meal]}</div><div style="margin-top:6px"><span class="tier ${tn[1]}">${tn[0]}</span></div><div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${CATS[d[2]]}</div><p class="verdict">“${v}”</p></div>
   ${tier==="hung"?`<button class="btn" style="margin-top:12px;background:var(--bad);box-shadow:0 4px 0 #4a148c" data-act="again">🧧 Giải hạn (xóc lại)</button>`:""}
-  ${orderLinks(d[0])}${actions("🔁 Xóc quẻ khác",`🎋 Quẻ số ${no} – ${tn[0]}: ${d[0]}. “${v}”`)}`;
+  ${orderLinks(d[0])}${actions("🔁 Xóc quẻ khác",`🎋 Quẻ số ${no} – ${tn[0]}: ${d[0]}. “${v}”`,{view:"que",mon:d[0],meal,title:d[0],sub:shopSub(d),verdict:v,kicker:`🎋 Quẻ số ${no} · ${tn[0]}`,emoji:dishEmoji(d)})}`;
   el.classList.add("on");addHist(d,"Xóc quẻ");tier==="hung"?boo():(ding(),tier==="dai"&&confetti());
   setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}),100);
 }
@@ -525,7 +573,7 @@ function roll(){if(rolling)return;if(mealEmpty(meal)||!dcards.length){toast("M�
   setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));rolling=false;showDice(n)},3450)}
 function showDice(n){const d=dcards[n-1];renderCards(n);tone(880,.2,"sine",.15);
   const line=joke("dice",{d:d[0]});const el=$("#r-dice");
-  el.innerHTML=`<div class="center"><span class="tier t-trung">🎲 Ra số ${n}</span><div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${MEALS[meal]}</div><p class="verdict">“${line}”</p></div>${orderLinks(d[0])}${actions("🎲 Ném lại",`🎲 Xúc xắc ra số ${n}: ${d[0]}. “${line}”`)}`;
+  el.innerHTML=`<div class="center"><span class="tier t-trung">🎲 Ra số ${n}</span><div class="dish">${d[0]}</div><div class="meta">~${d[1]}k · ${MEALS[meal]}</div><p class="verdict">“${line}”</p></div>${orderLinks(d[0])}${actions("🎲 Ném lại",`🎲 Xúc xắc ra số ${n}: ${d[0]}. “${line}”`,{view:"dice",mon:d[0],meal,title:d[0],sub:shopSub(d),verdict:line,kicker:`🎲 Xúc xắc ra số ${n}`,emoji:dishEmoji(d)})}`;
   el.classList.add("on");addHist(d,"Xúc xắc");setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}),700)}
 $("#rollBtn").onclick=roll;$("#redrawBtn").onclick=()=>{if(!rolling)drawCards()};
 againFns["r-dice"]=()=>{$("#v-dice").scrollIntoView({behavior:"smooth"});roll()};
@@ -562,7 +610,7 @@ function spin(){const L=eligible();if(spinning)return;if(L.length<2){toast("Cầ
     const seg=Math.floor(((-Math.PI/2-rot)%(2*Math.PI)+4*Math.PI)%(2*Math.PI)/a);if(seg!==lastSeg){lastSeg=seg;clack(.3);navigator.vibrate?.(5)}
     if(p<1)requestAnimationFrame(f);else{spinning=false;payWin(L[win])}})(t0)}
 function payWin(n){const line=joke("pay",{n});const log=LS.get("paylog",[]);log.unshift({n,t:Date.now()});LS.set("paylog",log.slice(0,30));renderLog();
-  $("#r-pay").innerHTML=`<div class="winner"><div class="meta">🎉 Chúc mừng, hôm nay nhà tài trợ là</div><div class="name">${esc(n)}</div><p class="verdict">“${esc(line)}”</p></div>${actions("🎡 Quay lại (kháng cáo)",`🎡 Bánh xe đã chọn ${n} trả tiền hôm nay! “${line}”`)}`;
+  $("#r-pay").innerHTML=`<div class="winner"><div class="meta">🎉 Chúc mừng, hôm nay nhà tài trợ là</div><div class="name">${esc(n)}</div><p class="verdict">“${esc(line)}”</p></div>${actions("🎡 Quay lại (kháng cáo)",`🎡 Bánh xe đã chọn ${n} trả tiền hôm nay! “${line}”`,{view:"pay",title:n,sub:"là nhà tài trợ hôm nay 💸",verdict:line,kicker:"🎡 Ai trả tiền?",emoji:"💸"})}`;
   $("#r-pay").classList.add("on");ding();confetti();setTimeout(()=>$("#r-pay").scrollIntoView({behavior:"smooth",block:"center"}),100)}
 function renderLog(){const l=LS.get("paylog",[]);$("#payLog").innerHTML=l.length?l.slice(0,10).map(x=>`<li><b>${esc(x.n)}</b> bao · ${new Date(x.t).toLocaleString("vi-VN",{timeZone:CONFIG.TZ,day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</li>`).join(""):"<li>Chưa ai bao. Sổ sạch như ví cuối tháng.</li>"}
 $("#spinBtn").onclick=spin;$("#tbHist").onclick=()=>show("hist");againFns["r-pay"]=spin;
@@ -580,9 +628,10 @@ function applyData(x){
   if(!x||typeof x!=="object")return;
   const vis=a=>Array.isArray(a)?a.filter(o=>o&&!o.hidden):[];
   if(x.config&&typeof x.config==="object")Object.assign(CONFIG,x.config);
+  if(Array.isArray(x.cities)){const C=x.cities.filter(c=>c&&c.id&&c.name&&!c.hidden).map(c=>({id:String(c.id),name:String(c.name),lat:+c.lat,lng:+c.lng,sf:String(c.sf||c.id)}));if(C.length)CITIES=C}
   if(x.dishes)Object.keys(MEALS).forEach(m=>{const L=vis(x.dishes[m]).map(o=>[String(o.name),+o.price||0,o.cat]);if(Array.isArray(x.dishes[m]))D[m]=L});
   if(x.special)Object.keys(MEALS).forEach(m=>{const o=x.special[m];if(o&&o.name&&!o.hidden)SPECIAL[m]=[String(o.name),+o.price||0]});
-  if(Array.isArray(x.partners)){const P=vis(x.partners).filter(p=>Array.isArray(p.links)&&p.links.length).map(p=>({name:String(p.name),area:String(p.area||""),links:p.links.slice(),tags:(p.tags||[]).map(String).filter(Boolean),city:p.city||"Hà Nội"}));PARTNERS.splice(0,PARTNERS.length,...P)}
+  if(Array.isArray(x.partners)){const P=vis(x.partners).filter(p=>Array.isArray(p.links)&&p.links.length).map(p=>({name:String(p.name),area:String(p.area||""),links:p.links.slice(),tags:(p.tags||[]).map(String).filter(Boolean),city:p.city||"Hà Nội",cityId:p.cityId||cityIdOf(p.city)||"ha-noi"}));PARTNERS.splice(0,PARTNERS.length,...P)}
   if(x.jokes)Object.keys(J).forEach(c=>{const L=vis(x.jokes[c]).map(o=>String(o.text));if(L.length)J[c]=L});
 }
 async function loadData(){
@@ -594,8 +643,9 @@ async function loadData(){
 loadData().then(()=>{
 if(CONFIG.ADS_ENABLED)$("#adSlot").style.display="block";
 const h=bkkHour();$("#greet").textContent=h<5?"Giờ này còn thức, chắc đói thật rồi.":h<10?"Chào buổi sáng, bụng đã sẵn sàng chưa?":h<14?"Trưa rồi, để trời quyết cho nhanh.":h<18?"Chiều chiều, kiếm gì bỏ bụng nhỉ?":"Tối rồi, thưởng cho bản thân đi.";
-renderTabs();renderDice();renderMembers();renderGroups();renderLog();renderHist();
+initCity();renderTabs();renderDice();renderMembers();renderGroups();renderLog();renderHist();
 const qv=new URLSearchParams(location.search).get("view");show(["que","dice","pay","hist"].includes(qv)?qv:LS.get("view","que"));
+showShared();
 });
 </script>
 <script>
