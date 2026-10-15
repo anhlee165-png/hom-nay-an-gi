@@ -519,8 +519,9 @@ function roll(){if(rolling)return;if(mealEmpty(meal)||!dcards.length){toast("Má»
   dRx=(Math.floor(dRx/360)+5)*360+x;dRy=(Math.floor(dRy/360)+7)*360+y;
   $("#die").style.transform=`rotateX(${dRx}deg) rotateY(${dRy}deg)`;
   try{tone(300,.08,"square",.05)}catch(e){}
-  const cs=[...document.querySelectorAll("#dcards .dc")],N=cs.length;let t=0,i=rnd(N),d=70;
-  while(t<2900){const k=i%N,at=t;setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));cs[k]&&cs[k].classList.add("hot");try{tone(500+k*60,.04,"square",.03)}catch(e){}},at);t+=d;d=Math.min(d*1.13,420);i++}
+  const cs=[...document.querySelectorAll("#dcards .dc")],N=cs.length,ts=[];let t=0,d=70;
+  while(t<2900){ts.push(t);t+=d;d=Math.min(d*1.13,420)}
+  ts.forEach((at,j)=>{const k=((n-1-(ts.length-1-j))%N+N)%N;setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));cs[k]&&cs[k].classList.add("hot");try{tone(500+k*60,.04,"square",.03)}catch(e){}},at)});
   setTimeout(()=>{cs.forEach(c=>c.classList.remove("hot"));rolling=false;showDice(n)},3450)}
 function showDice(n){const d=dcards[n-1];renderCards(n);tone(880,.2,"sine",.15);
   const line=joke("dice",{d:d[0]});const el=$("#r-dice");
