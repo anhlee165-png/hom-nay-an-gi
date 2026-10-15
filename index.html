@@ -467,7 +467,7 @@ function orderLinks(name){
   const city=cityName(), q=name.replace(/\(.*?\)/g,"").trim();
   const mp=`https://www.google.com/maps/search/${encodeURIComponent(q+" gần "+city)}`;
   const ps=partnersFor(name);let top="",buy="";if(ps.length){const p=pickArr(ps);buy=partnerLink(p);top=`<a class="partner" target="_blank" rel="noopener sponsored" href="${buy}"><small>⭐ Quán gợi ý · ${esc(p.area)}</small><b>${esc(p.name)}</b><span>Đặt ngay trên ShopeeFood →</span></a>`}
-  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}${buy?"":`<a class="o-sp" target="_blank" rel="noopener" href="${sfSearch(q)}">🔎 Tìm món này trên ShopeeFood</a>`}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div>${buy?"":`<p class="soon">Quán ruột ở ${esc(city)} sắp có mặt 😋</p>`}`;
+  return top+`<div class="order">${buy?`<a class="o-sp" target="_blank" rel="noopener sponsored" href="${buy}">🛒 Mua ở đây</a>`:""}${buy?"":`<a class="o-sp" target="_blank" rel="noopener" href="${sfSearch(q)}">🛒 Mua ở đây</a>`}<a class="o-mp" target="_blank" rel="noopener" href="${mp}">📍 Tìm quán gần (Maps) · ${city}</a></div>`;
 }
 let lastShare="";
 let lastInfo={};
