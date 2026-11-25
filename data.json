@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T19:42:10.000Z",
+ "updated": "2026-11-25T20:02:08.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -19484,6 +19484,35 @@
    ],
    "tags": [
     "mắc khén"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p301",
+   "name": "Bún Đậu Mắm Tôm 1990 - Xô Viết Nghệ Tĩnh",
+   "area": "Bình Thạnh",
+   "city": "TP. Hồ Chí Minh",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5VXBTIMNq1"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p302",
+   "name": "Ngọc Tiên Coffee - Trà Sữa - Mì Cay & Ăn Vặt",
+   "area": "Tân Phú",
+   "city": "TP. Hồ Chí Minh",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/30pqUvHJCs"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa"
    ],
    "hidden": false
   }
