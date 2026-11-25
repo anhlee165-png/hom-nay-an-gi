@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T19:15:52.000Z",
+ "updated": "2026-11-25T19:42:10.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -19392,6 +19392,98 @@
    ],
    "tags": [
     "bánh trôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p295",
+   "name": "Quyền Huế - Bánh Bèo, Bánh Xèo & Nem Lụi",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvrOI1z0q"
+   ],
+   "tags": [
+    "gác bếp",
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p296",
+   "name": "Quán Bà Thịnh - Cháo, Miến & Phở - 379 Nguyễn Văn Cừ",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvrP7CO0c",
+    "https://spf.shopee.vn/1W12h4oco0"
+   ],
+   "tags": [
+    "thịt luộc",
+    "phở",
+    "giò heo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p297",
+   "name": "Quán Nhậu Lẩu & Nướng Cậu Cháu - Cơm Rang & Mỳ Xào",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/2VtZsbOeoq"
+   ],
+   "tags": [
+    "ếch",
+    "mì xào",
+    "cơm rang",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p298",
+   "name": "Xiên Que Nướng Ngân Quân - Lý Tự Trọng",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/7AfPRDB6P4"
+   ],
+   "tags": [
+    "ếch",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p299",
+   "name": "Trà Tắc Cozy",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/1BOCIHCGu1"
+   ],
+   "tags": [
+    "lạp xưởng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p300",
+   "name": "Quán Lào Khọp Chay - Lào Restaurant - Kim Đồng",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/9Kju1MAQsN"
+   ],
+   "tags": [
+    "mắc khén"
    ],
    "hidden": false
   }
