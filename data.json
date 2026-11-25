@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T18:53:15.000Z",
+ "updated": "2026-11-25T19:15:52.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -19137,6 +19137,261 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p278",
+   "name": "Phở Lý Quốc Sư - Phở Bò, Cơm Văn Phòng & Lẩu - Trung Kính",
+   "area": "Cầu Giấy",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/8fUDB9Ypr2"
+   ],
+   "tags": [
+    "bò kho",
+    "phở",
+    "cơm bò",
+    "lẩu",
+    "thịt kho"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p279",
+   "name": "Gong Ju - Kimbap & Món Hàn - Hà Đông",
+   "area": "Hà Đông",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/8fUDBHJVLM"
+   ],
+   "tags": [
+    "cà ri",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p280",
+   "name": "Korean For Teen - Giảng Võ",
+   "area": "Ba Đình",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/50auoY9tMw"
+   ],
+   "tags": [
+    "cà ri"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p281",
+   "name": "Phở Hiếu 79 Thổ Quan - Phở Sốt Vang & Phở Trộn",
+   "area": "Đống Đa",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/3qOxQWQQKG"
+   ],
+   "tags": [
+    "bò sốt vang",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p282",
+   "name": "Vịt Ato - Vịt Nướng Vân Đình",
+   "area": "Nam Từ Liêm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/AAJ0yHkETe"
+   ],
+   "tags": [
+    "vịt om sấu",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p283",
+   "name": "Vịt Cỏ Thành Đăng - 315 Lĩnh Nam",
+   "area": "Hoàng Mai",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/3LSgpjnqNv"
+   ],
+   "tags": [
+    "vịt om sấu",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p284",
+   "name": "Nhậu Đêm Trang Béo",
+   "area": "Đống Đa",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/AAJ0yMDLVy"
+   ],
+   "tags": [
+    "măng xào",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p285",
+   "name": "Linh Lùn - Bánh Chưng Rán & Đồ Ăn Vặt",
+   "area": "Hoàn Kiếm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/3LSgq2cfA2"
+   ],
+   "tags": [
+    "bánh chưng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p286",
+   "name": "Xôi Xéo, Bánh Chưng & Bánh Giò - Mộc Quán",
+   "area": "Cầu Giấy",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/3LSgq4oz9k"
+   ],
+   "tags": [
+    "bánh chưng",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p287",
+   "name": "Cháo Ếch Singapore & Bánh Mỳ Truyền Thống - Phạm Ngọc Thạch",
+   "area": "Đống Đa",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/AKcRB9Zn5m"
+   ],
+   "tags": [
+    "ếch",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p288",
+   "name": "Luyến Ốc Nhà Hàng - Bùi Quốc Khái",
+   "area": "Hoàng Mai",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/Lp5Gml7uU"
+   ],
+   "tags": [
+    "ếch",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p289",
+   "name": "Bánh Mì Sài Gòn Minh Kiên - 355 Nguyễn Khang",
+   "area": "Cầu Giấy",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/1CEsHwd6d"
+   ],
+   "tags": [
+    "lạp xưởng",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p290",
+   "name": "Bà Shin Vlog - Ẩm Thực & Quà Vặt Siêu Ngon Online - Trương Định",
+   "area": "Hoàng Mai",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/2gD03CQDFQ"
+   ],
+   "tags": [
+    "lạp xưởng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p291",
+   "name": "Ẩm Thực Tây Bắc - Đồ Nhậu & Đồ Ăn Vặt - Cửu Việt 2",
+   "area": "Gia Lâm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/5LDlEA7IOs",
+    "https://spf.shopee.vn/BVf4qUdKn"
+   ],
+   "tags": [
+    "mắc khén",
+    "đồ nhậu",
+    "cơm lam"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p292",
+   "name": "Thịt Quay - Cô Béo",
+   "area": "Nam Từ Liêm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/AUvrNlwchp"
+   ],
+   "tags": [
+    "giò heo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p293",
+   "name": "Như Tây Quán - Bò Mỡ Chài & Bò Nhúng Dấm - Vũ Lăng",
+   "area": "Thanh Trì",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/5LDlESuSsG"
+   ],
+   "tags": [
+    "bò lá lốt",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p294",
+   "name": "Yum Yum - Bánh Trôi Tàu Online - Hàm Nghi",
+   "area": "Nam Từ Liêm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/AUvrO3bwkk"
+   ],
+   "tags": [
+    "bánh trôi"
    ],
    "hidden": false
   }
