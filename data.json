@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T18:41:44.000Z",
+ "updated": "2026-11-25T18:42:30.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -366,6 +366,156 @@
     "price": 50,
     "cat": "com",
     "hidden": false
+   },
+   {
+    "name": "Thịt kho trứng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Thịt lợn gác bếp",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cá suối nướng",
+    "price": 90,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Vịt om sấu",
+    "price": 80,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Măng xào tỏi",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cà ri gà",
+    "price": 55,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bò kho",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cá kho tộ",
+    "price": 55,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Xôi ngũ sắc",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Canh chua cá",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh chưng",
+    "price": 40,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Thịt luộc mắm tôm",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu cá",
+    "price": 150,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Chả cá",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Ếch om chuối đậu",
+    "price": 80,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Nộm hoa chuối",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lạp xưởng",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cá nướng mắc khén",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Thịt kho dừa",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Chè đỗ đen",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Giò heo hầm măng",
+    "price": 70,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cơm lam",
+    "price": 40,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cà tím om đậu",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bò lá lốt",
+    "price": 50,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh trôi bánh chay",
+    "price": 30,
+    "cat": "banh",
+    "hidden": false
    }
   ],
   "toi": [
@@ -499,6 +649,156 @@
     "name": "Cà ri bò",
     "price": 55,
     "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Thịt kho trứng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Thịt lợn gác bếp",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cá suối nướng",
+    "price": 90,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Vịt om sấu",
+    "price": 80,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Măng xào tỏi",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cà ri gà",
+    "price": 55,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bò kho",
+    "price": 55,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cá kho tộ",
+    "price": 55,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Xôi ngũ sắc",
+    "price": 35,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Canh chua cá",
+    "price": 50,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bánh chưng",
+    "price": 40,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Thịt luộc mắm tôm",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lẩu cá",
+    "price": 150,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Chả cá",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Ếch om chuối đậu",
+    "price": 80,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Nộm hoa chuối",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Lạp xưởng",
+    "price": 60,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Cá nướng mắc khén",
+    "price": 120,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Thịt kho dừa",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Chè đỗ đen",
+    "price": 20,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Giò heo hầm măng",
+    "price": 70,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Cơm lam",
+    "price": 40,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cà tím om đậu",
+    "price": 40,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bò lá lốt",
+    "price": 50,
+    "cat": "vat",
+    "hidden": false
+   },
+   {
+    "name": "Bánh trôi bánh chay",
+    "price": 30,
+    "cat": "banh",
     "hidden": false
    }
   ],
