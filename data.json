@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T18:02:01.000Z",
+ "updated": "2026-11-25T18:41:44.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -342,6 +342,30 @@
     "price": 35,
     "cat": "com",
     "hidden": false
+   },
+   {
+    "name": "Cơm thịt kho trứng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Bò kho bánh mì",
+    "price": 50,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Cà ri bò",
+    "price": 55,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cá sốt cà chua",
+    "price": 50,
+    "cat": "com",
+    "hidden": false
    }
   ],
   "toi": [
@@ -451,6 +475,30 @@
     "name": "Cháo lòng tiết canh",
     "price": 40,
     "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bò hầm",
+    "price": 70,
+    "cat": "nuoc",
+    "hidden": false
+   },
+   {
+    "name": "Bò sốt vang",
+    "price": 65,
+    "cat": "banh",
+    "hidden": false
+   },
+   {
+    "name": "Cơm thịt kho trứng",
+    "price": 45,
+    "cat": "com",
+    "hidden": false
+   },
+   {
+    "name": "Cà ri bò",
+    "price": 55,
+    "cat": "com",
     "hidden": false
    }
   ],
