@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T18:49:37.000Z",
+ "updated": "2026-11-25T18:53:15.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -17824,6 +17824,1319 @@
    ],
    "tags": [
     "gác bếp"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p187",
+   "name": "Quán Xôi Lá Chuối & Bánh Mì - Minh Phụng",
+   "area": "Quận 6",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/Lp5CWrOs7"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p188",
+   "name": "Cô Hồng - Xôi Gà Xé",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1LhcONQMjd"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p189",
+   "name": "Hà Nhi - Bánh Cuốn Nóng - 201 Tạ Quang Bửu",
+   "area": "Quận 8",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3B9GZlt4do"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p190",
+   "name": "Bánh Cuốn 133",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7VIFjkGvlz"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p191",
+   "name": "Sủi Cảo Thuận Phát - Hà Tôn Quyền",
+   "area": "Quận 11",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6L6ILctLD0"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p192",
+   "name": "Tâm Ký - Mì, Hủ Tiếu & Sủi Cảo",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9V3K7SGYJs"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p193",
+   "name": "Hẻm FastFood - Mì Trộn Trứng Lòng Đào",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6VPiXxzwTZ"
+   ],
+   "tags": [
+    "mì trứng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p194",
+   "name": "Hải Tuyết - Bánh Mì Hà Nội, Xôi Mặn & Bánh Mì - Lê Trọng Tấn",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1BOCCEJWW0"
+   ],
+   "tags": [
+    "bánh mì",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p195",
+   "name": "Bánh Mì Tuấn Mập - Bánh Mì Chảo & Bò Bít Tết - Lãnh Binh Thăng",
+   "area": "Quận 11",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5AuKxadM8P"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p196",
+   "name": "Phở Bò Đan Phượng - Hòa Hưng",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1CEo7VGjk"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p197",
+   "name": "Quán Phở Hiền - Phở, Bún & Miến - Đường Trần Thị Điệu",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1CEo89YPR"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p198",
+   "name": "Bún Riêu Ngon - Bún Riêu & Bún Đỏ - Hoàng Diệu 2",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/AKcR795hGj"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p199",
+   "name": "Bún Riêu Miền Tây Út Hồng",
+   "area": "Quận 11",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5AuKxexBnU"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p200",
+   "name": "Mạ Tôi - Bánh Canh Cua Bột Gạo Huế",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1W12awlJgS"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p201",
+   "name": "Bánh Canh Nồi Đất - Phạm Văn Hai",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6Ams9X6fPU"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p202",
+   "name": "Quán Cháo Lòng Miền Tây Ăn Là Ghiền - Hương Lộ 2",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6L6ILrepHm"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p203",
+   "name": "Cháo Lòng Miền Tây - 137 Tôn Đản",
+   "area": "Quận 4",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6L6ILtrDXc"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p204",
+   "name": "Ăn Vặt Đêm - Bún Mọc Cẩm",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7fbfwNFIZy"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p205",
+   "name": "Bún Mọc 401 - Bún Mọc - Cách Mạng Tháng 8",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8AXwXIsi9B"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p206",
+   "name": "Cơm Tấm Phuongphuong - Cơm Tấm & Bún Thịt Nướng - Hoàng Diệu 2",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5VXBMQapc6"
+   ],
+   "tags": [
+    "cơm tấm",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p207",
+   "name": "Cơm Tấm - Nguyễn Ảnh Thủ",
+   "area": "Hóc Môn",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/qlLnrS091"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p208",
+   "name": "Madi - Há Cảo, Xíu Mại & Sủi Cảo",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/50aulXjtxL"
+   ],
+   "tags": [
+    "dimsum",
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p209",
+   "name": "Bánh Kem Tài Lộc - Bánh Kem & Bánh Ngọt - Thành Thái",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/2qWQBbZCZ0"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p210",
+   "name": "Hala Coffee - Nam Sài Gòn",
+   "area": "Quận 7",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3qOxNS5h12"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p211",
+   "name": "Bánh Đúc & Cháo Sườn Quang Gánh 2 - Lê Quang Định",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/AAJ0v92RBC"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p212",
+   "name": "Cháo Sườn Cô Giang - Quận 1",
+   "area": "Quận 1",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/20xJC97LO2"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p213",
+   "name": "Cháo Gỏi Gà & Vịt - 168 Lê Đức Thọ",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6Ams9q3OLt",
+    "https://spf.shopee.vn/3Vm709VZkm"
+   ],
+   "tags": [
+    "cháo gà",
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p214",
+   "name": "Bún Bò Vương - Phan Huy Ích",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9Kjtvq8Y2G"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p215",
+   "name": "Bún Bò Huế 149 - Lê Lăng",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6fj8kws6Uj"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p216",
+   "name": "Bún Cá Châu Đốc - Vĩnh Khánh",
+   "area": "Quận 4",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9fMkKUJweX"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p217",
+   "name": "Bún Cá Nha Trang Cô Tuyết - Chu Văn An",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/80EWLR02OZ"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p218",
+   "name": "Cơm Sườn & Cơm Tấm - Chú Chiến Long Xuyên - Tỉnh Lộ 10",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3Vm6zCSsA8"
+   ],
+   "tags": [
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p219",
+   "name": "Cơm Tấm Đêm 6 Tèo - Cơm Sườn - 400 Phan Văn Trị",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9pgAWrdQ00"
+   ],
+   "tags": [
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p220",
+   "name": "Sukiya - Cơm Bò Hầm & Mì Ramen - Lê Văn Sỹ",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8fUD8kCb9O"
+   ],
+   "tags": [
+    "cơm bò",
+    "bò hầm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p221",
+   "name": "MATSUYA - Cơm Bò Chuẩn Vị Nhật - Nguyễn Gia Trí",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/114m0fI4jD"
+   ],
+   "tags": [
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p222",
+   "name": "BẾP NHÀ CHUỘT - Mì Xào, Nui Xào & Cơm Gà - Đường Số 48",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/4qHUZkBbx4"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p223",
+   "name": "Mì Gói Xào Bò - Ga Sài Gòn",
+   "area": "Quận 3",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8pndL5O0jS"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p224",
+   "name": "Nem Nướng Susu - Tỉnh Lộ 10",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/AUvrKDAgiJ"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p225",
+   "name": "Nem Nướng Nha Trang - Since 1982 - Tân Phú",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5qA1le6Sn2"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p226",
+   "name": "Út Dung - Bánh Xèo - Nhật Tảo",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3B9GalozqL"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p227",
+   "name": "Bánh Xèo Cô Nguyệt 77 - Lê Đức Thọ",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/4LLDyvLXau"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p228",
+   "name": "Cô Béo - Chuyên Đồ Tần",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/AKcR7yWjiw"
+   ],
+   "tags": [
+    "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p229",
+   "name": "Bánh Mì Kebab Anh Hoàng",
+   "area": "Quận 4",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8VAmwg64aJ"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p230",
+   "name": "Bánh Mì Kebab - Quốc Lộ 50",
+   "area": "Quận 8",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/40iNaQwxbG"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p231",
+   "name": "Subin - Cơm Gà Xối Mỡ",
+   "area": "Quận 6",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5VXBNDQ729"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p232",
+   "name": "Cơm Chiên Yến - Trần Xuân Soạn",
+   "area": "Quận 7",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3Vm6zaIUSw"
+   ],
+   "tags": [
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p233",
+   "name": "Bún Chả Hà Nội Số 1 Lala - 149A Nguyễn Gia Trí",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9KjtwMHglU"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p234",
+   "name": "Bún Chả Hà Nội Hương Quê - Thoại Ngọc Hầu",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3qOxOGBkvQ"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p235",
+   "name": "Bún Đậu Mắm Tôm Phố Hội - Lạc Long Quân",
+   "area": "Quận 11",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/2BGjPDqtWV"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p236",
+   "name": "Hiền - Bún Thịt Nướng - Nguyễn Văn Khối",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1LhcPj6azl"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p237",
+   "name": "Cafe Võng - Bún Thịt Nướng 264 - Lê Văn Quới",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6L6IMvMpOI"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p238",
+   "name": "Hủ Tiếu Mì 78 - 78 Lê Văn Thọ",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/4fy4NxZcJT"
+   ],
+   "tags": [
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p239",
+   "name": "T&T - Mì Cay, Trà Sữa & Gà Rán",
+   "area": "Bình Chánh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3LSgnb7CEj"
+   ],
+   "tags": [
+    "mì cay",
+    "gà rán",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p240",
+   "name": "Gà Đô - Gà Ủ Muối Tứ Vị - Xóm Chiếu",
+   "area": "Quận 4",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/W8VQR2g5E"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p241",
+   "name": "Quán Lẩu 79 - Hẻm 766A Lạc Long Quân",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3LSgnfReDi"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p242",
+   "name": "LẨU QUỐC DÂN 79K",
+   "area": "Quận 12",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/30pqP45U0J"
+   ],
+   "tags": [
+    "lẩu",
+    "lẩu cá",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p243",
+   "name": "Chân Gà Sốt Thái MR Đỏ - Trường Sa",
+   "area": "Quận 3",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/BVf1sqMxo"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p244",
+   "name": "Ăn Vặt CHOÉ - Chân Gà Sốt Thái & Tré Trộn - Chiến Lược",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/qlLp7Mkqm"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p245",
+   "name": "Kaka - Chân Gà & Trứng Non Sốt Thái",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7KypZ5Ws8L"
+   ],
+   "tags": [
+    "trứng non",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p246",
+   "name": "Mì Trộn Indomie Únu - Nguyễn Duy",
+   "area": "Quận 8",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1W12cQqZLX"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p247",
+   "name": "Ka’s - Mì Trộn Indomie, Xiên Que & Lẩu Ly",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/9AQTkWxKxc"
+   ],
+   "tags": [
+    "indomie",
+    "lẩu",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p248",
+   "name": "3 Râu - Gà Rán Pizza & Trà Sữa – 191 Nguyễn Tiểu La",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7pv6AAYlWs"
+   ],
+   "tags": [
+    "nem chua rán",
+    "gà rán",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p249",
+   "name": "3 Râu - Gà Rán Pizza & Trà Sữa - 401 Phạm Thế Hiển",
+   "area": "Quận 8",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/Lp5EObLAc"
+   ],
+   "tags": [
+    "nem chua rán",
+    "gà rán",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p250",
+   "name": "Gà Rán & Burger McDonald's Đa Kao",
+   "area": "Quận 1",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/BVf28sMUR"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p251",
+   "name": "3 Râu - Gà Rán, Pizza & Trà Sữa - Nơ Trang Long",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5LDlBeCUpl"
+   ],
+   "tags": [
+    "gà rán",
+    "cơm gà",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p252",
+   "name": "Bánh Tráng Trộn & Bánh Tráng Cuốn LyLy",
+   "area": "Quận 7",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/W8VQn3pNj"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p253",
+   "name": "Bánh Tráng Trộn 290",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7AfPN3CPPU"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p254",
+   "name": "Ăn Vặt Bé Su - Trà Sữa Xiên Que - Dương Thị Mười",
+   "area": "Quận 12",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3qOxOxcS5X"
+   ],
+   "tags": [
+    "xiên que",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p255",
+   "name": "Tiệm Thịt Xiên Nướng - Man Thiện",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5AuKzOsofc"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p256",
+   "name": "Trà Sữa & Bánh Flan Windy - Lê Văn Khương",
+   "area": "Quận 12",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8VAmxafXer"
+   ],
+   "tags": [
+    "bánh flan",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p257",
+   "name": "Tiệm Bánh Susan Bakery",
+   "area": "Quận 8",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1gKSp2e4B6"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p258",
+   "name": "Chè Thái Quốc Anh",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1CEq25ogw"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p259",
+   "name": "Chè Tuk Tuk - Súp & Bánh Đúc Nóng",
+   "area": "Quận 12",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6VPiZzK3Au"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p260",
+   "name": "Tàu Hũ Singapore Minh Phước - 132 Tân Hiệp 32",
+   "area": "Hóc Môn",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/40iNbTw4T2"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p261",
+   "name": "Sữa Chua Trân Châu Nước Cốt Dừa Hạ Long - Xóm Chiếu",
+   "area": "Quận 4",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7AfPNNLztT"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p262",
+   "name": "Trà Tắc Hẻm & Sữa Chua Mix - Tân Hoà Đông",
+   "area": "Quận 6",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6AmsBYvIYT"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p263",
+   "name": "Cà Phê Muối Chú Long - Nguyễn Huệ",
+   "area": "Quận 1",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3LSgoRYaVG"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p264",
+   "name": "KBOX - Cà Phê & Trà - Hương Lộ 3",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/1gKSpOETST"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p265",
+   "name": "Trà Sữa - Trà Trái Cây Bíu Bíu",
+   "area": "Quận 6",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3Vm70r9OzM"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p266",
+   "name": "Tiệm Trà Trái Cây Tươi 100% - Phan Huy Ích",
+   "area": "Gò Vấp",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/gRvdfroUj"
+   ],
+   "tags": [
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p267",
+   "name": "TRẠM 477 - Trà Trái Cây, Nước Ép & Cá Viên Chiên - 45A Nguyễn Văn Bá",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/5qA1nB8IxS"
+   ],
+   "tags": [
+    "trà trái cây",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p268",
+   "name": "Sinh Tố & Nước Ép Ngã Bảy - Lý Thái Tổ",
+   "area": "Quận 10",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/114m2K4AnU"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p269",
+   "name": "Mix Juice - Nước Ép Tươi - 331 Phan Văn Trị",
+   "area": "TP. HCM",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/6q2Yz3i2kq"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p270",
+   "name": "Sinh Tố Phú Thành - An Dương Vương",
+   "area": "Bình Tân",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/80EWNEAoZJ"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p271",
+   "name": "Sinh Tố Phúc Long",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/7VIFmJlqb1"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p272",
+   "name": "LẠP XƯỞNG NƯỚNG ĐÁ & TRÀ CHANH GIÃ TAY - ĂN VẶT MÌ MÌ",
+   "area": "Tân Bình",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/4qHUbS8OFZ"
+   ],
+   "tags": [
+    "trà chanh",
+    "lạp xưởng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p273",
+   "name": "Ms Trà - Trà Sữa & Trà Trái Cây - 48D Dương Đức Hiền",
+   "area": "Tân Phú",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/BVf2rmQAV"
+   ],
+   "tags": [
+    "trà chanh",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p274",
+   "name": "Hồng Trà Ngô Gia - 315 Huỳnh Tấn Phát",
+   "area": "Quận 7",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/BVf2vman8"
+   ],
+   "tags": [
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p275",
+   "name": "ONE 2 THREE - Cafe, Matcha & Trà Trái Cây",
+   "area": "Bình Thạnh",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/8fUDAc53vv"
+   ],
+   "tags": [
+    "matcha",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p276",
+   "name": "Chà Chà Chà - Matcha, Cacao & Coffee",
+   "area": "Thủ Đức",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/4qHUbZwDoZ"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p277",
+   "name": "Trà Sữa Mixue - 399 Tô Ký",
+   "area": "Quận 12",
+   "city": "TP.HCM",
+   "cityId": "tp-hcm",
+   "links": [
+    "https://spf.shopee.vn/3Vm719aIVd"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
    ],
    "hidden": false
   }
