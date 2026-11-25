@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T18:42:30.000Z",
+ "updated": "2026-11-25T18:49:37.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -17766,6 +17766,64 @@
    "tags": [
     "kebab",
     "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p183",
+   "name": "Xôi Xéo Bà Nghị & Bún Chả - 303 Bùi Xương Trạch",
+   "area": "Thanh Xuân",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/20xJEid9aU"
+   ],
+   "tags": [
+    "thịt kho",
+    "xôi",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p184",
+   "name": "Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân",
+   "area": "Hoàn Kiếm",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/3LSgpB30su"
+   ],
+   "tags": [
+    "thịt kho"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p185",
+   "name": "Hải Sản Cajun - Tôm, Mực & Trâu Lợn Gác Bếp",
+   "area": "Hoàng Mai",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/1gKSq3Sdq0"
+   ],
+   "tags": [
+    "gác bếp"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p186",
+   "name": "Bin Hà Nội - Miến Trộn & Cơm Đùi Gà - Shop Online",
+   "area": "Cầu Giấy",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/8VAmyZuQj5"
+   ],
+   "tags": [
+    "gác bếp"
    ],
    "hidden": false
   }
