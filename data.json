@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-15T05:08:13.000Z",
+ "updated": "2026-11-25T15:35:00.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -16721,6 +16721,21 @@
    ],
    "shopeefood_url": "https://shopeefood.vn/nghe-an/thanh-vinh-com-van-phong",
    "address": "64 Nguyễn Đức Cảnh, P. Hưng Bình, Tp. Vinh, Nghệ An"
+  },
+  {
+   "id": "p135",
+   "name": "Nem Nướng Nha Trang & Trà Tắc",
+   "area": "Hà Nội",
+   "city": "Hà Nội",
+   "cityId": "ha-noi",
+   "links": [
+    "https://spf.shopee.vn/1LhcBpS7St"
+   ],
+   "tags": [
+    "nem nướng",
+    "trà tắc"
+   ],
+   "hidden": false
   }
  ],
  "jokes": {
