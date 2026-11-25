@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T17:35:39.000Z",
+ "updated": "2026-11-25T18:02:01.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -17303,6 +17303,121 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p175",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Trần Phú Vinh",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/20xJA0oYCd"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p176",
+   "name": "Lavett Bakery - Tiệm Bánh Ngọt - 381 Nguyễn Văn Cừ",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/2BGjMKOpgI"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p177",
+   "name": "Chè Long Béo - Nguyễn Văn Cừ",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvrHsn379"
+   ],
+   "tags": [
+    "cơm bò",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p178",
+   "name": "Tiệm Cô Tơm - Ăn Vặt Online",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/gRvZp1SkP"
+   ],
+   "tags": [
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p179",
+   "name": "Nem Quán - 49 Nguyễn Kiệm",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/1gKSlm8613"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p180",
+   "name": "Bánh Xèo,Bánh Bèo Nem Lụi Huế - 124 Kim Đồng",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/9AQThed3GZ"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p181",
+   "name": "Kebab Torki - 90 Lê Hồng Phong",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/5qA1jd3ohE"
+   ],
+   "tags": [
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p182",
+   "name": "Bánh Mì Doner Kebab",
+   "area": "Tp. Vinh",
+   "city": "Vinh",
+   "cityId": "vinh",
+   "links": [
+    "https://spf.shopee.vn/BVezEtiLr"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
    ],
    "hidden": false
   }
