@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T20:58:31.000Z",
+ "updated": "2026-11-25T21:54:08.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -20176,6 +20176,434 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p345",
+   "name": "Xôi Chim - Hàng Kênh",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/BVfC37UpZ"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p346",
+   "name": "Bếp Nhà Thuỷ - Tokbokki Gà Xốt & Milk Tea",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/114mBeblh0",
+    "https://spf.shopee.vn/1BOCOO92b1",
+    "https://spf.shopee.vn/1BOCP7IdVZ",
+    "https://spf.shopee.vn/6VPil3Fizr",
+    "https://spf.shopee.vn/5fqblozOjb",
+    "https://spf.shopee.vn/5AuLBVolnc",
+    "https://spf.shopee.vn/2La9oca5Kx",
+    "https://spf.shopee.vn/70LzNGCqyf",
+    "https://spf.shopee.vn/9073kzzQkC",
+    "https://spf.shopee.vn/3B9Gp1pS8H",
+    "https://spf.shopee.vn/gRvqYmBPM"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "cháo lòng",
+    "cơm bò",
+    "cơm rang",
+    "nem nướng",
+    "chân gà",
+    "gà rán",
+    "xiên que",
+    "bánh tráng",
+    "sinh tố",
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p347",
+   "name": "Mê Bami - Bánh Mì, Mỳ Trộn & Tàu Hũ",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/9AQTuq7fL3"
+   ],
+   "tags": [
+    "bánh mì",
+    "mì trứng",
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p348",
+   "name": "Susu - Trà Sữa, Nước Ép Hoa Quả & Đồ Ăn Vặt - Đông Khê",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/7pv6KOqc8P",
+    "https://spf.shopee.vn/7VIFy3Myt3",
+    "https://spf.shopee.vn/8fUDMgoh3B",
+    "https://spf.shopee.vn/6q2ZBRf2I8"
+   ],
+   "tags": [
+    "bánh mì",
+    "mì trứng",
+    "hoa quả",
+    "trà sữa",
+    "nước ép",
+    "nem chua rán",
+    "sữa chua",
+    "cà phê",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p349",
+   "name": "Phở Vùng Cao - 9/613 Thiên Lôi",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/5fqbkTFBGX",
+    "https://spf.shopee.vn/Lp5POHAY5"
+   ],
+   "tags": [
+    "phở",
+    "bún đậu",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p350",
+   "name": "Mèo Béo Tea - Nước Ép & Tea - Ngô Gia Tự",
+   "area": "Hải An",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/70LzLEWxAG",
+    "https://spf.shopee.vn/4LLEAsl6id",
+    "https://spf.shopee.vn/6q2Z9u0Ly7",
+    "https://spf.shopee.vn/70LzNp6gpX",
+    "https://spf.shopee.vn/80EWa6F0RE"
+   ],
+   "tags": [
+    "cơm tấm",
+    "nước ép",
+    "cơm sườn",
+    "cơm gà",
+    "bạc xỉu",
+    "matcha",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p351",
+   "name": "TOUS les JOURS - Điện Biên Phủ",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/9073j0Hxwb"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p352",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Viễn Thông A HP",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/8fUDKOxWH4"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p353",
+   "name": "CocoJamboo - Tiệm Trà Sữa & Đồ Ăn Vặt",
+   "area": "Hải An",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/8pndWxOvLA",
+    "https://spf.shopee.vn/8AXwm1KHkg",
+    "https://spf.shopee.vn/20xJQkIZ9n",
+    "https://spf.shopee.vn/114mFE1IiW"
+   ],
+   "tags": [
+    "cháo sườn",
+    "trà sữa",
+    "matcha",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p354",
+   "name": "Quán Ngọc - Bánh Đa Ngan & Bún Cá Mộc",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/114mCggmYq"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p355",
+   "name": "Thuý Bánh Mì Doner Kebab - Cát Cụt",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/9zzavfAshW"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p356",
+   "name": "Kebab Torki - Bánh Mì & Gà Rán - Quán Nam",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/2qWQOWhPFB"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p357",
+   "name": "Tiệm Mỳ Cay, Ăn Vặt & Giải Khát SKY - 120C/619 Nguyễn Văn Linh",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/7VIFxdkkhN",
+    "https://spf.shopee.vn/AKcRKwb313"
+   ],
+   "tags": [
+    "mì cay",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p358",
+   "name": "Linh Long - Chuyên Đồ Ủ Muối Số 1 Hải Phòng",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/3LSh01CO0m"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p359",
+   "name": "Bơ - Tiệm Mì Trộn Online - 3/41 Lương Khánh Thiện",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/9V3KLP5IVW"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p360",
+   "name": "Mì Trộn Indomie nhà ChinChin",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/4qHUn1zry2"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p361",
+   "name": "Trà Bí Đao Tanchee & Mỳ Trộn Indomie - 15A/919 Thiên Lôi",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/3Vm7CbaEVz"
+   ],
+   "tags": [
+    "indomie",
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p362",
+   "name": "Sweet Juice - Sinh Tố, Nước Ép & Đồ Ăn Vặt",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/6fj8ydZYwR",
+    "https://spf.shopee.vn/7AfPa0Neeg",
+    "https://spf.shopee.vn/W8Ve3IGEG",
+    "https://spf.shopee.vn/BVfFVRTAj"
+   ],
+   "tags": [
+    "bánh tráng",
+    "nước ép",
+    "sinh tố",
+    "hoa quả",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p363",
+   "name": "Tiệm Cầu Vòng - Chè Khúc Bạch & Khoai Dẻo - Shop Online",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/3B9GoOW4sV"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p364",
+   "name": "Tuyết Hồng - Sủi Dìn, Kem Trái Dừa & Dừa Dầm - 50 Lê Lợi",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/3qOxbd3Hsu"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p365",
+   "name": "Coffee 89 - Trà Trái Cây, Trà Sữa & Nước Ép Hoa Quả",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/2BGjcsaT3I",
+    "https://spf.shopee.vn/1LhcdUrfjV",
+    "https://spf.shopee.vn/9KjuAKIxDp",
+    "https://spf.shopee.vn/BVfFZun0W"
+   ],
+   "tags": [
+    "cà phê",
+    "hoa quả",
+    "trà sữa",
+    "trà trái cây",
+    "nước ép",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p366",
+   "name": "Trà Sữa Mixue - 81 Máy Tơ",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/3qOxcUlsFU"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p367",
+   "name": "Trà Sữa Mixue - Nguyễn Đức Cảnh",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/5fqbnsDKu8"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p368",
+   "name": "Đức Gà - Gà Quay Da Giòn Và Cơm Lam",
+   "area": "Ngô Quyền",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/7KypmxbSDZ"
+   ],
+   "tags": [
+    "đồ nhậu",
+    "cơm lam"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p369",
+   "name": "Vịt Cỏ Tây Bắc Kim Thơ - Vịt quay & Chim Cút",
+   "area": "Lê Chân",
+   "city": "Hải Phòng",
+   "cityId": "hai-phong",
+   "links": [
+    "https://spf.shopee.vn/1W12qFa9tx"
+   ],
+   "tags": [
+    "đồ nhậu"
    ],
    "hidden": false
   }
