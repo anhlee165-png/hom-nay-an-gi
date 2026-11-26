@@ -179,6 +179,12 @@ def build():
         open(os.path.join(ROOT, cid, "index.html"), "w", encoding="utf-8").write(
             page(title, desc, path, body, crumbs([("Hôm nay ăn gì", "/"), (city, path)])))
         urls.insert(1, (path, "0.9")); made.append(path)
+    # cập nhật dòng liên kết thành phố ở cuối trang chủ
+    city_links = " · ".join(f'<a href="/{c["id"]}/">{c["name"]}</a>' for c in d["cities"]
+                            if os.path.exists(os.path.join(ROOT, c["id"], "index.html")) and f"/{c['id']}/" in made)
+    ip = os.path.join(ROOT, "index.html"); ih = open(ip, encoding="utf-8").read()
+    ih2 = re.sub(r'<p class="foot">Chọn món theo thành phố:.*?</p>', f'<p class="foot">Chọn món theo thành phố: {city_links}</p>', ih)
+    if ih2 != ih: open(ip, "w", encoding="utf-8").write(ih2)
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
          "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n"
     open(os.path.join(ROOT, "sitemap.xml"), "w").write(sm)
