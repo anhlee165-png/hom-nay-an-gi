@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T19:22:27.000Z",
+ "updated": "2026-11-26T20:23:36.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -145,6 +145,13 @@
    "lat": 20.4388,
    "lng": 106.1621,
    "sf": "ninh-binh"
+  },
+  {
+   "id": "quang-tri",
+   "name": "Đồng Hới",
+   "lat": 17.4689,
+   "lng": 106.6223,
+   "sf": "quang-tri"
   }
  ],
  "dishes": {
@@ -29758,6 +29765,140 @@
     "matcha",
     "trà sữa",
     "mixue"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p970",
+   "name": "Cúc Cu Food - 54 Dương Văn An",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/W8X5cFQDT",
+    "https://spf.shopee.vn/6fjASFcpCI",
+    "https://spf.shopee.vn/9V3LrIHBbe",
+    "https://spf.shopee.vn/5fqdIV44dx"
+   ],
+   "tags": [
+    "xôi",
+    "mì xào",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p971",
+   "name": "Hải Vân Restaurant - 8 Trần Nhân Tông",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/1W14HSp8xE"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p972",
+   "name": "Ẩm Thực Khang - Bánh Cuốn Nóng, Cháo Canh & Cháo Trắng Cá Bống",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/8VAocOITn1"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p973",
+   "name": "Bún Đậu Bà Lái - 27 Trần Quang Khải",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/50awTacZqX",
+    "https://spf.shopee.vn/AAJ2d9DmnS",
+    "https://spf.shopee.vn/8fUEpzON1u",
+    "https://spf.shopee.vn/W8X8HsdfD",
+    "https://spf.shopee.vn/4qHWIj854c"
+   ],
+   "tags": [
+    "bún chả",
+    "bún đậu",
+    "nem chua rán",
+    "xiên que",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p974",
+   "name": "Bún Đậu Gia Di - 19 Lý Thường Kiệt",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/8VAoeWhSZ2",
+    "https://spf.shopee.vn/7AfR4Y6a7H"
+   ],
+   "tags": [
+    "lẩu",
+    "bún đậu",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p975",
+   "name": "Chạm Vị Quán - Lý Nam Đế",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/4LLFg2IKLA"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p976",
+   "name": "Gà Rán - Trà Sữa Yuki - 88 Võ Thị Sáu",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/2qWRsnfiy0"
+   ],
+   "tags": [
+    "gà rán",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p977",
+   "name": "Chang Hi Quảng Bình - 34 Nguyễn Du",
+   "area": "Tp. Đồng Hới",
+   "city": "Đồng Hới",
+   "cityId": "quang-tri",
+   "links": [
+    "https://spf.shopee.vn/1Lhe7urvJB",
+    "https://spf.shopee.vn/3B9IIrgb73",
+    "https://spf.shopee.vn/Lp6wTsdyq"
+   ],
+   "tags": [
+    "bánh flan",
+    "chè",
+    "trà sữa"
    ],
    "hidden": false
   }
