@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T09:03:09.000Z",
+ "updated": "2026-11-26T10:02:16.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -68,6 +68,13 @@
    "lat": 12.2388,
    "lng": 109.1967,
    "sf": "khanh-hoa"
+  },
+  {
+   "id": "lam-dong",
+   "name": "Đà Lạt",
+   "lat": 11.9404,
+   "lng": 108.4583,
+   "sf": "lam-dong"
   }
  ],
  "dishes": {
@@ -23089,6 +23096,541 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p535",
+   "name": "Thảo - Cafe & Bánh Mì",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/1qdtzLBL8f"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p536",
+   "name": "Phở Hiếu Đà Lạt - Nguyễn Văn Trỗi",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/50avlDt8E5"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p537",
+   "name": "Ẩm Thực Hà Nội - Khởi Nghĩa Bắc Sơn",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/1W13ap9UwO",
+    "https://spf.shopee.vn/7Kyqb0F25G"
+   ],
+   "tags": [
+    "phở",
+    "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p538",
+   "name": "Quán Anh Kiệt - Hủ Tíu & Bún Riêu - Nguyễn Trung Trực",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/2Vtamj4tsM"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p539",
+   "name": "Quán Hằng - Cháo Vịt & Cháo Lòng - Vạn Hạnh",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/3Vm7yfNpXX",
+    "https://spf.shopee.vn/3g5YCyR8mA"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng",
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p540",
+   "name": "Bánh Ướt Lòng Gà - Mật Đường",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/gRwbU4Jhq",
+    "https://spf.shopee.vn/9AQUjSl07g",
+    "https://spf.shopee.vn/5fqcaEPQIp"
+   ],
+   "tags": [
+    "cháo lòng",
+    "cháo gà",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p541",
+   "name": "Cơm Tấm Sài Gòn 49 - Nguyễn Công Trứ",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/7KyqXppdzl"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p542",
+   "name": "KATINAT - Đà Lạt",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/3g5YBCedh3",
+    "https://spf.shopee.vn/2LaAdke5Bv"
+   ],
+   "tags": [
+    "croissant",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p543",
+   "name": "Cháo Sườn Mịn 1988",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/6Amt9qpuO9"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p544",
+   "name": "Cháo Sườn A Péo",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/9AQUjaXnkA"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p545",
+   "name": "Xuân - Bún Bò Huế & Bò Kho",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/5fqcZDjVfG"
+   ],
+   "tags": [
+    "bún bò",
+    "bò kho",
+    "giò heo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p546",
+   "name": "Nâu - Cơm Sườn Nướng Phan Rang - Phù Đổng Thiên Vương",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/3LShn3ghnl"
+   ],
+   "tags": [
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p547",
+   "name": "CƠM TẤM CÔ HAI - Cơm Tấm - 56/2 Hải Thượng",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/4qHVZmY1Pa"
+   ],
+   "tags": [
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p548",
+   "name": "Nem Nướng Hoàng Hải (CN La Sơn Phu Tử)",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/8AXxY85z2w"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p549",
+   "name": "Chả Ram Bắp Tân Long",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/5AuLyajZcd"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p550",
+   "name": "Bánh Xèo Chảo Miền Tây - Quán Vân",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/Lp6Dm0QTq"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p551",
+   "name": "Kebab Torki - Nhà Chung",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/4B1omwaQ8g"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p552",
+   "name": "Kebab Torki - Bùi Thị Xuân",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/6fj9lYtiU1"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p553",
+   "name": "Cơm Gà Biết Nói - Hẻm 288 Bùi Thị Xuân",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/4fy5NvQqs3"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p554",
+   "name": "Gà Rán Và Mì Ý - Jollibee - Jollibee EC Đà Lạt Phan Đình Phùng",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/2Vtanw0nPk"
+   ],
+   "tags": [
+    "cơm gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p555",
+   "name": "Cơm Tấm, Bún Thịt Nướng & Bánh Hỏi Thịt Nướng - 04 Huyền Trân Công Chúa",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/2gD10WolYR"
+   ],
+   "tags": [
+    "bún thịt nướng",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p556",
+   "name": "Chân Gà Rút Xương Sốt Thái - Anh Chú - Thái Phiên",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/7VIGlomfJ4"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p557",
+   "name": "1990 FOOD - Tré Trộn, Mì Trộn & Ăn Vặt Đà Lạt",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/3g5YCuXhpq"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p558",
+   "name": "Gà Rán KFC - Bùi Thị Xuân",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/2VtaoywkCt"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p559",
+   "name": "Ăn Vặt Lynh - Trà Chanh & Bánh Tráng Trộn",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/gRwdeTB0U",
+    "https://spf.shopee.vn/2VtapuM7HD"
+   ],
+   "tags": [
+    "bánh tráng",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p560",
+   "name": "Ăn Vặt, Xiên Que Châu Châu - Hàn Thuyên",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/BVg2nPkgZ"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p561",
+   "name": "Trà Sữa Ăn Vặt Sam - Phan Chu Trinh",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/50avnhazQY"
+   ],
+   "tags": [
+    "xiên que",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p562",
+   "name": "Long Nga - Ẩm Thực Chè",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/9fMlMNhxGT"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p563",
+   "name": "CHẠM Đà Lạt - Kem Bơ, Sinh Tố Bơ Heathy & Cafe - Khu Hòa Bình",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/7pv7BAAK33",
+    "https://spf.shopee.vn/4fy5PpIqtd"
+   ],
+   "tags": [
+    "tàu hũ",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p564",
+   "name": "Sữa Chua Nhà Làm Phương Oanh - Hùng Vương",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/7pv7BC1XWf"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p565",
+   "name": "Phê La - Trà & Cà Phê Đặc Sản - Nguyễn Chí Thanh",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/9zzblIg5kY",
+    "https://spf.shopee.vn/4qHVbwRKLv"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p566",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Go Mall Đà Lạt",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/70M0BnW8pA"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p567",
+   "name": "Thanh Trà - Trà Sữa - 116 Nguyễn Công Trứ",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/6L6JOgjFzK",
+    "https://spf.shopee.vn/2LaAdgjtM3",
+    "https://spf.shopee.vn/6AmtClutBH"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà bí đao",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p568",
+   "name": "Xưởng Trà Thủ Công - Trà Sữa Đậm Vị Trà",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/1W13du7gmN"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p569",
+   "name": "Nước Ép King Kong - Ngô Quyền",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/4fy5PmuqLX"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p570",
+   "name": "Sữa Hạt, Nước Ép & Sinh Tố Toentoen",
+   "area": "Tp. Đà Lạt",
+   "city": "Đà Lạt",
+   "cityId": "lam-dong",
+   "links": [
+    "https://spf.shopee.vn/3g5YE0rsVV"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
    ],
    "hidden": false
   }
