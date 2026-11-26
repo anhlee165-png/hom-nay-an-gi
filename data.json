@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T21:23:18.000Z",
+ "updated": "2026-11-26T22:22:20.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -166,6 +166,13 @@
    "lat": 10.3864,
    "lng": 105.4352,
    "sf": "an-giang"
+  },
+  {
+   "id": "tay-ninh",
+   "name": "Tây Ninh",
+   "lat": 11.31,
+   "lng": 106.0983,
+   "sf": "tay-ninh"
   }
  ],
  "dishes": {
@@ -30579,6 +30586,227 @@
    ],
    "tags": [
     "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1021",
+   "name": "Dimsum Hongkong Anh Nông Dân",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/2gD1nRq0x8",
+    "https://spf.shopee.vn/5VXDDCr1aC"
+   ],
+   "tags": [
+    "xôi",
+    "dimsum",
+    "cháo trai"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1022",
+   "name": "Bánh Mì Cô Ba Lộc",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/9Kjvji0eqY"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1023",
+   "name": "Mì Sủi Cảo A Bảo - Nguyễn Trãi",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/114noYIa58"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1024",
+   "name": "Mì Trộn Huỳnh Thu - Mì Trộn & Mì Cay - Lạc Long Quân",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/9075LHaFun",
+    "https://spf.shopee.vn/7AfRBstY81",
+    "https://spf.shopee.vn/7fbhnjPgDR",
+    "https://spf.shopee.vn/8fUEzwuViU"
+   ],
+   "tags": [
+    "mì trứng",
+    "mì cay",
+    "trà sữa",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1025",
+   "name": "Cơm Chiên & Mì Trộn 24h - Đường Số 2",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/Lp71OFAiC",
+    "https://spf.shopee.vn/8KrOYxzkd4",
+    "https://spf.shopee.vn/7fbhlHiBNr",
+    "https://spf.shopee.vn/6fjAaxJR8F"
+   ],
+   "tags": [
+    "mì trứng",
+    "mì xào",
+    "mì cay",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1026",
+   "name": "Ǎn Vặt Huỳnh Thư - Mẹc Chiên Mắm Tỏi & Gà Viên Sốt Cay - Lạc Long Quân",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/7pv7xEkw3F",
+    "https://spf.shopee.vn/1gKUdpar6C"
+   ],
+   "tags": [
+    "bánh mì",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1027",
+   "name": "A Mập - Phở, Hủ Tiếu & Bún Bò - Bời Lời",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/8fUEwtWy9q"
+   ],
+   "tags": [
+    "bún riêu",
+    "phở",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1028",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - 449 Cách Mạng Tháng 8, Tây Ninh",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/4qHWOAqXri"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1029",
+   "name": "Donker Kebab - Bánh Mì Thổ Nhĩ Kỳ & Bánh Bao - Nguyễn Thái Học",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/7pv7yWtSGq"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1030",
+   "name": "Bồ Đào Tửu Quán - Huỳnh Tấn Phát",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/9AQVZi9nYi"
+   ],
+   "tags": [
+    "lẩu",
+    "lẩu cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1031",
+   "name": "Ghiền Trà Sữa - Võ Thị Sáu",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/3LSid993qf"
+   ],
+   "tags": [
+    "indomie",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1032",
+   "name": "Hamburger, Khoai Mỡ & Hot Dog 15k - 179 Nguyễn Trãi",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/2LaBRPuEEq",
+    "https://spf.shopee.vn/gRxSTmxg4",
+    "https://spf.shopee.vn/5AuMop4ElP",
+    "https://spf.shopee.vn/AAJ2mS8Sjh",
+    "https://spf.shopee.vn/AAJ2mW3Ti0",
+    "https://spf.shopee.vn/8VAonYBw81",
+    "https://spf.shopee.vn/8VAonZxvif",
+    "https://spf.shopee.vn/4qHWR6S2gq"
+   ],
+   "tags": [
+    "gà rán",
+    "bánh tráng",
+    "xiên que",
+    "cà phê",
+    "bạc xỉu",
+    "trà sữa",
+    "trà trái cây",
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1033",
+   "name": "Trà Sữa & Ăn Vặt An Ngọc",
+   "area": "Tp. Tây Ninh",
+   "city": "Tây Ninh",
+   "cityId": "tay-ninh",
+   "links": [
+    "https://spf.shopee.vn/2BGlG6HnKr"
+   ],
+   "tags": [
+    "sinh tố",
+    "trà sữa"
    ],
    "hidden": false
   }
