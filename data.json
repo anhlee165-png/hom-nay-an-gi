@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T22:22:23.000Z",
+ "updated": "2026-11-26T23:21:30.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -180,6 +180,13 @@
    "lat": 10.5359,
    "lng": 106.4137,
    "sf": "tay-ninh"
+  },
+  {
+   "id": "vinh-long",
+   "name": "Vĩnh Long",
+   "lat": 10.2537,
+   "lng": 105.9722,
+   "sf": "vinh-long"
   }
  ],
  "dishes": {
@@ -30909,6 +30916,219 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1040",
+   "name": "Xôi Lá Chuối - Nhà Thờ Chánh Toà",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/8pnfCt5cWa"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1041",
+   "name": "Sủi Cảo Cháo Lòng 45 - Cháo Lòng, Sủi Cảo & Hoành Thánh - Nguyễn Thái Học",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/7pv819T0CL"
+   ],
+   "tags": [
+    "sủi cảo",
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1042",
+   "name": "Há Cảo Dimsum Hoàng Gia - Phố Hoa Lan",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/9fMmCXqLeI"
+   ],
+   "tags": [
+    "dimsum",
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1043",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Vincom Vĩnh Long",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/5qA3e5U8Nm"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1044",
+   "name": "Cô Phước - Bún Bò, Hủ Tiếu - Trần Đại Nghĩa",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/W8XIojq1w"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1045",
+   "name": "Bánh Cuốn Nóng 68 - Đường 2/9",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/1qduuaPJ37"
+   ],
+   "tags": [
+    "nem nướng",
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1046",
+   "name": "Quán Ăn Cô Trúc - Đường 19/8",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/9075RwkAcR"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1047",
+   "name": "Phở Bát Đá Trưng Vương",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/6Amu4DtimT"
+   ],
+   "tags": [
+    "lẩu",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1048",
+   "name": "Ăn Vặt Réo Mơ - Mỳ Cay, Mỳ Trộn & Chân Gà Sốt Thái",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/1LheJUrn0N"
+   ],
+   "tags": [
+    "indomie",
+    "mì cay",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1049",
+   "name": "Quán 1983 - Trà Sữa, Sinh Tố & Ăn Vặt",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/6Amu4Zub2u",
+    "https://spf.shopee.vn/2VtbijKzBi",
+    "https://spf.shopee.vn/2BGlKCprFZ"
+   ],
+   "tags": [
+    "gà rán",
+    "trà sữa",
+    "sinh tố",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1050",
+   "name": "Fastfood Lê Quốc - Thức Ăn Nhanh - 60 Hưng Đạo Vương",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/2LaBVb7Ze2"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1051",
+   "name": "Chè Bưởi Như Anh - Lê Thị Hồng Gấm",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/3g5Z6FNICT"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1052",
+   "name": "NUTEA - Sữa Hạt, Trà Sữa & Trà Trái Cây",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/5qA3gbXjV4",
+    "https://spf.shopee.vn/7VIHfknym1",
+    "https://spf.shopee.vn/3qOzJ3ShI0"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1053",
+   "name": "MÂY COFFEE & TEA VĨNH LONG",
+   "area": "Tp. Vĩnh Long",
+   "city": "Vĩnh Long",
+   "cityId": "vinh-long",
+   "links": [
+    "https://spf.shopee.vn/5LDn67KKWf"
+   ],
+   "tags": [
+    "matcha"
    ],
    "hidden": false
   }
