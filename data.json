@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T22:22:20.000Z",
+ "updated": "2026-11-26T22:22:23.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -172,6 +172,13 @@
    "name": "Tây Ninh",
    "lat": 11.31,
    "lng": 106.0983,
+   "sf": "tay-ninh"
+  },
+  {
+   "id": "tan-an",
+   "name": "Tân An",
+   "lat": 10.5359,
+   "lng": 106.4137,
    "sf": "tay-ninh"
   }
  ],
@@ -30806,6 +30813,101 @@
    ],
    "tags": [
     "sinh tố",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1034",
+   "name": "Phúc Long - 38 Hùng Vương - Long An",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/gRxQWjrpy"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1035",
+   "name": "Kebab Torki - Bánh Mì Thổ Nhĩ Kỳ, Hamburger & Mì Ý",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/114npxjAe1"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1036",
+   "name": "Trà Sữa & Mì Cay ChiBi - Hùng Vương",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/5fqdPrqN5W",
+    "https://spf.shopee.vn/30psFp1nfA"
+   ],
+   "tags": [
+    "chè",
+    "mì cay",
+    "trà sữa",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1037",
+   "name": "Tiệm 396 - Sâm Full Topping & Ăn Vặt - Nguyễn Thị Hạnh",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/qlNf0d64D"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1038",
+   "name": "Trà Sữa & Ăn Vặt Tâm Tâm - Châu Thị Kim",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/6fjAcPPUtn",
+    "https://spf.shopee.vn/3qOzF888HZ",
+    "https://spf.shopee.vn/2qWS3USxBF"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa",
+    "sinh tố",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1039",
+   "name": "Trà Sữa Mixue - 16 Nguyễn Đình Chiểu",
+   "area": "Tp. Tân An",
+   "city": "Tân An",
+   "cityId": "tan-an",
+   "links": [
+    "https://spf.shopee.vn/8pnfCa01mG"
+   ],
+   "tags": [
+    "mixue",
     "trà sữa"
    ],
    "hidden": false
