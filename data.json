@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T23:21:32.000Z",
+ "updated": "2026-11-26T23:21:35.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -193,6 +193,13 @@
    "name": "Trà Vinh",
    "lat": 9.9347,
    "lng": 106.3453,
+   "sf": "vinh-long"
+  },
+  {
+   "id": "ben-tre",
+   "name": "Bến Tre",
+   "lat": 10.2433,
+   "lng": 106.3756,
    "sf": "vinh-long"
   }
  ],
@@ -31334,6 +31341,70 @@
    "tags": [
     "nước ép",
     "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1067",
+   "name": "Phở Hồng Cúc - Đường 3/2",
+   "area": "Tp. Bến Tre",
+   "city": "Bến Tre",
+   "cityId": "ben-tre",
+   "links": [
+    "https://spf.shopee.vn/70M11oD1pi"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1068",
+   "name": "Lẩu Xí Quách Bò Hồng Cúc - Đường 3/2",
+   "area": "Tp. Bến Tre",
+   "city": "Bến Tre",
+   "cityId": "ben-tre",
+   "links": [
+    "https://spf.shopee.vn/gRxW5kTIL"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1069",
+   "name": "Cà Phê Muối Chú Long - Bến Tre",
+   "area": "Tp. Bến Tre",
+   "city": "Bến Tre",
+   "cityId": "ben-tre",
+   "links": [
+    "https://spf.shopee.vn/7fbhrm4W0Y",
+    "https://spf.shopee.vn/1qduvBDeyp",
+    "https://spf.shopee.vn/9pgCRweuLF",
+    "https://spf.shopee.vn/AKcT33Nyyp"
+   ],
+   "tags": [
+    "sữa chua",
+    "cà phê",
+    "bạc xỉu",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1070",
+   "name": "Dương Di Coffee & Tea - Đại Lộ Đồng Khởi",
+   "area": "Tp. Bến Tre",
+   "city": "Bến Tre",
+   "cityId": "ben-tre",
+   "links": [
+    "https://spf.shopee.vn/1gKUisojKE",
+    "https://spf.shopee.vn/gRxXLtamO"
+   ],
+   "tags": [
+    "cà phê",
+    "sinh tố"
    ],
    "hidden": false
   }
