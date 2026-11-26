@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T02:49:47.000Z",
+ "updated": "2026-11-26T09:03:09.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -61,6 +61,13 @@
    "lat": 18.6796,
    "lng": 105.6813,
    "sf": "nghe-an"
+  },
+  {
+   "id": "khanh-hoa",
+   "name": "Nha Trang",
+   "lat": 12.2388,
+   "lng": 109.1967,
+   "sf": "khanh-hoa"
   }
  ],
  "dishes": {
@@ -22131,6 +22138,953 @@
    "cityId": "hue",
    "links": [
     "https://spf.shopee.vn/50avKyY2eU"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p470",
+   "name": "Tiệm Gà Nướng Phương - Võ Thị Sáu",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/40iOVHX3WF"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p471",
+   "name": "Gà Ủ Muối & Ăn Vặt Tony - Nguyễn Thị Định",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4B1ohb6rCj",
+    "https://spf.shopee.vn/1qdtxNTtNs"
+   ],
+   "tags": [
+    "xôi",
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p472",
+   "name": "Bánh Cuốn Tuý Phong - Bánh Cuốn - 42 Huỳnh Thúc Kháng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9AQUeqCs3E"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p473",
+   "name": "Bánh Cuốn & Bún Chả - Hà Linh - Dương Hiến Quyền",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3qOyJ36Vez"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p474",
+   "name": "Phúc Miêu Dimsum & Tea House - Trịnh Phong",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1CFk2Rziy"
+   ],
+   "tags": [
+    "sủi cảo",
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p475",
+   "name": "Bánh Mì Hoàng Diệu - Hoàng Diệu",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3g5Y6tTlm5"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p476",
+   "name": "Phở Lâm Lý Quốc Sư - Số 1 Mai Xuân Thưởng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1LhdKhehHA",
+    "https://spf.shopee.vn/7pv768lwlr"
+   ],
+   "tags": [
+    "phở",
+    "phở cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p477",
+   "name": "Quán Cơm Gà Tùng - Hương Lộ Ngọc Hiệp",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3B9HW2Otw0",
+    "https://spf.shopee.vn/4B1oj7vMRZ"
+   ],
+   "tags": [
+    "phở",
+    "cơm gà",
+    "bò kho"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p478",
+   "name": "Quán Ăn 81 - Bún Riêu Cua Đồng & Bún Chả Cá",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/40iOVdGbhm"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún chả",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p479",
+   "name": "Cháo Lòng Mỹ Dung",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6VPjULzSTu"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p480",
+   "name": "Cơm Tấm Ánh Kim - Thống Nhất",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9Kjuriol12"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p481",
+   "name": "Tiệm Cơm SV",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBSbe2NS",
+    "https://spf.shopee.vn/5AuLuYJehv"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm gà",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p482",
+   "name": "CAO DIMSUM - Lê Thánh Tôn",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2BGkK0lRU9"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p483",
+   "name": "SHUYI - NGÔ GIA TỰ",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5AuLu7uCj1"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p484",
+   "name": "ABC Bakery Nha Trang - Lý Thánh Tôn",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBSiFPwh"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p485",
+   "name": "Quán Cháo Khuya - 22/2 Châu Văn Liêm",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8VAnsJbdWl"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p486",
+   "name": "Bún Bò Huế Cô Chi - Bến Cá",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6Amt6HZj1P"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p487",
+   "name": "Bún Bò Huế 106 - Bún Bò - 106 Nguyễn Khuyến",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4LLEuvGS7B"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p488",
+   "name": "Cuốn Papa's",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5qA2htUAcG"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p489",
+   "name": "Hoàng Anh - Cơm Rang Dưa Bò - Nguyễn Xiển",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2BGkLAMgmd",
+    "https://spf.shopee.vn/1qdtwsFsYr"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p490",
+   "name": "Ngon Ninh Hoà - Nem Nướng, Bún Cá & Rau Câu Dừa - Mai Xuân Thưởng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5VXCJM8esJ"
+   ],
+   "tags": [
+    "nem nướng",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p491",
+   "name": "Thuỷ - Nem Cuốn, Nem Phần & Bún Thịt Nướng - Chợ Vĩnh Hải",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/gRwYSnFr0"
+   ],
+   "tags": [
+    "nem nướng",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p492",
+   "name": "Bánh Căn & Bánh Xèo Bé 2",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xK8yghUg"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p493",
+   "name": "Bánh Xèo 77 - Phước Long",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8VAnsvw6SI"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p494",
+   "name": "Torki Food - Bánh Mì Tam Giác Kebab & Hambuger - 29B Trần Nhật Duật",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4Vef7fdHfO"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p495",
+   "name": "Ớt Kebab - 40 Đoàn Trần Nghiệp",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1CFlPTt6m"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p496",
+   "name": "Cơm Gà Ni - Trần Nhật Duật",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8KrNglB6YS"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p497",
+   "name": "Bún Chả Hà Nội Hạnh Trang - Trần Phú",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4Vef7pMs2B"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p498",
+   "name": "Bún Đậu Thị Nở - 42 Vân Đồn",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/AKcS4byQe2"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p499",
+   "name": "Bún Thịt Nướng, Bún Thái, Bánh Hỏi Thịt Nướng - Bếp Nhà Tít",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9V3L59LEBU"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p500",
+   "name": "Tiệm Mì Huy Ký",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5fqcWDpD8v"
+   ],
+   "tags": [
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p501",
+   "name": "Mì Cay Koreno - Vĩnh Điềm Trung",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3g5Y8h2GQz"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p502",
+   "name": "CHÂN GÀ SỐT THÁI & MÌ TRỘN - THẢO FOOD",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4qHVWzGfP0"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p503",
+   "name": "Chân Gà Bà Lan Tháp Bà - Chân Gà Ngâm Sả Tắc, Chân Gà Sốt Thái- 71/2 Tháp Bà",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W13Ys6GZM"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p504",
+   "name": "SH Food - Ăn Vặt Ngon Sạch - Đường Liên Hoa",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2Vtakjb7EU"
+   ],
+   "tags": [
+    "trứng non"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p505",
+   "name": "BB’s Mart - Coffee & Tea - Nguyễn Đình Chiểu",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9zzbga1aOb"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p506",
+   "name": "Vịt Âu Cơ - 06 Lạc Long Quân",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7pv76fieaR"
+   ],
+   "tags": [
+    "cháo vịt",
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p507",
+   "name": "Trần Công Châu - Nem Chua Rán Hà Nội",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3B9HY9uxCp"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p508",
+   "name": "Gà rán và Mì Ý - Jollibee - Đường 19 Tháng 5",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9fMlIASsH0"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p509",
+   "name": "Gà Rán & Burger Lotteria - Nha Trang Thống Nhất",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBUU1mUl"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p510",
+   "name": "Bánh Tráng MR.BO - Bánh Tráng Trộn & Cuốn Bơ - 8C Hà Quang 2",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W13ZEIPpL"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p511",
+   "name": "47 Iced - Milo Đá Bào - 78 Phù Đổng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4B1okDb2fg"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p512",
+   "name": "Chè Thái WanWan - Hồng Bàng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/AUvsHvBJdi"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p513",
+   "name": "Tiệm Chè Nhung - Chè Ít Ngọt - 34A Hồng Bàng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xKAJI2bs"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p514",
+   "name": "Kem Xôi Thanh Hằng - Nguyễn Đình Chiểu",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W13ZPsSn0"
+   ],
+   "tags": [
+    "kem xôi",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p515",
+   "name": "Tàu Hũ Tươi CoVang - 49 Hoàng Hoa Thám",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7pv777OTV8"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p516",
+   "name": "Gỏi Bò Khô, Tàu Hủ Đá - Hưng Thịnh - 14 Hàn Thuyên",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4fy5LJDzRX"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p517",
+   "name": "Sữa Chua Trân Châu Hạ Long - Chung Cư CT2",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6Amt881e4r"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p518",
+   "name": "Vivu Chè - Chè & Càfe - VCN Phước Long",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TSvsN4C5"
+   ],
+   "tags": [
+    "hoa quả",
+    "chè",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p519",
+   "name": "NAWI - Trái Cây Gọt Sẵn 79",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3B9HYg6ddC"
+   ],
+   "tags": [
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p520",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Hải Phước Nha Trang",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7fbgv0BKDA"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p521",
+   "name": "Phin.coffeetogo - 39 Lê Hồng Phong",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TSvwqFVc"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p522",
+   "name": "Cafe Kem T'miki - 113 Ngô Gia Tự",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBV2w1uz"
+   ],
+   "tags": [
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p523",
+   "name": "Tiệm Nhà TEICA - Phong Châu",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8AXxVzbmMB"
+   ],
+   "tags": [
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p524",
+   "name": "Trà Sữa Mixue - 2 Nguyễn Thị Minh Khai",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8VAnuev5fE"
+   ],
+   "tags": [
+    "trà sữa",
+    "mixue"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p525",
+   "name": "Thanh Trà - Trà Sữa - 29 Ngô Gia Tự",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1qdtyPyH1F"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p526",
+   "name": "Trà Trương Gia - Trà Sữa & Trà Trái Cây - 90 Thái Nguyên",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/BVfzNeElM"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p527",
+   "name": "LÁ - Trà Trái Cây Tươi",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W13ZrctIA"
+   ],
+   "tags": [
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p528",
+   "name": "Laman Juice Nước Ép Vì Sức Khoẻ - Đường Số 3",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4Vef9Pd6Z0"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p529",
+   "name": "Cà Phê, Sinh Tố & Nước Ép - Phụng Vũ - Chợ Vĩnh Hải",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1BODBJOaYZ"
+   ],
+   "tags": [
+    "sinh tố",
+    "cà phê",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p530",
+   "name": "Sinh Tố Thảo Nhiên - Nước Ép, Sinh Tố, Chè Trái Cây Tươi - 644 LHP",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9AQUi1YLi4"
+   ],
+   "tags": [
+    "sinh tố",
+    "chè",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p531",
+   "name": "An Nhiên Tea - Trà Bí Đao - Trần Nhật Duật",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/AUvsIVbCEx",
+    "https://spf.shopee.vn/3qOyMJLhpw"
+   ],
+   "tags": [
+    "trà chanh",
+    "trà bí đao",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p532",
+   "name": "Tèo Cafe - Cafe Muối & Matcha Latte",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9KjuuTtRko"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p533",
+   "name": "With Chamei - Japanese Matcha & Houjicha - Mai Xuân Thưởng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5AuLwrHIf8"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p534",
+   "name": "Trà Sữa Mixue - Dã Tượng",
+   "area": "Tp. Nha Trang",
+   "city": "Nha Trang",
+   "cityId": "khanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/gRwac3rA4"
    ],
    "tags": [
     "mixue",
