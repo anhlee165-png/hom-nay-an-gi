@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T15:21:49.000Z",
+ "updated": "2026-11-26T16:24:05.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -110,6 +110,13 @@
    "lat": 21.5942,
    "lng": 105.8482,
    "sf": "thai-nguyen"
+  },
+  {
+   "id": "gia-lai",
+   "name": "Quy Nhơn",
+   "lat": 13.7765,
+   "lng": 109.2237,
+   "sf": "gia-lai"
   }
  ],
  "dishes": {
@@ -28074,6 +28081,681 @@
    "cityId": "thai-nguyen",
    "links": [
     "https://spf.shopee.vn/AUvsihEsm4"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p867",
+   "name": "Xôi Lòng Gà Nhật Minh - 109B Vũ Bảo",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/1LhdoCDOUL"
+   ],
+   "tags": [
+    "xôi",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p868",
+   "name": "CHI HOA XÔI - 89 Nguyễn Huệ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/8fUEXgP8uT"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p869",
+   "name": "Cô Loan - Bún, Xôi & Mì Xào - 325 Nguyễn Thái Học",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/3LSiBwdm5J",
+    "https://spf.shopee.vn/114nQduBoS",
+    "https://spf.shopee.vn/3g5YbdGOHo"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "xôi",
+    "mì xào",
+    "bún bò",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p870",
+   "name": "Bé Xù - Đồ Ăn - 100/6 Ngô Mây",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6L6JlU2WSD",
+    "https://spf.shopee.vn/6VPjz0NhWp"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p871",
+   "name": "Bánh Mì Ngọc Hà 1 - 92 Ngô Mây",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/1qduPMsEyr"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p872",
+   "name": "Bánh Mì Ở Đâu",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9fMljm2qH2"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p873",
+   "name": "Phở Hà Nội - 107 Trần Phú - Quy Nhơn",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/4VefaLJj7h"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p874",
+   "name": "MÌ TRỘN SIÊU CAY, BÚN RIÊU CUA & BÚN BÒ - 76/21 TÔ HIẾN THÀNH",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/80EXkpSuM4"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p875",
+   "name": "Bún Cá Thu, Riêu Ốc & Tôm Mực - Bế Văn Đàn",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6fjAAPfMBm",
+    "https://spf.shopee.vn/1qduQEBBYA"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p876",
+   "name": "Hủ Tiếu Loan - 120 Vũ Bảo",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/70M0Z3QDag"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p877",
+   "name": "Cháo Lòng & Bánh Hỏi - Ngô Mây",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9zzc8dpXdp"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p878",
+   "name": "Cơm Tấm Sài Gòn A Vũ - 100 Nguyễn Thái Học",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6VPjyKNktl",
+    "https://spf.shopee.vn/1W141gAhWX"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p879",
+   "name": "Cơm Tấm, Bún & Bánh Canh - Ông 9 - 14 Lê Lợi Nối Dài",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/7VIHAAsOGD",
+    "https://spf.shopee.vn/1CGExNmfe",
+    "https://spf.shopee.vn/4fy5nx4vxf"
+   ],
+   "tags": [
+    "cơm tấm",
+    "bánh canh",
+    "cơm sườn",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p880",
+   "name": "Namto House Coffee - Nguyễn Thị Định",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9KjvLd9Adl"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p881",
+   "name": "Phúc Long Nguyễn Thiếp",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/4fy5n447Zh"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p882",
+   "name": "Nhà Gạo Foods - Cháo Quẩy Sườn Sụn",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9pgBwc1nlL"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p883",
+   "name": "CHÁO GÀ ĐÊM QUY NHƠN",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/qlNE8XUAi"
+   ],
+   "tags": [
+    "cháo gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p884",
+   "name": "Cháo Gà Vịt - Cô Bình",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/8VAoMEenrP",
+    "https://spf.shopee.vn/3qOypIYl6c"
+   ],
+   "tags": [
+    "cháo gà",
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p885",
+   "name": "Tiệm Xiên Que Quy Nhơn - 122/2 Hoàng Văn Thụ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6L6JmglQRm",
+    "https://spf.shopee.vn/30prq1HAXL"
+   ],
+   "tags": [
+    "mì xào",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p886",
+   "name": "Quán Nướng 40 - 19 Phạm Ngũ Lão",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/2BGkp5tgvH",
+    "https://spf.shopee.vn/8pnemnp5GW"
+   ],
+   "tags": [
+    "nem nướng",
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p887",
+   "name": "BÁNH XÈO QUY NHƠN - Trần Cao Vân",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6L6Jmoc4kS"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p888",
+   "name": "Phương Trần - Bánh Mì Doner Kebab, Tacos & Nước Ép",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/60TTOKSLR8"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p889",
+   "name": "TorkiFood - Bánh Mì Kebab, Burger & Hotdog - 24B Nguyễn Trãi",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/1qduQgKhjo"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p890",
+   "name": "Cơm Gà Mimi House",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/4B1pD1X1M1"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p891",
+   "name": "Quán Ông Mập 1 - Phan Bội Châu",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/4LLFOI51v8"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p892",
+   "name": "Mì Cay Samyang",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9pgBxwYk6b"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p893",
+   "name": "Gà Ủ Muối Nhà Làm Ku Bin - Mì Trộn Indomie - 120 Nguyễn Thái Học",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/2qWRdB5hKX",
+    "https://spf.shopee.vn/Lp6eoQboB"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p894",
+   "name": "QUÁN NƯỚNG 2H - Hẻm 122/2 Hoàng Văn Thụ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/4qHW1nmUJ6"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p895",
+   "name": "Lẩu Thái Tomyum, Lẩu Bò Tứ Xuyên & Nướng - Tây Sơn Quán",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/30prpXyI8w"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p896",
+   "name": "Ăn Vặt Quy Nhơn - Chân Gà Tré Trộn - Hoàng Văn Thụ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6VPk00Wxbm",
+    "https://spf.shopee.vn/9074yz1RWH",
+    "https://spf.shopee.vn/3qOypYoyvU"
+   ],
+   "tags": [
+    "chân gà",
+    "bánh tráng",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p897",
+   "name": "Ăn Vặt, Chân Gà & Nước Ép - 122 Hoàng Văn Thụ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/2VtbEgtySl",
+    "https://spf.shopee.vn/AAJ2NA589Q",
+    "https://spf.shopee.vn/1gKUGGSBF6"
+   ],
+   "tags": [
+    "chân gà",
+    "nước ép",
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p898",
+   "name": "Gà Ủ Muối Uyên Nhi - Hoàng Văn Thụ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/2gD1R1ky8a"
+   ],
+   "tags": [
+    "trứng non",
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p899",
+   "name": "Nhà Cô Thanh - Bún Thịt Nướng, Bún Mắm Nêm & Mì Trộn Tóp Mỡ - 17 Võ Thị Yến",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9074yjFoOU"
+   ],
+   "tags": [
+    "indomie",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p900",
+   "name": "Tiệm Bánh Gà OGY Quy Nhơn",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/5LDmc7Niis",
+    "https://spf.shopee.vn/5qA3D6EybN"
+   ],
+   "tags": [
+    "nem chua rán",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p901",
+   "name": "Gà Rán Mr. Thịnh - Nguyễn Huệ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/5AuMPsvBGC",
+    "https://spf.shopee.vn/30prqGybfU"
+   ],
+   "tags": [
+    "gà rán",
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p902",
+   "name": "Gánh Chè - Chè Ngon Trọn Vị",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/AUvslvcefT"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p903",
+   "name": "CHOCOBEO Tea",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6L6JoHXLsM"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p904",
+   "name": "Tiệm Ăn Vặt Nhà Thóc - Nguyễn Lữ",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/qlNGLzwi2"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p905",
+   "name": "Trà Sữa TORO",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/114nSmo2Jy",
+    "https://spf.shopee.vn/80EXnivJVZ"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p906",
+   "name": "Trà Sữa Ship - Ngô Mây",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/9V3LaXABSH",
+    "https://spf.shopee.vn/2gD1S4c2Jr"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p907",
+   "name": "Trà Sữa Shin - Ngô Mây",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/7AfQoFsCBn",
+    "https://spf.shopee.vn/2gD1SEBF5q",
+    "https://spf.shopee.vn/40iP2k5Rag",
+    "https://spf.shopee.vn/5VXCpZXB6Q"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà chanh",
+    "trà bí đao",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p908",
+   "name": "Sinh Tố Nhung",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/8pnenReDfE",
+    "https://spf.shopee.vn/4qHW298s6l"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p909",
+   "name": "Bếp Nhà Sam - Ốc, Cafe & Ăn Vặt",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/7fbhPMciKf"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p910",
+   "name": "Trà sữa Mixue - 65 Nguyễn Huệ Quy Nhơn",
+   "area": "Tp. Quy Nhơn",
+   "city": "Quy Nhơn",
+   "cityId": "gia-lai",
+   "links": [
+    "https://spf.shopee.vn/6q2aQ4iYfZ"
    ],
    "tags": [
     "mixue",
