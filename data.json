@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T13:22:46.000Z",
+ "updated": "2026-11-26T14:22:19.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -96,6 +96,13 @@
    "lat": 19.8067,
    "lng": 105.7852,
    "sf": "thanh-hoa"
+  },
+  {
+   "id": "bac-ninh",
+   "name": "Bắc Ninh",
+   "lat": 21.1861,
+   "lng": 106.0763,
+   "sf": "bac-ninh"
   }
  ],
  "dishes": {
@@ -26372,6 +26379,893 @@
    ],
    "tags": [
     "matcha",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p755",
+   "name": "Bánh Mỳ Cô Phượng - Ngô Gia Tự",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2LaArrY4KP",
+    "https://spf.shopee.vn/3Vm8GGA29k"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p756",
+   "name": "Bánh Mì Việt - Tô Hiến Thành",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/W8WgVJg1E"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p757",
+   "name": "Hải Anh - Bánh Cuốn, Bún Chả & Gà Tần - 137 Trần Hưng Đạo",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/AKcSOd3iT2",
+    "https://spf.shopee.vn/1CG7JYakJ"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p758",
+   "name": "Bánh Cuốn Cô Lan - Bánh Cuốn Nóng - 260 Nguyễn Gia Thiều",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/qlN5ClBc0"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p759",
+   "name": "Ẩm Thực Mỳ Trung Hoa - 44 Nguyễn Đăng Đạo",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/114nHZeOls"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p760",
+   "name": "Phở Lý Quốc Sư - 63 Huyền Quang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/7VIH1fqRNV"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p761",
+   "name": "Thắng Phở Gà - Phở Sốt Vang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/W8Wgou8W7"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p762",
+   "name": "Phố Cổ Quán - Cơm Tấm Sườn Sài Gòn, Bún Riêu Cua & Cháo - Âu Cơ",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9074ocIAK1",
+    "https://spf.shopee.vn/60TTGqUqoE"
+   ],
+   "tags": [
+    "cháo lòng",
+    "bún riêu",
+    "cơm tấm",
+    "lòng",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p763",
+   "name": "Bún Cua Cá Thanh Hoà - 3/64 Vũ Kiệt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2qWRTAQs11",
+    "https://spf.shopee.vn/gRwtuU4Uj"
+   ],
+   "tags": [
+    "bún mọc",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p764",
+   "name": "Bún Mọc Trang Anh - Hoàng Hoa Thám",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/W8Wh3ie9C"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p765",
+   "name": "Cơm Tấm Sài Gòn - 121 Nguyễn Gia Thiều",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/3B9Hs1XdQR",
+    "https://spf.shopee.vn/4VefT1E038"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p766",
+   "name": "Cháo Trộn - Trần Quốc Toản",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9074ow30QY"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p767",
+   "name": "Bún Bò Huế Ngự Bình - 109 Huyền Quang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/1BODUlZHcu"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p768",
+   "name": "Phở Bò & Cơm Rang - Cồ Khánh",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/3qOygQEG53",
+    "https://spf.shopee.vn/9074pmcVdb"
+   ],
+   "tags": [
+    "bún bò",
+    "phở",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p769",
+   "name": "Ốc Ngon 99",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/6AmtSCvckM",
+    "https://spf.shopee.vn/7KyqrHmB4J"
+   ],
+   "tags": [
+    "mì xào",
+    "lẩu",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p770",
+   "name": "Nem Nướng Nha Trang Ông Béo",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/6AmtSGHRSY"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p771",
+   "name": "Đặc Sản Nem Nướng Ngọc Anh",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/40iOsI2X0l"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p772",
+   "name": "Bánh Xèo Nam Bộ, Bánh Khọt & Ăn Vặt - 86 Hồ Ngọc Lân",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2qWRUCOjcc"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p773",
+   "name": "Bánh Xèo Miền Trung - Phúc Trang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/W8Whv9q9Z"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p774",
+   "name": "Bánh Mỳ Cuộn Gà Nướng, Cơm Kebab, Kem Dừa B-An",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/1qduIUFkqQ"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p775",
+   "name": "Bánh Mỳ & Trà Chanh Góc Phố",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/20xKUnszaq"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p776",
+   "name": "Cơm Nhà - Vị Quê Mẹ Nấu",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9pgBpGIGKQ"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p777",
+   "name": "Nem Nướng Ong Nâu, Mỳ Cay & Bún Đậu - 110 Nguyễn Văn Cừ, Ninh Xá",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/AKcSQMGrhY"
+   ],
+   "tags": [
+    "bún đậu",
+    "nem nướng",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p778",
+   "name": "Phương Ruby - Phở Cuốn, Chè & Đồ Ăn Vặt - 19 Hoàng Quốc Việt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/6AmtSpKyIT"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p779",
+   "name": "SEOUL BN Bắc Ninh - Mỳ Cay 7 Cấp Độ - 136 Nguyễn Gia Thiều",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/70M0SYc71v"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p780",
+   "name": "Hoalan MilkTea - Trà Sữa & Mỳ Cay - Lãm Làng",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/3LSi5qKbRA"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p781",
+   "name": "Bếp Nhà Sóc - Gà Ủ Muối, Cơm Rang & Đồ Ăn Vặt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2gD1IeAInv"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p782",
+   "name": "Thái Hà Food - Gà Ủ Muối - Bình Than",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/4B1p5PhIOO"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p783",
+   "name": "Bếp A Thái Chuyên Chân Gà Sốt Thái & Xả Tắc - Gà Ủ Muối & Viên Chiên Xào Mắm Tỏi - Huyền Quang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/1qduJFdnto"
+   ],
+   "tags": [
+    "chân gà",
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p784",
+   "name": "Trà Trái Cây Cô Loan - 57 Huyền Quang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/qlN7P9eNj",
+    "https://spf.shopee.vn/3g5YVh1MOH"
+   ],
+   "tags": [
+    "chân gà",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p785",
+   "name": "Mỳ Trộn Indomie 11 - Rạp Hát",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/AUvsdIQ3BP"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p786",
+   "name": "Tiệm Ăn Vặt A Cương - Mì Trộn Trộn Indomie & Các Món Ăn Vặt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/60TTH3qLFL"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p787",
+   "name": "Ngọc Éng - Mỳ Cay & Đồ Ăn Vặt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/AKcSR7ttv0"
+   ],
+   "tags": [
+    "nem chua rán",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p788",
+   "name": "Gà Rán Popeyes - Lý Thái Tổ",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/5LDmU06N0O"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p789",
+   "name": "Gà Rán Five Star - Đại Phúc",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/BVgKVyxjJ"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p790",
+   "name": "Tiệm Của Thảo Ăn Sập Mọi Miền - Bánh Bao Chiên & Bánh Tráng - Nguyễn Cao",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/8AXxrGpIFH",
+    "https://spf.shopee.vn/1BODWTnjJk"
+   ],
+   "tags": [
+    "bánh tráng",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p791",
+   "name": "Bánh Tráng Út Thơm - Bánh Tráng Trộn - Bình Than",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9AQV37JioE"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p792",
+   "name": "Bánh Tráng Bắc Ninh - Ăn Vặt - 55 Huyền Quang",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2qWRVX2giF"
+   ],
+   "tags": [
+    "xiên que",
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p793",
+   "name": "Duna Coffee - Trà Sữa & Trà Chanh - 51 Xuân Diệu",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/AUvsdgTcjZ",
+    "https://spf.shopee.vn/6VPjt2JAiH",
+    "https://spf.shopee.vn/3LSi7HOFVb"
+   ],
+   "tags": [
+    "bánh flan",
+    "trà sữa",
+    "trà chanh",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p794",
+   "name": "Tiệm Chè Thảo",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/1gKU7W0OKj",
+    "https://spf.shopee.vn/6fjA4tXHin"
+   ],
+   "tags": [
+    "chè",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p795",
+   "name": "Chè Bà Phương - Cơ Sở 2 - 191 Nguyễn Gia Thiều",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/5LDmUGKo1P"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p796",
+   "name": "Chicacu Kem Dừa Bến Tre - TP. Bắc Ninh - 124 Hồ Ngọc Lân",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/8VAoG8Tbcp"
+   ],
+   "tags": [
+    "kem xôi",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p797",
+   "name": "T&C - Chè, Trà Sữa & Đồ Ăn Vặt",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/5LDmUOIOnM"
+   ],
+   "tags": [
+    "tàu hũ",
+    "chè",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p798",
+   "name": "Chè Thương - 38 Hồ Ngọc Lân",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/20xKWHyeqd"
+   ],
+   "tags": [
+    "tàu hũ",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p799",
+   "name": "Trà Sữa GGem Tea - Nguyễn Xuân Chính",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/6VPjscfuXA"
+   ],
+   "tags": [
+    "sữa chua",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p800",
+   "name": "LALALAND - Trà Sữa Hoa Quả Dầm & Trà Trái Cây - 12 Vũ Giới",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/40iOu4AcRv"
+   ],
+   "tags": [
+    "hoa quả",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p801",
+   "name": "Basic Coffe - Thế Giới Ăn Vặt, Trà Sữa & Trà Hoa Quả",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/50aw5vgV1t"
+   ],
+   "tags": [
+    "hoa quả",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p802",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Thanh Bình Bắc Ninh",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/4LLFIjU4Gx"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p803",
+   "name": "Dallas Coffee Roasters - Cửa Hàng Cà Phê - 26 Nguyễn Bỉnh Quân",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/8fUEShmq09"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p804",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Viglacera Bắc Ninh",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/7VIH4byw3l"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p805",
+   "name": "Tiệm Cafe Tháng Năm - Bình Than",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2BGkiosIcS",
+    "https://spf.shopee.vn/8VAoGhXtKn"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p806",
+   "name": "Trà Sữa Mixue - Thiên Đức",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/6L6JgWstQX",
+    "https://spf.shopee.vn/6q2aHtGF8G"
+   ],
+   "tags": [
+    "trà sữa",
+    "mixue"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p807",
+   "name": "TRÀ SỮA BINGXUE - 89 LÊ THÁI TỔ",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9KjvG4pX4b"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p808",
+   "name": "Tiệm Kem Bà Ngoại - Kem Bơ & Nước Ép Trái Cây Tươi",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/20xKWhfDal"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p809",
+   "name": "Snow Tea Coffee - 21 Lý Thái Tổ",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/2Vtb7bzmq3",
+    "https://spf.shopee.vn/AAJ2FxD4hV"
+   ],
+   "tags": [
+    "nước ép",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p810",
+   "name": "Lâm Cafe - Trà Chanh, Sinh Tố & Nước Ép - 67 Nguyễn Hữu Nghiêm",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/gRwwP3gl8"
+   ],
+   "tags": [
+    "trà chanh",
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p811",
+   "name": "Trà Bí Đao Phố Vũ - Trần Hưng Đạo",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/9074rkOMB1"
+   ],
+   "tags": [
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p812",
+   "name": "AN café - Võ Cường",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/8KrO4cOkKD"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p813",
+   "name": "Trà Sữa Mixue - Khắc Niệm",
+   "area": "Tp. Bắc Ninh",
+   "city": "Bắc Ninh",
+   "cityId": "bac-ninh",
+   "links": [
+    "https://spf.shopee.vn/20xKX16oGa"
+   ],
+   "tags": [
+    "mixue",
     "trà sữa"
    ],
    "hidden": false
