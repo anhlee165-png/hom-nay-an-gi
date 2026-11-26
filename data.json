@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T20:23:36.000Z",
+ "updated": "2026-11-26T21:23:15.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -152,6 +152,13 @@
    "lat": 17.4689,
    "lng": 106.6223,
    "sf": "quang-tri"
+  },
+  {
+   "id": "an-giang",
+   "name": "Rạch Giá",
+   "lat": 10.0125,
+   "lng": 105.0809,
+   "sf": "an-giang"
   }
  ],
  "dishes": {
@@ -29898,6 +29905,463 @@
    "tags": [
     "bánh flan",
     "chè",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p978",
+   "name": "Quán Kim Oanh - Xôi Mặn, Bánh Mì & Bánh Ướt",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/6L6K6AP8iY"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p979",
+   "name": "Tiến Anh Foods - Giò Chả Sạch Các Loại & Điểm Tâm Sáng - 57 Lý Thường Kiệt",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/5VXD6bKFfd"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p980",
+   "name": "Ăn Vặt Ken - Mì Trộn Indo, Gà Rán & Bánh Tráng Trộn",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/80EY5RuqxN",
+    "https://spf.shopee.vn/5qA3XJK1S9",
+    "https://spf.shopee.vn/9V3LuFIGVU",
+    "https://spf.shopee.vn/gRxOShx2Z",
+    "https://spf.shopee.vn/2Vtbae7Mfq"
+   ],
+   "tags": [
+    "mì trứng",
+    "gà rán",
+    "bánh tráng",
+    "mì cay",
+    "chân gà",
+    "xiên que",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p981",
+   "name": "Phở Tư Kiệt Chính Hiệu - Phạm Hùng",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/30ps8KiRe6",
+    "https://spf.shopee.vn/114nlO284Q"
+   ],
+   "tags": [
+    "phở",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p982",
+   "name": "CƠM TẤM GIA MỸ - Số 9 Nguyễn Chí Thanh",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/6AmtuExNfq",
+    "https://spf.shopee.vn/9075HfuH9Z",
+    "https://spf.shopee.vn/40iPLSgyCO"
+   ],
+   "tags": [
+    "bún riêu",
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p983",
+   "name": "Hủ Tiếu Mì Hoành Thánh 481 - Rạch Giá",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/AAJ2fedAVn",
+    "https://spf.shopee.vn/9V3Ltudk1P"
+   ],
+   "tags": [
+    "bánh canh",
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p984",
+   "name": "Quán Cháo Lòng Kiều - 582 Nguyễn Trung Trực",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/1Lhe9SZQMy"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p985",
+   "name": "mAnh - Cháo Sườn & Bún Mọc",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/BVglP7bf6",
+    "https://spf.shopee.vn/60TTiJP1QA"
+   ],
+   "tags": [
+    "bún mọc",
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p986",
+   "name": "Điểm Tâm Sáng Cô 8 - 1063 Lâm Quang Ky",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/AKcSs9Pdy7",
+    "https://spf.shopee.vn/4fy689IQXX"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn",
+    "bún thịt nướng",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p987",
+   "name": "Há Cảo Hồng Kông - Cô Giang",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/8AXyHdbb7W"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p988",
+   "name": "Há Cảo 196 - Phạm Hùng",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/4B1pWJPxm0"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p989",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - 3 Tháng 2 Rạch Giá",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/9pgCHIoxF5"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p990",
+   "name": "Bánh Xèo Sữa Cô Hạnh - C9-21-22 Lạc Hồng",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/7VIHVhT3uz"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p991",
+   "name": "CƠM - ĂN VẶT SÓC - 777 NGUYỄN TRUNG TRỰC",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/6q2aiG2kmu"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p992",
+   "name": "DanDanFood - Mì Trộn, Cơm Rang & Trà Tắc - Tây Bắc",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/5AuMjdxeOT"
+   ],
+   "tags": [
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p993",
+   "name": "Huỳnh Ký - Mì Vịt Tiềm, Hủ Tiếu Dê & Mì Hoành Thánh",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/9zzcUqFMoS"
+   ],
+   "tags": [
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p994",
+   "name": "Lẩu Nướng Mì Cay - Trần Quán",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/1qdulAZrbJ"
+   ],
+   "tags": [
+    "mì cay",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p995",
+   "name": "Vịt Nướng & Gà Nướng Đức Ký - 777B Nguyễn Trung Trực",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/7KyrIpqdO7"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p996",
+   "name": "Vịt Quay Da Giòn -  Gà Nướng An Phát - Điện Biên Phủ",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/1qdum2F57J"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p997",
+   "name": "Mì Cay Morri",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/9zzcV6DZu9"
+   ],
+   "tags": [
+    "lẩu",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p998",
+   "name": "Chân Gà Thuỳ Linh",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/70M0uJKXnG"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p999",
+   "name": "Trà Sữa & Ăn Vặt Gold - 144 Cách Mạng Tháng Tám",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/4fy69kZhXt",
+    "https://spf.shopee.vn/8pnf7mBAQ4",
+    "https://spf.shopee.vn/2gD1mgsV8N",
+    "https://spf.shopee.vn/8KrOXAPbgB",
+    "https://spf.shopee.vn/3LSia3I0iu",
+    "https://spf.shopee.vn/8VAojmzQqC"
+   ],
+   "tags": [
+    "bánh tráng",
+    "trà sữa",
+    "sữa chua",
+    "trà trái cây",
+    "nước ép",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1000",
+   "name": "Trà Sữa Mocha - Chu Văn An",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/1CGbMZLtS"
+   ],
+   "tags": [
+    "chè",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1001",
+   "name": "Ăn Vặt Tina - 777 Nguyễn Trung Trực",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/4qHWMN3tCe"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1002",
+   "name": "Mê Slay Tea & Coffee - Nguyễn Trung Trực",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/9fMm7JgZd4",
+    "https://spf.shopee.vn/5LDmxfEcoE"
+   ],
+   "tags": [
+    "sữa chua",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1003",
+   "name": "Cà Phê Muối Chú Long - Kiên Giang",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/gRxOtUE4I",
+    "https://spf.shopee.vn/9zzcW6WSgx"
+   ],
+   "tags": [
+    "cà phê",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1004",
+   "name": "Cà Phê - Sinh Tố Nét Việt - Nguyễn Bỉnh Khiêm",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/9075KDWsGv",
+    "https://spf.shopee.vn/4Vefy0Un5s",
+    "https://spf.shopee.vn/5qA3YdTJah",
+    "https://spf.shopee.vn/gRxPCgy76"
+   ],
+   "tags": [
+    "cà phê",
+    "sinh tố",
+    "bạc xỉu",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1005",
+   "name": "Tiệm Ăn Hàn Quốc Thu Nhỏ",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/50awZMlxCi"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1006",
+   "name": "Trà Sữa Mixue - 50 Mai Thị Hồng Hạnh",
+   "area": "Tp. Rạch Giá",
+   "city": "Rạch Giá",
+   "cityId": "an-giang",
+   "links": [
+    "https://spf.shopee.vn/3g5YyyCusi"
+   ],
+   "tags": [
+    "mixue",
     "trà sữa"
    ],
    "hidden": false
