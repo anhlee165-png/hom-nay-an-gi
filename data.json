@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T10:02:16.000Z",
+ "updated": "2026-11-26T11:08:26.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -75,6 +75,13 @@
    "lat": 11.9404,
    "lng": 108.4583,
    "sf": "lam-dong"
+  },
+  {
+   "id": "quang-ninh",
+   "name": "Hạ Long",
+   "lat": 20.9517,
+   "lng": 107.08,
+   "sf": "quang-ninh"
   }
  ],
  "dishes": {
@@ -23631,6 +23638,782 @@
    "tags": [
     "sinh tố",
     "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p571",
+   "name": "Kim Ngân - Xôi, Bánh Mỳ & Bánh Bao - 532 Nguyễn Văn Cừ Cột 8",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/2qWRF07u6A"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p572",
+   "name": "Quán Nhật - Bánh Mỳ Doner Kebab - Tô Hiến Thành",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/70M0CfVE6z"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì",
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p573",
+   "name": "Bếp Nhà Gấu - Ăn Vặt Các Loại",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/BVg4EADa5",
+    "https://spf.shopee.vn/5VXCQJWL3L",
+    "https://spf.shopee.vn/8VAo0Xbeb4"
+   ],
+   "tags": [
+    "sủi cảo",
+    "bún bò",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p574",
+   "name": "BÁNH MÌ UMI - CS1 Số 6 Rạp Hát",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/6VPjbnnaOw"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p575",
+   "name": "Bánh Mì Ngon Thuý Thuỳ - Đồ Sạch Nhà Làm - Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4fy5Qsxgv3"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p576",
+   "name": "Phở Hưng - Phở Gà & Phở Bò Sốt Vang",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4B1oplcjo7"
+   ],
+   "tags": [
+    "phở",
+    "bò sốt vang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p577",
+   "name": "Ăn Vặt Thiên Phú",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/6VPjcBJ3r7",
+    "https://spf.shopee.vn/1BODHN1fei"
+   ],
+   "tags": [
+    "bánh canh",
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p578",
+   "name": "Bếp Của An - Cơm Tấm",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4B1oq5nZ1f"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p579",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Vinhomes Dragon Bay",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/7Kyqc0YoGi",
+    "https://spf.shopee.vn/60TT4WHjme"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p580",
+   "name": "Miam's - Bánh Ngọt & Pizza - Lê Thánh Tông",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/9Kjuzh0Sjc"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p581",
+   "name": "Tiệm Cháo SuSu - Cháo Dinh Dưỡng, Ruốc Cá Hồi & Sữa Hạt Dinh Dưỡng - Minh Hà",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1W13fMNATN",
+    "https://spf.shopee.vn/9V3LCFgqxC"
+   ],
+   "tags": [
+    "cháo sườn",
+    "cháo trai"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p582",
+   "name": "Gà Rán & Burger Lotteria - Hạ Long Big C",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/9074bEK5v4"
+   ],
+   "tags": [
+    "súp gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p583",
+   "name": "Gà Rán & Burger Lotteria - Cái Dăm Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/5AuM2FX8mU",
+    "https://spf.shopee.vn/2gD13wmW9B",
+    "https://spf.shopee.vn/9074bxoNnj",
+    "https://spf.shopee.vn/2Vtat35Uao"
+   ],
+   "tags": [
+    "súp gà",
+    "gà rán",
+    "cơm bò",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p584",
+   "name": "Hoàng Anh - Cơm Sườn Nam Bộ &  Bún Thịt Nướng - Tô Hiến Thành",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/AUvsOIxZg0"
+   ],
+   "tags": [
+    "cơm sườn",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p585",
+   "name": "Gà Rán & Burger Lotteria - Hạ Long Lê Thánh Tông",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/60TT2637cY",
+    "https://spf.shopee.vn/6q2a31NRBC"
+   ],
+   "tags": [
+    "cơm bò",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p586",
+   "name": "Nem Nướng & Bún Trộn - Đặc Sản Nha Trang Số 1 Hạ Long - Nguyễn Văn Cừ",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1LhdTc2eVe",
+    "https://spf.shopee.vn/50avqrjk2q"
+   ],
+   "tags": [
+    "nem nướng",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p587",
+   "name": "Crepe House - Đồ Ăn Vặt, Trà Sữa & Bánh Tráng - Tổ 1 Khu 7 Sân Vườn Cái Dăm",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/Lp6HmjZkG",
+    "https://spf.shopee.vn/7fbh2FiiJi",
+    "https://spf.shopee.vn/8VAo28JFVe",
+    "https://spf.shopee.vn/4qHVfSROm4"
+   ],
+   "tags": [
+    "nem nướng",
+    "nem chua rán",
+    "bánh tráng",
+    "trà sữa",
+    "chân gà",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p588",
+   "name": "Khải Lâm - Bánh Mì , Bánh Xèo & Bánh Khọt - Green Bay",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4B1oquxYQ4"
+   ],
+   "tags": [
+    "bánh xèo",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p589",
+   "name": "Tiệm Trà Chanh 39",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/AAJ202HNT7",
+    "https://spf.shopee.vn/1CFtY9rFF",
+    "https://spf.shopee.vn/8VAo3REEYn"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì",
+    "trà chanh",
+    "bún chả",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p590",
+   "name": "Bún Chả Madame Trang - Hải Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/Lp6HyUlAe",
+    "https://spf.shopee.vn/5AuM32GzUD"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p591",
+   "name": "Gà rán và Mì Ý - Jollibee - EC Cao Thắng Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/6AmtEkQadc"
+   ],
+   "tags": [
+    "cơm gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p592",
+   "name": "Cơm Rang 96 - Giếng Đồn",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/Lp6I5gEPe"
+   ],
+   "tags": [
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p593",
+   "name": "Bún Đậu Cô Hồng - Bún Đậu Mắm Tôm - Khu ĐT Nam Ga",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/8KrNov0ILp"
+   ],
+   "tags": [
+    "bún đậu",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p594",
+   "name": "Mỵ Bún Đậu",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/8fUEDXayQk"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p595",
+   "name": "Waffle Bãi Cháy",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/5LDmFZEgjN"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p596",
+   "name": "Trà Sữa Ngọc Anh - Đường Nguyễn Văn Cừ",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/AUvsNJVUHZ"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p597",
+   "name": "Mẹ Khoai - Chân Gà Ngâm Xả Tắc Xoài - Cao Thắng - Shop Online",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1LhdUSpM49"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p598",
+   "name": "CHATOO - KEM, TRÀ SỮA & ĐỒ ĂN VẶT",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/9fMlPpZ3Ut"
+   ],
+   "tags": [
+    "lẩu",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p599",
+   "name": "Hanie Hạ Long - Bubble Tea n' More",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/Lp6IgnDOx"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p600",
+   "name": "Chân Gà Lan Em - Chân Gà Sốt Thái - 37 Ngô Sĩ Liên",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/114n5y65BJ"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p601",
+   "name": "Mỳ Trộn Ngon Cực 14 Indomie - Hàng Nồi - Shop Online",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/qlMtowYlR"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p602",
+   "name": "ONE24h - Cửa Hàng Tiện Lợi, Đồ Uống & Đồ Ăn - 43 Hoàng Tích Trí",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/7fbh2LU3N6"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p603",
+   "name": "Khang - Ăn Vặt Sài Gòn - Dốc Nghĩa Địa Đạo",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/5AuM3tdZx6"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p604",
+   "name": "Waffle - Đồ Ăn Vặt - Giếng Đáy",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1gKTtUL5gl"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p605",
+   "name": "ĂN VẶT GHIỀN HẠ LONG - Đồ Ăn Vặt Sài Gòn - 205 Cao Thắng",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/5fqcew7dJK"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p606",
+   "name": "Em Bơ - Fast Food - Hồng Hải",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/9fMlQLnUPq"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p607",
+   "name": "Phúc Long 36A Trần Hưng Đạo",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/7pv7EFlHmh"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p608",
+   "name": "Chè Mộc Quán",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4fy5THtWz6",
+    "https://spf.shopee.vn/114n6fM7iI",
+    "https://spf.shopee.vn/4LLF4uxXXM"
+   ],
+   "tags": [
+    "chè",
+    "tàu hũ",
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p609",
+   "name": "Sữa Chua Cô Phượng Cơ Sở Bãi Cháy - Bãi Biển Bãi Cháy",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/8KrNq17KwE",
+    "https://spf.shopee.vn/6VPjeqVOna"
+   ],
+   "tags": [
+    "chè",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p610",
+   "name": "Nguyễn Hải - Bánh Ngọt Handmade Online",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/5fqcfH8yrT"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p611",
+   "name": "CHIN CHIN - Trà Sữa Đậm Vị & Trà Hoa Quả Tươi - Cao Thắng",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/8fUEEtHPSs",
+    "https://spf.shopee.vn/1qdu6vSLA5",
+    "https://spf.shopee.vn/7AfQSqvw8m"
+   ],
+   "tags": [
+    "hoa quả",
+    "trà sữa",
+    "bạc xỉu",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p612",
+   "name": "Coco Nama Tea Bar Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/4B1ot9xulF"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p613",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Golden Bay",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/3g5YIItOEY"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p614",
+   "name": "Trà Sữa Mixue - 406 Nguyễn Văn Cừ Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/114n7SK8QX",
+    "https://spf.shopee.vn/8VAo3cIafF",
+    "https://spf.shopee.vn/9pgBe86Om5"
+   ],
+   "tags": [
+    "trà sữa",
+    "mixue",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p615",
+   "name": "DINGCHA - Trà Sữa Nướng Đài Loan - Số 31 Trần Phú, Cao Xanh",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/40iOh0IHrI"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p616",
+   "name": "TRÀ SỮA BINGXUE - KĐT MONBAY",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1W13iRpbhi",
+    "https://spf.shopee.vn/6fj9s3gNWH",
+    "https://spf.shopee.vn/gRwj86IP8"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa",
+    "sinh tố",
+    "matcha",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p617",
+   "name": "Cô Hồng - Nước Ép Nguyên Chất - Lê Thánh Tông",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/70M0Gdu9DQ"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p618",
+   "name": "La CaSa - Tiệm Trà Chanh - Sữa Chua Trân Châu",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/6L6JTOSMOX",
+    "https://spf.shopee.vn/4LLF5qNsGd"
+   ],
+   "tags": [
+    "nước ép",
+    "sữa chua",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p619",
+   "name": "Starbucks Coffee - Vincom Hạ Long",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/6fj9sG2xbo"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p620",
+   "name": "Trà Sữa Mixue - Chung Cư Green Bay",
+   "area": "Tp. Hạ Long",
+   "city": "Hạ Long",
+   "cityId": "quang-ninh",
+   "links": [
+    "https://spf.shopee.vn/1qdu7RENmf"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
    ],
    "hidden": false
   }
