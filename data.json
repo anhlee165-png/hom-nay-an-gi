@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T18:23:35.000Z",
+ "updated": "2026-11-26T19:22:27.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -138,6 +138,13 @@
    "lat": 15.1205,
    "lng": 108.7923,
    "sf": "quang-ngai"
+  },
+  {
+   "id": "ninh-binh",
+   "name": "Nam Định",
+   "lat": 20.4388,
+   "lng": 106.1621,
+   "sf": "ninh-binh"
   }
  ],
  "dishes": {
@@ -29441,6 +29448,315 @@
     "https://spf.shopee.vn/5fqdANzmlB"
    ],
    "tags": [
+    "mixue"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p951",
+   "name": "Linh Nhi - Xôi Và Đồ Ăn Vặt",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/20xKnuwygD",
+    "https://spf.shopee.vn/3LSiOcZGq6"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p952",
+   "name": "Tiệm Ăn Vặt Cô Vân - Lê Hồng Sơn",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/6fjAMVJyhL"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p953",
+   "name": "Tiệm Cô Mỡ - 1/68 Lương Thế Vinh",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/9V3LjlTlxx"
+   ],
+   "tags": [
+    "bánh mì",
+    "mì trứng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p954",
+   "name": "Phở Bò Giao Cù - 268 Trần Thánh Tông",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/4B1pOj3KFO"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p955",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Nguyễn Du Nam Định",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/4B1pOd6mRt"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p956",
+   "name": "Cháo Dinh Dưỡng Chích Bông - Hàng Cấp",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/50awODt7lX"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p957",
+   "name": "Quán Bé Phở Xíu Chấm - Nguyễn Hiền",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/2qWRoFeyBx"
+   ],
+   "tags": [
+    "cháo gà",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p958",
+   "name": "Bà Béo Quán - Phù Nghĩa",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/50awOjFndM",
+    "https://spf.shopee.vn/1BODq097AG",
+    "https://spf.shopee.vn/9fMlwdk0Ik"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm gà",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p959",
+   "name": "Bánh Mỳ Doner Kebab - 185 Phú Nghĩa",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/40iPD9ilYv"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p960",
+   "name": "Bánh Mì Minh Đức - 47 Điện Biên",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/9zzcMAhVCS"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p961",
+   "name": "Quán Vy Béo - Bún Chả Nướng & Thịt Nướng - 111 Tô Hiến Thành",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/3g5Yoirxwq",
+    "https://spf.shopee.vn/BVgcvdyAJ",
+    "https://spf.shopee.vn/9KjvZzfqom",
+    "https://spf.shopee.vn/2gD1dtkLeT",
+    "https://spf.shopee.vn/8KrOOkqz9Y"
+   ],
+   "tags": [
+    "bún chả",
+    "bún thịt nướng",
+    "nem chua rán",
+    "xiên que",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p962",
+   "name": "Bà Béo Quán 24/7 - Bún Đậu",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/7VIHNpWo6x"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p963",
+   "name": "Mỳ Cay, Trà Sữa & Đồ Ăn Vặt - 296 Phù Nghĩa",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/9fMly834gT",
+    "https://spf.shopee.vn/5fqdDHfwLU",
+    "https://spf.shopee.vn/8VAobBenjD",
+    "https://spf.shopee.vn/5qA3QfMHgm"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa",
+    "gà rán",
+    "cơm rang",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p964",
+   "name": "Tiệm AUTUMN - Food & Tea - Giải Phóng",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/1qdue5KQxU"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p965",
+   "name": "Bánh Tráng & Đồ Ăn Vặt - 43 Nguyễn Du",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/114nemV9N7"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p966",
+   "name": "Trứng Chén Nướng Cô Út",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/W8X3t0cgA"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p967",
+   "name": "Tiệm Chè 296 Phù Nghĩa - Trà Hoa Quả, Sinh Tố & Nước Ép",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/5fqdDXM8mc",
+    "https://spf.shopee.vn/3g5Yq3tynx",
+    "https://spf.shopee.vn/9fMlz8sPFA",
+    "https://spf.shopee.vn/4qHWETzAby",
+    "https://spf.shopee.vn/9zzcO16BwG",
+    "https://spf.shopee.vn/9AQVOY26wE",
+    "https://spf.shopee.vn/AKcSmkrism",
+    "https://spf.shopee.vn/6L6K1SRbGB"
+   ],
+   "tags": [
+    "chè",
+    "hoa quả",
+    "nước ép",
+    "sinh tố",
+    "sữa chua",
+    "trà sữa",
+    "trà trái cây",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p968",
+   "name": "Tiệm Chè 1983 - Trần Thánh Tông",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/6AmtoURGY2"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p969",
+   "name": "Trà Sữa Mixue - 56 Trần Hưng Đạo",
+   "area": "Tp. Nam Định",
+   "city": "Nam Định",
+   "cityId": "ninh-binh",
+   "links": [
+    "https://spf.shopee.vn/W8X4tknZ8",
+    "https://spf.shopee.vn/7fbhc65e7g"
+   ],
+   "tags": [
+    "matcha",
+    "trà sữa",
     "mixue"
    ],
    "hidden": false
