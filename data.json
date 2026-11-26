@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T11:08:26.000Z",
+ "updated": "2026-11-26T12:24:21.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -82,6 +82,13 @@
    "lat": 20.9517,
    "lng": 107.08,
    "sf": "quang-ninh"
+  },
+  {
+   "id": "dong-nai",
+   "name": "Biên Hòa",
+   "lat": 10.9574,
+   "lng": 106.8427,
+   "sf": "dong-nai"
   }
  ],
  "dishes": {
@@ -24410,6 +24417,1241 @@
    "cityId": "quang-ninh",
    "links": [
     "https://spf.shopee.vn/1qdu7RENmf"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p621",
+   "name": "Xôi Bé Mập - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AAJ230UDk5"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p622",
+   "name": "Xôi Gà Bảo Yến - Võ Thị Sáu",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/80EXT2GGxy"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p623",
+   "name": "Bánh Cuốn Nóng 35 - Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6q2a4weXRR"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p624",
+   "name": "Bánh Cuốn & Bánh Ướt - Giò Chả Thượng Uyển",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4fy5UyQNsW"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p625",
+   "name": "Sủi Cảo AHY - Trương Định",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9AQUrIDGXq"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p626",
+   "name": "Sủi Cảo AHY - Trần Quốc Toản",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1LhdWuGDSK"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p627",
+   "name": "Bánh Mì Mai Lan 1989 - Đèn Xanh Đèn Đỏ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8fUEGWbJUj"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p628",
+   "name": "Bánh Mì Thịt Nướng Cô Quỳnh",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9074fA8Uj7"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p629",
+   "name": "Phở Hà Thành - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9zzbr1rqiF"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p630",
+   "name": "PHỞ NGÒ CHÍNH HIỆU - Trương Định",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6VPjgdD1le"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p631",
+   "name": "Bún Riêu Hẻm Hoa Lư - Phan Chu Trinh",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8VAo4KePiy"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p632",
+   "name": "Bún Riêu Cua Cô Tuyết",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7KyqgCL99K"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p633",
+   "name": "Bánh Canh Cây",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1LhdXFyjfk"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p634",
+   "name": "Bánh Canh Cá Lóc Vy Vy - 197 Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4qHVjRJwtV"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p635",
+   "name": "Cháo Lòng Cây Sứ - Nguyễn Thành Phương",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/3Vm87GccOX"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p636",
+   "name": "Cháo Lòng Thanh Trung - Lê Đại Hành",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6VPjgn3ULc"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p637",
+   "name": "Bún Mọc Hố Nai - Đường Bùi Trọng Nghĩa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1gKTvxhm7T"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p638",
+   "name": "Bún Mọc Ngon Long Bình - Đồng Khởi",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/20xKKbnOk3"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p639",
+   "name": "Cơm Tấm B&T - Xa Lộ Hà Nội",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/3B9HimW37v",
+    "https://spf.shopee.vn/1W13lMrUhE"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p640",
+   "name": "Cơm Tấm Nghĩa - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/40iOiK7A6L",
+    "https://spf.shopee.vn/7VIGuP9DEW"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p641",
+   "name": "Xe Bánh Giang - Chợ Sặt Nhỏ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1gKTw7YRTx"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p642",
+   "name": "Dè Cube Tea - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7pv7HSpfCk"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p643",
+   "name": "Loan - Cháo Sườn Hột, Bột & Súp Cua - CN1 - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/20xKKnSjsM"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p644",
+   "name": "Cháo Bột - Cháo Dinh Dưỡng Tân Mai - Huỳnh Văn Hớn",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1BODLH8xVZ"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p645",
+   "name": "Tường Vy 1 - Cháo Gỏi Gà Vịt - Đồng Khởi",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9AQUs2XJsT",
+    "https://spf.shopee.vn/AUvsVFBtd6"
+   ],
+   "tags": [
+    "cháo gà",
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p646",
+   "name": "Phở Bò & Bún Bò - Đa Minh",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8AXxffcyZR"
+   ],
+   "tags": [
+    "bún bò",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p647",
+   "name": "Bún Bò Thèm - Hàn Thuyên",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7fbh6aAi4m"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p648",
+   "name": "Ru Sa - Bún Nấm & Cá Thác Lác",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AKcSHZTGdw"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p649",
+   "name": "Hương Ký 4 - Cơm Chiên 18 Món",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/50avvrZjfO",
+    "https://spf.shopee.vn/4LLF95hBfD"
+   ],
+   "tags": [
+    "cơm bò",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p650",
+   "name": "Mì Xào Chị Xuân - Đồng Khởi",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/70M0JbLLlM"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p651",
+   "name": "Đệ Nhất - Cơm Chiên Mì Xào Giòn - Bùi Hữu Nghĩa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9pgBgqIYV8"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p652",
+   "name": "Nem Nướng Anh Anh - Ngô Sỉ Liên",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/40iOkA56pa"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p653",
+   "name": "Bánh Xèo, Bánh Bèo & Bánh Bột Lọc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9AQUti6EA6"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p654",
+   "name": "Bánh Xèo Phú Yên Nẫu Nè - Tân Hiệp",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6VPjiosG1B"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p655",
+   "name": "Bánh Mì Kebab Táo Đỏ - Phan Đình Phùng",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1CFyzWsCz"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p656",
+   "name": "Bánh Mì Kebab & Bánh Bao Tân Mai - Huỳnh Văn Hớn",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7pv7JOgicM"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p657",
+   "name": "Cơm Gà Xối Mỡ 68 - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6AmtIKScWD"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p658",
+   "name": "Dứa - Cơm Gà",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1gKTy7xM1O"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p659",
+   "name": "Hương Ký 3 - Cơm Chiên 18 Món",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/2qWRLxEwnc"
+   ],
+   "tags": [
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p660",
+   "name": "Bún Chả Huyền Thanh 37 - Bùi Văn Hòa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/Lp6NnHkdk"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p661",
+   "name": "Hương Bắc Quán - Bánh Cuốn & Bún Chả - Đường N1",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8VAo6oLJFO"
+   ],
+   "tags": [
+    "bún chả",
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p662",
+   "name": "Bún Đậu Gia Hân - Hẻm 308 An Hoà",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/W8WaC5tT8"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p663",
+   "name": "Sở Mẹt - Bún Đậu - Phan Chu Trinh",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1CG02JsuP"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p664",
+   "name": "Gỏi Cuốn & Bún Thịt Nướng - Chợ Biên Hoà",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AAJ25zcBvG"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p665",
+   "name": "Ngọc Lan - Lòng Hấp - Hoàng Tam Kỳ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/70M0HjaaKC"
+   ],
+   "tags": [
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p666",
+   "name": "Cháo Đêm Chợ Phú Thọ - Đĩa Lòng, Hột Vịt Lộn & Cháo Lòng",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9V3LJQkVgC"
+   ],
+   "tags": [
+    "lòng",
+    "cháo lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p667",
+   "name": "Mì Cay Sasin - Võ Thị Sáu, Biên Hòa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7pv7JzaR0A"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p668",
+   "name": "Lẩu Nhúng Nhà Ngô - Lẩu & Nướng - Võ Thị Sáu",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9074iEGIkt"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p669",
+   "name": "ỐC 39K - LẨU 69K THANH NHẸ - NGUYỄN KHUYẾN",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6q2a8FwvGd"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p670",
+   "name": "Chân Gà Sốt Thái Ngọc Tỷ Tỷ - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4qHVkdQM2G"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p671",
+   "name": "Chân Gà Sốt Thái - Mẹ Nhím",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/80EXWSnMMT"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p672",
+   "name": "Chân Gà Rút Xương Sốt Thái & Trứng Non Lòng Đào Thiều Thiệu - Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6AmtL9125V"
+   ],
+   "tags": [
+    "trứng non",
+    "lòng",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p673",
+   "name": "A Food - Mì Trộn Indomie & Ăn Vặt HQ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/W8WanHcYf"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p674",
+   "name": "Tây Food - Mì Trộn Indomie & Ăn Vặt HQ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/80EXWaOGbV"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p675",
+   "name": "Gà Rán Và Mỳ Ý - Jollibee Go! Đồng Nai",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/BVgCN4PzH"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p676",
+   "name": "GÀ RÁN KFC - ĐƯỜNG PHAN TRUNG - BIÊN HÒA",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9V3LJX96Sh"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p677",
+   "name": "Bánh Tráng Nhà Điêu - Huỳnh Văn Luỹ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/3B9Hlx9o0h"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p678",
+   "name": "Ăn Vặt Chăm Chăm - Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4VefMOUhso"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p679",
+   "name": "Cá Viên Chiên & Ăn Vặt - HR4 Quãng Trường Tỉnh",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9pgBiG0oT0"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p680",
+   "name": "Quán Ăn Vặt 5 Bụt Food - Hàu Nướng & Thịt Xiên - Đặng Đức Thuật",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/gRwnRhZ1j"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p681",
+   "name": "Quán Chú Mười - Bánh Flan & Bánh Bột Lọc - Huỳnh Văn Nghệ",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4fy5YpI2ce"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p682",
+   "name": "Tàu Hũ Tam Hiệp - Sỉ Flan Biên Hoà",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6VPjkCkwnn",
+    "https://spf.shopee.vn/4B1oy5stOx"
+   ],
+   "tags": [
+    "bánh flan",
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p683",
+   "name": "Chè 36 - Chính Gốc - Bùi Văn Hoà",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AKcSJIrD3A"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p684",
+   "name": "Tiệm Chè 334 - Dương Tử Giang",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8AXxjKcuxl"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p685",
+   "name": "Kem Xôi Thanh Hằng - Võ Thị Sáu",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9fMlW8aSpZ"
+   ],
+   "tags": [
+    "kem xôi",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p686",
+   "name": "Tàu Hũ Long Thành - Chè Thái - Ngô Quyền",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8VAo84Bat2"
+   ],
+   "tags": [
+    "tàu hũ",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p687",
+   "name": "Ngọc Thạch Quán - Sữa Chua & Caramen - Dương Tử Giang",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/gRwnj08ID"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p688",
+   "name": "Bus Cafe - 189 Đồng Khởi",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9pgBidLHzm"
+   ],
+   "tags": [
+    "hoa quả",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p689",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - 972 Đồng Khởi - Biên Hòa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/6AmtLy72I1"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p690",
+   "name": "Cà Phê Muối 92 Coffee - Đường 518",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/2qWRNrowdH"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p691",
+   "name": "Cà Phê Muối Chú Long - Hà Huy Giáp",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7AfQXr7F3w"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p692",
+   "name": "Tam Duc Coffee & Tea - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/4B1oyLrit7"
+   ],
+   "tags": [
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p693",
+   "name": "Trà Sữa MayCha - 234 Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7pv7L8xeoy"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p694",
+   "name": "TIỆM TRÀ, BÁNH DAMI TEA & MORE - Trà Sữa, Trà Trái Cây & Cà Phê - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/3qOyZr7pdJ"
+   ],
+   "tags": [
+    "trà trái cây",
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p695",
+   "name": "An Gia Trà - Trà Sữa Đậm Vị & Trà Trái Cây Tươi",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8AXxjqyIOW"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p696",
+   "name": "Nước Ép - Nhà Cô An",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AKcSJrhP04"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p697",
+   "name": "Chíp Chíp - Nước Ép & Sinh Tố - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/3qOyZveFFw"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p698",
+   "name": "Ghiền Sinh Tố - Nước Ép",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/9AQUvmfgsx"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p699",
+   "name": "Sinh Tố Nước Ép Khổng Lồ - Sancha",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1W13nhmXkE"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p700",
+   "name": "Trà Chanh Tươi 01 - Nguyễn Khuyến",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/7pv7LOjHvu"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p701",
+   "name": "Trà Chanh Tươi 01 - Nguyễn Ái Quốc",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/1W13nlgjZU"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p702",
+   "name": "Mia - Trà Bí Đao Hạt Chia Sương Sáo & Rau Má - Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AAJ27kUFiK"
+   ],
+   "tags": [
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p703",
+   "name": "Na - Trà Bí Đao, Rau Má & Sinh Tố - 541 Phạm Văn Thuận",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/8AXxk6jvWQ"
+   ],
+   "tags": [
+    "trà bí đao",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p704",
+   "name": "Tiệm Ròm - Matcha & Cacao - Phan Trung",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/5AuMAcgW10"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p705",
+   "name": "Mây - Matcha Coffee, Tea & Ăn Vặt - Trương Định",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/5qA2xsmrXq"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p706",
+   "name": "Trà sữa Mixue - 9 Bùi Trọng Nghĩa",
+   "area": "Tp. Biên Hòa",
+   "city": "Biên Hòa",
+   "cityId": "dong-nai",
+   "links": [
+    "https://spf.shopee.vn/AUvsWUG3hl"
    ],
    "tags": [
     "mixue",
