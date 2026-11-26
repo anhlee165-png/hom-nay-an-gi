@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T12:24:21.000Z",
+ "updated": "2026-11-26T13:22:46.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -89,6 +89,13 @@
    "lat": 10.9574,
    "lng": 106.8427,
    "sf": "dong-nai"
+  },
+  {
+   "id": "thanh-hoa",
+   "name": "Thanh Hóa",
+   "lat": 19.8067,
+   "lng": 105.7852,
+   "sf": "thanh-hoa"
   }
  ],
  "dishes": {
@@ -25655,6 +25662,716 @@
    ],
    "tags": [
     "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p707",
+   "name": "Xôi & Bánh Mì Thảo Anh - Đồ Ăn Nhanh - 202 Hải Thượng Lãn Ông",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TTAbFace"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p708",
+   "name": "Xôi Mộc - Trường Thi",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8VAo9CimAU"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p709",
+   "name": "Bánh Cuốn Cô Vui - 40 Lý Thường Kiệt",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7Kyql6unxq"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p710",
+   "name": "Bánh Mì & Xôi Thập Cẩm - 530 Nguyễn Trãi",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4VefNsSOjZ"
+   ],
+   "tags": [
+    "bánh mì",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p711",
+   "name": "Bánh Mì Bổng - Bánh Mì Truyền Thống - 21B Tô Vĩnh Diện",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7KyqlWShgn"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p712",
+   "name": "Cơm Rang & Phở Bò Nam Định - 302 Nguyễn Trãi",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBjy1iVj",
+    "https://spf.shopee.vn/2gD1E9Kdpc"
+   ],
+   "tags": [
+    "phở",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p713",
+   "name": "Bún Ốc Riêu Cua Hà Nội",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1gKU10mMv6"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p714",
+   "name": "Bánh Canh Cô Lệ - 108 Lê Quý Đôn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8KrNxKI8u0"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p715",
+   "name": "Cháo Lòng Phi Râu - Chu Văn An",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xKPkdOqH"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p716",
+   "name": "CƠM TẤM NAM BỘ CS2 - 02A - 446 Dương Đình Nghệ",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6VPjljuy8q"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p717",
+   "name": "Cơm Gà Suti - Cơm Tấm Sài Gòn - 50 Hàng Than",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7VIGxzAlI1",
+    "https://spf.shopee.vn/1gKU1q0xte",
+    "https://spf.shopee.vn/114nEzy4SZ"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm gà",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p718",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Bà Triệu Thanh Hóa",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3B9Ho7Pvzs"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p719",
+   "name": "Starbucks Coffee - Vincom Thanh Hóa",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1qduDg44SG"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p720",
+   "name": "Bếp Mẹ Sâu - Nam Sơn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xKPlHtI2"
+   ],
+   "tags": [
+    "cháo gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p721",
+   "name": "Bún Bò Huế Phương Nam",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2BGkcayZ2Z"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p722",
+   "name": "Bún Bò Huế Như Vân Cơ Sở 1 - Chu Văn An",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1BODQlgvlU"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p723",
+   "name": "Bún Cá Hải Phòng Như Ý - 64 Trường Thi",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9zzbx42OU7"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p724",
+   "name": "Cơm Tấm Sài Gòn - Tây Ga",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/8KrNy3UcqD"
+   ],
+   "tags": [
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p725",
+   "name": "Cơm thố Anh Nguyễn – Thanh Hoá",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5AuMCKeOVh"
+   ],
+   "tags": [
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p726",
+   "name": "Tea Zang Ti- Trà Sữa, Nem Nướng - Nguyễn Cẩn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/W8WdrEZBL"
+   ],
+   "tags": [
+    "nem nướng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p727",
+   "name": "Shing Hang Trà Sữa, Nem Nướng Nha Trang - 24 Nguyễn Cẩn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6VPjnhTgb8"
+   ],
+   "tags": [
+    "nem nướng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p728",
+   "name": "Cơm Rang 66 - Hà Huy Tập",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9KjvAMnCZF"
+   ],
+   "tags": [
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p729",
+   "name": "Bún Chả Hoàn Nhung - Triệu Quốc Đạt",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9074lqvwjb"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p730",
+   "name": "F3 Quán - Bún Đậu Mắm Tôm - 09 Hà Huy Tập",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5LDmP8ujJG"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p731",
+   "name": "PHỞ CUỐN VÂN ANH",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6AmtOnl1ds"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p732",
+   "name": "Phở Cuốn Hà Nội - Cơm Gà Xối Mỡ Vũ Gia - 275 Trường Thi",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgBlY6x5V"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p733",
+   "name": "Samjang - Mỳ Cay & Bún Trộn - Hà Huy Tập",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W13qQJnxo"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p734",
+   "name": "SaSin - Mì Cay 7 Cấp Độ Hàn Quốc - Thanh Hóa",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5fqcoCImae"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p735",
+   "name": "Gà Ủ Muối - Đồ Ăn Vặt - Hoàng Bật Đạt",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/AKcSMi7AbV"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p736",
+   "name": "Gà Ủ Muối, Cơm Tấm Sài Gòn & Đồ Ăn Vặt - 17 Lê Văn Hưu",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xKRPGYoi"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p737",
+   "name": "Lẩu Tokbokki Thanh Hoá - Lê Hoàn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2BGkdmAScI"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p738",
+   "name": "3A Korean Food - Gà Sốt Phô Mai, Mì Cay Hàn Quốc & Tokbokki - Lô 08 Phan Chu Trinh",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/5LDmPcRQOe"
+   ],
+   "tags": [
+    "lẩu",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p739",
+   "name": "Chân Gà Sốt Thái Lyly",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3g5YQcVsX5"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p740",
+   "name": "Mì Trộn Indomie Thanh Hoá - Hà Huy Tập",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7VIGzl1jOv"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p741",
+   "name": "Bếp Nhà Oki - Mỳ Cay - Takoyaki - Crepe - 63 Dương Đình Nghệ",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4B1p1dncQc"
+   ],
+   "tags": [
+    "indomie",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p742",
+   "name": "Gà Rán Và Mì Ý - Jollibee - EC Thanh Hóa 2 Lê Lai",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9V3LNcdeUv"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p743",
+   "name": "Gà Rán KFC - Trần Quốc Toản",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3g5YQubo4m"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p744",
+   "name": "Bánh Tráng Trộn 74 - 108 Lê Quý Đôn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6q2aBYlboL"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p745",
+   "name": "Bánh Tráng Linh Doan - Food & Drink Tô Hiến Thành",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/W8WdwhH9j"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p746",
+   "name": "Tiệm Trà Trái Cây - Hải Thượng Lãn Ông",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/6AmtPcPSgn"
+   ],
+   "tags": [
+    "xiên que",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p747",
+   "name": "Chè Hoa Giấy - 66 Ngô Quyền",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/3qOydSJ0v3",
+    "https://spf.shopee.vn/50aw1j2TMb"
+   ],
+   "tags": [
+    "chè",
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p748",
+   "name": "Chè Hoa Giấy - Lạc Long Quân",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/2gD1FLUPp3"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p749",
+   "name": "Má Mía, Nước Ép Trái Cây & Hoa Quả Gọt Sẵn - Green Mix - 55 Tô Vĩnh Diện",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/7AfQbphRA2",
+    "https://spf.shopee.vn/9pgBn3d1Yj",
+    "https://spf.shopee.vn/7AfQcDgXeD"
+   ],
+   "tags": [
+    "hoa quả",
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p750",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Lạc Long Quân - Thanh Hóa",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/4fy5dIlpgH"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p751",
+   "name": "Aha Cafe - 164 Phạm Vấn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/1BODSu5uY1"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p752",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Nguyễn Trãi - Thanh Hóa",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/AKcSNmJLoz",
+    "https://spf.shopee.vn/30preScPt8"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "cà phê",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p753",
+   "name": "Trà Sữa Mixue - Bà Triệu",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/9AQUzhHQu0",
+    "https://spf.shopee.vn/7AfQc5FngS",
+    "https://spf.shopee.vn/4qHVpz5OpZ",
+    "https://spf.shopee.vn/1W13rz7E7K",
+    "https://spf.shopee.vn/1W13s2wscw"
+   ],
+   "tags": [
+    "trà sữa",
+    "mixue",
+    "trà trái cây",
+    "trà chanh",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p754",
+   "name": "Trà Sữa Yi He Tang - 42G Lê Hoàn",
+   "area": "Tp. Thanh Hóa",
+   "city": "Thanh Hóa",
+   "cityId": "thanh-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TTEGPIGP"
+   ],
+   "tags": [
+    "matcha",
     "trà sữa"
    ],
    "hidden": false
