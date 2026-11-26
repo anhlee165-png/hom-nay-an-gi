@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T01:57:40.000Z",
+ "updated": "2026-11-26T02:49:47.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -21210,6 +21210,931 @@
    "tags": [
     "đồ nhậu",
     "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p408",
+   "name": "Xôi Mặn Cô Tủn",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9V3KdlU7kn",
+    "https://spf.shopee.vn/AUvrpngiDD",
+    "https://spf.shopee.vn/3LShLTHCA8"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì",
+    "mì trứng",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p409",
+   "name": "Xôi Xi - Hải Triều",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1qdtVga5Cj"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p410",
+   "name": "Quý - Bánh Cuốn Nóng Hà Nội",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/80EWr2mZMk"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p411",
+   "name": "Bánh Cuốn Nóng Chị Hà",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2BGjuKmEia"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p412",
+   "name": "Quán HOÀNG KÝ Mỳ KungFu - Mỳ Kéo Sợi Tươi - Trường Chinh",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/8KrNFgwWUR"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p413",
+   "name": "Bánh Mì Trường Tiền O Tho - Trần Cao Vân",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5fqc4x8gXk"
+   ],
+   "tags": [
+    "bánh mì",
+    "mì trứng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p414",
+   "name": "Phở Hoàng Anh - Bà Triệu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5AuLU3uvoN"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p415",
+   "name": "Quán Tý - Miến & Phở Hà Nội",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9fMkqLDxc3"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p416",
+   "name": "Bún Riêu Ngon - Bà Triệu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/7fbgSgylfO"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p417",
+   "name": "Dì Oanh - Bún Chả Cá & Bún Riêu Cua - Kiệt 11 Nguyễn Khuyến",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/3Vm7V2mriJ"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún chả",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p418",
+   "name": "Bánh Canh Cô Vân - Cao Xuân Dục",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/gRw7rXTdj"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p419",
+   "name": "Mân - Bánh Canh Bột Lộn",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2VtaJF4iJv"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p420",
+   "name": "Quán July - Nước Ép & Cháo Lòng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5VXBsmQR88"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p421",
+   "name": "Cơm Tấm 38 - Vạn Xuân",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/7Kyq4HGV60"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p422",
+   "name": "Cơm Tấm Sườn - 97 Ngự Bình",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/6q2ZTMsI0b",
+    "https://spf.shopee.vn/4fy4tt9KJF"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p423",
+   "name": "Hao Croissant - Chu Văn An",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/40iO6Dg9Jn"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p424",
+   "name": "Piggy’s Home - Phan Bội Châu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/20xJiYPi7D"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p425",
+   "name": "Bún Bò Dì Hường - 6 Nguyễn Thiện Thuật",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2VtaJmQ6Fu"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p426",
+   "name": "Gardenia Kitchen - 32 Hai Bà Trưng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/30pqui2H6P"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p427",
+   "name": "Cơm Tấm Thanh Bình",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/8KrNGdZn2g"
+   ],
+   "tags": [
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p428",
+   "name": "Tiệm Ăn Hanki Bbq - Gà Rán, Mỳ Cay & Cơm Trộn",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2gD0WHEuc4",
+    "https://spf.shopee.vn/6fj9IWm4LX",
+    "https://spf.shopee.vn/8fUDgIH41Q"
+   ],
+   "tags": [
+    "cơm bò",
+    "mì cay",
+    "gà rán",
+    "bò kho",
+    "cà ri",
+    "lẩu",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p429",
+   "name": "Nori Kimpap",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/7Kyq4rWPg1"
+   ],
+   "tags": [
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p430",
+   "name": "Phở Hoàng Dung",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/6q2ZU0WhUH"
+   ],
+   "tags": [
+    "mì xào",
+    "phở",
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p431",
+   "name": "Trọng - Tiệm Trà Chanh",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/3Vm7Vw46ld"
+   ],
+   "tags": [
+    "nem nướng",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p432",
+   "name": "Quán 203 - Bánh Cuốn Nóng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/6AmsguRkEr"
+   ],
+   "tags": [
+    "bánh xèo",
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p433",
+   "name": "Kebab Torki - Trần Phú",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/4VeehxngZd"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p434",
+   "name": "Bánh Mỳ Thịt Nướng DONER KEBAB AN AN - Ngô Quyền",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5VXBtqUdub"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p435",
+   "name": "Gà rán và Mì Ý - Jollibee - Nguyễn Huệ - Huế",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/7fbgTqrc6C"
+   ],
+   "tags": [
+    "cơm gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p436",
+   "name": "Gà Rán & Burger Lotteria - Huế CoopMart",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1gKTKpsoCL"
+   ],
+   "tags": [
+    "cơm gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p437",
+   "name": "Cơm Chiên 56 - Ưng Bình",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/3B9H7efVA1"
+   ],
+   "tags": [
+    "cơm rang",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p438",
+   "name": "Chẹp - Bún Chả Hà Nội - 07 Dương Văn An",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1CFLtD6GV"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p439",
+   "name": "Bún Đậu Mắm Tôm Mộc Quán - 45 Trần Nguyên Đán",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9V3KfPbSK0"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p440",
+   "name": "Lạc Quán - Bún Đậu Mắm Tôm - 132 Trường Chinh",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/50avJ9VDov"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p441",
+   "name": "Bún Thịt Nướng Kim Châu - Cổng 2 Chợ Đông Ba",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/80EWshStPs"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p442",
+   "name": "Mì Cay Seoul - Trường Chinh",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1LhcwhcjbT",
+    "https://spf.shopee.vn/3B9H8CA6FS"
+   ],
+   "tags": [
+    "mì cay",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p443",
+   "name": "Gà Ủ Muối & Chân Gà Ủ Muối CÔ LINH FOOD - 57 Hồ Đắc Di",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1LhcwkjUsz"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p444",
+   "name": "Tiệm Ăn 1999 - Gà Rán & Mì Cay 7 Cấp Độ",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1LhcwscxxS",
+    "https://spf.shopee.vn/BVfZ9Mw8k"
+   ],
+   "tags": [
+    "chân gà",
+    "mì cay",
+    "gà rán",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p445",
+   "name": "Mì Trộn Indomie & Cá Viên Chiên Mắm - Bếp Gạo - 38 Ngô Gia Tự - Shop Online",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/8KrNHsd3i8"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p446",
+   "name": "XOAI. Coffee",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1Lhcx0Qrl8"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p447",
+   "name": "Vịt Triều Tây Kim Cúc",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5fqc727eaX"
+   ],
+   "tags": [
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p448",
+   "name": "Gà rán và Mì Ý - Jollibee EC Huế 2 Nguyễn Trãi",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/50avJvzsZv"
+   ],
+   "tags": [
+    "gà rán",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p449",
+   "name": "Gà Rán & Burger Lotteria - Nguyễn Huệ",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9KjuTuLC0P"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p450",
+   "name": "Bánh Tráng Trộn Amy - Nguyễn Tri Phương",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/6L6IuQ5PJE"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p451",
+   "name": "Sương Sa Dừa - Lâm Hoằng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2LaA94v4QH"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p452",
+   "name": "Góc Nhỏ Bakery - Tiệm Bánh Đài Loan",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5LDlii1iiz"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p453",
+   "name": "Tiệm Chè Sầu Riêng Cô Dung - Nguyễn Huệ",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/3qOxw11Pox"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p454",
+   "name": "Chè O Lợi - Đinh Tiên Hoàng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/90745XpfXx"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p455",
+   "name": "Túc Tắc Tea - Lý Thường Kiệt",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9AQUHwHkCf"
+   ],
+   "tags": [
+    "tàu hũ",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p456",
+   "name": "KEIKI Tea House - Hai Bà Trưng",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/70Lzhy3j9S"
+   ],
+   "tags": [
+    "tàu hũ",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p457",
+   "name": "Ki-ốt Trà - Trần Thúc Nhẫn",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/AUvrsSlQ1J"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p458",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - 05 Lê Lợi Huế",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/4VeejYIUiu"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p459",
+   "name": "Trà Sữa TAB - Trà Sữa & Ăn Vặt - Bà Triệu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/BVfZf2vgk",
+    "https://spf.shopee.vn/9zzbHmkUgj",
+    "https://spf.shopee.vn/BVfZmd9JQ"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "trà sữa",
+    "matcha",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p460",
+   "name": "Trà Sữa Chidori - Mai Thúc Loan",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/40iO8nAvYo"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p461",
+   "name": "Tiệm Trà Sữa 102 - 04 An Dương Vương",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/gRwAgyCM5",
+    "https://spf.shopee.vn/80EWuMd3G3",
+    "https://spf.shopee.vn/8VAnVLW1ge"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa",
+    "trà bí đao",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p462",
+   "name": "Quán 08 - Nước Ép - 08 Văn Cao",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2LaA9ok3C9"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p463",
+   "name": "Bà Mẹ Quê - Nước Mía Sầu Riêng, Nước Ép & Sinh Tố - 146 Điện Biên Phủ",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/1BOClgT7XH",
+    "https://spf.shopee.vn/9KjuUiWpBF"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p464",
+   "name": "Nhà Tin - Trà Sữa, Nước Ép & Sinh Tố",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/9V3Kh25atO"
+   ],
+   "tags": [
+    "sinh tố",
+    "trà sữa",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p465",
+   "name": "Trà Sữa TAB - Trà Sữa & Ăn Vặt",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/3g5XkL0fCq"
+   ],
+   "tags": [
+    "trà chanh",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p466",
+   "name": "Trà Sữa Chidori - Bà Triệu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/7VIGJOPbCm"
+   ],
+   "tags": [
+    "trà chanh",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p467",
+   "name": "Trà Bí Đao Hạt Chia Xuka Lee - Bà Triệu",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/5AuLXBwrPe"
+   ],
+   "tags": [
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p468",
+   "name": "Bếp Khuya - Matcha Latte",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/2VtaMKX9Wb"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p469",
+   "name": "Trà Sữa Mixue - 33 Lê Huân",
+   "area": "Tp. Huế",
+   "city": "Huế",
+   "cityId": "hue",
+   "links": [
+    "https://spf.shopee.vn/50avKyY2eU"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
    ],
    "hidden": false
   }
