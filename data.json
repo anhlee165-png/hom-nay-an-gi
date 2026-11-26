@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T16:24:05.000Z",
+ "updated": "2026-11-26T16:24:08.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -116,6 +116,13 @@
    "name": "Quy Nhơn",
    "lat": 13.7765,
    "lng": 109.2237,
+   "sf": "gia-lai"
+  },
+  {
+   "id": "pleiku",
+   "name": "Pleiku",
+   "lat": 13.9833,
+   "lng": 108.0,
    "sf": "gia-lai"
   }
  ],
@@ -28760,6 +28767,83 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p911",
+   "name": "Phở Tàu Lý 2",
+   "area": "Tp. Pleiku",
+   "city": "Pleiku",
+   "cityId": "pleiku",
+   "links": [
+    "https://spf.shopee.vn/9KjvLDOtkI"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p912",
+   "name": "Dân Dã Quán - Quán Nhậu - Nguyễn Văn Cừ",
+   "area": "Tp. Pleiku",
+   "city": "Pleiku",
+   "cityId": "pleiku",
+   "links": [
+    "https://spf.shopee.vn/9V3LZSSaQU"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p913",
+   "name": "Tiền Táo - Chuyên Trái Cây Nhập Khẩu",
+   "area": "Tp. Pleiku",
+   "city": "Pleiku",
+   "cityId": "pleiku",
+   "links": [
+    "https://spf.shopee.vn/9074zQz4MG"
+   ],
+   "tags": [
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p914",
+   "name": "TIAMO - Trà Sữa & Cà Phê - 19 Tạ Quang Bửu",
+   "area": "Tp. Pleiku",
+   "city": "Pleiku",
+   "cityId": "pleiku",
+   "links": [
+    "https://spf.shopee.vn/30prqTK1Ir"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p915",
+   "name": "Hyy Yummy - Tiệm Trà & Ăn Vặt",
+   "area": "Tp. Pleiku",
+   "city": "Pleiku",
+   "cityId": "pleiku",
+   "links": [
+    "https://spf.shopee.vn/AAJ2NhELgW",
+    "https://spf.shopee.vn/1CGH9HrYD",
+    "https://spf.shopee.vn/9KjvOUQQGJ",
+    "https://spf.shopee.vn/AAJ2O8aqvB"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "trà trái cây",
+    "trà chanh",
+    "matcha"
    ],
    "hidden": false
   }
