@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T23:21:30.000Z",
+ "updated": "2026-11-26T23:21:32.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -186,6 +186,13 @@
    "name": "Vĩnh Long",
    "lat": 10.2537,
    "lng": 105.9722,
+   "sf": "vinh-long"
+  },
+  {
+   "id": "tra-vinh",
+   "name": "Trà Vinh",
+   "lat": 9.9347,
+   "lng": 106.3453,
    "sf": "vinh-long"
   }
  ],
@@ -31129,6 +31136,204 @@
    ],
    "tags": [
     "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1054",
+   "name": "Bánh Mì Bì Ý Hương - Lý Thường Kiệt",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/9zzcb0WiSr",
+    "https://spf.shopee.vn/8fUF3NBEgf"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1055",
+   "name": "QUÁN CƠM HƯƠNG XƯA",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/8AXyPxmb3f",
+    "https://spf.shopee.vn/4qHWSiV1gE",
+    "https://spf.shopee.vn/8AXyRIKIHp"
+   ],
+   "tags": [
+    "phở",
+    "cơm sườn",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1056",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Điện Biên Phủ Trà Vinh",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvtCeYq98"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1057",
+   "name": "Phở Sài Gòn - Phạm Ngũ Lão",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvtCWpGq3"
+   ],
+   "tags": [
+    "bún bò",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1058",
+   "name": "Bếp CƠM GÀ CHỊ CHÂU - Nguyễn Thiện Thành",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/4B1pfaI4xE",
+    "https://spf.shopee.vn/1LheIfCj3c"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1059",
+   "name": "Bánh Mì Que Đà Nẵng - Phạm Ngũ Lão",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/114nv1xsWG"
+   ],
+   "tags": [
+    "nem nướng",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1060",
+   "name": "Mì Trộn - Cơm Gà GuGu - Nguyễn Thiện Thành",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/3LSigLiVFw"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1061",
+   "name": "Bún Thịt Xiên Thanh Thư - Phạm Ngũ Lão",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/4B1ph2YNmK"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1062",
+   "name": "Ăn Vặt Mờ Lem - Cầu Long Bình 1",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvtEQOmKz"
+   ],
+   "tags": [
+    "trứng non"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1063",
+   "name": "Tiệm Mì Ngon - Mì Trộn Indomie - 83 Trần Văn Giàu",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/5LDn4sjS9g"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1064",
+   "name": "Chè Thảo - Hùng Vương",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/5qA3gDd1nE"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1065",
+   "name": "Trà Sữa LIKES - Dương Quang Đông",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/2LaBWEdK5J",
+    "https://spf.shopee.vn/1gKUj41g9J",
+    "https://spf.shopee.vn/5qA3h2vXiT"
+   ],
+   "tags": [
+    "trà sữa",
+    "matcha",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1066",
+   "name": "Kim Sơn - Cà Phê - Trần Phú",
+   "area": "Tp. Trà Vinh",
+   "city": "Trà Vinh",
+   "cityId": "tra-vinh",
+   "links": [
+    "https://spf.shopee.vn/AUvtFOQWlM"
+   ],
+   "tags": [
+    "nước ép",
+    "cà phê"
    ],
    "hidden": false
   }
