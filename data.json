@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T21:23:15.000Z",
+ "updated": "2026-11-26T21:23:18.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -158,6 +158,13 @@
    "name": "Rạch Giá",
    "lat": 10.0125,
    "lng": 105.0809,
+   "sf": "an-giang"
+  },
+  {
+   "id": "long-xuyen",
+   "name": "Long Xuyên",
+   "lat": 10.3864,
+   "lng": 105.4352,
    "sf": "an-giang"
   }
  ],
@@ -30363,6 +30370,215 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1007",
+   "name": "Sủi Cảo HoaHoa Nhà Làm - 150 Trung Thạnh, Mỹ Thới",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/6L6K6G9W6L"
+   ],
+   "tags": [
+    "sủi cảo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1008",
+   "name": "Bánh Mì Má Hải - Võ Thị Sáu",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/9pgCGpMjCP"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1009",
+   "name": "Phở Hoà - Phạm Cự Lượng",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/4B1pWV8Oj1",
+    "https://spf.shopee.vn/9pgCGwcWw6"
+   ],
+   "tags": [
+    "phở",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1010",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Đông Xuyên Hotel",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/6VPkJCVcsc"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1011",
+   "name": "Mì Ý Thuỷ - Hà Huy Tập",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/7AfR5x5k4e",
+    "https://spf.shopee.vn/8KrOUzOFWs"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1012",
+   "name": "Tiệm Cơm Nga - Trần Nhật Duật",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/W8XBBU3AQ",
+    "https://spf.shopee.vn/1gKUZIYK3F"
+   ],
+   "tags": [
+    "nem nướng",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1013",
+   "name": "Mì Trộn Indomie - 27 Đường Số 8",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/5qA3Xe6adE"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1014",
+   "name": "Thế Giới Ăn Vặt Long Xuyên - Đông Thịnh 1",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/1CGauoAUc",
+    "https://spf.shopee.vn/qlNajHvsu",
+    "https://spf.shopee.vn/5qA3XwpqAS"
+   ],
+   "tags": [
+    "indomie",
+    "bánh tráng",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1015",
+   "name": "Gà Rán Sốt Hàn Bro Chicken",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/2qWRyJRJfo"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1016",
+   "name": "Gà rán và Mì Ý - Jollibee - EC Long Xuyên",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/BVgnQDgsi"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1017",
+   "name": "Chè Thái Hồng Nhung - Bùi Văn Danh",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/AKcSuLLiSK"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1018",
+   "name": "Trà Sữa Maycha - 2/4 Tôn Đức Thắng",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/8KrOX7ABM0",
+    "https://spf.shopee.vn/1LheCWgL0i"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1019",
+   "name": "Cô Út Food - Sinh Tố Dừa, Yaourt & Ăn Vặt",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/30psBWfwJd"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1020",
+   "name": "Hồng Trà Ngô Gia - 845 Trần Hưng Đạo",
+   "area": "Tp. Long Xuyên",
+   "city": "Long Xuyên",
+   "cityId": "long-xuyen",
+   "links": [
+    "https://spf.shopee.vn/4LLFm4uRGa"
+   ],
+   "tags": [
+    "trà bí đao"
    ],
    "hidden": false
   }
