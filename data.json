@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T14:22:19.000Z",
+ "updated": "2026-11-26T15:21:49.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -103,6 +103,13 @@
    "lat": 21.1861,
    "lng": 106.0763,
    "sf": "bac-ninh"
+  },
+  {
+   "id": "thai-nguyen",
+   "name": "Thái Nguyên",
+   "lat": 21.5942,
+   "lng": 105.8482,
+   "sf": "thai-nguyen"
   }
  ],
  "dishes": {
@@ -27263,6 +27270,810 @@
    "cityId": "bac-ninh",
    "links": [
     "https://spf.shopee.vn/20xKX16oGa"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p814",
+   "name": "Xưa Quán - Cháo , Xôi & Bánh Mì",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8pnefsa5FV"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p815",
+   "name": "Chú Hoàng - Coffee, Tea & Bánh Mì Thịt Nướng",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/AUvsex7GcQ"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p816",
+   "name": "Nam Nhung - Quán Bánh Cuốn",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/40iOv3qw6r"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p817",
+   "name": "Bánh Cuốn Cao Bằng - Kho Bạc Minh Cầu",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/6AmtV3GzZI"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p818",
+   "name": "Anh Minh Quán Bánh Mỳ - Ngõ 35 Phan Đình Phùng",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/30prjPbb3w",
+    "https://spf.shopee.vn/9zzc6SMY4u"
+   ],
+   "tags": [
+    "bánh mì",
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p819",
+   "name": "Bánh Mì Dân Tổ - 51 Lê Quý Đôn",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/Lp6YWQeXT"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p820",
+   "name": "Phở Bò & Cơm Rang Quốc Hương - Đường CMT8",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/70M0UpLzV7",
+    "https://spf.shopee.vn/9V3LU9jvMR",
+    "https://spf.shopee.vn/AKcSUJZvz2"
+   ],
+   "tags": [
+    "phở",
+    "cơm rang",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p821",
+   "name": "Cơm Rang, Phở & Bún Minh Lễ - 370 Lương Ngọc Quyến",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/1gKU92JkpF"
+   ],
+   "tags": [
+    "phở",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p822",
+   "name": "Hoà Phát - Cháo Lòng & Bún Lòng - Việt Bắc",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/2LaAwRCuWt"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p823",
+   "name": "Bún Sườn Mọc Mai Khuê",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/6q2aIlojUa"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p824",
+   "name": "Xuân Bình Quán - Bún Phở Các Món",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/AAJ2GuGbQb",
+    "https://spf.shopee.vn/80EXi5uKcw"
+   ],
+   "tags": [
+    "bún mọc",
+    "phở",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p825",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - FCC Tower Thái Nguyên",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/Lp6Yz4pf5"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p826",
+   "name": "Layback Thái Nguyên - Trà Sữa & Cà Phê - Lương Ngọc Quyến",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8KrO5h9dyF",
+    "https://spf.shopee.vn/4VefZ7KWS8",
+    "https://spf.shopee.vn/5AuMMOXPQQ"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê",
+    "trà sữa",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p827",
+   "name": "Cháo Lươn Tám Bi CS2 - Dương Tự Minh",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/40iOvVk5tx"
+   ],
+   "tags": [
+    "cháo gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p828",
+   "name": "Cháo Súp Gia Bảo",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7pv7UxPnmq"
+   ],
+   "tags": [
+    "súp gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p829",
+   "name": "Cháo Trai Quang Sỹ",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8pnegrG7Kt"
+   ],
+   "tags": [
+    "cháo trai"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p830",
+   "name": "Minh Đức - Bún Bò Huế, Phở Bò",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3qOyjjWR6i"
+   ],
+   "tags": [
+    "bún bò",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p831",
+   "name": "Ăn Mì Hông? - Mì - Đường z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/6fjA7EAwQz"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p832",
+   "name": "Phương Ngân - Bánh Xèo & Nem Nướng",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/5LDmWqHdIL",
+    "https://spf.shopee.vn/AAJ2HlOtMP"
+   ],
+   "tags": [
+    "nem nướng",
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p833",
+   "name": "Hello - Bánh Xèo - 161 Đường Z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/1BODZDO5sp"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p834",
+   "name": "Quán Nhà Ốc - Chuyên Đồ Hầm - Việt Bắc",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/9V3LUOrPML"
+   ],
+   "tags": [
+    "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p835",
+   "name": "BÁNH MÌ PHỐ + - Đồ Ăn Nhanh - Số 9 Chu Văn An",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/1qduMZEkWK"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p836",
+   "name": "Bánh Mỳ Tràng An - 136 Hoàng Văn Thụ",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/6q2aJlZNg0"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p837",
+   "name": "Tiệm Cơm Gà Cháy Tỏi Sốt Mắm - 158 Việt Bắc - Shop Online",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/5qA37ytiG0"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p838",
+   "name": "Gà Rán Five Star - Phường Thịnh Đán",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/9AQV67KcVV"
+   ],
+   "tags": [
+    "cơm gà",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p839",
+   "name": "Phở & Cơm Rang Phi Trường - Cổng Phụ Công Nghệ Thông Tin",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/6L6JiyOMNJ"
+   ],
+   "tags": [
+    "cơm rang",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p840",
+   "name": "Cháo Lươn Tám Bi",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/4qHVwGX3Gd"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p841",
+   "name": "BÚN ĐẬU PHỐ - 279 Lương Ngọc Quyến",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7VIH7EvRbj"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p842",
+   "name": "Thu Nguyễn - Cơm Rang & Phở Cuốn",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/30prl5RU5D"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p843",
+   "name": "SuSu Tasty - Bún Đậu, Chân Gà - Shop Online",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3Vm8M124ue"
+   ],
+   "tags": [
+    "phở cuốn",
+    "phở",
+    "bún đậu",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p844",
+   "name": "Mr. Phớ - Tào phớ, Mỳ cay & Lẩu Tokbokki",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/2qWRYyAD3m",
+    "https://spf.shopee.vn/9KjvJ4hDdT"
+   ],
+   "tags": [
+    "mì cay",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p845",
+   "name": "Mr. Phớ - Mỳ Cay, Kimbap & Thịt Xiên Que",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/9AQV6dtodT"
+   ],
+   "tags": [
+    "mì cay",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p846",
+   "name": "BẾP LINH - Đồ Ăn Vặt - Thịnh Đán",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8fUEVklHqY",
+    "https://spf.shopee.vn/8VAoJpLjAz"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà",
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p847",
+   "name": "Lẩu Nướng Byleng Bắc Sơn - Nhà Hàng - 180 Đường Bắc Sơn",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7fbhJzI8eS"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p848",
+   "name": "Tiệm Trà Của Thương CS1 - Trà Trái Cây Tươi, Trà Sữa & Chân Gà Sốt Thái",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/1LhdmP2H1t",
+    "https://spf.shopee.vn/5LDmYpgk4v"
+   ],
+   "tags": [
+    "chân gà",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p849",
+   "name": "Ốc Anh Béo Cntt - Đường Z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3LSiA5XE3B",
+    "https://spf.shopee.vn/3B9HyXbd61"
+   ],
+   "tags": [
+    "chân gà",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p850",
+   "name": "KARIN - Tiệm Ăn Vặt Quốc Dân - 129 Minh Cầu",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/50aw9HJBGY"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p851",
+   "name": "Thịt Xiên Nướng Cô Nga - Đường Z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3B9HwpI5z7",
+    "https://spf.shopee.vn/1CGCOZDPR"
+   ],
+   "tags": [
+    "nem chua rán",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p852",
+   "name": "Gà Rán Five Star - Tổ 4 Tân Thịnh",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/9pgBuLinpw"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p853",
+   "name": "Bánh Tráng Thái Nguyên - Đường Z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8VAoJx8WnT"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p854",
+   "name": "Tóp Tóp Quán - Mì, Bún Trộn & Ăn Vặt - Lương Thế Vinh",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/Lp6b2fWeU"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p855",
+   "name": "SWEET MILK TEA - Đường Z115",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3B9HyHztiM"
+   ],
+   "tags": [
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p856",
+   "name": "Chè Bưởi Miền Nam - CNTT",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/2VtbB7Iknv"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p857",
+   "name": "Đỏ Thơ - Chè Bưởi An Giang - Mỏ Bạch",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/3qOylbKyxA",
+    "https://spf.shopee.vn/1gKUBeKzw1"
+   ],
+   "tags": [
+    "chè",
+    "kem xôi",
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p858",
+   "name": "Quán Nhà Tông - Nước Hoa Quả - Tổ 1",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7AfQjykzE0"
+   ],
+   "tags": [
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p859",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Vincom Thái Nguyên",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/2VtbBQobjb",
+    "https://spf.shopee.vn/1W13zfLWnd"
+   ],
+   "tags": [
+    "cà phê",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p860",
+   "name": "TRÀ SỮA BINGXUE - THÁI NGUYÊN",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/80EXjfGoV7",
+    "https://spf.shopee.vn/1W13zyeWjd",
+    "https://spf.shopee.vn/8AXxwLTdvo"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà chanh",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p861",
+   "name": "Trà Sữa Student Tea - 244 Đường Ga",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7AfQk8u0bK",
+    "https://spf.shopee.vn/1qduOa3vEM"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p862",
+   "name": "TRÀ SỮA BINGXUE - 245 QUANG TRUNG",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/30prmXD3jB"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p863",
+   "name": "Sinh Tố Nhung Bùi - Sinh Tố, Nước Ép - Đường Ga",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/7VIH8ruJPL",
+    "https://spf.shopee.vn/2BGkn89M8h"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p864",
+   "name": "Sinh Tố Béo - Sinh Tố & Nước Ép - 240 Đường Ga",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/8VAoKiP5J1",
+    "https://spf.shopee.vn/6AmtYW0Kg8"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p865",
+   "name": "La Boong Thái Nguyên - Trà Ô Long Làng Laboong - 72 Hoàng Văn Thụ",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/AAJ2K1vMh8"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p866",
+   "name": "Trà Sữa Mixue - Cách Mạng Tháng 8 Thái Nguyên",
+   "area": "Tp. Thái Nguyên",
+   "city": "Thái Nguyên",
+   "cityId": "thai-nguyen",
+   "links": [
+    "https://spf.shopee.vn/AUvsihEsm4"
    ],
    "tags": [
     "mixue",
