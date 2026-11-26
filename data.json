@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T16:24:08.000Z",
+ "updated": "2026-11-26T17:25:23.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -124,6 +124,13 @@
    "lat": 13.9833,
    "lng": 108.0,
    "sf": "gia-lai"
+  },
+  {
+   "id": "dak-lak",
+   "name": "Buôn Ma Thuột",
+   "lat": 12.6667,
+   "lng": 108.0378,
+   "sf": "dak-lak"
   }
  ],
  "dishes": {
@@ -28844,6 +28851,345 @@
     "trà trái cây",
     "trà chanh",
     "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p916",
+   "name": "Bánh Mì - Hoàng Trung - Nguyễn Tất Thành",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/qlNHTtsGG",
+    "https://spf.shopee.vn/114nU3E038"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p917",
+   "name": "Mì Trộn Tên Lửa Ban Mê - Xô Viết Nghệ Tĩnh",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/9zzcCKv04P",
+    "https://spf.shopee.vn/6q2aRqPYlD"
+   ],
+   "tags": [
+    "xôi",
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p918",
+   "name": "Bánh Cuốn Nóng & Bún Chả Hà Nội - Y Ngông",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/9V3LbTGafM",
+    "https://spf.shopee.vn/3qOyskjnMr"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p919",
+   "name": "Hủ tiếu Bà Già - 116 Y Jut",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/1W1451SU2t",
+    "https://spf.shopee.vn/7VIHED9EW1",
+    "https://spf.shopee.vn/7AfQpcwZ2m",
+    "https://spf.shopee.vn/9KjvQBVRVN"
+   ],
+   "tags": [
+    "phở",
+    "bánh canh",
+    "cháo lòng",
+    "cháo gà",
+    "lòng",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p920",
+   "name": "Mỳ Cay - Ăn Vặt 1996",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/3B9I3te7Gq",
+    "https://spf.shopee.vn/50awHTCEnW",
+    "https://spf.shopee.vn/2gD1VJqfsG",
+    "https://spf.shopee.vn/1gKUJXBpaH",
+    "https://spf.shopee.vn/1gKUJqqtdc",
+    "https://spf.shopee.vn/2BGkupidMl",
+    "https://spf.shopee.vn/5qA3Hpo3nX",
+    "https://spf.shopee.vn/2gD1WWAxya",
+    "https://spf.shopee.vn/4fy5uOFYQZ"
+   ],
+   "tags": [
+    "dimsum",
+    "mì cay",
+    "lẩu",
+    "chân gà",
+    "gà rán",
+    "bánh tráng",
+    "hoa quả",
+    "nước ép",
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p921",
+   "name": "Baker House - Ngô Quyền",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/1gKUHkCoDt"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p922",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Nguyễn Tất Thành - Buôn Ma Thuột",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/6q2aRFSPHG"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p923",
+   "name": "Bánh Mì Thổ Nhỉ Kỳ Sunrise Kebab - 206 Hà Huy Tập",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/2gD1US4vQs"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p924",
+   "name": "Bánh Mì & Ăn Vặt Nhà Bum - Y Wang",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/gRx6jQ7r1"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p925",
+   "name": "Bún Thịt Nướng & Mì Cay - Ăn Vặt BMT",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/9KjvRBfODg",
+    "https://spf.shopee.vn/1qduVexDSf"
+   ],
+   "tags": [
+    "bún thịt nướng",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p926",
+   "name": "Lẩu 2 Người - Nguyễn Công Trứ",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/qlNJwKC71"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p927",
+   "name": "Sense - Mì Cay & Trà Sữa - Y Wang",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/2BGkuSnaqZ",
+    "https://spf.shopee.vn/6q2aTM5FxN",
+    "https://spf.shopee.vn/8pner5wzNT",
+    "https://spf.shopee.vn/8VAoT3fSCW",
+    "https://spf.shopee.vn/5AuMV1JklV",
+    "https://spf.shopee.vn/3LSiJQjWB5",
+    "https://spf.shopee.vn/9V3Lf5O04z",
+    "https://spf.shopee.vn/20xKjR45ub"
+   ],
+   "tags": [
+    "chân gà",
+    "mì cay",
+    "trà sữa",
+    "gà rán",
+    "bánh tráng",
+    "bạc xỉu",
+    "trà trái cây",
+    "hoa quả",
+    "nước ép",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p928",
+   "name": "Mì Trộn Indomie - Ăn Vặt Nhà Cún",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/907539AaP4"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p929",
+   "name": "Cá Viên Chiên Mắm & Gà Ủ Muối Bmt",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/AKcSdaWFBe"
+   ],
+   "tags": [
+    "indomie",
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p930",
+   "name": "Quán Sáu Chè - Amajhao",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/7VIHGrJ1Ez"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p931",
+   "name": "LaBoong - Trà Ô Long Làng La Boong - 187 Hoàng Diệu, Buôn Ma Thuột",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/Lp6jr23R9",
+    "https://spf.shopee.vn/9zzcFjafD6",
+    "https://spf.shopee.vn/7VIHHfcDDe"
+   ],
+   "tags": [
+    "sữa chua",
+    "cà phê",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p932",
+   "name": "Say Milk - Trà Sữa Pha Máy",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/5LDmhIm2no",
+    "https://spf.shopee.vn/1qduWvwzmj"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p933",
+   "name": "Subin Food & Drink - Ywang",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/4qHW6a0hMe"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p934",
+   "name": "RIO CAFE & TEA - Võ Văn Kiệt",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/50awIuTdIz"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p935",
+   "name": "Trà sữa Mixue - 01 Ngô Quyền",
+   "area": "Tp. Buôn Ma Thuột",
+   "city": "Buôn Ma Thuột",
+   "cityId": "dak-lak",
+   "links": [
+    "https://spf.shopee.vn/8VAoTYntmG"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
    ],
    "hidden": false
   }
