@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T17:25:23.000Z",
+ "updated": "2026-11-26T18:23:35.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -131,6 +131,13 @@
    "lat": 12.6667,
    "lng": 108.0378,
    "sf": "dak-lak"
+  },
+  {
+   "id": "quang-ngai",
+   "name": "Quảng Ngãi",
+   "lat": 15.1205,
+   "lng": 108.7923,
+   "sf": "quang-ngai"
   }
  ],
  "dishes": {
@@ -29190,6 +29197,251 @@
    "tags": [
     "mixue",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p936",
+   "name": "XÔI GÌ - Lê Lợi",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/4VefiVUz5U"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p937",
+   "name": "Xôi Ngon Dì Sáu - Quảng Ngãi",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/9zzcGesKsS"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p938",
+   "name": "Bánh Mì Tiến Dũng - 350 Phan Đình Phùng",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/qlNM22oGu"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p939",
+   "name": "Bún Cá Sứa Thu Nha Trang - Nguyễn Hoàng",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/9pgC4jZEq0"
+   ],
+   "tags": [
+    "bún riêu",
+    "bún cá",
+    "bún chả",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p940",
+   "name": "Cơm Tấm 3 Ngon - Lê Thánh Tôn",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/4VefjHXWaW"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p941",
+   "name": "Bánh Cá Taiyaki & Ăn Vặt  - Phan Đình Phùng",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/5qA3LIg8Dz",
+    "https://spf.shopee.vn/7fbhWrLVNY",
+    "https://spf.shopee.vn/5AuMYKTgJg",
+    "https://spf.shopee.vn/20xKmtJbCi"
+   ],
+   "tags": [
+    "mì xào",
+    "nem chua rán",
+    "gà rán",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p942",
+   "name": "Ô Food & Drink - Trà Sữa & Ăn Vặt Hottrend",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/W8WzivbYM",
+    "https://spf.shopee.vn/30pryMG97A",
+    "https://spf.shopee.vn/1LhdzVccTH",
+    "https://spf.shopee.vn/5VXCxdgWok",
+    "https://spf.shopee.vn/2BGkzpOB6I",
+    "https://spf.shopee.vn/1W14Cfttks"
+   ],
+   "tags": [
+    "nem nướng",
+    "gà rán",
+    "trà sữa",
+    "bánh tráng",
+    "trà trái cây",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p943",
+   "name": "Tiệm Baca - Mì Trộn Indomie & Trà",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/1W14BOvyUf"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p944",
+   "name": "Ăn Vặt Funny",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/1Lhdz6ZFBp"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p945",
+   "name": "Ăn Vặt, Ăn No & Nước Giải Khát - AT 1981",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/40iPAFSnMI"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p946",
+   "name": "Chè Sinh Tố Ngon Số Zách - Phan Chu Trinh",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/2BGkz4QSU0",
+    "https://spf.shopee.vn/2qWRmvi7Wz"
+   ],
+   "tags": [
+    "chè",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p947",
+   "name": "Chè Ý 81 - 81 Phan Đình Phùng",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/1gKUOA0jcB"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p948",
+   "name": "LuLu Coffee & Tea - Cafe Muối & Trà Trái Cây Nhiệt Đới",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/7AfQwRtqUs",
+    "https://spf.shopee.vn/7pv7jpn8Ba",
+    "https://spf.shopee.vn/qlNP04W27",
+    "https://spf.shopee.vn/4LLFZYifNk",
+    "https://spf.shopee.vn/6AmtkzZjAe",
+    "https://spf.shopee.vn/BVgc6CAq4",
+    "https://spf.shopee.vn/AKcSitmw2z"
+   ],
+   "tags": [
+    "sữa chua",
+    "trà trái cây",
+    "cà phê",
+    "nước ép",
+    "bạc xỉu",
+    "trà chanh",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p949",
+   "name": "Sinh Tố - Nước Ép Na Na - 723 Quang Trung",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/5LDmlXBRc9"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p950",
+   "name": "MIXUE QUẢNG NGÃI - LÊ LỢI",
+   "area": "Tp. Quảng Ngãi",
+   "city": "Quảng Ngãi",
+   "cityId": "quang-ngai",
+   "links": [
+    "https://spf.shopee.vn/5fqdANzmlB"
+   ],
+   "tags": [
+    "mixue"
    ],
    "hidden": false
   }
