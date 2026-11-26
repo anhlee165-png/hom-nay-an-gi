@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-25T21:54:08.000Z",
+ "updated": "2026-11-26T01:57:40.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -20604,6 +20604,612 @@
    ],
    "tags": [
     "đồ nhậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p370",
+   "name": "Bánh Mì Xôi Mặn Kim Ngân - Đồ Ăn - Nguyễn Văn Cừ Nối Dài",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/1gKT2fSi2a"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p371",
+   "name": "XÔI XƯA - XÔI XÉO",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/qlM5xrJHl"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p372",
+   "name": "Bánh Cuốn & Bánh Ướt Nóng - Út Tho 4 - Đề Thám",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/1LhcfPZMx7"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p373",
+   "name": "Cơm Gà Kim - Nguyễn Văn Cừ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/9fMkZYYAFz",
+    "https://spf.shopee.vn/8pndazqYnL",
+    "https://spf.shopee.vn/6VPiolthai",
+    "https://spf.shopee.vn/5LDlQucMqe",
+    "https://spf.shopee.vn/3B9GqzebFx"
+   ],
+   "tags": [
+    "mì trứng",
+    "mì xào",
+    "cơm gà",
+    "cơm bò",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p374",
+   "name": "DK Gaming 2 - Food & Drink",
+   "area": "Cái Răng",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/AUvrZ69CxF",
+    "https://spf.shopee.vn/1BOCSuwJQu",
+    "https://spf.shopee.vn/AAJ1BWEsA2",
+    "https://spf.shopee.vn/9fMkbO1NnD"
+   ],
+   "tags": [
+    "mì trứng",
+    "mì xào",
+    "cơm bò",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p375",
+   "name": "Bánh Mì & Cafe 24 Giờ - Nguyễn Văn Cừ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/2gD0EkrppM",
+    "https://spf.shopee.vn/6q2ZFWDq4C"
+   ],
+   "tags": [
+    "bánh mì",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p376",
+   "name": "Tấn Tài - Bánh Mì Chả Cá & Gà Nướng Muối Ớt",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/9KjuB12PQu"
+   ],
+   "tags": [
+    "bánh mì",
+    "mì trứng",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p377",
+   "name": "Phở Tài 2 - Nguyễn Văn Cừ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/4B1o1XvDSI",
+    "https://spf.shopee.vn/6VPioWKvVr",
+    "https://spf.shopee.vn/6AmsR51RE2"
+   ],
+   "tags": [
+    "phở",
+    "bún bò",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p378",
+   "name": "Phở Thu - Cái Răng",
+   "area": "Cái Răng",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/AKcRMt5hU0",
+    "https://spf.shopee.vn/AAJ1BGlb29"
+   ],
+   "tags": [
+    "phở",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p379",
+   "name": "Ăn Sáng Hè Phố - Ăn Uống - Nguyễn Văn Cừ Nối Dài",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/6AmsPypJEq",
+    "https://spf.shopee.vn/9zzayR3H0a"
+   ],
+   "tags": [
+    "bún riêu",
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p380",
+   "name": "Lê Trần - Bánh Canh, Cháo Lá Dứa & Chè",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/5VXBc5rlx7",
+    "https://spf.shopee.vn/2qWQTZHc7o"
+   ],
+   "tags": [
+    "bánh canh",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p381",
+   "name": "Cơm Tấm Phương Nhi (Cây Khế)",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/8KrMzUGLWn",
+    "https://spf.shopee.vn/9zzaz4sLA6",
+    "https://spf.shopee.vn/2La9reuw77"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm gà",
+    "cơm sườn",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p382",
+   "name": "Cơm Tấm Diễm - Phạm Ngũ Lão",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/9073mkKdBy",
+    "https://spf.shopee.vn/2gD0G1R9Cz"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p383",
+   "name": "Ghiền Ăn Vặt 86 Chợ Tân An - Cá Viên Chiên, Mì Trộn & Mì Ý - Hai Bà Trưng",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/3qOxdJCM4y",
+    "https://spf.shopee.vn/5VXBe9ojry",
+    "https://spf.shopee.vn/4qHUr0JdO7",
+    "https://spf.shopee.vn/1gKT5EmlQm",
+    "https://spf.shopee.vn/9V3KPhm7pi"
+   ],
+   "tags": [
+    "croissant",
+    "nem chua rán",
+    "gà rán",
+    "bánh tráng",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p384",
+   "name": "Calico Coffee & Cake - Bánh Âu - Mậu Thân",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/80EWayb3K4"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p385",
+   "name": "A Béo - Cơm Sườn, Cá Viên Chiên & Trà Sữa - Cách Mạng Tháng 8",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/7KypoBeqsm",
+    "https://spf.shopee.vn/114mIdhFOY"
+   ],
+   "tags": [
+    "cơm sườn",
+    "trà sữa",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p386",
+   "name": "Trà Sữa Ăn Vặt 1993 - Xô Viết Nghệ Tĩnh",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/2Vta3UcaqC"
+   ],
+   "tags": [
+    "nem nướng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p387",
+   "name": "9 Cường - Bánh Mì Doner Kebab - Nam Kỳ Khởi Nghĩa",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/1W12rpkCqR"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p388",
+   "name": "Bánh Mì Kebab - 291 Nguyễn Văn Cừ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/50av2H6512"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p389",
+   "name": "Song Nhi - Bánh Hỏi Kim Tiền, Bún Thịt Xào & Bún Thịt Nướng",
+   "area": "Cái Răng",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/7pv6Pkx5X8"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p390",
+   "name": "Hủ Tiếu Mậu Thân 2 - Võ Văn Kiệt",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/AAJ1CAb4gC"
+   ],
+   "tags": [
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p391",
+   "name": "Bamboo Food - Nguyễn Việt Hồng",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/6L6IdFfQLx"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p392",
+   "name": "Ăn Vặt Meo Meo - Chân Gà Sốt Thái & Gà Ủ Muối & Chân Gà Sả Tắc",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/30pqfBkRrZ",
+    "https://spf.shopee.vn/114mHdh3vn"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p393",
+   "name": "Ăn Vặt Forgetmenot",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/9pgAnoFNht"
+   ],
+   "tags": [
+    "lẩu",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p394",
+   "name": "Mì Trộn Indomie - Mì Mie",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/4qHUqoBHYu"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p395",
+   "name": "Tiệm Ăn Sinh Viên - Mì Trộn, Bún & Lẩu Ly",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/1LhcgNyUZg"
+   ],
+   "tags": [
+    "indomie",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p396",
+   "name": "Ngân Cakes - Sữa Chua, Cà Phê & Ăn Vặt",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/30pqfp0SGY",
+    "https://spf.shopee.vn/5fqbqyE4zc"
+   ],
+   "tags": [
+    "bánh flan",
+    "sữa chua",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p397",
+   "name": "Bánh Dân Gian - Tiệm Bánh Nhà Mai - Nguyễn Hiền",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/qlM5txOWT"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p398",
+   "name": "Cà Phê Muối Chú Long - Cần Thơ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/8VAnEIEYgU",
+    "https://spf.shopee.vn/3LSh4qGAn0",
+    "https://spf.shopee.vn/2La9tB2Kyo"
+   ],
+   "tags": [
+    "cà phê",
+    "bạc xỉu",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p399",
+   "name": "Cà Phê Vợt Chú Ba Phụng",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/4qHUrZ2TH7"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p400",
+   "name": "TIỆM NHÀ MƯA - 58 Nguyễn Văn Cừ Nối Dài",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/70LzRZSOk0",
+    "https://spf.shopee.vn/9073pMmtMI",
+    "https://spf.shopee.vn/5qA23jXpHo",
+    "https://spf.shopee.vn/9V3KdXvECn"
+   ],
+   "tags": [
+    "bạc xỉu",
+    "trà sữa",
+    "trà trái cây",
+    "trà chanh",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p401",
+   "name": "Trà Sữa Bông - Sữa Tươi Đường Đen",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/4fy4fLz6JD"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p402",
+   "name": "Nước Ép Nam Nhân - Đường 3/2",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/5VXBf1xegI"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p403",
+   "name": "Hồng Trà Ngô Gia - 353AA Nguyễn Văn Cừ",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/20xJhhTNoR"
+   ],
+   "tags": [
+    "trà bí đao",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p404",
+   "name": "CICI Coffee & Tea - Cà Phê Muối - Mậu Thân",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/2gD0Uw1Lgo"
+   ],
+   "tags": [
+    "trà bí đao",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p405",
+   "name": "Trình - Trà Sữa Đậm Vị",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/90742dVz9p"
+   ],
+   "tags": [
+    "matcha",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p406",
+   "name": "Trà Sữa Mixue - Hai Bà Trưng",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/7pv6eXqkG3"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p407",
+   "name": "Bếp Nhà Trân Ăn Vặt Cần Thơ - Đồ Nhậu & Tré Trộn & Gà Ủ Muối - Đường 3/2",
+   "area": "Ninh Kiều",
+   "city": "Cần Thơ",
+   "cityId": "can-tho",
+   "links": [
+    "https://spf.shopee.vn/60TSTEJkTQ"
+   ],
+   "tags": [
+    "đồ nhậu",
+    "gà ủ muối"
    ],
    "hidden": false
   }
