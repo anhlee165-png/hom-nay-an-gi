@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-26T23:21:35.000Z",
+ "updated": "2026-11-27T00:21:25.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -201,6 +201,13 @@
    "lat": 10.2433,
    "lng": 106.3756,
    "sf": "vinh-long"
+  },
+  {
+   "id": "my-tho",
+   "name": "Mỹ Tho",
+   "lat": 10.36,
+   "lng": 106.36,
+   "sf": "dong-thap"
   }
  ],
  "dishes": {
@@ -31405,6 +31412,378 @@
    "tags": [
     "cà phê",
     "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1071",
+   "name": "Út Hồng - Xôi & Bánh Bao",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/8fUF4dmxGU"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1072",
+   "name": "1 Phút 30 Giây Mỹ Tho - Lý Thường Kiệt",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/60TTthpBSO"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1073",
+   "name": "Bánh Cuốn Cô Quỳnh - 90 Lê Đại Hành",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/1LheLC6VCi"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1074",
+   "name": "Bún Thịt Nướng & Bánh Ướt Ngọc - Chợ Thạnh Trị",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/7fbhsqHS5n",
+    "https://spf.shopee.vn/5qA3iqchOw",
+    "https://spf.shopee.vn/6Amu7tLmR8"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún thịt nướng",
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1075",
+   "name": "Tiệm Mì Sủi Cảo Người Hoa - 210 Lê Văn Phẩm",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/5AuMuIkekI",
+    "https://spf.shopee.vn/9075UWywLO"
+   ],
+   "tags": [
+    "sủi cảo",
+    "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1076",
+   "name": "Mỹ Khê - Bánh Mì & Hải Sản - Lý Thường Kiệt",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/2qWS8ATuho"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1077",
+   "name": "Bánh Mì Má Hải - Bếp Nhà Ruby Đống Đa",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/1gKUk32Xht"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1078",
+   "name": "Phở Kim",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/6VPkUzfE8I",
+    "https://spf.shopee.vn/9Kjvu5e20l"
+   ],
+   "tags": [
+    "phở",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1079",
+   "name": "Bún Riêu Cua Duy - Trần Ngọc Giải",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/8KrOgOJ8nI"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1080",
+   "name": "Cháo Sò Huyết Cua Kình Càng - Sò, Hào & Cua - Lê Văn Phẩm",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/8AXyUHBczg",
+    "https://spf.shopee.vn/BVgxtB70l"
+   ],
+   "tags": [
+    "bún riêu",
+    "cháo trai"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1081",
+   "name": "YuMi Food - Bánh Canh Bột Xắt Tôm Thịt, Cháo Sườn & Cháo Thịt Bò",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/30psKI7K9R",
+    "https://spf.shopee.vn/5qA3iCkXTT"
+   ],
+   "tags": [
+    "bánh canh",
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1082",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Nam Kỳ Khởi Nghĩa - Mỹ Tho",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/gRxYenCaZ",
+    "https://spf.shopee.vn/8fUF7tCNys",
+    "https://spf.shopee.vn/8VAovdTPJW"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê",
+    "bạc xỉu",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1083",
+   "name": "Súp Quỳnh 2 - 107 Tết Mậu Thân",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/7AfRImXpd4"
+   ],
+   "tags": [
+    "súp gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1084",
+   "name": "Hương Giang 88 - Bún Bò Huế - Lê Văn Nghề",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/2VtbkLL0t7"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1085",
+   "name": "Quán Ăn Tuấn - Đinh Bộ Lĩnh",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/60TTv1mzmz"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1086",
+   "name": "Bánh Mì Kebab Duy Quách - Đường Tỉnh 870",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/7KyrVkseS8"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1087",
+   "name": "Tiệm Ăn Dòn - Sandwich, Mì Trộn & Cơm Trộn",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/6Amu7zNCq3"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1088",
+   "name": "Gà Ủ Muối & Gà Hấp Xì Dầu - Lâm Vũ Foods",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/6q2avQtq5u"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1089",
+   "name": "Quán Bella - Ăn Vặt - Nguyễn Tử Vân",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/8VAoueiM4M"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1090",
+   "name": "SAYME - CHÈ THÁI SẦU RIÊNG - MỸ THO",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/2gD1yTnK0m"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1091",
+   "name": "Tiệm Bánh Mì Mexico - Lê Đại Hành",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/7fbhvmjKkA"
+   ],
+   "tags": [
+    "tàu hũ",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1092",
+   "name": "Cà Phê Muối Chú Long - 82 Ngô Gia Tự",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/5qA3kc7BmL",
+    "https://spf.shopee.vn/5fqdYMkLZ2"
+   ],
+   "tags": [
+    "cà phê",
+    "bạc xỉu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1093",
+   "name": "Ghiền Coffee & Tea - Đường 30/4",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/7pv88nVBgG"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1094",
+   "name": "Trà Sữa Mixue - 694 Ấp Bắc",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/3B9IaH3Gtf"
+   ],
+   "tags": [
+    "mixue",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1095",
+   "name": "KEM MIXUE MỸ THO - Quốc Lộ 50",
+   "area": "Tp. Mỹ Tho",
+   "city": "Mỹ Tho",
+   "cityId": "my-tho",
+   "links": [
+    "https://spf.shopee.vn/6Amu9nRBac"
+   ],
+   "tags": [
+    "mixue"
    ],
    "hidden": false
   }
