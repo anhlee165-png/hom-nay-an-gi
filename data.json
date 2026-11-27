@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T12:19:37.000Z",
+ "updated": "2026-11-27T16:06:53.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -313,6 +313,13 @@
    "lat": 10.923,
    "lng": 106.713,
    "sf": "tp-hcm"
+  },
+  {
+   "id": "ha-dong",
+   "name": "Hà Đông",
+   "lat": 20.9714,
+   "lng": 105.7788,
+   "sf": "ha-noi"
   }
  ],
  "dishes": {
@@ -37599,6 +37606,613 @@
    "tags": [
     "trà sữa",
     "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1490",
+   "name": "Bánh Cuốn Bún Chả - Bánh Cuốn - Phố Xốm",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/5VXEM6k1kC"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1491",
+   "name": "Gà Tần, Bánh Cuốn Nóng & Bún Chả Thùy Linh",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/4fy7NPVhSO"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1492",
+   "name": "Bami Sot - Bánh Mì Đen - Quang Trung",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/AUvuKUMoLS"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1493",
+   "name": "Bánh Mì BotBit - Pate Truyền Thống & Bánh Mì Que Hải Phòng",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/5LDoBdID5N"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1494",
+   "name": "H2B - Bún Riêu Cua Bề Bề & Phở Gà - Geleximco",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/gRyb6EWjE"
+   ],
+   "tags": [
+    "phở",
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1495",
+   "name": "Phở Cuốn, Gỏi Cuốn & Bún Trộn - Gia Bảo",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/30ptOljxx4"
+   ],
+   "tags": [
+    "phở",
+    "phở cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1496",
+   "name": "BÁNH CANH CUA GIA HÂN - Đặc Sản Bình Định - 198 Văn Phú",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/8fUG9STttX"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1497",
+   "name": "Thành Giang - Vịt Quay Vân Đình & Bún Cháo Lòng & Tiết Canh",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1gKVo252la"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1498",
+   "name": "Cháo Lòng Bà Hỗ - Bún Sườn Măng & Lòng Trần Thập Cẩm",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/50axn6Lzqh"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1499",
+   "name": "Cháo Gấu - Cháo Sườn Sụn & Nấm Ruốc - Nguyễn Khuyến",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/4VehA3bUCi"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1500",
+   "name": "GHIỀN BÚN BÒ HUẾ - KĐT Văn Phú",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/W8YQj0iU9"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1501",
+   "name": "Bún Cá Cay Hải Phòng & Bánh Đa Cá Rô Đồng - KĐT Văn Khê",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/6VPlZgTOKv"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1502",
+   "name": "Nem Nướng Nha Trang Luji - Phố Xốm",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/7VIIl03WGQ"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1503",
+   "name": "LATU Quán - Nem Nướng Nha Trang - Yên Phúc",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/5AuNynbGIz"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1504",
+   "name": "Nem Nướng Nha Trang & Bánh Xèo Bon Bon - Lê Lai",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/4VehBpWib5"
+   ],
+   "tags": [
+    "bánh xèo",
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1505",
+   "name": "Hằng Bánh Xèo",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/4LLGzxnSmc"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1506",
+   "name": "Mỳ Gà Tần & Các Món Tần - Nguyễn Thái Học",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1qdw0Xgb2p"
+   ],
+   "tags": [
+    "mì gà tần"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1507",
+   "name": "Bảo An - Bánh Mì Doner Kebab - Đa Sỹ",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/80EZMe0pZz"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1508",
+   "name": "Nem Nướng Nha Trang & Cơm Gà - Hải Thuỷ",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/5qA4m7IHCd"
+   ],
+   "tags": [
+    "cơm gà",
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1509",
+   "name": "Cơm Gà Hội An 8688 - Mộ Lao",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/W8YQWkWmR"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1510",
+   "name": "Nhà Hàng Hào Sảng - Phở, Lẩu Bò & Cơm Rang - KĐT Văn Khê",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1W15dE7umC"
+   ],
+   "tags": [
+    "cơm rang",
+    "phở",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1511",
+   "name": "Huy Ốc Quán - Bún Chả & Ốc Nóng - Phú Lương",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/80EZM4bZu6"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1512",
+   "name": "Bánh Cuốn Anh Xuân - Bún Chả & Gà Tần - Nguyễn Viết Xuân",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/2Vtco3K07Y"
+   ],
+   "tags": [
+    "bún chả",
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1513",
+   "name": "Giang Béo - Bún Đậu Mắm Tôm",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/9V3N7PUuXh"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1514",
+   "name": "Bún Chả & Bún Đậu Linh Nhi",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/2BGmPSu40G"
+   ],
+   "tags": [
+    "bún đậu",
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1515",
+   "name": "Tiệm Gà Ủ Muối - Gà Luộc & Gà Ủ Muối - Tô Hiến Thành",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/2BGmNnackr"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1516",
+   "name": "Quán Hà Thuấn lẩu Nướng 24/7 - Lẩu - Bạch Thái Bưởi",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1gKVnGKJBF"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1517",
+   "name": "Thanh Trà - Chân Gà Sả Tắc & Chân Gà Sốt Thái",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/2BGmPxlWpF"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1518",
+   "name": "Mì Trộn Indomie & Trà Sữa Cô Ba - Quang Trung",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1BOFBnhv8a"
+   ],
+   "tags": [
+    "indomie",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1519",
+   "name": "Gà Rán & Burger Lotteria - Xa La",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/70M28PC1w9"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1520",
+   "name": "Gà Rán & Burger McDonald’s - Nguyễn Văn Lộc",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/9zzdhvrTVM"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1521",
+   "name": "Bánh Tráng Ngọc Đức",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/AAJ3uOUzkR"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1522",
+   "name": "Chè Ngon Hà Đông - Quán Ăn Vặt",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/6Amv9VCiRY"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1523",
+   "name": "Chè Dừa Non Hải Dương - Trần Phú",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/Lp8DYaZNM"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1524",
+   "name": "Kiot Trạm - Cafe Muối, Trà Sữa & Trà Hoa Quả - Nguyễn Viết Xuân",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1W15bXO4Ju"
+   ],
+   "tags": [
+    "hoa quả",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1525",
+   "name": "AB Coffee - Đậm Cà Phê, Say Matcha & Mát Trà Hoa Quả - KDT Văn Phú",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/7KysaHlt2M"
+   ],
+   "tags": [
+    "hoa quả",
+    "cà phê",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1526",
+   "name": "Lạ Coffee - Sinh Tố, Cà Phê & Nước Ép",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/9fMnKs1KVO"
+   ],
+   "tags": [
+    "cà phê",
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1527",
+   "name": "MrP Bingsu Tea & Coffee Park City Hà Nội",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/8fUGARiigM"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1528",
+   "name": "Fong Tea - Trà Sữa Kem Trứng Dừa Nướng - Mậu Lương",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/1BOFBz9AWp"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1529",
+   "name": "Trà Sữa Panda Tea - KĐT Văn Khê",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/8fUG8urOeQ"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1530",
+   "name": "Cỏ Lạ Juice - Nước Ép Nguyên Chất & Ăn Vặt - Phùng Hưng",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/7fbix961yW"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1531",
+   "name": "Trà Chanh Chill - Lê Lai",
+   "area": "Q. Hà Đông",
+   "city": "Hà Đông",
+   "cityId": "ha-dong",
+   "links": [
+    "https://spf.shopee.vn/9zzdjSRGd1"
+   ],
+   "tags": [
+    "trà chanh"
    ],
    "hidden": false
   }
