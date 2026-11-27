@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T05:17:05.000Z",
+ "updated": "2026-11-27T06:44:19.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -243,6 +243,13 @@
    "lat": 10.9289,
    "lng": 108.1021,
    "sf": "lam-dong"
+  },
+  {
+   "id": "tuy-hoa",
+   "name": "Tuy Hòa",
+   "lat": 13.0955,
+   "lng": 109.3209,
+   "sf": "dak-lak"
   }
  ],
  "dishes": {
@@ -34132,6 +34139,865 @@
    ],
    "tags": [
     "đồ nhậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1252",
+   "name": "Xôi Hến Lòng Phưn",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/6VPkufNNr0"
+   ],
+   "tags": [
+    "xôi",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1253",
+   "name": "Xôi Bánh Mì Hambuger - Hoài Thương 2",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/5qA4ATftON"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1254",
+   "name": "Trinh - Bánh Cuốn, Chả Ram Cá & Chả Ram Tôm",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1BOEb0wmDa"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1255",
+   "name": "Bánh Cuốn Nóng 25",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2qWSaW5iYb"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1256",
+   "name": "Bún Thịt Nướng & Bánh Mì Bò Nướng 777 - 274 Trường Chinh",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3qOziFMd1u"
+   ],
+   "tags": [
+    "bánh mì",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1257",
+   "name": "Bánh Mì Vi - Nguyễn Huệ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/9075rr4Fxg"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1258",
+   "name": "Phở Trộn Bé Ba",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/4fy6jCRpxY"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1259",
+   "name": "Phở Hương Ký - Lê Thánh Tôn",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1gKVCPEqnU"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1260",
+   "name": "Bánh Canh Cua Tin Tin",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TUIZ5pQl"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1261",
+   "name": "Bánh Canh Dì 8 Phú Yên",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1CHBdniN1"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1262",
+   "name": "Cháo Lòng Bánh Hỏi 71A - Lê Thành Phương",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/9pgCsfYCo4"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1263",
+   "name": "Cút Nướng NY NY - Chim Cút Nướng, Cháo Lòng Cút & Trứng Cút Lộn",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/AAJ3IOS5sx"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1264",
+   "name": "Cơm Tấm Cô 7 - Nguyễn Thái Học",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/8VApGfD61o"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1265",
+   "name": "Quán Cơm Tấm Chú Mập",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/9AQW4WhPIO"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1266",
+   "name": "Doremon - Sushi & Há Cảo",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/AUvtgE5aNq"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1267",
+   "name": "Dim Sum King Win - Nguyễn Công Trứ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/5fqdwY3WKX"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1268",
+   "name": "Nt.Tin Patisserie - Croissant Và Su Sing - 311 Trường Chinh",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/Lp7YbAexl"
+   ],
+   "tags": [
+    "croissant"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1269",
+   "name": "Bún Bò Số 1 Tân Dân - Ngô Quyền",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2LaBxKXuuv"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1270",
+   "name": "Bún Bò Huế Nam Phương - Lê Lợi",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/6fjB7fI1q6"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1271",
+   "name": "Mì Xào Giòn & Cơm Chiên Bếp Nhà Doanh",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2LaBvZcQ0R"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1272",
+   "name": "Cơm Chiên - Mỳ Xào Cô Hai - Hùng Vương",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/5AuNKecj8B"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1273",
+   "name": "Nem Nướng Tuy Hoà - Trần Hào",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3qOziGvQF9"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1274",
+   "name": "Nem Chị 3 Nấu - Nem Nướng Tuy Hòa",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/9zzd3zgKcc"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1275",
+   "name": "Bánh Xèo Tôm, Trứng Mực - Cần Vương",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xLZG4x7l"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1276",
+   "name": "Cơm Gà Xối Mắm D68 Food - 95 Nguyễn Thái Học",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3qOzi9fPhg"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1277",
+   "name": "Bún Thịt Nướng, Cơm Gà & Miến Gà - Kim Thoa",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xLXEWgOt"
+   ],
+   "tags": [
+    "cơm gà",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1278",
+   "name": "Bún Chả Cá Đất Phú - Lê Thánh Tôn",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/7VII5D1mFw"
+   ],
+   "tags": [
+    "bún chả",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1279",
+   "name": "Bún Chả Bình Minh",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/Lp7aIlRNJ"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1280",
+   "name": "Lynh Bún Đậu - Chef Tommy",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1qdvKQSaJS"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1281",
+   "name": "Bún Đậu Sen Quán - Nguyễn Văn Cừ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2gD2NCApip"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1282",
+   "name": "Bánh Canh Lòng Cá - Bà Triệu",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2gD2NQ499M"
+   ],
+   "tags": [
+    "lòng",
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1283",
+   "name": "Mì Cay KACHI - Nguyễn Huệ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2gD2JzonRL"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1284",
+   "name": "Trà Sữa Mì Cay Ăn Vặt - Cô Trà",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/8KrP4hIaGn"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1285",
+   "name": "Gà Ủ Muối Mãi Nhớ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/40iPyk8GJ7"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1286",
+   "name": "The Gun - Lẩu & Nướng",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/Lp7a7LqFC"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1287",
+   "name": "Mì Cay & Lẩu SanU",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/20xLaI9tjq"
+   ],
+   "tags": [
+    "lẩu",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1288",
+   "name": "Chân Gà Sốt Thái - Ăn Vặt Nhà Ny",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/8KrP55lO2r"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1289",
+   "name": "Ăn Vặt Mẹ Bun - Chân Gà Rút Xương Sốt Thái & Bánh Tráng Trộn",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/4LLGKhPSB3"
+   ],
+   "tags": [
+    "chân gà",
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1290",
+   "name": "Quán Cháo Vịt - 46 Trần Quí Cáp",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3Vm9MKuOVX"
+   ],
+   "tags": [
+    "cháo vịt"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1291",
+   "name": "Gà Rán Và Mì Ý - Jollibee - EC Tuy Hoà - Phan Đình Phùng",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1W14vlN9wz"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1292",
+   "name": "GÀ RÁN KFC - LÊ LỢI - TUY HÒA",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/7fbiHM6DHf"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1293",
+   "name": "MICC - Trà Sữa & Bánh Tráng - Nguyễn Huệ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/6q2bHd4KkS"
+   ],
+   "tags": [
+    "bánh tráng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1294",
+   "name": "Bánh Tráng Vy Vy",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/114oL1JS1t"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1295",
+   "name": "Chè Cung Đình Phường 5",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/qlO9QC8sk"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1296",
+   "name": "Quán Chè Ngọc Thạch - Nguyễn Huệ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/60TUJlwMWh"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1297",
+   "name": "Hương Sữa Chua",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2gD2LKhfPU"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1298",
+   "name": "Sữa Chua Nhà Ú - Nguyễn Anh Hào",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/6VPkvxLB89"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1299",
+   "name": "Nước Ép & Sinh Tố Trái Cây - Chi Ú",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/2LaBzmHTcX"
+   ],
+   "tags": [
+    "hoa quả",
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1300",
+   "name": "Trà Sữa OPPA HOUSE - Tea, Coffee",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/qlO8zHgdj"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1301",
+   "name": "Song Đan - Tea & Coffee - 333B Trường Chinh",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/5fqdu2rPEC"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1302",
+   "name": "MICC - Trà Sữa & Bánh Tráng - Phan Đình Phùng",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/9V3MSmsKC6"
+   ],
+   "tags": [
+    "trà sữa",
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1303",
+   "name": "TRÀ SỮA OPEN TEA COFFEE - 129 Nguyễn Huệ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3Vm9KA1d8f"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1304",
+   "name": "Wake Up K.C - Cafe, Trà Sữa & Trà Trái Cây",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/4VegW1WTnV"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1305",
+   "name": "Tiệm Nhà He - Trà Trái Cây",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/4B1q7vKCgi"
+   ],
+   "tags": [
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1306",
+   "name": "Tati Fruit - Sinh Tố & Nước Ép",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3Vm9LQnBCy"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1307",
+   "name": "Ăn Vặt & Nước Ép, Sinh Tố - DUCK",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1CHC09peJ"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1308",
+   "name": "Sinh Tố Cô Sa - 188B Lê Lợi",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/114oMB4jbK"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1309",
+   "name": "Vitamin - Sinh Tố & Ăn Vặt",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/7fbiJ2CbEt"
+   ],
+   "tags": [
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1310",
+   "name": "Trà Chanh Bé Cúc - 110 Nguyễn Văn Cừ",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/3LSj7heTFZ"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1311",
+   "name": "Ms. Chanh Bé - Trà Chanh Túi Zip",
+   "area": "Tp. Tuy Hòa",
+   "city": "Tuy Hòa",
+   "cityId": "tuy-hoa",
+   "links": [
+    "https://spf.shopee.vn/1gKVCRNWtv"
+   ],
+   "tags": [
+    "trà chanh"
    ],
    "hidden": false
   }
