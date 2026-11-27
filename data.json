@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T00:21:25.000Z",
+ "updated": "2026-11-27T00:21:27.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -207,6 +207,13 @@
    "name": "Mỹ Tho",
    "lat": 10.36,
    "lng": 106.36,
+   "sf": "dong-thap"
+  },
+  {
+   "id": "dong-thap",
+   "name": "Cao Lãnh",
+   "lat": 10.46,
+   "lng": 105.633,
    "sf": "dong-thap"
   }
  ],
@@ -31784,6 +31791,328 @@
    ],
    "tags": [
     "mixue"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1096",
+   "name": "Phở Thịnh 305 - Điện Biên Phủ",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/1qduwNpTxk"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1097",
+   "name": "Quán Cơm Thành Mập - Cơm Tấm & Cơm Gà - Phường 3 TPCL",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/6q2att65Af",
+    "https://spf.shopee.vn/2gD1wm88r4",
+    "https://spf.shopee.vn/30psLr341S"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm gà",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1098",
+   "name": "Cơm Tấm Cao Lãnh - Tôn Đức Thắng",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/2BGlLJx7A8",
+    "https://spf.shopee.vn/4fy6K4RtFU",
+    "https://spf.shopee.vn/4Veg7XymhF"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1099",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Vincom Cao Lãnh",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/4LLFvNvZqQ"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1100",
+   "name": "Bún Riêu Cua 79 - Đường Nguyễn Trãi",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/9V3M4fkWn4"
+   ],
+   "tags": [
+    "cháo sườn",
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1101",
+   "name": "Quán Min - Phạm Hữu Lầu",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/Lp7Ag3Rje"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1102",
+   "name": "Bánh Mì Tam Giác Doner Kebab - Nguyễn Huệ",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/4fy6KowOQ7"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1103",
+   "name": "Bếp 1996 - Bún Chả Hà Nội - Nguyễn Quang Diêu",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/2gD1xMsAGs"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1104",
+   "name": "Bánh Mì Chả Cá Má Hải Quân - Tôn Đức Thắng",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/1W14ZdmAih",
+    "https://spf.shopee.vn/1BOEBTHMwt"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "bánh mì",
+    "chả cá",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1105",
+   "name": "Lẫu Bò Bình Huyền",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/8pnfJFDW6g"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1106",
+   "name": "Tiệm Mì 3 Anh Em - Thiên Hộ Dương",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/6fjAjO9ja0"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1107",
+   "name": "Quán Cô Ngọc - Phạm Hữu Lầu",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/qlNmh0gAp"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1108",
+   "name": "Bánh Mì Bảy Sang - Bánh Mì, Xôi & Bánh Bao",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/80EYKF3Uqd"
+   ],
+   "tags": [
+    "bánh flan",
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1109",
+   "name": "Chè Thái Kiều Trâm - Thiên Hộ Dương",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/2BGlNYF8M5"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1110",
+   "name": "Bà Sáu - Nước Mát Nhà Nấu",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/gRxaz3pRu",
+    "https://spf.shopee.vn/8pnfKX6hoS"
+   ],
+   "tags": [
+    "sữa chua",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1111",
+   "name": "Trà Sữa Gió - Hùng Vương",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/6q2awKFTw4"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1112",
+   "name": "Muối House Cao Lãnh - Đường 30/4",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/114nzrZYZc",
+    "https://spf.shopee.vn/4LLFyIofGm",
+    "https://spf.shopee.vn/4VegAf4HPE"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà bí đao",
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1113",
+   "name": "Anh Milk Tea & Coffee - Nguyễn Trãi",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/gRxb3Vype"
+   ],
+   "tags": [
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1114",
+   "name": "Nước Ép Trái Cây Nhiệt Đới - ALMA Phạm Hữu Lầu",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/40iPZUYRGC",
+    "https://spf.shopee.vn/6L6KLqrm9W"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1115",
+   "name": "Tiệm Nước Giải Khát Thùy Linh - Tôn Đức Thắng",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/1LheObGxmi"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1116",
+   "name": "Trà Sữa Rột Rột II - Trà Trái Cây & Sinh Tố - Nguyễn Chí Thanh",
+   "area": "Tp. Cao Lãnh",
+   "city": "Cao Lãnh",
+   "cityId": "dong-thap",
+   "links": [
+    "https://spf.shopee.vn/Lp7CogWGG"
+   ],
+   "tags": [
+    "sinh tố",
+    "trà sữa",
+    "trà trái cây"
    ],
    "hidden": false
   }
