@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T12:19:35.000Z",
+ "updated": "2026-11-27T12:19:37.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -305,6 +305,13 @@
    "name": "Dĩ An",
    "lat": 10.9069,
    "lng": 106.769,
+   "sf": "tp-hcm"
+  },
+  {
+   "id": "thuan-an",
+   "name": "Thuận An",
+   "lat": 10.923,
+   "lng": 106.713,
    "sf": "tp-hcm"
   }
  ],
@@ -37423,6 +37430,175 @@
    ],
    "tags": [
     "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1478",
+   "name": "Há Cảo Cửu Vị - Đường D33",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/9zzdSqHSDb"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1479",
+   "name": "Bánh Xèo Miền Đông Cô Út - Bánh Xèo & Bánh Khọt",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/70M1w8wt6B"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1480",
+   "name": "Torki Kebab Bình Chuẩn - Hamburger, Mì Ý & Thức Ăn Nhanh - Bình Chuẩn 34",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/4qHXKPnzWD"
+   ],
+   "tags": [
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1481",
+   "name": "Quán Tân Hương Ký 6 - Cơm Gà Xối Mỡ - Đường N9",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/1BOEwY8ZVM"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1482",
+   "name": "Bún Đậu Mắm Tôm Gánh - KDC Việt Sing",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/1gKVXwyk82"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1483",
+   "name": "Bún Mắm Lẩu Mắm Cô 5 Đồng Tháp - Lái Thiêu",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/7pv8triviY"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1484",
+   "name": "Helios - Tiệm Gà Rán & Ăn Vặt HQ - KDC Thuận Giao",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/3LSjXcTM58"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1485",
+   "name": "Bánh Tráng Trộn & Bánh Tráng Cuốn - Anh Như",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/8KrPTrVKoe"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1486",
+   "name": "BÁNH TRÁNG HỒI ĐÓ - ĂN VẶT - BÌNH CHUẨN",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/8fUFsxumx7"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1487",
+   "name": "The Cup Cafe - TTTM Lotte Mart",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/6VPlL2e0N3"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1488",
+   "name": "Trà Sữa VYNH - Bình Nhâm 16",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/AKcTsgPDhO"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1489",
+   "name": "TH Tea - Trà Sữa & Trà Trái Cây - Thủ Khoa Huân",
+   "area": "Tp. Thuận An",
+   "city": "Thuận An",
+   "cityId": "thuan-an",
+   "links": [
+    "https://spf.shopee.vn/5LDnw3hFMj"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
    ],
    "hidden": false
   }
