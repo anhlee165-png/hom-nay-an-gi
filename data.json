@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T07:25:23.000Z",
+ "updated": "2026-11-27T08:19:59.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -257,6 +257,13 @@
    "lat": 15.8801,
    "lng": 108.338,
    "sf": "da-nang"
+  },
+  {
+   "id": "hai-duong",
+   "name": "Hải Dương",
+   "lat": 20.9373,
+   "lng": 106.3146,
+   "sf": "hai-phong"
   }
  ],
  "dishes": {
@@ -35385,6 +35392,655 @@
    ],
    "tags": [
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1339",
+   "name": "Tiệm Xôi, Bánh Mì Doner Kebab - 8 Vũ Hựu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/7pv8cmAX8h"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì",
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1340",
+   "name": "Xôi Xéo 44 - Xôi Xéo & Xôi Thập Cẩm",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/6fjBHCPXhz"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1341",
+   "name": "Bánh Cuốn Long - Bún Thịt Nướng, Nem Nướng & Nem Lụi - Nguyễn Thượng Mẫn",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/20xLi3qygW"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "nem nướng",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1342",
+   "name": "Quỳnh Béo - Bánh Cuốn Tráng Tay, Bún & Phở Vịt Quay Lạng Sơn - 191 Nguyễn Thị Duệ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9zzdEzd0GK"
+   ],
+   "tags": [
+    "bánh cuốn",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1343",
+   "name": "Bami Sot - Bánh Mì Đen - Quang Trung - Hải Dương",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/qlOHhKR1b"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1344",
+   "name": "Bánh Mỳ Sài Gòn Hoàng Yến - 190 Nguyễn Chí Thanh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/Lp7gs61n7"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1345",
+   "name": "Cháo Cá Nguyễn Trãi - Phở Gà Trộn - Đồng Xuân",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/8AXz1ICNLo"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1346",
+   "name": "Phở Gà Ta Minh Thu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9fMmqGL6LB"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1347",
+   "name": "Huyền Anh Bún Riêu Cua Tóp Mỡ - Trường Chinh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/30psri1Y1c"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1348",
+   "name": "O Cúc Ẩm Thực Huế - Bánh Canh Huế - Nguyễn Văn Linh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/50axFp2LRc"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1349",
+   "name": "Lòng Ngon Cô Béo - Cháo Lòng, Lòng Trần & Lẩu Cháo Lòng - Phạm Ngũ Lão",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/6L6KqOSx5o"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1350",
+   "name": "Lân Mộc - Cơm Tấm Thịt Sườn Nướng - Đường Thanh Niên",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9AQWCnGVAL"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1351",
+   "name": "Cơm Tấm Cô Ba - 56 Bà Triệu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/4fy6t6BtlR"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1352",
+   "name": "Bún Bò Huế Ngọc Dự - Bà Triệu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/30pstiElzV"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1353",
+   "name": "O Linh - Bún Bò Huế - 267 Điện Biên Phủ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/1gKVJWhMJO"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1354",
+   "name": "Bún Cá Cay Nam Béo - 30 Nguyễn Thị Duệ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/AKcTar5HT9"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1355",
+   "name": "Bún Cá Cay - Bún Cá & Cơm Rang - 193 Nguyễn Thị Duệ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/5VXDsgl6zG"
+   ],
+   "tags": [
+    "bún cá",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1356",
+   "name": "Bếp Của Huệ - Cơm Trộn, Cơm Rang & Mì Xào",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/2VtcGRcjis"
+   ],
+   "tags": [
+    "mì xào",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1357",
+   "name": "Huyền Trang Quán - Chè, Nem Nướng & Đồ Ăn Vặt",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9KjwPb38eP"
+   ],
+   "tags": [
+    "nem nướng",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1358",
+   "name": "Buhsan - Ăn Vặt Hàn Quốc, Cơm Văn Phòng & Nem Nướng Nha Trang",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/80EYq3pj78"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1359",
+   "name": "Bánh Xèo Ngã Tư Đền Sượt - Nguyễn Văn Linh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/8AXz1idowQ"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1360",
+   "name": "Cơm Nhà Ben - Cơm Gà Sốt Nấm & Cơm Rang Hải Sản",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/20xLhu8M0G"
+   ],
+   "tags": [
+    "cơm gà",
+    "cơm rang"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1361",
+   "name": "Cơm Gà Hội An - Phạm Hồng Thái",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/2LaC7VvrG4"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1362",
+   "name": "Khánh Loan - Bún Đậu, Bún Chả & Phở Cuốn - 145 Nguyễn Thị Duệ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/3LSjIgyRG3"
+   ],
+   "tags": [
+    "bún chả",
+    "phở",
+    "bún đậu",
+    "phở cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1363",
+   "name": "Bà Béo Quán - Bún Dọc Mùng, Bánh Đa Cua & Bún Đậu Mắm Tôm - Nguyễn Du",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/7VIIDrWg0e"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1364",
+   "name": "Bún Đậu Ngon - 26 Tuy Hòa",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/50axFKZHiJ"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1365",
+   "name": "Hủ Tiếu 79 - Hủ Tiếu & Mì Vằn Thắn - Ngõ 119 Bà Triệu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/AKcTdh3Pe4"
+   ],
+   "tags": [
+    "mì vằn thắn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1366",
+   "name": "EDEN FOOD - Mì Cay & Ăn Vặt",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/8pnfoCUdPC"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1367",
+   "name": "Mỳ Cay Single - Bún Trộn & Nem Lụi",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/50axFREil6"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1368",
+   "name": "Lẩu Ếch Lâm Hà - Chuyên Các Món Ăn Về Ếch",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/7VIIFmsJaK"
+   ],
+   "tags": [
+    "lẩu",
+    "ếch"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1369",
+   "name": "Chân Gà Sốt Thái Song Tùng - Chân Gà - Vũ Hựu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/7pv8f9Xr1K"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1370",
+   "name": "Mon Food - Mì Trộn Indomie",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/W8Xt6FrvU"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1371",
+   "name": "Gà Rán Và Mì Ý - Jollibee EC Thống Nhất - Hải Dương",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/1LhesHCiPC"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1372",
+   "name": "Gà Rán Five Star - 64 Vũ Công Đán",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/1gKVH2quKf"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1373",
+   "name": "Siêu Thị Bánh Tráng Tanna - 95 Trương Mỹ",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/70M1clyxBR"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1374",
+   "name": "Tiệm Nhà Ku Thóc - Bánh Tráng, Gỏi Cuốn & Trà Sữa - Ngõ 9 Tự Đoài",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/114oVTmLj9"
+   ],
+   "tags": [
+    "bánh tráng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1375",
+   "name": "Tiệm Chè Bonnie Chè Ngon Ít Ngọt - Chè, Trà & Sữa Hạt - 34 Nguyễn Quý Tân",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/W8XtsoNMl"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1376",
+   "name": "Tàu Hũ Singapore Yummy - Nguyễn Văn Linh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9KjwPxLPFJ"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1377",
+   "name": "InSide Coffee - Cafe & Trà Sữa Đậm Vị",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/5qA4FrgGVY"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1378",
+   "name": "Đang Cà Phê - 45 Hải Đông",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/2gD2URHktt"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1379",
+   "name": "Ủn Milk Tea - Trà Sữa Ủn - Vũ Hựu",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/114oTs9hAf"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1380",
+   "name": "Mây Milk Tea - Ăn Vặt & Trà Sữa - 363 Nguyễn Văn Linh",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/9fMmnz6hSQ"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1381",
+   "name": "Trà Chanh Mít - Trà Sữa, Trà Chanh & Nước Ép Các Loại - Số 314 Trần Hưng Đạo",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/5AuNTOVnZV"
+   ],
+   "tags": [
+    "nước ép",
+    "trà sữa",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1382",
+   "name": "Chu Choa - Nước Ép & Cafe - Hoàng Quốc Việt",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/40iQ5JgfRb"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1383",
+   "name": "Trà Chanh Kết - Phạm Ngũ Lão",
+   "area": "Tp. Hải Dương",
+   "city": "Hải Dương",
+   "cityId": "hai-duong",
+   "links": [
+    "https://spf.shopee.vn/BVhWBEFgb"
+   ],
+   "tags": [
+    "trà chanh"
    ],
    "hidden": false
   }
