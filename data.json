@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T06:44:19.000Z",
+ "updated": "2026-11-27T07:25:23.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -250,6 +250,13 @@
    "lat": 13.0955,
    "lng": 109.3209,
    "sf": "dak-lak"
+  },
+  {
+   "id": "hoi-an",
+   "name": "Hội An",
+   "lat": 15.8801,
+   "lng": 108.338,
+   "sf": "da-nang"
   }
  ],
  "dishes": {
@@ -34998,6 +35005,386 @@
    ],
    "tags": [
     "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1312",
+   "name": "Xôi, Mì Hội An - Sticky Rice, Noodle & Rolls",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/9V3MZeREAL"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1313",
+   "name": "Bánh Mì Thành Quân - 203 Lê Thánh Tông",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/3LSjDt49Cr"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1314",
+   "name": "Bánh Mì Phố Cổ - Hội An",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/1CHHC8S8y"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1315",
+   "name": "Phở Bắc Hải - 657 Nguyễn Tất Thành",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/9V3MaFZaPA"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1316",
+   "name": "Bún Riêu Cua Đồng - Bà Phương",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/3LSjF4bDYW"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1317",
+   "name": "Bún Riêu Ba Hưng - Lý Thường Kiệt",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/9075zi5nRB"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1318",
+   "name": "Bánh Canh Ghẹ - 2 Càng Hội An",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/AKcTZspv6L"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1319",
+   "name": "2 Lúa - Cơm Trưa & Cơm Sườn - Lê Hồng Phong",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/8VApOjDN6E"
+   ],
+   "tags": [
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1320",
+   "name": "Cơm Chiên & Mỳ Xào - Cơm Thố Phú Thịnh",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/20xLcl5I3v"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1321",
+   "name": "Kebab Box - 617 Hai Bà Trưng",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/6L6KoLNC6x"
+   ],
+   "tags": [
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1322",
+   "name": "Cơm Gà PHÚC - 621/5 Hai Bà Trưng (Chicken Rice)",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/Lp7dbmQpN"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1323",
+   "name": "Hai Gà - Cơm Gà Gia Truyền",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/1LherNoK41"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1324",
+   "name": "Pơ Tao - Bún Đậu Mắm Tôm & Bún Chả Hà Nội",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/4B1qCfT2Dn"
+   ],
+   "tags": [
+    "bún chả",
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1325",
+   "name": "Bún Đậu Mắm Tôm 2 Béo",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/3LSjEypoFp"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1326",
+   "name": "Dâu Bắc - Bún Đậu Mắm Tôm",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/6q2bPQYv2L"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1327",
+   "name": "Mì Cay Single 12 Cấp Độ - Trần Nhân Tông",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/9pgCytKAny"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1328",
+   "name": "SaSin - Mì Cay 7 Cấp Độ Hàn Quốc - Phan Chu Trinh",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/6L6KoU6uSW"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1329",
+   "name": "Min Food - Lẩu Khay & Nướng Bơ",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/5fqe27lz5W"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1330",
+   "name": "Gà Rán & Burger Lotteria - Hội An Hùng Vương",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/50axCA0p2E"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1331",
+   "name": "RỂ ĐẠI LỘC - Đặc Sản Bánh Tráng Thịt Heo Đại Lộc - Shop Online",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/5fqdzowB1u"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1332",
+   "name": "Cô Mai - Bánh Kẹp & Bánh Tráng Trộn",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/8pnfn2oZkZ"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1333",
+   "name": "Tiệm Chè Xíu - Trần Hưng Đạo",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/9V3MYjx3HW"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1334",
+   "name": "Chè Lệ 2 - Trà Sữa Xí Xọn",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/5VXDoE9yOi"
+   ],
+   "tags": [
+    "chè",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1335",
+   "name": "LeLa Milktea & Coffee - 205 Tôn Đức Thắng",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/6q2bOHSKgR"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1336",
+   "name": "Cà Phê Muối Cô Anh - Muối Coffee & More - 01 Phan Bội Châu",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/5LDncHsaQm"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1337",
+   "name": "Nhép Nhép - Trà Sữa & Ăn Vặt",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/W8Xq6m6dG"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1338",
+   "name": "ZeZe Milk Tea - Trần Cao Vân",
+   "area": "Tp. Hội An",
+   "city": "Hội An",
+   "cityId": "hoi-an",
+   "links": [
+    "https://spf.shopee.vn/3LSjDSKPrB"
+   ],
+   "tags": [
+    "trà sữa"
    ],
    "hidden": false
   }
