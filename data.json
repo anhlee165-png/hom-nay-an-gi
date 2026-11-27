@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T12:19:29.000Z",
+ "updated": "2026-11-27T12:19:32.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -291,6 +291,13 @@
    "name": "Thủ Dầu Một",
    "lat": 10.9804,
    "lng": 106.6519,
+   "sf": "tp-hcm"
+  },
+  {
+   "id": "vung-tau",
+   "name": "Vũng Tàu",
+   "lat": 10.346,
+   "lng": 107.0843,
    "sf": "tp-hcm"
   }
  ],
@@ -37026,6 +37033,232 @@
    "tags": [
     "nước ép",
     "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1451",
+   "name": "Quốc Tuấn - Bánh Mì & Xôi Mặn Hà Nội - Trương Công Định",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/1W15NLMxVW"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1452",
+   "name": "Bánh Cuốn Cô Thảo - Ngô Quyền",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/qlOasELfJ"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1453",
+   "name": "Bánh Mì Maika - Hội An 1982 - 41 Trần Hưng Đạo",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/5LDnuZMBN4"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1454",
+   "name": "Bánh Mì Hà Nội - Đồ Ăn - 13 Đô Lương",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/8KrPULHZBO"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1455",
+   "name": "Bún Cá Châu Đốc Hường Thịnh - Nam Kỳ Khởi Nghĩa",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/3LSjZnwD71"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1456",
+   "name": "Cơm Chiên Mì Xào Quang Khôi - 26A Đồng Khởi",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/9zzdT6OKNN"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1457",
+   "name": "Bánh Xèo Rau Rừng - 41 Bà Huyện Thanh Quan",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/5qA4WIA38y"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1458",
+   "name": "LẨU GÀ LÁ É NGUYỄN HỮU CẢNH - Nguyễn Thiện Thuật",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/1W15NWVqt2"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1459",
+   "name": "Gà rán và Mì Ý - Jollibee - Rạch Dừa",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/8VApfyhjDb"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1460",
+   "name": "Gà Rán Five Star - 9 Đô Lương",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/3B9JKYimW6"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1461",
+   "name": "Q Thắng - Bánh Tráng Nướng & Trứng Gà Nướng",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/3LSjWwOK2b"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1462",
+   "name": "Bánh Tráng Thị Phi & Ăn Vặt",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/AUvu55lSaY"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1463",
+   "name": "JUL Coffee - Cà Phê, Trà & Latte - Lê Hồng Phong",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/6AmuwT3hBs"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1464",
+   "name": "Trà Sữa Hoa Nắng",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/gRyNBbPtg"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1465",
+   "name": "BinBin - Trà Sữa & Trà Nhiệt Đới",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/8fUFucFBNB"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1466",
+   "name": "Trà Sữa & Trà Trái Cây - Mây Nhóp Nhép - 167/8 Ba Cu",
+   "area": "Tp. Vũng Tàu",
+   "city": "Vũng Tàu",
+   "cityId": "vung-tau",
+   "links": [
+    "https://spf.shopee.vn/6AmuwJQ9wD"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
    ],
    "hidden": false
   }
