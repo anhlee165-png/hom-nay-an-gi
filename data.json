@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T12:19:32.000Z",
+ "updated": "2026-11-27T12:19:35.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -298,6 +298,13 @@
    "name": "Vũng Tàu",
    "lat": 10.346,
    "lng": 107.0843,
+   "sf": "tp-hcm"
+  },
+  {
+   "id": "di-an",
+   "name": "Dĩ An",
+   "lat": 10.9069,
+   "lng": 106.769,
    "sf": "tp-hcm"
   }
  ],
@@ -37259,6 +37266,163 @@
    "tags": [
     "trà trái cây",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1467",
+   "name": "Bánh Mì Que Pháp - Siêu Thị Go! Dĩ An",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/4LLGjZeBKo"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1468",
+   "name": "Bánh Mì, Gỏi Cuốn & Ăn Vặt Quỳnh Như - Xóm Nhang",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/6q2bih566l"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1469",
+   "name": "Bánh Canh Cá Lóc, Bún Cá Rô Đồng - Bà Huyện Thanh Quan",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/1CHYhDeDm"
+   ],
+   "tags": [
+    "bánh canh",
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1470",
+   "name": "Cơm Tấm Song Ngọc Chi Nhánh 2 - Lê Hồng Phong",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/7VIIX2jHya"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1471",
+   "name": "Cơm Gà Sốt Mắm Tỏi Dĩ An - Nguyễn Thái Học",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/6VPlLHJZtH"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1472",
+   "name": "Lẩu Gà Lá É Phúc Thanh - 129 Tô Vĩnh Diện",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/2qWSwqEd7k"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1473",
+   "name": "Gà rán và Mì Ý - Jollibee EC Bình Dương 2 - Nguyễn Trãi",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/1CHYN9DNM"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1474",
+   "name": "Gà Rán Mr.Thịnh - Gà Rán & Khoai Chiên - Nguyễn Bỉnh Khiêm",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/Lp7xx51J1"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1475",
+   "name": "Trà Sữa Milo Dầm Blue - Trà Sữa, Milo Dầm & Bánh Tráng Trộn - 61 Đông An",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/5VXE7h6aFn"
+   ],
+   "tags": [
+    "bánh tráng",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1476",
+   "name": "Tiệm Chè, Trà Sữa & Ăn Vặt Nhà Ben",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/9AQWU9zUZq"
+   ],
+   "tags": [
+    "chè",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1477",
+   "name": "Quán Chè 68 - Lê Trọng Tấn",
+   "area": "Tp. Dĩ An",
+   "city": "Dĩ An",
+   "cityId": "di-an",
+   "links": [
+    "https://spf.shopee.vn/8fUFuV0LIN"
+   ],
+   "tags": [
+    "chè"
    ],
    "hidden": false
   }

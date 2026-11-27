@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://homnayangi.xyz/</loc><lastmod>2026-11-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/vung-tau/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/thu-dau-mot/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/vi-thanh/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
@@ -287,4 +288,11 @@
   <url><loc>https://homnayangi.xyz/vung-tau/an-vat/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://homnayangi.xyz/vung-tau/uong-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://homnayangi.xyz/vung-tau/nhau-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/sang-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/trua-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/toi-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/an-dem/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/an-vat/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/uong-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/di-an/nhau-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
 </urlset>
