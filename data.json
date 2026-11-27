@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T09:57:40.000Z",
+ "updated": "2026-11-27T12:19:29.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -285,6 +285,13 @@
    "lat": 9.7842,
    "lng": 105.4701,
    "sf": "can-tho"
+  },
+  {
+   "id": "thu-dau-mot",
+   "name": "Thủ Dầu Một",
+   "lat": 10.9804,
+   "lng": 106.6519,
+   "sf": "tp-hcm"
   }
  ],
  "dishes": {
@@ -36602,6 +36609,423 @@
    ],
    "tags": [
     "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1422",
+   "name": "Bánh Mì Nhí - Nhi’s Bread - 291-293 Thích Quảng Đức",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/2BGmBhi308"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1423",
+   "name": "Phở Lý Quốc Sư - Trần Văn Ơn",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/2BGm9egYK0"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1424",
+   "name": "Quán Phở Bò Kho Năm Danh - Nguyễn Văn Tiết",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/9076K8mYbI"
+   ],
+   "tags": [
+    "phở",
+    "bò kho"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1425",
+   "name": "Quán Bún Riêu Bắp & Cơm Tấm - Huỳnh Văn Luỹ",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/9V3MshPP6D"
+   ],
+   "tags": [
+    "bún riêu",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1426",
+   "name": "Bún Riêu Đaklak - Ngọc Nguyên",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/2qWSywbbEI"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1427",
+   "name": "Bánh Canh Cá Lóc A Cay Quán - Lê Hồng Phong",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/4VegvZi3mb"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1428",
+   "name": "Cơm Tấm & Bún Thịt Nướng - GIANG NAM ĐỆ NHẤT",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/7KysHz7lQ5"
+   ],
+   "tags": [
+    "cơm tấm",
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1429",
+   "name": "Cơm Tấm Châu - Cơm Sườn - Huỳnh Văn Luỹ",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/7AfS7pYpZB"
+   ],
+   "tags": [
+    "cơm tấm",
+    "cơm sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1430",
+   "name": "Bún Bò Huế Minh Thư",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/6VPlIse6Fw"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1431",
+   "name": "Bún Bò Rất Huế",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/4Vegwd43xY"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1432",
+   "name": "Bún Cá Châu Đốc Bà Hai - 30 Tháng 4",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/W8YB4K8sJ"
+   ],
+   "tags": [
+    "bún cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1433",
+   "name": "Sukiya - Cơm Bò Hầm & Mì Ramen - Sora Gardens Links",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/50axW3uMZ0"
+   ],
+   "tags": [
+    "cơm bò",
+    "bò hầm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1434",
+   "name": "Nem Nướng Cao Nguyên",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/qlOZrnlUZ"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1435",
+   "name": "Bánh Xèo Quảng Ngãi & Chả Ram - Hẻm 113 Đường 30 Tháng 4",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/5VXE6iqKVD"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1436",
+   "name": "Gà Ta Minh Thư - Cơm Gà Tam Kỳ - 370 Thích Quảng Đức",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/9pgDHmdzHI"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1437",
+   "name": "YUMMY Food - Milk Tea & Cơm Gà Xối Mỡ",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/4fy7ACu8NB"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1438",
+   "name": "Mì Cay Cô Viễn 082",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/8png6HUdXG"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1439",
+   "name": "5 Nụ Lẩu Ly - Lê Hồng Phong",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/1CHYeJ3Kq"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1440",
+   "name": "Gà Rán Kun - Võ Thành Long",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/8KrPUsLhJr"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1441",
+   "name": "Bánh Tráng Trộn Gánh Hàng Rong",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/6AmuubBqkK"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1442",
+   "name": "Chè Liên Đà Nẵng & Trái Cây Dầm",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/9pgDIBxrVA"
+   ],
+   "tags": [
+    "chè",
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1443",
+   "name": "Tàu Hũ Papa",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/6AmuuBuelO"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1444",
+   "name": "Trái Cây Chấm Muối Sen Sen - Thích Quảng Đức",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/4B1qXQboAj"
+   ],
+   "tags": [
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1445",
+   "name": "Cà Phê Muối NYC - Bình Dương",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/8png6Y6EuD"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1446",
+   "name": "Boom Milk Tea - Sinh Tố, Nước Ép & Ăn Vặt",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/2BGm8ZYDGD"
+   ],
+   "tags": [
+    "trà sữa",
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1447",
+   "name": "Trà Sữa B’Lao - Phú Lợi",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/8VAphLupLo"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1448",
+   "name": "Rau Má Mix - Nước Ép & Trà Trái Cây - 205 Lê Hồng Phong",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/AKcTssjffC"
+   ],
+   "tags": [
+    "trà trái cây",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1449",
+   "name": "Sinh Tố Ngọc Vân - Nước Ép Nguyên Chất & Ăn Vặt - 35 Hùng Vương",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/70M1vUjLbc"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1450",
+   "name": "Sinh Tố Nước Ép Se Na - Hoàng Hoa Thám",
+   "area": "Tp. Thủ Dầu Một",
+   "city": "Thủ Dầu Một",
+   "cityId": "thu-dau-mot",
+   "links": [
+    "https://spf.shopee.vn/6AmuwVOxHK"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
    ],
    "hidden": false
   }
