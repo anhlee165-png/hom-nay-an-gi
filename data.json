@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T08:19:59.000Z",
+ "updated": "2026-11-27T08:54:26.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -264,6 +264,13 @@
    "lat": 20.9373,
    "lng": 106.3146,
    "sf": "hai-phong"
+  },
+  {
+   "id": "dong-xoai",
+   "name": "Đồng Xoài",
+   "lat": 11.5349,
+   "lng": 106.8832,
+   "sf": "dong-nai"
   }
  ],
  "dishes": {
@@ -36041,6 +36048,77 @@
    ],
    "tags": [
     "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1384",
+   "name": "Tré Trộn & Chân Gà Sốt Thái - Phạm Hân Food",
+   "area": "Tp. Đồng Xoài",
+   "city": "Đồng Xoài",
+   "cityId": "dong-xoai",
+   "links": [
+    "https://spf.shopee.vn/3qOzwkgjjC"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1385",
+   "name": "Gà rán và Mì Ý - Jollibee EC Đồng Xoài - Bình Phước",
+   "area": "Tp. Đồng Xoài",
+   "city": "Đồng Xoài",
+   "cityId": "dong-xoai",
+   "links": [
+    "https://spf.shopee.vn/9V3MezQXlW"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1386",
+   "name": "LIVA TEA COFFEE - Đường P5",
+   "area": "Tp. Đồng Xoài",
+   "city": "Đồng Xoài",
+   "cityId": "dong-xoai",
+   "links": [
+    "https://spf.shopee.vn/5AuNVCU0Jq"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1387",
+   "name": "BiBi Quán - Cà Phê, Nước Ép & Trà - 361 Trần Hưng Đạo",
+   "area": "Tp. Đồng Xoài",
+   "city": "Đồng Xoài",
+   "cityId": "dong-xoai",
+   "links": [
+    "https://spf.shopee.vn/1LhexYqHXU"
+   ],
+   "tags": [
+    "cà phê",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1388",
+   "name": "Trà Sữa & Ăn Vặt YUMI - Nguyễn Bình",
+   "area": "Tp. Đồng Xoài",
+   "city": "Đồng Xoài",
+   "cityId": "dong-xoai",
+   "links": [
+    "https://spf.shopee.vn/4Veghof38E"
+   ],
+   "tags": [
+    "trà sữa"
    ],
    "hidden": false
   }
