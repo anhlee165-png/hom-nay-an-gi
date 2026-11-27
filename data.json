@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T01:20:31.000Z",
+ "updated": "2026-11-27T01:20:33.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -221,6 +221,13 @@
    "name": "Cà Mau",
    "lat": 9.1769,
    "lng": 105.1524,
+   "sf": "ca-mau"
+  },
+  {
+   "id": "bac-lieu",
+   "name": "Bạc Liêu",
+   "lat": 9.294,
+   "lng": 105.7216,
    "sf": "ca-mau"
   }
  ],
@@ -32361,6 +32368,204 @@
     "matcha",
     "trà sữa",
     "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1132",
+   "name": "Quân Vương (Xôi Xéo - Bánh Mì)",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/5LDnAaDH23",
+    "https://spf.shopee.vn/qlNoZ9iAx"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1133",
+   "name": "Bánh Mì Sài Gòn Galang",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/50awlysPnP",
+    "https://spf.shopee.vn/3B9IareYzd"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1134",
+   "name": "Bánh Cuốn Nóng Thái Bình - Trần Huỳnh",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/9pgCWutuM5"
+   ],
+   "tags": [
+    "bánh cuốn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1135",
+   "name": "Quán 58 - Bánh Chè, Bún Quậy & Cơm Gà Ta - Hoàng Diệu",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/1LheQ5F4CY",
+    "https://spf.shopee.vn/7pv8C68o0y"
+   ],
+   "tags": [
+    "phở",
+    "cơm gà",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1136",
+   "name": "Cơm Sườn, Bún & Hủ Tiếu Mực - Như Quỳnh - Đ. Hoà Bình",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/1qdv0ag1MB",
+    "https://spf.shopee.vn/9V3M8rzBh5",
+    "https://spf.shopee.vn/7KyrZQSTk4"
+   ],
+   "tags": [
+    "bánh canh",
+    "cơm sườn",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1137",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Hòa Bình Bạc Liêu",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/2Vtbo6MWDj",
+    "https://spf.shopee.vn/1qdv3MYCsG",
+    "https://spf.shopee.vn/2LaBeL7j69",
+    "https://spf.shopee.vn/4fy6Qgtvb3"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê",
+    "bạc xỉu",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1138",
+   "name": "GHIỀN - BÚN CHẢ HÀ NỘI",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/5fqday7EjV"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1139",
+   "name": "Xiên Que Lý - Mì Trộn - Võ Thị Sáu",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/30psQjvsxQ",
+    "https://spf.shopee.vn/1W14eJIx86"
+   ],
+   "tags": [
+    "indomie",
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1140",
+   "name": "Bánh Nhà Béo - Võ Thị Sáu",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/5qA3oKxXZZ",
+    "https://spf.shopee.vn/9fMmNdAzBk"
+   ],
+   "tags": [
+    "bánh flan",
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1141",
+   "name": "Trà Sữa Bông Hồng Tím VTS",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/8KrOmz8sXT",
+    "https://spf.shopee.vn/114o48BDBE",
+    "https://spf.shopee.vn/AAJ2z2WMsU",
+    "https://spf.shopee.vn/70M1DIGpX6"
+   ],
+   "tags": [
+    "chè",
+    "trà sữa",
+    "sinh tố",
+    "trà chanh",
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1142",
+   "name": "Coffee & Milk Tea - Bảo Ngọc",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/2BGlSSszBM"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1143",
+   "name": "Kem Mixue Go Bạc Liêu - Kem, Trà Sữa & Trà Hoa Quả - Đường 23/8",
+   "area": "Tp. Bạc Liêu",
+   "city": "Bạc Liêu",
+   "cityId": "bac-lieu",
+   "links": [
+    "https://spf.shopee.vn/4B1pqCb1dx"
+   ],
+   "tags": [
+    "mixue",
+    "hoa quả",
+    "trà sữa"
    ],
    "hidden": false
   }

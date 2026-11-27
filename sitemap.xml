@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://homnayangi.xyz/</loc><lastmod>2026-11-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/ca-mau/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/dong-thap/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://homnayangi.xyz/my-tho/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
@@ -209,4 +210,10 @@
   <url><loc>https://homnayangi.xyz/ca-mau/an-vat/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://homnayangi.xyz/ca-mau/uong-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://homnayangi.xyz/ca-mau/nhau-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/sang-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/trua-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/toi-nay-an-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/an-dem/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/an-vat/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://homnayangi.xyz/bac-lieu/uong-gi/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
 </urlset>
