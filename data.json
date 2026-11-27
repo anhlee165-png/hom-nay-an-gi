@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T00:21:27.000Z",
+ "updated": "2026-11-27T01:20:31.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -215,6 +215,13 @@
    "lat": 10.46,
    "lng": 105.633,
    "sf": "dong-thap"
+  },
+  {
+   "id": "ca-mau",
+   "name": "Cà Mau",
+   "lat": 9.1769,
+   "lng": 105.1524,
+   "sf": "ca-mau"
   }
  ],
  "dishes": {
@@ -32111,6 +32118,247 @@
    ],
    "tags": [
     "sinh tố",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1117",
+   "name": "Quán Mì Tân Tây Nam - Nguyễn Hữu Lễ",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/80EYLfqEOh"
+   ],
+   "tags": [
+    "mì trứng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1118",
+   "name": "Quán Ăn Giang",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/9fMmKrJpbB",
+    "https://spf.shopee.vn/70M1BKZaYk",
+    "https://spf.shopee.vn/6AmuBj40iK"
+   ],
+   "tags": [
+    "phở",
+    "cơm tấm",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1119",
+   "name": "Highlands Coffee - Trà, Cà Phê & Bánh - Vincom Cà Mau",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/7AfRMgf7TG"
+   ],
+   "tags": [
+    "croissant",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1120",
+   "name": "Cơm Nắm WiNi Cà Mau",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/4B1pp5GV7b",
+    "https://spf.shopee.vn/9fMmLixT5K"
+   ],
+   "tags": [
+    "súp gà",
+    "cơm bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1121",
+   "name": "Ghiền Kebab 2 - 51 Phan Đình Phùng",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/AAJ2x0vtl0"
+   ],
+   "tags": [
+    "kebab"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1122",
+   "name": "Ghiền Kebab - Bánh Mì Thổ Nhĩ Kỳ - Bùi Thị Trường",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/1gKUpP4p6m"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1123",
+   "name": "Ăn Vặt A Food - Chuyên Gà Ủ Muối, Tré Trộn & Các Loại Đồ Ăn Vặt - Nguyễn Trung Trực",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/3B9IcnDx0o",
+    "https://spf.shopee.vn/3Vm91X0mwD",
+    "https://spf.shopee.vn/5qA3ntQaUc",
+    "https://spf.shopee.vn/6q2b00bubQ"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà",
+    "trứng non",
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1124",
+   "name": "Bún Mắm Nêm - Anh Pha Béo",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/5AuN0jS3kb"
+   ],
+   "tags": [
+    "indomie"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1125",
+   "name": "MÌ CAY GEN Z P1",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/1CGqAtxvF",
+    "https://spf.shopee.vn/9fMmNBHxvA"
+   ],
+   "tags": [
+    "nem chua rán",
+    "mì cay",
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1126",
+   "name": "Bánh Tráng Trộn & Ăn Vặt - Bếp Của DINDIN",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/2Vtbq4hyam"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1127",
+   "name": "Ăn Vặt Nâu - Nguyễn Hồng Tươi",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/2LaBdnrI1q"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1128",
+   "name": "Pink Milk Tea - 29 Trần Hưng Đạo",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/6q2b06MMFX",
+    "https://spf.shopee.vn/2BGlRabCYT"
+   ],
+   "tags": [
+    "xiên que",
+    "bánh flan"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1129",
+   "name": "Cà Phê Muối Chú Long - Cà Mau",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/3B9Idg0bNR",
+    "https://spf.shopee.vn/7AfRP9aRY1",
+    "https://spf.shopee.vn/9fMmNo2Lj5",
+    "https://spf.shopee.vn/1LheSYSoX3",
+    "https://spf.shopee.vn/3LSiqUZuWQ"
+   ],
+   "tags": [
+    "sữa chua",
+    "cà phê",
+    "bạc xỉu",
+    "trà trái cây",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1130",
+   "name": "Trái Cây Nhà TA - Nước Ép, Sinh Tố & Trái Cây Gọt Sẵn",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/8KrOnYTnhz",
+    "https://spf.shopee.vn/4LLG2Gd0rY"
+   ],
+   "tags": [
+    "nước ép",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1131",
+   "name": "Mayzi - Trà Sữa Pha Máy & Trà Trái Cây Tươi",
+   "area": "Tp. Cà Mau",
+   "city": "Cà Mau",
+   "cityId": "ca-mau",
+   "links": [
+    "https://spf.shopee.vn/7Kyrby8eU6"
+   ],
+   "tags": [
+    "matcha",
     "trà sữa",
     "trà trái cây"
    ],
