@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T09:57:37.000Z",
+ "updated": "2026-11-27T09:57:40.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -277,6 +277,13 @@
    "name": "Sóc Trăng",
    "lat": 9.6025,
    "lng": 105.9739,
+   "sf": "can-tho"
+  },
+  {
+   "id": "vi-thanh",
+   "name": "Vị Thanh",
+   "lat": 9.7842,
+   "lng": 105.4701,
    "sf": "can-tho"
   }
  ],
@@ -36382,6 +36389,219 @@
    "tags": [
     "trà trái cây",
     "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1407",
+   "name": "Bánh Mì Hữu Hiệp - Nguyễn Công Trứ",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/5AuNZSoxBI"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1408",
+   "name": "Bánh Mì & Bánh Ướt Kiều Phát - Châu Văn Liêm",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/5AuNa4YZX9"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1409",
+   "name": "Bún Bò, Mỳ Cay Phương - Chợ Đêm Xà No",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/7VIILG95nQ"
+   ],
+   "tags": [
+    "bún bò",
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1410",
+   "name": "Tiệm Cơm Gà Xá Xíu - Đường 30/4",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/5fqe9oRAJY"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1411",
+   "name": "CƠM GÀ XÁ XÍU - Đường 59 Đường 30/4, Vị Thanh",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/1Lhf10F7yw"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1412",
+   "name": "Thỏ Ngọc Food - Bún Chả Hà Nội",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/4VegliI1LP"
+   ],
+   "tags": [
+    "bún chả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1413",
+   "name": "Bún Đậu Mắm Tôm Mộc - Ngô Hữu Hạnh",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/3g5Zm5sPnT"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1414",
+   "name": "Góc Ăn Vặt - Trà Sữa, Mỳ Cay & Ăn Vặt",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/3B9JB9zBtZ"
+   ],
+   "tags": [
+    "mì cay",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1415",
+   "name": "MÌ CAY ITADA VỊ THANH",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/1LhezrMdOU"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1416",
+   "name": "Sốt Thái, Tré Trộn & Gà Ủ Muối - Người Thương Ơi",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/30pszGS1AG"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1417",
+   "name": "Gà Rán 5 Sao - Đoàn Thị Điểm",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/3LSjNUndub"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1418",
+   "name": "Quán Bí Đỏ - Cơm Cuộn & Nước Ép Trái Cây",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/AUvtvPVxri"
+   ],
+   "tags": [
+    "hoa quả",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1419",
+   "name": "Trà Sữa Trúc - Lê Quý Đôn",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/1qdvbgSQVu"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1420",
+   "name": "3 Chú Gấu - Trà Sữa, Pizza & Ăn Vặt",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/6L6KzQvzeu"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1421",
+   "name": "Trà Trái Cây Đan Đan - Trần Hưng Đạo",
+   "area": "Tp. Vị Thanh",
+   "city": "Vị Thanh",
+   "cityId": "vi-thanh",
+   "links": [
+    "https://spf.shopee.vn/50axN44w4d"
+   ],
+   "tags": [
+    "trà trái cây"
    ],
    "hidden": false
   }
