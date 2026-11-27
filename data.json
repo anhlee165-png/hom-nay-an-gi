@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T08:54:26.000Z",
+ "updated": "2026-11-27T09:57:37.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -271,6 +271,13 @@
    "lat": 11.5349,
    "lng": 106.8832,
    "sf": "dong-nai"
+  },
+  {
+   "id": "soc-trang",
+   "name": "Sóc Trăng",
+   "lat": 9.6025,
+   "lng": 105.9739,
+   "sf": "can-tho"
   }
  ],
  "dishes": {
@@ -36118,6 +36125,262 @@
     "https://spf.shopee.vn/4Veghof38E"
    ],
    "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1389",
+   "name": "Xôi Chiên Nguyễn Văn Trỗi",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/9fMmvNpZr3"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1390",
+   "name": "Bánh Mì Vi - 61 Hùng Vương",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/2VtcPsJ2oq"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1391",
+   "name": "Bánh Mì Thịt Nướng Bơ Cambodia An Nhiên - Nguyễn Văn Linh",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/4fy70KJyqH"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1392",
+   "name": "Quán Đông - Phở & Bún Bò Huế",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/8pnfvuUF3P"
+   ],
+   "tags": [
+    "phở",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1393",
+   "name": "Cháo Lòng Ngân Tuyền - Trương Công Định",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/9zzdLQ5HZj"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1394",
+   "name": "Cơm Tấm Ngoan",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/9V3MiqMOVH"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1395",
+   "name": "CƠM TẤM 669 - Sườn Nướng Đậm Vị - Lê Hồng Phong",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/114odjHW6h"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1396",
+   "name": "Há Cảo Anh Khoa - Dimsum - 38 Phan Đình Phùng",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/114obufzOy"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1397",
+   "name": "Bánh Xèo Cô Mai - Lê Hồng Phong",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/7Kys9i0VE5"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1398",
+   "name": "Cô Duyên Quán - Bún Đậu Mắm Tôm - 91 Nguyễn Thị Minh Khai",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/5AuNYvJSgN"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1399",
+   "name": "Gà rán và Mì Ý - Jollibee Vincom Sóc Trăng",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/1LhezlJ4qk"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1400",
+   "name": "Gà Rán & Burger Lotteria - Sóc Trăng Trần Hưng Đạo",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/9zzdJhi2Jn"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1401",
+   "name": "THANH HOA Coffee & Tea - 29 Phan Chu Trinh",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/60TUYnlP5H"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1402",
+   "name": "Muối House Tea & Coffee - Nguyễn Thị Minh Khai",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/30pszQJmim"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1403",
+   "name": "Trà Sữa & Pizza Ben’S - Đường B5",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/60TUYfFzHU"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1404",
+   "name": "Trà Sữa Mèo Bà Ba",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/AKcTiiAsOl"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1405",
+   "name": "Bánh Trứng Mặt Cười - Bánh Trứng Lạp Xưởng & Trà Trái Cây - 36 Xô Viết Nghệ Tĩnh",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/5qA4McEcxh"
+   ],
+   "tags": [
+    "trà trái cây",
+    "lạp xưởng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1406",
+   "name": "Tiệm Trà Nhã Nhã - Trà Sữa & Trà Trái Cây - Trần Hưng Đạo",
+   "area": "Tp. Sóc Trăng",
+   "city": "Sóc Trăng",
+   "cityId": "soc-trang",
+   "links": [
+    "https://spf.shopee.vn/4B1qPEEISg"
+   ],
+   "tags": [
+    "trà trái cây",
     "trà sữa"
    ],
    "hidden": false
