@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-27T02:51:17.000Z",
+ "updated": "2026-11-27T05:17:05.000Z",
  "config": {
   "SHOPEEFOOD_AFFILIATE_ID": "",
   "SHOPEEFOOD_AFFILIATE_PARAM": "aff_id",
@@ -236,6 +236,13 @@
    "lat": 11.565,
    "lng": 108.9886,
    "sf": "khanh-hoa"
+  },
+  {
+   "id": "phan-thiet",
+   "name": "Phan Thiết",
+   "lat": 10.9289,
+   "lng": 108.1021,
+   "sf": "lam-dong"
   }
  ],
  "dishes": {
@@ -32969,6 +32976,1162 @@
    ],
    "tags": [
     "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1172",
+   "name": "Gánh Xôi Nhà Dâu - Xôi, Bánh Mì & Chè Thái - Từ Văn Tư",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6VPkkagBVk"
+   ],
+   "tags": [
+    "xôi",
+    "bánh mì",
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1173",
+   "name": "Trà My - Hủ Tiếu Vịt, Xôi Vịt & Mì Quảng Heo - 47 Đại Nẫm",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1BOEOopiDa"
+   ],
+   "tags": [
+    "xôi"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1174",
+   "name": "Dimsum Tỷ Muội - Chân Gà Tàu Xì, Há Cảo & Sủi Cảo",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3B9Itxh1lp"
+   ],
+   "tags": [
+    "sủi cảo",
+    "dimsum",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1175",
+   "name": "Bánh Mì Bơ Béo Tôn Đức Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/qlNygqJjJ"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1176",
+   "name": "Tiệm Bánh Mì Cam - Lê Quý Đôn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6L6KX1PixO"
+   ],
+   "tags": [
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1177",
+   "name": "Quán ăn sáng - Phở, Hủ Tiếu & Bún Mọc",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/20xLNPkjt4"
+   ],
+   "tags": [
+    "phở",
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1178",
+   "name": "Phở Gà Xá Kén - 280 Tôn Đức Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2VtbyYFsLs"
+   ],
+   "tags": [
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1179",
+   "name": "Bún Riêu Cây Bàng - Lâm Đình Trúc",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1LheZyWBb2"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1180",
+   "name": "Canh Bún & Bún Riêu - Thiên Ngân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/AKcTJXPTh2"
+   ],
+   "tags": [
+    "bún riêu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1181",
+   "name": "A Gấu Quán - Bánh Canh Cá Lóc - Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/9V3MIriCTg"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1182",
+   "name": "Bánh Canh Phượng - 169 Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1LheazNmoF"
+   ],
+   "tags": [
+    "bánh canh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1183",
+   "name": "Bánh Hỏi & Cháo Lòng - 47 Nguyễn Tương",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7AfRZ5XrGx"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1184",
+   "name": "Dồi Bắc - Cháo lòng & Phá Lấu - Tôn Đức Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3LSj1n01Ot"
+   ],
+   "tags": [
+    "cháo lòng",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1185",
+   "name": "Điểm Tâm Sáng 94 - Hủ Tiếu, Bún Mọc & Bún Bò Gân - 94 Phạm Ngọc Thạch",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6AmuKzMn6o"
+   ],
+   "tags": [
+    "bún mọc",
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1186",
+   "name": "Bún Mọc Nhà Boy",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/AUvtWsSl3t"
+   ],
+   "tags": [
+    "bún mọc"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1187",
+   "name": "Cơm Tấm Nàng Xuân - 78 Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6VPkj7y2Tz"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1188",
+   "name": "Cơm Tấm Sài Gòn - 208 Tôn Đức Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7KyrjCr6HK"
+   ],
+   "tags": [
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1189",
+   "name": "Há Cảo - Dimsum HongKong Mlem",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/9AQVvTsR3x"
+   ],
+   "tags": [
+    "dimsum"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1190",
+   "name": "Bếp A Mẹo - Há Cảo, Bánh Mì Chả Cá Nha Trang & Hamburger",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/5fqdn4GekY"
+   ],
+   "tags": [
+    "dimsum",
+    "bánh mì",
+    "chả cá"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1191",
+   "name": "Cháo Sườn 124 - Cháo - 124 Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7pv8QyoLtE"
+   ],
+   "tags": [
+    "cháo sườn"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1192",
+   "name": "Bún Bò Huế O Nớ",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/W8Xb27Q4U"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1193",
+   "name": "Bún Bò Huế Ruốc - 22 Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/114oCbJOrK"
+   ],
+   "tags": [
+    "bún bò"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1194",
+   "name": "Mì Xào & Nui Xào - Cơm Chiên BẾP NHÀ BY",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/8pnfVhRFT7"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1195",
+   "name": "Cơm Chiên & Mì Xào Sơn Anh",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2BGlbIw0ZY"
+   ],
+   "tags": [
+    "mì xào"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1196",
+   "name": "Nem Nướng Dân Béo - Trương Hán Siêu",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/80EYW0BZHm"
+   ],
+   "tags": [
+    "nem nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1197",
+   "name": "Bánh Xèo Miền Trung - 160 Hải Thượng Lãn Ông",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/30psb22yVU"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1198",
+   "name": "Bánh Xèo Cây Phượng - Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3B9IpkhLVH"
+   ],
+   "tags": [
+    "bánh xèo"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1199",
+   "name": "Bánh Mì Kebab & Bánh Mì Chảo - 109 Lê Hồng Phong",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/50awxD4oNJ"
+   ],
+   "tags": [
+    "kebab",
+    "bánh mì"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1200",
+   "name": "Cơm Gà Cô Liễu - Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/8AXyi5DDjC"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1201",
+   "name": "Ku Bin Quán - Cơm Gà Xối Mỡ, Nước Mía & Suối Tắc",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/8pnfVV0Xe1"
+   ],
+   "tags": [
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1202",
+   "name": "Bún Đậu Mẹt 62 - Bún Đậu Mắm Tôm & Bún Chả Hà Nội - 77 Hùng Vương",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/114oBTDN8s"
+   ],
+   "tags": [
+    "bún chả",
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1203",
+   "name": "Bún Đậu & Bún Chả Hà Nội - Vòng Xoay Tượng Đài",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/8fUFP2EMtB"
+   ],
+   "tags": [
+    "bún chả",
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1204",
+   "name": "Bún Đậu Mắm Tôm Quán Quê - Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1qdvB8sGVO"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1205",
+   "name": "Bún Đậu Gia Đình - Tuyên Quang",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/AUvtX2hy1l"
+   ],
+   "tags": [
+    "bún đậu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1206",
+   "name": "Bún Thịt Nướng Thanh Tuyền - Lê Văn Phấn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/114oBHMcU4"
+   ],
+   "tags": [
+    "bún thịt nướng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1207",
+   "name": "Cơm Tấm & Bún Thịt Nướng 92 - Mậu Thân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1qdvBsmoX3"
+   ],
+   "tags": [
+    "bún thịt nướng",
+    "cơm tấm"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1208",
+   "name": "Ngô Quán - Lẩu Gà Lá É Lá Giang, Lòng Xào Nghệ & Bún Gà",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/AKcTNqvJaj"
+   ],
+   "tags": [
+    "lòng",
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1209",
+   "name": "Bánh Ướt Lòng Gà BOYCZ BOCZ - Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3B9Ir8bkqi"
+   ],
+   "tags": [
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1210",
+   "name": "Mì Cay Seoul - 63 Lê Duẩn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/BVhBXQdx3"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1211",
+   "name": "Phố Mì Cay Seoul PT - Lê Duẩn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2BGlZTycU7"
+   ],
+   "tags": [
+    "mì cay"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1212",
+   "name": "Tiệm Hoàng Oanh - Gà Ủ Muối",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/50awyzN8se"
+   ],
+   "tags": [
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1213",
+   "name": "Bác Ba Phi - Gà Ủ Muối & Chân Gà Sốt Thái",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/gRxpLMpRi"
+   ],
+   "tags": [
+    "gà ủ muối",
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1214",
+   "name": "Tiệm Phở - Lẩu Bò Nhà Ngoại",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6L6KY8rwqo"
+   ],
+   "tags": [
+    "lẩu",
+    "phở"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1215",
+   "name": "Bếp Chay TRE - Cơm Chiên, Miến & Lẩu Chay - Khu Phố Biển",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/9fMmWx84pe"
+   ],
+   "tags": [
+    "lẩu"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1216",
+   "name": "Chân Gà Dì Hai",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3B9ImejLv5"
+   ],
+   "tags": [
+    "chân gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1217",
+   "name": "Gà Ủ Muối & Chân Gà Sốt Thái - Quán Ngon Phan Thiết",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3LSj0kKuqB"
+   ],
+   "tags": [
+    "chân gà",
+    "gà ủ muối"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1218",
+   "name": "Ăn Vặt 79 - Bánh Ướt Lòng Gà Trứng Non",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7pv8RNf0ed"
+   ],
+   "tags": [
+    "trứng non",
+    "lòng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1219",
+   "name": "Quán Hồng Ngọc - Cơm Gà - Xôi & Cháo Vịt",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6AmuRhImAM"
+   ],
+   "tags": [
+    "cháo vịt",
+    "xôi",
+    "cơm gà"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1220",
+   "name": "Đồ Ăn Vặt ELM - Nem Chua Rán Hà Nội & Trà Chanh Mật Ong - Tôn Đức Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/9KjwE6RRfO"
+   ],
+   "tags": [
+    "nem chua rán",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1221",
+   "name": "Ô Mai Gót Phan Thiết - Nem Chua Rán Hà Nội - B11 Bế Văn Đàn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/Lp7WA13PK"
+   ],
+   "tags": [
+    "nem chua rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1222",
+   "name": "Gà Rán & Burger Lotteria - Phan Thiết Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1LheZUCgJY"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1223",
+   "name": "Hamburger Gà Giòn - 101 Nguyễn Hội",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7KyriiXfGL"
+   ],
+   "tags": [
+    "gà rán"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1224",
+   "name": "Ghiền Bánh Tráng - Phạm Ngọc Thạch",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/40iPmOMhLl"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1225",
+   "name": "Tiệm Nhà Min Mon - Ăn Vặt & Bánh Tráng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2qWSOyRWVM"
+   ],
+   "tags": [
+    "bánh tráng"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1226",
+   "name": "Thế Giới Xiên Que - Ăn Vặt",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7fbiD9DkZ2"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1227",
+   "name": "Xiên Que, Cá Viên Chiên - 51 Phạm Văn Đồng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/40iPrpxwbv"
+   ],
+   "tags": [
+    "xiên que"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1228",
+   "name": "Chè Bưởi Bối Bối - 251 Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/80EYYib88R"
+   ],
+   "tags": [
+    "chè"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1229",
+   "name": "Chè, Trà Trái Cây & Ăn Vặt Bếp Cherry - 06 Nguyễn Tất Thành",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2BGlcIyfTe"
+   ],
+   "tags": [
+    "chè",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1230",
+   "name": "Trà Sữa & Tàu Hũ Hoa Nguyễn - Lê Hồng Phong",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1BOETt7zjP"
+   ],
+   "tags": [
+    "tàu hũ",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1231",
+   "name": "Tàu Hũ Cô 5 SaiGon - Trần Đại Nghĩa",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/8VApEQ6gay"
+   ],
+   "tags": [
+    "tàu hũ"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1232",
+   "name": "Tiệm Nhà Mon - Bún Mắm Nêm Phan Rang, Đồ Ăn Vặt Xứ Nẫu & Sữa Chua - 94/18 Võ Thị Sáu",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6fjAyDuY3r"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1233",
+   "name": "Sữa Chua Mẹ Bơ - Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/80EYbPlpoZ"
+   ],
+   "tags": [
+    "sữa chua"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1234",
+   "name": "Trái Cây Cắt Sẵn Vietberry - 12 Lê Duẩn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1BOEQoTfex"
+   ],
+   "tags": [
+    "hoa quả"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1235",
+   "name": "Trái Cây Muối Ớt & Nước Ép Trái Cây - Lê Văn Phấn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/gRxqsWZky"
+   ],
+   "tags": [
+    "hoa quả",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1236",
+   "name": "Muinehub Coffee - Trà Sữa, Trà Trái Cây & Ăn Vặt",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/AUvtUoJlDg"
+   ],
+   "tags": [
+    "cà phê",
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1237",
+   "name": "Cà Phê Muối Chú Long - Phan Thiết",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1gKUyv1GDR"
+   ],
+   "tags": [
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1238",
+   "name": "Nhà Trà Tea & Milk Tea - 244B Võ Thị Sáu",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/80EYW2GBuv"
+   ],
+   "tags": [
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1239",
+   "name": "Tá Lả Quán - Trà Sữa, Trà Trái Cây & Ăn Vặt - Huỳnh Tấn Phát",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/20xLNGNyb4"
+   ],
+   "tags": [
+    "trà sữa",
+    "trà trái cây"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1240",
+   "name": "Mê Mập - Trà Sữa, Trà Trái Cây & Trà Chanh",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/6L6KXKmqZS"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa",
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1241",
+   "name": "Reo Beach Tiến Thành - Trà Trái Cây & Trà Sữa - 211 Lạc Long Quân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/4VegM9xz7S"
+   ],
+   "tags": [
+    "trà trái cây",
+    "trà sữa"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1242",
+   "name": "Nước Ép Phương - Lê Hồng Phong",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3LSj1aHROo"
+   ],
+   "tags": [
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1243",
+   "name": "Sinh Tố, Trà Trái Cây & Nước Ép - Thoại Thoại",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/3qOzcfqOwd"
+   ],
+   "tags": [
+    "nước ép",
+    "trà trái cây",
+    "sinh tố"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1244",
+   "name": "SOY - Nước Ép, Sinh Tố & Detox - Thủ Khoa Huân",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/4VegQFdjt7"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1245",
+   "name": "NUTS HOUSE - Nước Ép, Sữa Hạt & Sinh tố",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/9V3MNt9OVK"
+   ],
+   "tags": [
+    "sinh tố",
+    "nước ép"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1246",
+   "name": "Bánh Hotdog & Trà Chanh ChiChis - Lê Hồng Phong",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/1BOERGDPXX"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1247",
+   "name": "Bắp Rang Bơ & Trà Chanh Thạch Anh - Lê Hồng Phong",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7AfReHqLXH"
+   ],
+   "tags": [
+    "trà chanh"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1248",
+   "name": "Trà Bí Đao Mỹ Phượng - Đồ Uống - 11 Trần Phú",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/2qWSRb9JwK"
+   ],
+   "tags": [
+    "trà bí đao"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1249",
+   "name": "TỒ KAFFEE - Cà Phê & Matcha - 170 Hải Thượng Lãn Ông",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/7fbiA85pZZ"
+   ],
+   "tags": [
+    "matcha",
+    "cà phê"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1250",
+   "name": "Nhà Te’O - Coffee Latte, Cacao & Matcha - Cao Thắng",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/5VXDcgmLaD"
+   ],
+   "tags": [
+    "matcha"
+   ],
+   "hidden": false
+  },
+  {
+   "id": "p1251",
+   "name": "Quán Nhậu Dê Vườn",
+   "area": "Tp. Phan Thiết",
+   "city": "Phan Thiết",
+   "cityId": "phan-thiet",
+   "links": [
+    "https://spf.shopee.vn/4LLGI9gFst"
+   ],
+   "tags": [
+    "đồ nhậu"
    ],
    "hidden": false
   }
